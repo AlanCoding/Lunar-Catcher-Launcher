@@ -3,3 +3,6 @@
 # Python bytecode
 __pycache__/
 *.pyc
+
+# Local Python virtual environment
+.env/
