@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img">
+<title>03  Tangential plane · A-frame and drive forces</title><desc>Assembly force and moment balance T1–T2. +eₜ / travel is right; +e_z is up.</desc>
+<defs><marker id="force" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#c03932"/></marker>
+<marker id="motion" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#287650"/></marker></defs>
+<rect width="1200" height="700" fill="#fff"/>
+<style>text{font-family:DejaVu Sans,sans-serif;fill:#182c40;font-size:18px} .small{font-size:15px} .title{font-size:27px;font-weight:bold} .sub{font-size:16px;fill:#687887}</style>
+<text x="35" y="42" class="title" text-anchor="start">03  Tangential plane · A-frame and drive forces</text>
+<text x="35" y="73" class="sub" text-anchor="start">Assembly force and moment balance T1–T2. +eₜ / travel is right; +e_z is up.</text>
+<line x1="35" y1="94" x2="1165" y2="94" stroke="#dce3eb" stroke-width="1"/>
+<line x1="75" y1="555" x2="1115" y2="555" stroke="#687887" stroke-width="2"/>
+<line x1="600" y1="250" x2="600" y2="525" stroke="#1967a3" stroke-width="8"/>
+<line x1="600" y1="250" x2="320" y2="525" stroke="#1967a3" stroke-width="8"/>
+<line x1="320" y1="470" x2="600" y2="470" stroke="#1967a3" stroke-width="3"/>
+<circle cx="320" cy="530" r="25" fill="#fff" stroke="#182c40" stroke-width="2"/>
+<circle cx="600" cy="530" r="25" fill="#fff" stroke="#182c40" stroke-width="2"/>
+<rect x="555" y="200" width="90" height="50" rx="8" fill="#eef4fa" stroke="#1967a3" stroke-width="2"/>
+<text x="600.0" y="231.0" class="" text-anchor="middle">B03/11</text>
+<text x="620" y="395" class="" text-anchor="start">B01 leading leg</text>
+<text x="205" y="345" class="" text-anchor="start">B01 trailing leg</text>
+<text x="345" y="450" class="small" text-anchor="start">B02 bracing / mounts</text>
+<line x1="600" y1="250" x2="450" y2="250" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="340" y="220" class="" text-anchor="start">Fᴬₜ from sling / tie / stays</text>
+<line x1="320" y1="555" x2="320" y2="445" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="255" y="430" class="" text-anchor="start">N trailing</text>
+<line x1="600" y1="555" x2="600" y2="445" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="640" y="455" class="" text-anchor="start">N leading</text>
+<line x1="335" y1="550" x2="430" y2="550" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="345" y="585" class="small" text-anchor="start">X trailing</text>
+<line x1="615" y1="550" x2="710" y2="550" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="630" y="585" class="small" text-anchor="start">X leading</text>
+<line x1="470" y1="390" x2="470" y2="480" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="490" y="410" class="small" text-anchor="start">Mg at C</text>
+<circle cx="470" cy="390" r="5" fill="#687887" stroke="#182c40" stroke-width="2"/>
+<line x1="770" y1="190" x2="925" y2="190" stroke="#287650" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#motion)"/>
+<text x="785" y="165" class="small" text-anchor="start">aₜ = αRₐ</text>
+<text x="795" y="280" class="" text-anchor="start">B08 wheels + B09 motors</text>
+<text x="795" y="315" class="" text-anchor="start">B20 retention + B21 ballast</text>
+<text x="795" y="350" class="" text-anchor="start">B10 steer wheels omitted here;</text>
+<text x="795" y="375" class="small" text-anchor="start">fore/aft placement: Figure 04.</text>
+<text x="795" y="440" class="small" text-anchor="start">Rolling resistance opposes travel.</text>
+<text x="795" y="465" class="small" text-anchor="start">Reactions are solved, not prescribed.</text>
+<text x="795" y="490" class="small" text-anchor="start">No negative wheel normal force.</text>
+<text x="35" y="661" class="small" text-anchor="start">Sling lag during acceleration creates tangential apex force. Leg forces can include axial load, shear and bending.</text>
+<text x="35" y="685" class="small" text-anchor="start">Blue: hardware / geometry    Red: applied forces    Green dashed: motion / acceleration    Not to scale</text></svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img">
+<title>02  Radial plane · tie, stabilizers and sling droop</title><desc>Assembly force balance R1; cable shape C1–C3. +eᵣ is right; +e_z is up.</desc>
+<defs><marker id="force" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#c03932"/></marker>
+<marker id="motion" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#287650"/></marker></defs>
+<rect width="1200" height="700" fill="#fff"/>
+<style>text{font-family:DejaVu Sans,sans-serif;fill:#182c40;font-size:18px} .small{font-size:15px} .title{font-size:27px;font-weight:bold} .sub{font-size:16px;fill:#687887}</style>
+<text x="35" y="42" class="title" text-anchor="start">02  Radial plane · tie, stabilizers and sling droop</text>
+<text x="35" y="73" class="sub" text-anchor="start">Assembly force balance R1; cable shape C1–C3. +eᵣ is right; +e_z is up.</text>
+<line x1="35" y1="94" x2="1165" y2="94" stroke="#dce3eb" stroke-width="1"/>
+<line x1="55" y1="555" x2="1135" y2="555" stroke="#687887" stroke-width="2"/>
+<text x="60" y="585" class="small" text-anchor="start">Prepared lunar surface: reference sketch; actual clearance uses terrain + curvature.</text>
+<circle cx="125" cy="555" r="9" fill="#687887" stroke="#182c40" stroke-width="2"/>
+<text x="75" y="610" class="" text-anchor="start">O / B12–13</text>
+<line x1="125" y1="555" x2="430" y2="260" stroke="#687887" stroke-width="3"/>
+<text x="165" y="440" class="small" text-anchor="start">B06 stabilizer</text>
+<path d="M 55 280 Q 240 340 430 260" fill="none" stroke="#1967a3" stroke-width="5"/>
+<text x="55" y="210" class="small" text-anchor="start">B05 continues to opposite apex</text>
+<text x="55" y="233" class="small" text-anchor="start">Main tie passes ABOVE pivot</text>
+<line x1="430" y1="260" x2="430" y2="530" stroke="#1967a3" stroke-width="6"/>
+<circle cx="430" cy="538" r="17" fill="#fff" stroke="#182c40" stroke-width="2"/>
+<text x="453" y="465" class="small" text-anchor="start">B01–03 assembly</text>
+<path d="M 430 260 C 620 300 810 410 1070 420" fill="none" stroke="#1967a3" stroke-width="4"/>
+<circle cx="1070" cy="420" r="13" fill="#1967a3" stroke="#182c40" stroke-width="2"/>
+<text x="945" y="465" class="small" text-anchor="start">B14 + B23 load</text>
+<text x="760" y="305" class="" text-anchor="start">B04 sling: shape is an output</text>
+<line x1="430" y1="260" x2="300" y2="285" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="285" y="320" class="small" text-anchor="start">Fᴅ</text>
+<line x1="430" y1="260" x2="575" y2="300" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="560" y="250" class="small" text-anchor="start">Fˢ</text>
+<line x1="423" y1="272" x2="355" y2="340" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="285" y="373" class="small" text-anchor="start">Fᵇ</text>
+<line x1="445" y1="425" x2="445" y2="505" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="465" y="512" class="small" text-anchor="start">Mg</text>
+<line x1="430" y1="552" x2="430" y2="485" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="345" y="510" class="small" text-anchor="start">ΣNᵢ</text>
+<line x1="430" y1="550" x2="520" y2="550" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="525" y="546" class="small" text-anchor="start">ΣYᵢ (signed)</text>
+<line x1="450" y1="165" x2="335" y2="165" stroke="#287650" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#motion)"/>
+<text x="470" y="170" class="small" text-anchor="start">aᵣ = −ω²Rₐ</text>
+<line x1="1135" y1="260" x2="1135" y2="420" stroke="#687887" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="1100" y="350" class="" text-anchor="middle">δ</text>
+<line x1="1100" y1="420" x2="1100" y2="555" stroke="#687887" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="915" y="520" class="small" text-anchor="start">minimum gap ≥ 3 m</text>
+<text x="35" y="661" class="small" text-anchor="start">Wheelbase extends out of this radial section. Main tie and stabilizer endpoint forces follow their local cable tangents.</text>
+<text x="35" y="685" class="small" text-anchor="start">Blue: hardware / geometry    Red: applied forces    Green dashed: motion / acceleration    Not to scale</text></svg>

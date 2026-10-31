@@ -1,0 +1,10 @@
+{
+  "50": {
+    "upper_45deg_chord_boundary_g": 2551.268613728812,
+    "description": "Necessary geometry bound only; equality collides with opposite frame"
+  },
+  "80": {
+    "upper_45deg_chord_boundary_g": 4090.393441006646,
+    "description": "Necessary geometry bound only; equality collides with opposite frame"
+  }
+}

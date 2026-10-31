@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img">
+<title>01  Whole machine · top view</title><desc>Geometry G1–G3; ground-level pivot O is distinct from the overhead main tie B05.</desc>
+<defs><marker id="force" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#c03932"/></marker>
+<marker id="motion" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#287650"/></marker></defs>
+<rect width="1200" height="700" fill="#fff"/>
+<style>text{font-family:DejaVu Sans,sans-serif;fill:#182c40;font-size:18px} .small{font-size:15px} .title{font-size:27px;font-weight:bold} .sub{font-size:16px;fill:#687887}</style>
+<text x="35" y="42" class="title" text-anchor="start">01  Whole machine · top view</text>
+<text x="35" y="73" class="sub" text-anchor="start">Geometry G1–G3; ground-level pivot O is distinct from the overhead main tie B05.</text>
+<line x1="35" y1="94" x2="1165" y2="94" stroke="#dce3eb" stroke-width="1"/>
+<circle cx="600" cy="365" r="155" fill="none" stroke="#b5c2d0" stroke-width="2"/>
+<line x1="445" y1="365" x2="755" y2="365" stroke="#1967a3" stroke-width="7"/>
+<line x1="445" y1="376" x2="600" y2="376" stroke="#687887" stroke-width="2" stroke-dasharray="5 5"/>
+<line x1="600" y1="386" x2="755" y2="386" stroke="#687887" stroke-width="2" stroke-dasharray="5 5"/>
+<line x1="145" y1="365" x2="445" y2="365" stroke="#1967a3" stroke-width="3"/>
+<line x1="755" y1="365" x2="1055" y2="365" stroke="#1967a3" stroke-width="3"/>
+<circle cx="445" cy="365" r="12" fill="#1967a3" stroke="#182c40" stroke-width="2"/>
+<circle cx="755" cy="365" r="12" fill="#1967a3" stroke="#182c40" stroke-width="2"/>
+<circle cx="600" cy="365" r="6" fill="#fff" stroke="#182c40" stroke-width="2"/>
+<rect x="120" y="342" width="70" height="46" rx="8" fill="#f5eee3" stroke="#1967a3" stroke-width="2"/>
+<text x="155.0" y="371.0" class="" text-anchor="middle">rock</text>
+<rect x="1010" y="342" width="100" height="46" rx="8" fill="#eef4fa" stroke="#1967a3" stroke-width="2"/>
+<text x="1060.0" y="371.0" class="" text-anchor="middle">payload</text>
+<circle cx="310" cy="365" r="12" fill="#fff" stroke="#182c40" stroke-width="2"/>
+<circle cx="890" cy="365" r="12" fill="#fff" stroke="#182c40" stroke-width="2"/>
+<text x="290" y="416" class="" text-anchor="start">B14 climber −</text>
+<text x="850" y="416" class="" text-anchor="start">B14 climber +</text>
+<text x="425" y="318" class="" text-anchor="start">A−</text>
+<text x="745" y="318" class="" text-anchor="start">A+</text>
+<text x="600" y="288" class="" text-anchor="middle">B05 direct apex-to-apex tie</text>
+<text x="600" y="444" class="small" text-anchor="middle">O / B12: below tie; no tie attachment here</text>
+<text x="600" y="470" class="small" text-anchor="middle">B06 stabilizers shown offset and dashed for visibility</text>
+<text x="170" y="330" class="" text-anchor="start">B04 outward sling −</text>
+<text x="820" y="330" class="" text-anchor="start">B04 outward sling +</text>
+<text x="600" y="550" class="" text-anchor="middle">Wheel paths: B08 drive wheels + B10 passive steering wheels</text>
+<line x1="755" y1="350" x2="755" y2="215" stroke="#287650" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#motion)"/>
+<text x="785" y="220" class="" text-anchor="start">+eₜ / vA = ωRₐ</text>
+<line x1="1055" y1="330" x2="1055" y2="180" stroke="#287650" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#motion)"/>
+<text x="930" y="150" class="" text-anchor="start">v tip ≠ wheel speed</text>
+<line x1="445" y1="395" x2="445" y2="510" stroke="#287650" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#motion)"/>
+<path d="M 705 250 A 155 155 0 0 0 535 225" fill="none" stroke="#287650" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#motion)"/>
+<text x="575" y="190" class="" text-anchor="start">ω, α</text>
+<line x1="600" y1="355" x2="745" y2="355" stroke="#687887" stroke-width="1"/>
+<text x="640" y="342" class="small" text-anchor="start">Rₐ</text>
+<text x="42" y="590" class="small" text-anchor="start">At release, rotate the page geometry so +eₜ is east: useful payload east, rock west.</text>
+<text x="42" y="615" class="small" text-anchor="start">Slings remain deployed; the two climbers move outward and return. Only one useful payload.</text>
+<text x="35" y="661" class="small" text-anchor="start">Lag under acceleration is resolved in Figure 03; straight top-view slings here show the symmetric reference case.</text>
+<text x="35" y="685" class="small" text-anchor="start">Blue: hardware / geometry    Red: applied forces    Green dashed: motion / acceleration    Not to scale</text></svg>

@@ -5,6 +5,7 @@ This repository contains two related research topics:
 | Topic | Files and purpose |
 | --- | --- |
 | [Lunar slings](lunar_slings/README.md) | Original surface-launch / orbital-catcher notebook, downrange plots, and a dedicated sling analysis workspace. |
+| [Wheeled Kevlar sling hub](lunar_slings/hub_study/README.md) | Speed-constrained spooling study, force diagrams, 44 scenarios and a quantitative engineering checkpoint. |
 | [Frozen retreat](frozen_retreat/README.md) | Scenario-based study of a 30 km catcher, retreat to 120 km, electric propulsion, and transfer to a staging orbit. |
 
 Each topic keeps its own dependencies and run instructions. The original notebook and its two plots now live together in `lunar_slings/`; the `frozen_retreat/` paths are unchanged.

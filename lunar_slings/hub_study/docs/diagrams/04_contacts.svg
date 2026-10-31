@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img">
+<title>04  Wheels of ONE A-frame · plan view</title><desc>Per frame: 2 powered + 2 passive wheels. Two frames total: 4 powered + 4 passive wheels.</desc>
+<defs><marker id="force" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#c03932"/></marker>
+<marker id="motion" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#287650"/></marker></defs>
+<rect width="1200" height="700" fill="#fff"/>
+<style>text{font-family:DejaVu Sans,sans-serif;fill:#182c40;font-size:18px} .small{font-size:15px} .title{font-size:27px;font-weight:bold} .sub{font-size:16px;fill:#687887}</style>
+<text x="35" y="42" class="title" text-anchor="start">04  Wheels of ONE A-frame · plan view</text>
+<text x="35" y="73" class="sub" text-anchor="start">Per frame: 2 powered + 2 passive wheels. Two frames total: 4 powered + 4 passive wheels.</text>
+<line x1="35" y1="94" x2="1165" y2="94" stroke="#dce3eb" stroke-width="1"/>
+<text x="65" y="145" class="" text-anchor="start">One frame = one A structure = two poles = four wheels</text>
+<line x1="425" y1="190" x2="650" y2="190" stroke="#287650" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#motion)"/>
+<text x="430" y="170" class="small" text-anchor="start">+eₜ / direction of travel</text>
+<path d="M 65 290 Q 365 275 690 290" fill="none" stroke="#687887" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="80" y="267" width="115" height="46" rx="8" fill="#eef4fa" stroke="#1967a3" stroke-width="2"/>
+<text x="137.5" y="296.0" class="" text-anchor="middle">powered T</text>
+<rect x="235" y="274" width="95" height="32" rx="8" fill="#eef4fa" stroke="#1967a3" stroke-width="2"/>
+<text x="282.5" y="296.0" class="" text-anchor="middle">passive T</text>
+<rect x="410" y="267" width="115" height="46" rx="8" fill="#eef4fa" stroke="#1967a3" stroke-width="2"/>
+<text x="467.5" y="296.0" class="" text-anchor="middle">powered L</text>
+<rect x="565" y="274" width="95" height="32" rx="8" fill="#eef4fa" stroke="#1967a3" stroke-width="2"/>
+<text x="612.5" y="296.0" class="" text-anchor="middle">passive L</text>
+<line x1="195" y1="290" x2="235" y2="290" stroke="#1967a3" stroke-width="3"/>
+<line x1="525" y1="290" x2="565" y2="290" stroke="#1967a3" stroke-width="3"/>
+<text x="110" y="245" class="small" text-anchor="start">trailing pole / leg</text>
+<text x="440" y="245" class="small" text-anchor="start">leading pole / leg</text>
+<line x1="138" y1="315" x2="138" y2="360" stroke="#1967a3" stroke-width="3"/>
+<line x1="468" y1="315" x2="468" y2="360" stroke="#1967a3" stroke-width="3"/>
+<line x1="138" y1="360" x2="468" y2="360" stroke="#1967a3" stroke-width="3"/>
+<text x="225" y="390" class="small" text-anchor="start">B02 mounts / frame connection</text>
+<text x="65" y="445" class="small" text-anchor="start">B08: powered wheels. B10: smaller passive steering wheels.</text>
+<text x="65" y="480" class="small" text-anchor="start">Each passive wheel is ahead of its powered wheel, not beside it.</text>
+<text x="65" y="505" class="small" text-anchor="start">Ahead is illustrative; fore/aft choice is not optimized here.</text>
+<text x="65" y="540" class="small" text-anchor="start">Detailed passive-wheel traction/load sharing is outside this model.</text>
+<text x="65" y="575" class="small" text-anchor="start">Circular path locally flattened; spacing is not dimensioned.</text>
+<line x1="740" y1="125" x2="740" y2="590" stroke="#dce3eb" stroke-width="1"/>
+<text x="795" y="145" class="" text-anchor="start">ONE powered wheel/contact i</text>
+<circle cx="940" cy="360" r="65" fill="#eef4fa" stroke="#182c40" stroke-width="2"/>
+<line x1="800" y1="425" x2="1125" y2="425" stroke="#687887" stroke-width="2"/>
+<line x1="940" y1="425" x2="940" y2="295" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="960" y="290" class="" text-anchor="start">Nᵢ</text>
+<line x1="940" y1="425" x2="1090" y2="425" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="1060" y="460" class="" text-anchor="start">Xᵢ</text>
+<line x1="940" y1="425" x2="850" y2="500" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="790" y="520" class="" text-anchor="start">Yᵢ (out of section)</text>
+<path d="M 985 325 A 50 50 0 0 1 975 395" fill="none" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="1035" y="355" class="small" text-anchor="start">τᵢ</text>
+<text x="795" y="560" class="small" text-anchor="start">Hub forces act at axle (omitted here);</text>
+<text x="795" y="585" class="small" text-anchor="start">wheel spin balance includes inertia/losses.</text>
+<text x="35" y="661" class="small" text-anchor="start">T / L identify the trailing / leading POLES, not wheel propulsion. Right inset: powered-wheel force convention only.</text>
+<text x="35" y="685" class="small" text-anchor="start">Blue: hardware / geometry    Red: applied forces    Green dashed: motion / acceleration    Not to scale</text></svg>
