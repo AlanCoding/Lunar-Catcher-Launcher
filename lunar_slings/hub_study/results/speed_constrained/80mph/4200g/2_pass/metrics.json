@@ -1,0 +1,132 @@
+{
+  "inputs": {
+    "acceleration_g": 4200,
+    "rover_mph": 80,
+    "payload_kg": 1000.0,
+    "passes": 2,
+    "loading_s": 300.0,
+    "buffer_s": 300.0,
+    "friction": 0.5,
+    "driven_fraction": 0.75,
+    "rolling": 0.02,
+    "drive_efficiency": 0.85,
+    "recovery_efficiency": 0.7,
+    "solar_w_kg": 100.0,
+    "stress_pa": 1000000000.0,
+    "shape_fractions": 241,
+    "shape_nodes": 501,
+    "time_nodes": 1601
+  },
+  "status": "conditional quasi-static scenario; not a buildable certified design",
+  "release_centripetal_g": 4200,
+  "peak_payload_proper_g": 4200.000003260337,
+  "release_speed_m_s": 1684.5242918285103,
+  "omega_rad_s": 24.450778299724792,
+  "track_radius_m": 1.462661006598818,
+  "release_radius_m": 68.89450598173713,
+  "cable_length_m": 67.43184509632687,
+  "pole_apex_height_m": 3.003518166704651,
+  "vertical_leg_m": 3.003518166704651,
+  "leg_45deg_m": 4.247616126187692,
+  "controlling_clearance": [
+    {
+      "branch": "loaded",
+      "height_m": 3.0030166890275085,
+      "fraction": 0.5416666666666666
+    },
+    {
+      "branch": "empty",
+      "height_m": 3.003518166704651,
+      "fraction": 0.43333333333333335
+    }
+  ],
+  "frame_45deg_same_track_fits": false,
+  "required_horizontal_45deg_span_m": 3.003518166704651,
+  "available_track_diameter_m": 2.925322013197636,
+  "compact_frame_required_radial_halfwidth_m": 1618.3209399253533,
+  "halfwidth_over_track_radius": 1106.4224264024767,
+  "ballast_total_kg": 527210.1499891783,
+  "ballast_lunar_weight_n": 855615.0824853635,
+  "ballast_per_powered_wheel_kg": 131802.53749729457,
+  "powered_wheel_normal_n": 172212.1430145522,
+  "powered_contact_area_at_100kpa_m2": 1.7221214301455219,
+  "total_outward_cable_kg": 36726.51386628776,
+  "main_tie_conditional_kg": 2344.9435401266073,
+  "main_tie_endpoint_n": 552487195.9240222,
+  "main_tie_sag_estimate_m": 2.517213443578186e-06,
+  "extra_ballast_radial_force_per_frame_n": 230506314.20372254,
+  "empty_spool_fiber_volume_per_side_m3": 12.664315126306123,
+  "max_cable_solid_equivalent_diameter_m": 0.6402808293537833,
+  "max_static_cable_stress_pa": 1000000300.7028375,
+  "peak_solar_no_recovery_w": 14491428.971901253,
+  "peak_solar_recovery_w": 10410159.498073108,
+  "solar_no_recovery_kg": 144914.28971901254,
+  "solar_recovery_kg": 104101.59498073108,
+  "accounted_imported_subtotal_no_recovery_kg": 183985.7471254269,
+  "accounted_imported_subtotal_recovery_kg": 143173.05238714546,
+  "pole_mass_kg": null,
+  "total_imported_mass_kg": null,
+  "solar_cycle_no_recovery_j": 49972559777.86858,
+  "solar_cycle_recovery_j": 29199117961.745125,
+  "peak_ground_force_n": 344424.2860291044,
+  "peak_traction_location": {
+    "phase": "payout",
+    "deployed_fraction": 0.8385698074365417
+  },
+  "phase_correction_rad": -5.794701478387871,
+  "min_rover_speed_m_s": 35.73494772034227,
+  "max_rover_speed_m_s": 35.7632,
+  "interval_s": 13266.972469293138,
+  "phases": [
+    {
+      "phase": "loading",
+      "duration_s": 300.0,
+      "peak_wheel_w": 670639.833665756,
+      "peak_reel_input_w": 0.0,
+      "peak_reel_braking_w": 0.0,
+      "solar_no_recovery_j": 234369982.75218916,
+      "solar_with_recovery_j": 234369982.75218916
+    },
+    {
+      "phase": "payout",
+      "duration_s": 6333.486234646569,
+      "peak_wheel_w": 12317714.626116065,
+      "peak_reel_input_w": 0.0,
+      "peak_reel_braking_w": 5830384.962611635,
+      "solar_no_recovery_j": 35743212523.03122,
+      "solar_with_recovery_j": 26565869469.327236
+    },
+    {
+      "phase": "retraction",
+      "duration_s": 6333.486234646569,
+      "peak_wheel_w": 654623.1606204008,
+      "peak_reel_input_w": 4868332.526326072,
+      "peak_reel_braking_w": 0.0,
+      "solar_no_recovery_j": 13764025063.706692,
+      "solar_with_recovery_j": 2167926301.2872114
+    },
+    {
+      "phase": "buffer",
+      "duration_s": 300.0,
+      "peak_wheel_w": 660334.8379897207,
+      "peak_reel_input_w": 0.0,
+      "peak_reel_braking_w": 0.0,
+      "solar_no_recovery_j": 230952208.37848487,
+      "solar_with_recovery_j": 230952208.37848487
+    }
+  ],
+  "release_tip_altitude_m": 3.0009970292448997,
+  "catcher_flight_s": 1629.823629539673,
+  "catcher_relative_speed_m_s": 19.212868043017984,
+  "equal_radius_countermass_impacts": false,
+  "release_shape_energy_discontinuity_j": -15.559906005859375,
+  "release_empty_tip_displacement_m": 0.00026602607963369844,
+  "model_exclusions": [
+    "Release transient/recoil power and clearance",
+    "Drum spin/bend/guide losses",
+    "Cable tangential lag and dynamic shape",
+    "Frame, wheel, motor and retention structural mass",
+    "Normal loads and moments at individual contacts",
+    "Startup/shutdown and lunar night"
+  ]
+}

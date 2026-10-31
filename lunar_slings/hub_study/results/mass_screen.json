@@ -1,0 +1,222 @@
+[
+  {
+    "status": "conditional subtotal; hardware unsized",
+    "payload_kg": 1000.0,
+    "acceleration_g": 10,
+    "allowable_pa": 1000000000.0,
+    "recovery_efficiency": 0,
+    "solar_specific_w_kg": 100.0,
+    "tip_radius_m": 28935.545067887608,
+    "apex_radius_m": 50.0,
+    "wheel_speed_m_s": 2.910814356611972,
+    "omega_rad_s": 0.05821628713223945,
+    "payout_or_climber_speed_m_s": 9.061615802616416,
+    "outward_sling_mass_kg": 37981.333026937034,
+    "main_tie_mass_kg": 111.26154296390953,
+    "pole_mass_axial_only_kg": 2735873.4534358922,
+    "solar_mass_assumed_specific_power_kg": 41756.325349896084,
+    "subtotal_ratio": 2815.7223733556893,
+    "height_optimum_m": 471.2096107727224,
+    "height_search_bounds_m": [
+      471.2096107727224,
+      942.4192215454448
+    ],
+    "tube_diameters_m": [
+      3.1625399593394796,
+      4.1572158886278325
+    ],
+    "peak_solar_w": 4175632.5349896085,
+    "one_way_travel_s": 3196.743117323273,
+    "interval_s": 6633.486234646569,
+    "max_small_slope": 0.04228096266122933,
+    "leading_leg_axial_n": -578045.5683327983,
+    "tangential_apex_n": 610578.9220729361,
+    "vertical_apex_n": 32533.353740137747,
+    "unresolved_imported_mass_kg": null
+  },
+  {
+    "status": "conditional subtotal; hardware unsized",
+    "payload_kg": 1000.0,
+    "acceleration_g": 10,
+    "allowable_pa": 1000000000.0,
+    "recovery_efficiency": 0.7,
+    "solar_specific_w_kg": 100.0,
+    "tip_radius_m": 28935.545067887608,
+    "apex_radius_m": 50.0,
+    "wheel_speed_m_s": 2.910814356611972,
+    "omega_rad_s": 0.05821628713223945,
+    "payout_or_climber_speed_m_s": 9.061615802616416,
+    "outward_sling_mass_kg": 37981.333026937034,
+    "main_tie_mass_kg": 111.26154296390953,
+    "pole_mass_axial_only_kg": 2735873.4534358922,
+    "solar_mass_assumed_specific_power_kg": 29333.818558302,
+    "subtotal_ratio": 2803.299866564095,
+    "height_optimum_m": 471.2096107727224,
+    "height_search_bounds_m": [
+      471.2096107727224,
+      942.4192215454448
+    ],
+    "tube_diameters_m": [
+      3.1625399593394796,
+      4.1572158886278325
+    ],
+    "peak_solar_w": 2933381.8558302,
+    "one_way_travel_s": 3196.743117323273,
+    "interval_s": 6633.486234646569,
+    "max_small_slope": 0.04228096266122933,
+    "leading_leg_axial_n": -578045.5683327983,
+    "tangential_apex_n": 610578.9220729361,
+    "vertical_apex_n": 32533.353740137747,
+    "unresolved_imported_mass_kg": null
+  },
+  {
+    "status": "conditional subtotal; hardware unsized",
+    "payload_kg": 1000.0,
+    "acceleration_g": 30,
+    "allowable_pa": 1000000000.0,
+    "recovery_efficiency": 0,
+    "solar_specific_w_kg": 100.0,
+    "tip_radius_m": 9645.181689295869,
+    "apex_radius_m": 50.0,
+    "wheel_speed_m_s": 8.732443069835918,
+    "omega_rad_s": 0.17464886139671837,
+    "payout_or_climber_speed_m_s": 3.0043727608065183,
+    "outward_sling_mass_kg": 37758.81449827598,
+    "main_tie_mass_kg": 333.7682262925616,
+    "pole_mass_axial_only_kg": 20769.30091458759,
+    "solar_mass_assumed_specific_power_kg": 41572.631397224424,
+    "subtotal_ratio": 100.43451503638056,
+    "height_optimum_m": 54.55640905245387,
+    "height_search_bounds_m": [
+      54.55640905245387,
+      109.11281810490775
+    ],
+    "tube_diameters_m": [
+      0.7923467658312785,
+      1.0737622266731166
+    ],
+    "peak_solar_w": 4157263.1397224427,
+    "one_way_travel_s": 3196.743117323269,
+    "interval_s": 6633.486234646569,
+    "max_small_slope": 0.014015903894146415,
+    "leading_leg_axial_n": -169903.69599317346,
+    "tangential_apex_n": 202437.04012135186,
+    "vertical_apex_n": 32533.344128178396,
+    "unresolved_imported_mass_kg": null
+  },
+  {
+    "status": "conditional subtotal; hardware unsized",
+    "payload_kg": 1000.0,
+    "acceleration_g": 30,
+    "allowable_pa": 1000000000.0,
+    "recovery_efficiency": 0.7,
+    "solar_specific_w_kg": 100.0,
+    "tip_radius_m": 9645.181689295869,
+    "apex_radius_m": 50.0,
+    "wheel_speed_m_s": 8.732443069835918,
+    "omega_rad_s": 0.17464886139671837,
+    "payout_or_climber_speed_m_s": 3.0043727608065183,
+    "outward_sling_mass_kg": 37758.81449827598,
+    "main_tie_mass_kg": 333.7682262925616,
+    "pole_mass_axial_only_kg": 20769.30091458759,
+    "solar_mass_assumed_specific_power_kg": 29204.77355655016,
+    "subtotal_ratio": 88.06665719570628,
+    "height_optimum_m": 54.55640905245387,
+    "height_search_bounds_m": [
+      54.55640905245387,
+      109.11281810490775
+    ],
+    "tube_diameters_m": [
+      0.7923467658312785,
+      1.0737622266731166
+    ],
+    "peak_solar_w": 2920477.355655016,
+    "one_way_travel_s": 3196.743117323269,
+    "interval_s": 6633.486234646569,
+    "max_small_slope": 0.014015903894146415,
+    "leading_leg_axial_n": -169903.69599317346,
+    "tangential_apex_n": 202437.04012135186,
+    "vertical_apex_n": 32533.344128178396,
+    "unresolved_imported_mass_kg": null
+  },
+  {
+    "status": "conditional subtotal; hardware unsized",
+    "payload_kg": 1000.0,
+    "acceleration_g": 100,
+    "allowable_pa": 1000000000.0,
+    "recovery_efficiency": 0,
+    "solar_specific_w_kg": 100.0,
+    "tip_radius_m": 2893.5545067887606,
+    "apex_radius_m": 50.0,
+    "wheel_speed_m_s": 29.108143566119725,
+    "omega_rad_s": 0.5821628713223945,
+    "payout_or_climber_speed_m_s": 0.88976376329083,
+    "outward_sling_mass_kg": 36980.200544364554,
+    "main_tie_mass_kg": 1111.9390114969065,
+    "pole_mass_axial_only_kg": 199.784721210357,
+    "solar_mass_assumed_specific_power_kg": 41055.16382307538,
+    "subtotal_ratio": 79.3470881001472,
+    "height_optimum_m": 7.494334161692569,
+    "height_search_bounds_m": [
+      7.494334161692569,
+      14.988668323385138
+    ],
+    "tube_diameters_m": [
+      0.18185919927151822,
+      0.2934788097340847
+    ],
+    "peak_solar_w": 4105516.382307538,
+    "one_way_travel_s": 3196.7431173228365,
+    "interval_s": 6633.486234646569,
+    "max_small_slope": 0.004124732390188069,
+    "leading_leg_axial_n": -27420.009665024034,
+    "tangential_apex_n": 59952.99418154675,
+    "vertical_apex_n": 32532.984516522713,
+    "unresolved_imported_mass_kg": null
+  },
+  {
+    "status": "conditional subtotal; hardware unsized",
+    "payload_kg": 1000.0,
+    "acceleration_g": 100,
+    "allowable_pa": 1000000000.0,
+    "recovery_efficiency": 0.7,
+    "solar_specific_w_kg": 100.0,
+    "tip_radius_m": 2893.5545067887606,
+    "apex_radius_m": 50.0,
+    "wheel_speed_m_s": 29.108143566119725,
+    "omega_rad_s": 0.5821628713223945,
+    "payout_or_climber_speed_m_s": 0.88976376329083,
+    "outward_sling_mass_kg": 36980.200544364554,
+    "main_tie_mass_kg": 1111.9390114969065,
+    "pole_mass_axial_only_kg": 199.784721210357,
+    "solar_mass_assumed_specific_power_kg": 28841.252585710456,
+    "subtotal_ratio": 67.13317686278228,
+    "height_optimum_m": 7.494334161692569,
+    "height_search_bounds_m": [
+      7.494334161692569,
+      14.988668323385138
+    ],
+    "tube_diameters_m": [
+      0.18185919927151822,
+      0.2934788097340847
+    ],
+    "peak_solar_w": 2884125.2585710455,
+    "one_way_travel_s": 3196.7431173228365,
+    "interval_s": 6633.486234646569,
+    "max_small_slope": 0.004124732390188069,
+    "leading_leg_axial_n": -27420.009665024034,
+    "tangential_apex_n": 59952.99418154675,
+    "vertical_apex_n": 32532.984516522713,
+    "unresolved_imported_mass_kg": null
+  },
+  {
+    "acceleration_g": 300,
+    "status": "wheel-speed limit",
+    "wheel_speed_m_s": 87.32443069835918
+  },
+  {
+    "acceleration_g": 300,
+    "status": "wheel-speed limit",
+    "wheel_speed_m_s": 87.32443069835918
+  }
+]

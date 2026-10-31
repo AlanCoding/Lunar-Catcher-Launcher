@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img">
+<title>06  Whole-system balance and permanent support equipment</title><desc>System equations S1–S3 and power condition P1. Power arrows are energy flow, not force arrows.</desc>
+<defs><marker id="force" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#c03932"/></marker>
+<marker id="motion" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#287650"/></marker></defs>
+<rect width="1200" height="700" fill="#fff"/>
+<style>text{font-family:DejaVu Sans,sans-serif;fill:#182c40;font-size:18px} .small{font-size:15px} .title{font-size:27px;font-weight:bold} .sub{font-size:16px;fill:#687887}</style>
+<text x="35" y="42" class="title" text-anchor="start">06  Whole-system balance and permanent support equipment</text>
+<text x="35" y="73" class="sub" text-anchor="start">System equations S1–S3 and power condition P1. Power arrows are energy flow, not force arrows.</text>
+<line x1="35" y1="94" x2="1165" y2="94" stroke="#dce3eb" stroke-width="1"/>
+<rect x="70" y="185" width="220" height="80" rx="8" fill="#eef4fa" stroke="#1967a3" stroke-width="2"/>
+<text x="180.0" y="231.0" class="" text-anchor="middle">B16 solar + supports</text>
+<rect x="380" y="185" width="250" height="80" rx="8" fill="#eef4fa" stroke="#1967a3" stroke-width="2"/>
+<text x="505.0" y="231.0" class="" text-anchor="middle">B17 conversion / control</text>
+<rect x="750" y="165" width="365" height="120" rx="8" fill="#eef4fa" stroke="#1967a3" stroke-width="2"/>
+<text x="932.5" y="231.0" class="" text-anchor="middle">B09 drives + B14 climbers</text>
+<line x1="290" y1="225" x2="380" y2="225" stroke="#287650" stroke-width="3" marker-end="url(#motion)"/>
+<line x1="630" y1="225" x2="750" y2="225" stroke="#287650" stroke-width="3" marker-end="url(#motion)"/>
+<text x="70" y="150" class="" text-anchor="start">Sunlight → instantaneous electrical supply; no storage</text>
+<rect x="70" y="340" width="290" height="70" rx="8" fill="#eef4fa" stroke="#1967a3" stroke-width="2"/>
+<text x="215.0" y="381.0" class="" text-anchor="middle">B18 sensing / communications</text>
+<rect x="415" y="340" width="290" height="70" rx="8" fill="#eef4fa" stroke="#1967a3" stroke-width="2"/>
+<text x="560.0" y="381.0" class="" text-anchor="middle">B19 thermal / dust protection</text>
+<rect x="760" y="340" width="355" height="70" rx="8" fill="#eef4fa" stroke="#1967a3" stroke-width="2"/>
+<text x="937.5" y="381.0" class="" text-anchor="middle">B07 / B15 cable interfaces</text>
+<text x="70" y="460" class="" text-anchor="start">Moving system boundary: frames + all tethers + wheels + climbers + attached loads</text>
+<text x="70" y="500" class="" text-anchor="start">External forces: gravity, wheel/ground reactions, ground-pivot stabilizer reactions.</text>
+<text x="70" y="535" class="" text-anchor="start">B05 main tie forces cancel internally for the COMPLETE moving system.</text>
+<text x="70" y="570" class="" text-anchor="start">At release: remove B23 useful payload and B22 rock with their momentum and energy.</text>
+<text x="70" y="610" class="small" text-anchor="start">B20 ballast retention is imported; B21 local ballast still contributes inertia and wheel loads.</text>
+<text x="35" y="661" class="small" text-anchor="start">Power transfer topology is intentionally unspecified; permanent power equipment, losses and mass remain in the accounting.</text>
+<text x="35" y="685" class="small" text-anchor="start">Blue: hardware / geometry    Red: applied forces    Green dashed: motion / acceleration    Not to scale</text></svg>

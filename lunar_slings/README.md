@@ -2,6 +2,11 @@
 
 Workspace for the lunar surface-launch / orbital-catcher concept and future rotating sling analysis.
 
+The new [wheeled Kevlar hub study](hub_study/README.md) is separate from the
+historical ballistic calculations. Start with its [current checkpoint](hub_study/CHECKPOINT.md): finite-angle
+cable shapes, spooling cycles, ballast, power and scenario graphs. A complete
+buildable launcher and imported mass optimum have not yet been established.
+
 ## Files
 
 - `variations analysis for lunar catcher-launcher system.ipynb`: original notebook, preserved without edits. It explores a nominal 100 km catcher orbit, launch-speed and pointing errors, downrange rise, and energy/payoff estimates.

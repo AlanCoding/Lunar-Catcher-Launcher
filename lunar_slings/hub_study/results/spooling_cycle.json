@@ -1,0 +1,1960 @@
+{
+  "cases": [
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 10,
+        "track_radius_m": 50,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 1,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 6633.486234646569,
+      "omega_rad_s": 0.05821628713223945,
+      "wheel_release_speed_m_s": 2.910814356611972,
+      "tip_radius_m": 28935.545067887608,
+      "outward_cables_kg": 37981.33302693702,
+      "ballast_total_kg": 14730512.018761808,
+      "ballast_per_powered_wheel_kg": 3682628.004690452,
+      "peak_solar_w": 30783395.387255237,
+      "solar_energy_j": 50621408358.28648,
+      "solar_mass_at_assumed_100_w_kg": 307833.9538725524,
+      "maximum_ground_tangential_n": 8989197.823533686,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 2120.770411478269,
+        "deployed_fraction": 0.8408662502874584
+      },
+      "minimum_traction_margin_n": 0.0,
+      "phase_correction_rad": -2.902635585987749,
+      "extra_tie_tension_from_ballast_n": 1248092.7467399556,
+      "wheel_radial_acceleration_m_s2": 0.1694568043731674,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 1641847.5409690535,
+          "solar_energy_j": 492520916.46302664,
+          "peak_wheel_mechanical_w": 1395570.4098236954,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 479443.2893508408
+        },
+        {
+          "phase": "payout",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 30783395.387255237,
+          "solar_energy_j": 35859203256.65824,
+          "peak_wheel_mechanical_w": 26165886.07916695,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 12389165.144450452,
+          "max_ground_tangential_n": 8989197.823533686
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 12171096.314072037,
+          "solar_energy_j": 13859063868.123943,
+          "peak_wheel_mechanical_w": 1395324.9645319977,
+          "peak_radial_input_w": 10345431.866961231,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 6626263.563644975
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 1915269.5583545102,
+          "solar_energy_j": 410620317.0412782,
+          "peak_wheel_mechanical_w": 1627979.1246013336,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 628994.9606391726
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 571.6364165126521,
+          "at_deployed_fraction": 0.5066666666666667,
+          "maximum_small_slope": 3.2881963699101937,
+          "small_slope_valid": false
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 681.7024543237324,
+          "at_deployed_fraction": 0.3066666666666667,
+          "maximum_small_slope": 4.884653970606919,
+          "small_slope_valid": false
+        }
+      }
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 10,
+        "track_radius_m": 50,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 1,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0.7,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 6633.486234646569,
+      "omega_rad_s": 0.05821628713223945,
+      "wheel_release_speed_m_s": 2.910814356611972,
+      "tip_radius_m": 28935.545067887608,
+      "outward_cables_kg": 37981.33302693702,
+      "ballast_total_kg": 14730512.018761808,
+      "ballast_per_powered_wheel_kg": 3682628.004690452,
+      "peak_solar_w": 22110979.78613992,
+      "solar_energy_j": 29799366068.369263,
+      "solar_mass_at_assumed_100_w_kg": 221109.79786139922,
+      "maximum_ground_tangential_n": 8989197.823533686,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 2120.770411478269,
+        "deployed_fraction": 0.8408662502874584
+      },
+      "minimum_traction_margin_n": 0.0,
+      "phase_correction_rad": -2.902635585987749,
+      "extra_tie_tension_from_ballast_n": 1248092.7467399556,
+      "wheel_radial_acceleration_m_s2": 0.1694568043731674,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 1641847.5409690535,
+          "solar_energy_j": 492520916.46302664,
+          "peak_wheel_mechanical_w": 1395570.4098236954,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 479443.2893508408
+        },
+        {
+          "phase": "payout",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 22110979.78613992,
+          "solar_energy_j": 26664557746.912815,
+          "peak_wheel_mechanical_w": 26165886.07916695,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 12389165.144450452,
+          "max_ground_tangential_n": 8989197.823533686
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 1641558.7818023502,
+          "solar_energy_j": 2231667087.9521413,
+          "peak_wheel_mechanical_w": 1395324.9645319977,
+          "peak_radial_input_w": 10345431.866961231,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 6626263.563644975
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 1915269.5583545102,
+          "solar_energy_j": 410620317.0412782,
+          "peak_wheel_mechanical_w": 1627979.1246013336,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 628994.9606391726
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 571.6364165126521,
+          "at_deployed_fraction": 0.5066666666666667,
+          "maximum_small_slope": 3.2881963699101937,
+          "small_slope_valid": false
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 681.7024543237324,
+          "at_deployed_fraction": 0.3066666666666667,
+          "maximum_small_slope": 4.884653970606919,
+          "small_slope_valid": false
+        }
+      }
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 10,
+        "track_radius_m": 50,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 2,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 13266.972469293138,
+      "omega_rad_s": 0.05821628713223945,
+      "wheel_release_speed_m_s": 2.910814356611972,
+      "tip_radius_m": 28935.545067887608,
+      "outward_cables_kg": 37981.33302693702,
+      "ballast_total_kg": 6995446.314186471,
+      "ballast_per_powered_wheel_kg": 1748861.5785466176,
+      "peak_solar_w": 14662634.877823457,
+      "solar_energy_j": 50193500662.28122,
+      "solar_mass_at_assumed_100_w_kg": 146626.34877823456,
+      "maximum_ground_tangential_n": 4281701.99787542,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 4452.440822956538,
+        "deployed_fraction": 0.840866250287458
+      },
+      "minimum_traction_margin_n": 9.313225746154785e-10,
+      "phase_correction_rad": 0.47791413520407744,
+      "extra_tie_tension_from_ballast_n": 592712.9887830459,
+      "wheel_radial_acceleration_m_s2": 0.1694568043731674,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 782073.6471326915,
+          "solar_energy_j": 234588748.3121181,
+          "peak_wheel_mechanical_w": 664762.6000627878,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 228376.8453157332
+        },
+        {
+          "phase": "payout",
+          "duration_s": 6333.486234646569,
+          "peak_solar_w": 14662634.877823457,
+          "solar_energy_j": 35859203256.65823,
+          "peak_wheel_mechanical_w": 12463239.646149939,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 5899696.765143999,
+          "max_ground_tangential_n": 4281701.99787542
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 6333.486234646569,
+          "peak_solar_w": 5795620.557756939,
+          "solar_energy_j": 13858755295.396418,
+          "peak_wheel_mechanical_w": 664517.1547710903,
+          "peak_radial_input_w": 4926277.474093398,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 3156231.7450035
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 850125.6339193227,
+          "solar_energy_j": 240953361.91444904,
+          "peak_wheel_mechanical_w": 722606.7888314243,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 240025.93390592196
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 571.6364165126521,
+          "at_deployed_fraction": 0.5066666666666667,
+          "maximum_small_slope": 3.2881963699101937,
+          "small_slope_valid": false
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 681.7024543237324,
+          "at_deployed_fraction": 0.3066666666666667,
+          "maximum_small_slope": 4.884653970606919,
+          "small_slope_valid": false
+        }
+      }
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 10,
+        "track_radius_m": 50,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 2,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0.7,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 13266.972469293138,
+      "omega_rad_s": 0.05821628713223945,
+      "wheel_release_speed_m_s": 2.910814356611972,
+      "tip_radius_m": 28935.545067887608,
+      "outward_cables_kg": 37981.33302693702,
+      "ballast_total_kg": 6995446.314186471,
+      "ballast_per_powered_wheel_kg": 1748861.5785466176,
+      "peak_solar_w": 10532847.142222658,
+      "solar_energy_j": 29372935580.471413,
+      "solar_mass_at_assumed_100_w_kg": 105328.47142222658,
+      "maximum_ground_tangential_n": 4281701.99787542,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 4452.440822956538,
+        "deployed_fraction": 0.840866250287458
+      },
+      "minimum_traction_margin_n": 9.313225746154785e-10,
+      "phase_correction_rad": 0.47791413520407744,
+      "extra_tie_tension_from_ballast_n": 592712.9887830459,
+      "wheel_radial_acceleration_m_s2": 0.1694568043731674,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 782073.6471326915,
+          "solar_energy_j": 234588748.3121181,
+          "peak_wheel_mechanical_w": 664762.6000627878,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 228376.8453157332
+        },
+        {
+          "phase": "payout",
+          "duration_s": 6333.486234646569,
+          "peak_solar_w": 10532847.142222658,
+          "solar_energy_j": 26664557746.911873,
+          "peak_wheel_mechanical_w": 12463239.646149939,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 5899696.765143999,
+          "max_ground_tangential_n": 4281701.99787542
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 6333.486234646569,
+          "peak_solar_w": 781784.8879659886,
+          "solar_energy_j": 2232835723.332975,
+          "peak_wheel_mechanical_w": 664517.1547710903,
+          "peak_radial_input_w": 4926277.474093398,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 3156231.7450035
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 850125.6339193227,
+          "solar_energy_j": 240953361.91444904,
+          "peak_wheel_mechanical_w": 722606.7888314243,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 240025.93390592196
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 571.6364165126521,
+          "at_deployed_fraction": 0.5066666666666667,
+          "maximum_small_slope": 3.2881963699101937,
+          "small_slope_valid": false
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 681.7024543237324,
+          "at_deployed_fraction": 0.3066666666666667,
+          "maximum_small_slope": 4.884653970606919,
+          "small_slope_valid": false
+        }
+      }
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 30,
+        "track_radius_m": 50,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 1,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 6633.486234646569,
+      "omega_rad_s": 0.17464886139671837,
+      "wheel_release_speed_m_s": 8.732443069835918,
+      "tip_radius_m": 9645.181689295869,
+      "outward_cables_kg": 37758.81449827592,
+      "ballast_total_kg": 4874391.362260629,
+      "ballast_per_powered_wheel_kg": 1218597.8405651574,
+      "peak_solar_w": 30724950.943876207,
+      "solar_energy_j": 50652986506.302734,
+      "solar_mass_at_assumed_100_w_kg": 307249.5094387621,
+      "maximum_ground_tangential_n": 2990710.399533758,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 2119.262039919607,
+        "deployed_fraction": 0.840211709609961
+      },
+      "minimum_traction_margin_n": 0.0,
+      "phase_correction_rad": -2.424721450784137,
+      "extra_tie_tension_from_ballast_n": 3716994.5258078557,
+      "wheel_radial_acceleration_m_s2": 1.5251112393585071,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 1639262.133179029,
+          "solar_energy_j": 491678602.4706404,
+          "peak_wheel_mechanical_w": 1393372.8132021746,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 159562.7709289327
+        },
+        {
+          "phase": "payout",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 30724950.943876207,
+          "solar_energy_j": 35846622028.98714,
+          "peak_wheel_mechanical_w": 26116208.302294776,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 12362106.453373536,
+          "max_ground_tangential_n": 2990710.399533758
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 12144285.634209335,
+          "solar_energy_j": 13846027717.701185,
+          "peak_wheel_mechanical_w": 1392297.5637183355,
+          "peak_radial_input_w": 10322642.789077934,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 2204668.612407861
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 1980498.7372992372,
+          "solar_energy_j": 468658157.1437709,
+          "peak_wheel_mechanical_w": 1683423.9267043516,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 201015.4610836443
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 65.43207714901679,
+          "at_deployed_fraction": 0.5166666666666666,
+          "maximum_small_slope": 0.6507085159384218,
+          "small_slope_valid": false
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 77.06912048069564,
+          "at_deployed_fraction": 0.34333333333333327,
+          "maximum_small_slope": 0.8066981365804953,
+          "small_slope_valid": false
+        }
+      }
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 30,
+        "track_radius_m": 50,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 1,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0.7,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 6633.486234646569,
+      "omega_rad_s": 0.17464886139671837,
+      "wheel_release_speed_m_s": 8.732443069835918,
+      "tip_radius_m": 9645.181689295869,
+      "outward_cables_kg": 37758.81449827592,
+      "ballast_total_kg": 4874391.362260629,
+      "ballast_per_powered_wheel_kg": 1218597.8405651574,
+      "peak_solar_w": 22071476.42651473,
+      "solar_energy_j": 29835985693.723038,
+      "solar_mass_at_assumed_100_w_kg": 220714.7642651473,
+      "maximum_ground_tangential_n": 2990710.399533758,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 2119.262039919607,
+        "deployed_fraction": 0.840211709609961
+      },
+      "minimum_traction_margin_n": 0.0,
+      "phase_correction_rad": -2.424721450784137,
+      "extra_tie_tension_from_ballast_n": 3716994.5258078557,
+      "wheel_radial_acceleration_m_s2": 1.5251112393585071,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 1639262.133179029,
+          "solar_energy_j": 491678602.4706404,
+          "peak_wheel_mechanical_w": 1393372.8132021746,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 159562.7709289327
+        },
+        {
+          "phase": "payout",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 22071476.42651473,
+          "solar_energy_j": 26652921952.765465,
+          "peak_wheel_mechanical_w": 26116208.302294776,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 12362106.453373536,
+          "max_ground_tangential_n": 2990710.399533758
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 1637997.1337862771,
+          "solar_energy_j": 2222726981.3431597,
+          "peak_wheel_mechanical_w": 1392297.5637183355,
+          "peak_radial_input_w": 10322642.789077934,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 2204668.612407861
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 1980498.7372992372,
+          "solar_energy_j": 468658157.1437709,
+          "peak_wheel_mechanical_w": 1683423.9267043516,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 201015.4610836443
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 65.43207714901679,
+          "at_deployed_fraction": 0.5166666666666666,
+          "maximum_small_slope": 0.6507085159384218,
+          "small_slope_valid": false
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 77.06912048069564,
+          "at_deployed_fraction": 0.34333333333333327,
+          "maximum_small_slope": 0.8066981365804953,
+          "small_slope_valid": false
+        }
+      }
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 30,
+        "track_radius_m": 50,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 2,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 13266.972469293138,
+      "omega_rad_s": 0.17464886139671837,
+      "wheel_release_speed_m_s": 8.732443069835918,
+      "tip_radius_m": 9645.181689295869,
+      "outward_cables_kg": 37758.81449827592,
+      "ballast_total_kg": 2300931.3163389163,
+      "ballast_per_powered_wheel_kg": 575232.8290847291,
+      "peak_solar_w": 14634796.833217798,
+      "solar_energy_j": 50166322214.84728,
+      "solar_mass_at_assumed_100_w_kg": 146347.968332178,
+      "maximum_ground_tangential_n": 1424524.295062924,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 4449.274079839214,
+        "deployed_fraction": 0.840211709609961
+      },
+      "minimum_traction_margin_n": 2.3283064365386963e-10,
+      "phase_correction_rad": 1.4337424056116426,
+      "extra_tie_tension_from_ballast_n": 1754588.105770223,
+      "wheel_radial_acceleration_m_s2": 1.5251112393585071,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 781120.58061058,
+          "solar_energy_j": 234236136.70010585,
+          "peak_wheel_mechanical_w": 663952.493518993,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 76032.84535715486
+        },
+        {
+          "phase": "payout",
+          "duration_s": 6333.486234646569,
+          "peak_solar_w": 14634796.833217798,
+          "solar_energy_j": 35846622028.987144,
+          "peak_wheel_mechanical_w": 12439577.308235127,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 5888113.549515494,
+          "max_ground_tangential_n": 1424524.295062924
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 6333.486234646569,
+          "peak_solar_w": 5784338.929310326,
+          "solar_energy_j": 13845105317.500385,
+          "peak_wheel_mechanical_w": 662877.2440351539,
+          "peak_radial_input_w": 4916688.089913777,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 1050153.7269022572
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 927150.6755468693,
+          "solar_energy_j": 240358731.65964192,
+          "peak_wheel_mechanical_w": 788078.0742148389,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 87614.1671087549
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 65.43207714901679,
+          "at_deployed_fraction": 0.5166666666666666,
+          "maximum_small_slope": 0.6507085159384218,
+          "small_slope_valid": false
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 77.06912048069564,
+          "at_deployed_fraction": 0.34333333333333327,
+          "maximum_small_slope": 0.8066981365804953,
+          "small_slope_valid": false
+        }
+      }
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 30,
+        "track_radius_m": 50,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 2,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0.7,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 13266.972469293138,
+      "omega_rad_s": 0.17464886139671837,
+      "wheel_release_speed_m_s": 8.732443069835918,
+      "tip_radius_m": 9645.181689295869,
+      "outward_cables_kg": 37758.81449827592,
+      "ballast_total_kg": 2300931.3163389163,
+      "ballast_per_powered_wheel_kg": 575232.8290847291,
+      "peak_solar_w": 10513117.348556953,
+      "solar_energy_j": 29349193529.533398,
+      "solar_mass_at_assumed_100_w_kg": 105131.17348556952,
+      "maximum_ground_tangential_n": 1424524.295062924,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 4449.274079839214,
+        "deployed_fraction": 0.840211709609961
+      },
+      "minimum_traction_margin_n": 2.3283064365386963e-10,
+      "phase_correction_rad": 1.4337424056116426,
+      "extra_tie_tension_from_ballast_n": 1754588.105770223,
+      "wheel_radial_acceleration_m_s2": 1.5251112393585071,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 781120.58061058,
+          "solar_energy_j": 234236136.70010585,
+          "peak_wheel_mechanical_w": 663952.493518993,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 76032.84535715486
+        },
+        {
+          "phase": "payout",
+          "duration_s": 6333.486234646569,
+          "peak_solar_w": 10513117.348556953,
+          "solar_energy_j": 26652921952.765373,
+          "peak_wheel_mechanical_w": 12439577.308235127,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 5888113.549515494,
+          "max_ground_tangential_n": 1424524.295062924
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 6333.486234646569,
+          "peak_solar_w": 779855.5812178281,
+          "solar_energy_j": 2221676708.4082775,
+          "peak_wheel_mechanical_w": 662877.2440351539,
+          "peak_radial_input_w": 4916688.089913777,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 1050153.7269022572
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 927150.6755468693,
+          "solar_energy_j": 240358731.65964192,
+          "peak_wheel_mechanical_w": 788078.0742148389,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 87614.1671087549
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 65.43207714901679,
+          "at_deployed_fraction": 0.5166666666666666,
+          "maximum_small_slope": 0.6507085159384218,
+          "small_slope_valid": false
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 77.06912048069564,
+          "at_deployed_fraction": 0.34333333333333327,
+          "maximum_small_slope": 0.8066981365804953,
+          "small_slope_valid": false
+        }
+      }
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 100,
+        "track_radius_m": 50,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 1,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 6633.486234646569,
+      "omega_rad_s": 0.5821628713223945,
+      "wheel_release_speed_m_s": 29.108143566119725,
+      "tip_radius_m": 2893.5545067887606,
+      "outward_cables_kg": 36980.200544364554,
+      "ballast_total_kg": 1424580.8952237128,
+      "ballast_per_powered_wheel_kg": 356145.2238059282,
+      "peak_solar_w": 30502285.070239153,
+      "solar_energy_j": 50548463134.22875,
+      "solar_mass_at_assumed_100_w_kg": 305022.85070239153,
+      "maximum_ground_tangential_n": 890710.9534762915,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 2116.245296802284,
+        "deployed_fraction": 0.8388988212554207
+      },
+      "minimum_traction_margin_n": 0.0,
+      "phase_correction_rad": 2.389570676019776,
+      "extra_tie_tension_from_ballast_n": 12070246.303783823,
+      "wheel_radial_acceleration_m_s2": 16.945680437316742,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 1633433.9019568013,
+          "solar_energy_j": 489696712.31014633,
+          "peak_wheel_mechanical_w": 1388418.816663281,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 47698.63847584302
+        },
+        {
+          "phase": "payout",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 30502285.070239153,
+          "solar_energy_j": 35775148322.09667,
+          "peak_wheel_mechanical_w": 25926942.30970328,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 12272123.047406008,
+          "max_ground_tangential_n": 890710.9534762915
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 12055806.45497242,
+          "solar_energy_j": 13789580194.13795,
+          "peak_wheel_mechanical_w": 1380880.6596151097,
+          "peak_radial_input_w": 10247435.486726556,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 656651.9224365372
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 2070909.5309597142,
+          "solar_energy_j": 494037905.6839851,
+          "peak_wheel_mechanical_w": 1760273.101315757,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 59630.80491761342
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 8.392441769372827,
+          "at_deployed_fraction": 0.5366666666666666,
+          "maximum_small_slope": 0.08059537196350967,
+          "small_slope_valid": true
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 9.309522140989486,
+          "at_deployed_fraction": 0.41666666666666663,
+          "maximum_small_slope": 0.08749658293831807,
+          "small_slope_valid": true
+        }
+      }
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 100,
+        "track_radius_m": 50,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 1,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0.7,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 6633.486234646569,
+      "omega_rad_s": 0.5821628713223945,
+      "wheel_release_speed_m_s": 29.108143566119725,
+      "tip_radius_m": 2893.5545067887606,
+      "outward_cables_kg": 36980.200544364554,
+      "ballast_total_kg": 1424580.8952237128,
+      "ballast_per_powered_wheel_kg": 356145.2238059282,
+      "peak_solar_w": 21911798.937054947,
+      "solar_energy_j": 29760997459.663696,
+      "solar_mass_at_assumed_100_w_kg": 219117.98937054948,
+      "maximum_ground_tangential_n": 890710.9534762915,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 2116.245296802284,
+        "deployed_fraction": 0.8388988212554207
+      },
+      "minimum_traction_margin_n": 0.0,
+      "phase_correction_rad": 2.389570676019776,
+      "extra_tie_tension_from_ballast_n": 12070246.303783823,
+      "wheel_radial_acceleration_m_s2": 16.945680437316742,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 1633433.9019568013,
+          "solar_energy_j": 489696712.31014633,
+          "peak_wheel_mechanical_w": 1388418.816663281,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 47698.63847584302
+        },
+        {
+          "phase": "payout",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 21911798.937054947,
+          "solar_energy_j": 26592053625.23891,
+          "peak_wheel_mechanical_w": 25926942.30970328,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 12272123.047406008,
+          "max_ground_tangential_n": 890710.9534762915
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 1624565.481900129,
+          "solar_energy_j": 2185209216.430651,
+          "peak_wheel_mechanical_w": 1380880.6596151097,
+          "peak_radial_input_w": 10247435.486726556,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 656651.9224365372
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 2070909.5309597142,
+          "solar_energy_j": 494037905.6839851,
+          "peak_wheel_mechanical_w": 1760273.101315757,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 59630.80491761342
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 8.392441769372827,
+          "at_deployed_fraction": 0.5366666666666666,
+          "maximum_small_slope": 0.08059537196350967,
+          "small_slope_valid": true
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 9.309522140989486,
+          "at_deployed_fraction": 0.41666666666666663,
+          "maximum_small_slope": 0.08749658293831807,
+          "small_slope_valid": true
+        }
+      }
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 100,
+        "track_radius_m": 50,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 2,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 13266.972469293138,
+      "omega_rad_s": 0.5821628713223945,
+      "wheel_release_speed_m_s": 29.108143566119725,
+      "tip_radius_m": 2893.5545067887606,
+      "outward_cables_kg": 36980.200544364554,
+      "ballast_total_kg": 658137.8950611372,
+      "ballast_per_powered_wheel_kg": 164534.4737652843,
+      "peak_solar_w": 14528737.434512122,
+      "solar_energy_j": 50025600016.8659,
+      "solar_mass_at_assumed_100_w_kg": 145287.3743451212,
+      "maximum_ground_tangential_n": 424260.200286677,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 4442.940593604568,
+        "deployed_fraction": 0.8388988212554207
+      },
+      "minimum_traction_margin_n": 5.820766091346741e-11,
+      "phase_correction_rad": -1.504043955140613,
+      "extra_tie_tension_from_ballast_n": 5576297.2266971655,
+      "wheel_radial_acceleration_m_s2": 16.945680437316742,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 781511.3613846926,
+          "solar_energy_j": 234119950.1385138,
+          "peak_wheel_mechanical_w": 664284.6571769887,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 22821.26497239691
+        },
+        {
+          "phase": "payout",
+          "duration_s": 6333.486234646569,
+          "peak_solar_w": 14528737.434512122,
+          "solar_energy_j": 35775148322.09668,
+          "peak_wheel_mechanical_w": 12349426.819335302,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 5845399.361819488,
+          "max_ground_tangential_n": 424260.200286677
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 6333.486234646569,
+          "peak_solar_w": 5742362.291505535,
+          "solar_energy_j": 13786535020.013275,
+          "peak_wheel_mechanical_w": 656746.5001288173,
+          "peak_radial_input_w": 4881007.947779705,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 312808.0499785326
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 890128.2726659059,
+          "solar_energy_j": 229796724.6174285,
+          "peak_wheel_mechanical_w": 756609.03176602,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 26211.736417956658
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 8.392441769372827,
+          "at_deployed_fraction": 0.5366666666666666,
+          "maximum_small_slope": 0.08059537196350967,
+          "small_slope_valid": true
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 9.309522140989486,
+          "at_deployed_fraction": 0.41666666666666663,
+          "maximum_small_slope": 0.08749658293831807,
+          "small_slope_valid": true
+        }
+      }
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 100,
+        "track_radius_m": 50,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 2,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0.7,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 13266.972469293138,
+      "omega_rad_s": 0.5821628713223945,
+      "wheel_release_speed_m_s": 29.108143566119725,
+      "tip_radius_m": 2893.5545067887606,
+      "outward_cables_kg": 36980.200544364554,
+      "ballast_total_kg": 658137.8950611372,
+      "ballast_per_powered_wheel_kg": 164534.4737652843,
+      "peak_solar_w": 10436957.88123848,
+      "solar_energy_j": 29237141368.23043,
+      "solar_mass_at_assumed_100_w_kg": 104369.57881238479,
+      "maximum_ground_tangential_n": 424260.200286677,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 4442.940593604568,
+        "deployed_fraction": 0.8388988212554207
+      },
+      "minimum_traction_margin_n": 5.820766091346741e-11,
+      "phase_correction_rad": -1.504043955140613,
+      "extra_tie_tension_from_ballast_n": 5576297.2266971655,
+      "wheel_radial_acceleration_m_s2": 16.945680437316742,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 781511.3613846926,
+          "solar_energy_j": 234119950.1385138,
+          "peak_wheel_mechanical_w": 664284.6571769887,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 22821.26497239691
+        },
+        {
+          "phase": "payout",
+          "duration_s": 6333.486234646569,
+          "peak_solar_w": 10436957.88123848,
+          "solar_energy_j": 26592053625.238914,
+          "peak_wheel_mechanical_w": 12349426.819335302,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 5845399.361819488,
+          "max_ground_tangential_n": 424260.200286677
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 6333.486234646569,
+          "peak_solar_w": 772642.9413280203,
+          "solar_energy_j": 2181171068.235573,
+          "peak_wheel_mechanical_w": 656746.5001288173,
+          "peak_radial_input_w": 4881007.947779705,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 312808.0499785326
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 890128.2726659059,
+          "solar_energy_j": 229796724.6174285,
+          "peak_wheel_mechanical_w": 756609.03176602,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 26211.736417956658
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 8.392441769372827,
+          "at_deployed_fraction": 0.5366666666666666,
+          "maximum_small_slope": 0.08059537196350967,
+          "small_slope_valid": true
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 9.309522140989486,
+          "at_deployed_fraction": 0.41666666666666663,
+          "maximum_small_slope": 0.08749658293831807,
+          "small_slope_valid": true
+        }
+      }
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 300,
+        "track_radius_m": 50,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 1,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "release wheel-speed constraint",
+      "wheel_speed_m_s": 87.32443069835918
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 300,
+        "track_radius_m": 50,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 1,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0.7,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "release wheel-speed constraint",
+      "wheel_speed_m_s": 87.32443069835918
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 300,
+        "track_radius_m": 50,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 2,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "release wheel-speed constraint",
+      "wheel_speed_m_s": 87.32443069835918
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 300,
+        "track_radius_m": 50,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 2,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0.7,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "release wheel-speed constraint",
+      "wheel_speed_m_s": 87.32443069835918
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 300,
+        "track_radius_m": 20,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 1,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 6633.486234646569,
+      "omega_rad_s": 1.7464886139671836,
+      "wheel_release_speed_m_s": 34.92977227934367,
+      "tip_radius_m": 964.5181689295869,
+      "outward_cables_kg": 36757.84188353862,
+      "ballast_total_kg": 1178127.2834527874,
+      "ballast_per_powered_wheel_kg": 294531.82086319686,
+      "peak_solar_w": 30433531.280438617,
+      "solar_energy_j": 50493808383.567444,
+      "solar_mass_at_assumed_100_w_kg": 304335.3128043862,
+      "maximum_ground_tangential_n": 740586.0359321784,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 2114.7369252436224,
+        "deployed_fraction": 0.8382404774060064
+      },
+      "minimum_traction_margin_n": -1.1641532182693481e-10,
+      "phase_correction_rad": 0.8855267208799482,
+      "extra_tie_tension_from_ballast_n": 35935503.22777503,
+      "wheel_radial_acceleration_m_s2": 61.00444957434028,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 1632690.993713485,
+          "solar_energy_j": 489407148.1817728,
+          "peak_wheel_mechanical_w": 1387787.3446564623,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 39730.7870649118
+        },
+        {
+          "phase": "payout",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 30433531.280438617,
+          "solar_energy_j": 35747040085.41123,
+          "peak_wheel_mechanical_w": 25868501.588372823,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 12244428.126653546,
+          "max_ground_tangential_n": 740586.0359321784
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 12028311.050052354,
+          "solar_energy_j": 13770403326.292234,
+          "peak_wheel_mechanical_w": 1377385.9017636715,
+          "peak_radial_input_w": 10224064.3925445,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 545973.6434957819
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 1685090.1907610663,
+          "solar_energy_j": 486957823.68220395,
+          "peak_wheel_mechanical_w": 1432326.6621469064,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 40935.124137394334
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 3.592247501580745,
+          "at_deployed_fraction": 0.5433333333333333,
+          "maximum_small_slope": 0.023005800848759972,
+          "small_slope_valid": true
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 3.6909681107495063,
+          "at_deployed_fraction": 0.43,
+          "maximum_small_slope": 0.02466603461123324,
+          "small_slope_valid": true
+        }
+      }
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 300,
+        "track_radius_m": 20,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 1,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0.7,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 6633.486234646569,
+      "omega_rad_s": 1.7464886139671836,
+      "wheel_release_speed_m_s": 34.92977227934367,
+      "tip_radius_m": 964.5181689295869,
+      "outward_cables_kg": 36757.84188353862,
+      "ballast_total_kg": 1178127.2834527874,
+      "ballast_per_powered_wheel_kg": 294531.82086319686,
+      "peak_solar_w": 21862431.591781136,
+      "solar_energy_j": 29719794276.30522,
+      "solar_mass_at_assumed_100_w_kg": 218624.31591781136,
+      "maximum_ground_tangential_n": 740586.0359321784,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 2114.7369252436224,
+        "deployed_fraction": 0.8382404774060064
+      },
+      "minimum_traction_margin_n": -1.1641532182693481e-10,
+      "phase_correction_rad": 0.8855267208799482,
+      "extra_tie_tension_from_ballast_n": 35935503.22777503,
+      "wheel_radial_acceleration_m_s2": 61.00444957434028,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 1632690.993713485,
+          "solar_energy_j": 489407148.1817728,
+          "peak_wheel_mechanical_w": 1387787.3446564623,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 39730.7870649118
+        },
+        {
+          "phase": "payout",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 21862431.591781136,
+          "solar_energy_j": 26569016643.615616,
+          "peak_wheel_mechanical_w": 25868501.588372823,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 12244428.126653546,
+          "max_ground_tangential_n": 740586.0359321784
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 1620454.0020749078,
+          "solar_energy_j": 2174412660.8256245,
+          "peak_wheel_mechanical_w": 1377385.9017636715,
+          "peak_radial_input_w": 10224064.3925445,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 545973.6434957819
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 1685090.1907610663,
+          "solar_energy_j": 486957823.68220395,
+          "peak_wheel_mechanical_w": 1432326.6621469064,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 40935.124137394334
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 3.592247501580745,
+          "at_deployed_fraction": 0.5433333333333333,
+          "maximum_small_slope": 0.023005800848759972,
+          "small_slope_valid": true
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 3.6909681107495063,
+          "at_deployed_fraction": 0.43,
+          "maximum_small_slope": 0.02466603461123324,
+          "small_slope_valid": true
+        }
+      }
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 300,
+        "track_radius_m": 20,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 2,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 13266.972469293138,
+      "omega_rad_s": 1.7464886139671836,
+      "wheel_release_speed_m_s": 34.92977227934367,
+      "tip_radius_m": 964.5181689295869,
+      "outward_cables_kg": 36757.84188353862,
+      "ballast_total_kg": 540864.4530777277,
+      "ballast_per_powered_wheel_kg": 135216.11326943192,
+      "peak_solar_w": 14495988.87953202,
+      "solar_energy_j": 49980121331.042366,
+      "solar_mass_at_assumed_100_w_kg": 144959.8887953202,
+      "maximum_ground_tangential_n": 352753.2458288829,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 4439.773850487245,
+        "deployed_fraction": 0.8382404774060057
+      },
+      "minimum_traction_margin_n": 0.0,
+      "phase_correction_rad": 1.7710534417620458,
+      "extra_tie_tension_from_ballast_n": 16497569.127166685,
+      "wheel_radial_acceleration_m_s2": 61.00444957434028,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 782688.7323318006,
+          "solar_energy_j": 234406469.76726744,
+          "peak_wheel_mechanical_w": 665285.4224820305,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 19046.37159273605
+        },
+        {
+          "phase": "payout",
+          "duration_s": 6333.486234646569,
+          "peak_solar_w": 14495988.87953202,
+          "solar_energy_j": 35747040085.411224,
+          "peak_wheel_mechanical_w": 12321590.547602218,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 5832219.962610161,
+          "max_ground_tangential_n": 352753.2458288829
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 6333.486234646569,
+          "peak_solar_w": 5729279.651884983,
+          "solar_energy_j": 13766757965.306162,
+          "peak_wheel_mechanical_w": 654883.9795892397,
+          "peak_radial_input_w": 4869887.704102236,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 260090.17488389433
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 832018.6048920946,
+          "solar_energy_j": 231916810.5577185,
+          "peak_wheel_mechanical_w": 707215.8141582804,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 20176.967404407984
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 3.592247501580745,
+          "at_deployed_fraction": 0.5433333333333333,
+          "maximum_small_slope": 0.023005800848759972,
+          "small_slope_valid": true
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 3.6909681107495063,
+          "at_deployed_fraction": 0.43,
+          "maximum_small_slope": 0.02466603461123324,
+          "small_slope_valid": true
+        }
+      }
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 300,
+        "track_radius_m": 20,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 2,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0.7,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 13266.972469293138,
+      "omega_rad_s": 1.7464886139671836,
+      "wheel_release_speed_m_s": 34.92977227934367,
+      "tip_radius_m": 964.5181689295869,
+      "outward_cables_kg": 36757.84188353862,
+      "ballast_total_kg": 540864.4530777277,
+      "ballast_per_powered_wheel_kg": 135216.11326943192,
+      "peak_solar_w": 10413434.905704908,
+      "solar_energy_j": 29204897555.98507,
+      "solar_mass_at_assumed_100_w_kg": 104134.34905704908,
+      "maximum_ground_tangential_n": 352753.2458288829,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 4439.773850487245,
+        "deployed_fraction": 0.8382404774060057
+      },
+      "minimum_traction_margin_n": 0.0,
+      "phase_correction_rad": 1.7710534417620458,
+      "extra_tie_tension_from_ballast_n": 16497569.127166685,
+      "wheel_radial_acceleration_m_s2": 61.00444957434028,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 782688.7323318006,
+          "solar_energy_j": 234406469.76726744,
+          "peak_wheel_mechanical_w": 665285.4224820305,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 19046.37159273605
+        },
+        {
+          "phase": "payout",
+          "duration_s": 6333.486234646569,
+          "peak_solar_w": 10413434.905704908,
+          "solar_energy_j": 26569016643.615597,
+          "peak_wheel_mechanical_w": 12321590.547602218,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 5832219.962610161,
+          "max_ground_tangential_n": 352753.2458288829
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 6333.486234646569,
+          "peak_solar_w": 770451.7406932232,
+          "solar_energy_j": 2169557632.0444846,
+          "peak_wheel_mechanical_w": 654883.9795892397,
+          "peak_radial_input_w": 4869887.704102236,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 260090.17488389433
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 832018.6048920946,
+          "solar_energy_j": 231916810.5577185,
+          "peak_wheel_mechanical_w": 707215.8141582804,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 20176.967404407984
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 3.592247501580745,
+          "at_deployed_fraction": 0.5433333333333333,
+          "maximum_small_slope": 0.023005800848759972,
+          "small_slope_valid": true
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 3.6909681107495063,
+          "at_deployed_fraction": 0.43,
+          "maximum_small_slope": 0.02466603461123324,
+          "small_slope_valid": true
+        }
+      }
+    }
+  ],
+  "friction_sensitivity": [
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 100.0,
+        "track_radius_m": 50.0,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 1,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.3,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0.0,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 6633.486234646569,
+      "omega_rad_s": 0.5821628713223945,
+      "wheel_release_speed_m_s": 29.108143566119725,
+      "tip_radius_m": 2893.5545067887606,
+      "outward_cables_kg": 36980.200544364554,
+      "ballast_total_kg": 2495479.2579808426,
+      "ballast_per_powered_wheel_kg": 623869.8144952107,
+      "peak_solar_w": 31692618.14615093,
+      "solar_energy_j": 56440500349.25118,
+      "solar_mass_at_assumed_100_w_kg": 316926.1814615093,
+      "maximum_ground_tangential_n": 925470.4053192688,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 2116.245296802284,
+        "deployed_fraction": 0.8388988212554207
+      },
+      "minimum_traction_margin_n": 0.0,
+      "phase_correction_rad": 2.389570676019776,
+      "extra_tie_tension_from_ballast_n": 21143797.021847837,
+      "wheel_radial_acceleration_m_s2": 16.945680437316742,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 2823766.9778685733,
+          "solar_energy_j": 846796635.083678,
+          "peak_wheel_mechanical_w": 2400201.931188287,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 82458.09031882025
+        },
+        {
+          "phase": "payout",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 31692618.14615093,
+          "solar_energy_j": 39366077436.175766,
+          "peak_wheel_mechanical_w": 26938725.424228292,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 12272123.047406008,
+          "max_ground_tangential_n": 925470.4053192688
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 12055806.45497242,
+          "solar_energy_j": 15371602557.367252,
+          "peak_wheel_mechanical_w": 2392663.774140116,
+          "peak_radial_input_w": 10247435.486726556,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 621892.4705935599
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 3588282.7235989403,
+          "solar_energy_j": 856023720.6244873,
+          "peak_wheel_mechanical_w": 3050040.3150590993,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 103322.80762695153
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 8.392441769372827,
+          "at_deployed_fraction": 0.5366666666666666,
+          "maximum_small_slope": 0.08059537196350967,
+          "small_slope_valid": true
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 9.309522140989486,
+          "at_deployed_fraction": 0.41666666666666663,
+          "maximum_small_slope": 0.08749658293831807,
+          "small_slope_valid": true
+        }
+      }
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 100.0,
+        "track_radius_m": 50.0,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 1,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.5,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0.0,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 6633.486234646569,
+      "omega_rad_s": 0.5821628713223945,
+      "wheel_release_speed_m_s": 29.108143566119725,
+      "tip_radius_m": 2893.5545067887606,
+      "outward_cables_kg": 36980.200544364554,
+      "ballast_total_kg": 1424580.8952237128,
+      "ballast_per_powered_wheel_kg": 356145.2238059282,
+      "peak_solar_w": 30502285.070239153,
+      "solar_energy_j": 50548463134.22875,
+      "solar_mass_at_assumed_100_w_kg": 305022.85070239153,
+      "maximum_ground_tangential_n": 890710.9534762915,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 2116.245296802284,
+        "deployed_fraction": 0.8388988212554207
+      },
+      "minimum_traction_margin_n": 0.0,
+      "phase_correction_rad": 2.389570676019776,
+      "extra_tie_tension_from_ballast_n": 12070246.303783823,
+      "wheel_radial_acceleration_m_s2": 16.945680437316742,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 1633433.9019568013,
+          "solar_energy_j": 489696712.31014633,
+          "peak_wheel_mechanical_w": 1388418.816663281,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 47698.63847584302
+        },
+        {
+          "phase": "payout",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 30502285.070239153,
+          "solar_energy_j": 35775148322.09667,
+          "peak_wheel_mechanical_w": 25926942.30970328,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 12272123.047406008,
+          "max_ground_tangential_n": 890710.9534762915
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 12055806.45497242,
+          "solar_energy_j": 13789580194.13795,
+          "peak_wheel_mechanical_w": 1380880.6596151097,
+          "peak_radial_input_w": 10247435.486726556,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 656651.9224365372
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 2070909.5309597142,
+          "solar_energy_j": 494037905.6839851,
+          "peak_wheel_mechanical_w": 1760273.101315757,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 59630.80491761342
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 8.392441769372827,
+          "at_deployed_fraction": 0.5366666666666666,
+          "maximum_small_slope": 0.08059537196350967,
+          "small_slope_valid": true
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 9.309522140989486,
+          "at_deployed_fraction": 0.41666666666666663,
+          "maximum_small_slope": 0.08749658293831807,
+          "small_slope_valid": true
+        }
+      }
+    },
+    {
+      "inputs": {
+        "payload_kg": 1000.0,
+        "acceleration_g": 100.0,
+        "track_radius_m": 50.0,
+        "release_speed_m_s": 1684.52,
+        "cable_density_kg_m3": 1450.0,
+        "cable_allowable_pa": 1000000000.0,
+        "passes": 1,
+        "loading_s": 300.0,
+        "phase_buffer_s": 300.0,
+        "friction": 0.7,
+        "driven_normal_fraction": 0.75,
+        "rolling_coefficient": 0.02,
+        "drive_efficiency": 0.85,
+        "recovery_efficiency": 0.0,
+        "fixed_hardware_kg": 0.0,
+        "nodes": 10001,
+        "time_nodes": 2001
+      },
+      "status": "reduced-order cycle; structural/contact certification pending",
+      "interval_s": 6633.486234646569,
+      "omega_rad_s": 0.5821628713223945,
+      "wheel_release_speed_m_s": 29.108143566119725,
+      "tip_radius_m": 2893.5545067887606,
+      "outward_cables_kg": 36980.200544364554,
+      "ballast_total_kg": 989859.7776688386,
+      "ballast_per_powered_wheel_kg": 247464.94441720966,
+      "peak_solar_w": 30019080.554274976,
+      "solar_energy_j": 48216763695.25102,
+      "solar_mass_at_assumed_100_w_kg": 300190.80554274976,
+      "maximum_ground_tangential_n": 876600.6809459741,
+      "peak_traction_location": {
+        "phase": "payout",
+        "phase_time_s": 2116.245296802284,
+        "deployed_fraction": 0.8388988212554207
+      },
+      "minimum_traction_margin_n": 0.0,
+      "phase_correction_rad": 2.389570676019776,
+      "extra_tie_tension_from_ballast_n": 8386923.73506477,
+      "wheel_radial_acceleration_m_s2": 16.945680437316742,
+      "phases": [
+        {
+          "phase": "loading",
+          "duration_s": 300.0,
+          "peak_solar_w": 1150229.3859926169,
+          "solar_energy_j": 344735357.5208911,
+          "peak_wheel_mechanical_w": 977694.9780937242,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 33588.36594552554
+        },
+        {
+          "phase": "payout",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 30019080.554274976,
+          "solar_energy_j": 34317444424.30219,
+          "peak_wheel_mechanical_w": 25516218.471133728,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 12272123.047406008,
+          "max_ground_tangential_n": 876600.6809459741
+        },
+        {
+          "phase": "retraction",
+          "duration_s": 3016.7431173232844,
+          "peak_solar_w": 12055806.45497242,
+          "solar_energy_j": 13207490744.501984,
+          "peak_wheel_mechanical_w": 970156.821045553,
+          "peak_radial_input_w": 10247435.486726556,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 670762.1949668546
+        },
+        {
+          "phase": "phase correction",
+          "duration_s": 300.0,
+          "peak_solar_w": 1454946.15572993,
+          "solar_energy_j": 347093168.9259595,
+          "peak_wheel_mechanical_w": 1236704.2323704404,
+          "peak_radial_input_w": 0.0,
+          "peak_radial_braking_w": 0.0,
+          "max_ground_tangential_n": 41894.44738213955
+        }
+      ],
+      "clearance": {
+        "loaded": {
+          "minimum_apex_height_m": 8.392441769372827,
+          "at_deployed_fraction": 0.5366666666666666,
+          "maximum_small_slope": 0.08059537196350967,
+          "small_slope_valid": true
+        },
+        "unloaded": {
+          "minimum_apex_height_m": 9.309522140989486,
+          "at_deployed_fraction": 0.41666666666666663,
+          "maximum_small_slope": 0.08749658293831807,
+          "small_slope_valid": true
+        }
+      }
+    }
+  ]
+}

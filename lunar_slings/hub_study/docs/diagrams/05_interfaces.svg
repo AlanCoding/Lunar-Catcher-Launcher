@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img">
+<title>05  Cable element, climber and apex interfaces</title><desc>Cable equation C1, climber equation C4 and spool equation A1. Three separate free bodies.</desc>
+<defs><marker id="force" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#c03932"/></marker>
+<marker id="motion" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#287650"/></marker></defs>
+<rect width="1200" height="700" fill="#fff"/>
+<style>text{font-family:DejaVu Sans,sans-serif;fill:#182c40;font-size:18px} .small{font-size:15px} .title{font-size:27px;font-weight:bold} .sub{font-size:16px;fill:#687887}</style>
+<text x="35" y="42" class="title" text-anchor="start">05  Cable element, climber and apex interfaces</text>
+<text x="35" y="73" class="sub" text-anchor="start">Cable equation C1, climber equation C4 and spool equation A1. Three separate free bodies.</text>
+<line x1="35" y1="94" x2="1165" y2="94" stroke="#dce3eb" stroke-width="1"/>
+<text x="60" y="145" class="" text-anchor="start">Cable element ds: outward tangent t̂ →</text>
+<line x1="160" y1="270" x2="330" y2="310" stroke="#1967a3" stroke-width="8"/>
+<line x1="160" y1="270" x2="70" y2="248" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="55" y="220" class="small" text-anchor="start">−T t̂ at s</text>
+<line x1="330" y1="310" x2="445" y2="338" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="300" y="380" class="small" text-anchor="start">+T t̂ at s+ds</text>
+<line x1="245" y1="290" x2="245" y2="405" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="75" y="435" class="small" text-anchor="start">λ ds g downward; acceleration a(s)</text>
+<text x="65" y="490" class="small" text-anchor="start">Distributed gravity + rotation + elasticity</text>
+<text x="65" y="515" class="small" text-anchor="start">determine tension, taper and sag.</text>
+<line x1="475" y1="120" x2="475" y2="590" stroke="#dce3eb" stroke-width="1"/>
+<text x="510" y="145" class="" text-anchor="start">B14 climber + attached load</text>
+<line x1="515" y1="270" x2="760" y2="320" stroke="#1967a3" stroke-width="4"/>
+<rect x="585" y="255" width="100" height="70" rx="8" fill="#eef4fa" stroke="#1967a3" stroke-width="2"/>
+<text x="635.0" y="296.0" class="" text-anchor="middle">m moving</text>
+<line x1="635" y1="290" x2="735" y2="310" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="680" y="350" class="small" text-anchor="start">F contact</text>
+<line x1="635" y1="325" x2="635" y2="440" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="655" y="435" class="small" text-anchor="start">mg</text>
+<line x1="570" y1="215" x2="700" y2="240" stroke="#287650" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#motion)"/>
+<text x="530" y="190" class="small" text-anchor="start">out / back on same sling</text>
+<text x="510" y="490" class="small" text-anchor="start">Equal/opposite force enters cable.</text>
+<text x="510" y="515" class="small" text-anchor="start">No free outward-motion energy credit.</text>
+<line x1="795" y1="120" x2="795" y2="590" stroke="#dce3eb" stroke-width="1"/>
+<text x="830" y="145" class="" text-anchor="start">B03 apex / B11 spool</text>
+<circle cx="975" cy="300" r="48" fill="#eef4fa" stroke="#182c40" stroke-width="2"/>
+<line x1="975" y1="252" x2="1110" y2="252" stroke="#1967a3" stroke-width="4"/>
+<line x1="1000" y1="252" x2="1125" y2="252" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="1050" y="220" class="small" text-anchor="start">T side</text>
+<line x1="960" y1="310" x2="855" y2="345" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="825" y="380" class="small" text-anchor="start">bearing reaction</text>
+<path d="M 1000 340 A 45 45 0 0 1 935 315" fill="none" stroke="#c03932" stroke-width="3" marker-end="url(#force)"/>
+<text x="960" y="410" class="small" text-anchor="start">τ hold / drive</text>
+<text x="825" y="490" class="small" text-anchor="start">Routing decides net drum torque.</text>
+<text x="825" y="515" class="small" text-anchor="start">Main tie attaches to apex structure.</text>
+<text x="35" y="661" class="small" text-anchor="start">Apex also receives main-tie and stabilizer forces (Figure 02). Cable/climber contact forces are internal to their combined body.</text>
+<text x="35" y="685" class="small" text-anchor="start">Blue: hardware / geometry    Red: applied forces    Green dashed: motion / acceleration    Not to scale</text></svg>

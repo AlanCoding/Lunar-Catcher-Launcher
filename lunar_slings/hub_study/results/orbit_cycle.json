@@ -1,0 +1,334 @@
+{
+  "configuration": {
+    "environment": {
+      "reference_radius_m": 1738100.0,
+      "mu_m3_s2": 4902800118000.0,
+      "sidereal_rotation_s": 2360592.0,
+      "solar_day_s": 2551392.0,
+      "solar_irradiance_w_m2": 1361.0,
+      "earth_g_m_s2": 9.80665,
+      "year_s": 31557600.0
+    },
+    "mission": {
+      "catcher_altitude_m": 20000.0,
+      "proposed_max_wheel_speed_m_s": 35.76,
+      "site_latitude_rad": 0.0,
+      "assembly_count": 2,
+      "powered_wheel_count": 4,
+      "passive_wheel_count": 4,
+      "climber_count": 2,
+      "simultaneous_useful_payload_count": 1,
+      "maximum_catches_per_orbit": 1,
+      "sling_material": "Kevlar",
+      "electrical_storage_allowed": false,
+      "flywheel_buffer_allowed": false
+    },
+    "tip_offsets_m": [
+      1000.0,
+      3000.0,
+      10000.0
+    ],
+    "illustrative_tip_offset_m": 3000.0,
+    "tip_tangent_height_m": 3.0,
+    "shorter_counter_radius_fraction": 0.99,
+    "illustrative_apex_radius_m": 50.0,
+    "illustrative_payload_kg": 100.0,
+    "illustrative_countermass_kg": 100.0,
+    "reference_climber_mass_ratio": 0.0,
+    "climber_mass_ratio_sensitivities": [
+      0.0,
+      0.01,
+      0.1
+    ],
+    "illustrative_travel_speeds_m_s": [
+      0.5,
+      1.0,
+      5.0,
+      10.0
+    ],
+    "illustrative_radial_travel_accel_m_s2": 1.0,
+    "illustrative_wheel_efficiency": 0.85,
+    "illustrative_climber_efficiency": 0.8,
+    "illustrative_loading_s": 60.0,
+    "illustrative_settle_s": 60.0,
+    "minimum_solar_elevation_deg": 10.0
+  },
+  "approximation": "two-body node intercept; illustrative constant-spin straight-sling cycle",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "environment_derived": {
+    "surface_spin_m_s": 4.626298988731996,
+    "surface_gravity_m_s2": 1.6229108686601086
+  },
+  "point_reference": {
+    "release_inertial_m_s": 1684.3151875301312,
+    "prograde_site_m_s": 1679.6888885413991,
+    "retrograde_site_m_s": 1688.9414865188633,
+    "flight_s": 3279.2700907552817,
+    "catch_relative_m_s": 4.783287336584181,
+    "catcher_phase_at_release_rad": 0.026765722347861676,
+    "orbit_period_s": 6614.897747879624,
+    "site_revisit_s": 6633.486234646569
+  },
+  "finite_tip_cases": [
+    {
+      "tip_offset_m": 1000.0,
+      "release_radius_m": 1738103.2876699243,
+      "inclination_deg": 0.032964544213515384,
+      "site_tip_speed_m_s": 1684.5240132286133,
+      "hub_rate_rad_s": 1.6845240132286132,
+      "actual_centripetal_earth_g": 289.35682941104585,
+      "max_wheel_path_radius_m": 21.22854866963946,
+      "flight_s": 1629.823971479241,
+      "catch_relative_m_s": 19.2364839125561,
+      "catch_relative_vector_m_s": [
+        0.0002763880011116271,
+        19.21247541968247,
+        0.9607817076403173
+      ],
+      "catcher_phase_at_release_deg": 1.3007257110508599,
+      "transfer_apoapsis_altitude_m": 40462.18811574741,
+      "numerical_position_error_m": 6.999412970914307e-10,
+      "numerical_velocity_error_m_s": 5.66343134064123e-13,
+      "relative_energy_error": 1.0020243124778185e-15,
+      "relative_angular_momentum_error": 3.248301584075321e-16,
+      "equal_radius_counter": {
+        "periapsis_altitude_m": 3.2876709275878966,
+        "apoapsis_altitude_m": 1581.7408651569858,
+        "impacts_reference_sphere": false
+      },
+      "shorter_radius_counter": {
+        "periapsis_altitude_m": -66518.70750575466,
+        "apoapsis_altitude_m": 3.281945280265063,
+        "impacts_reference_sphere": true,
+        "impact_s": 14.398323862909889,
+        "impact_longitude_rad": -0.013814951827826327,
+        "impact_latitude_rad": 0.0005695323842690467,
+        "impact_inertial_m_s": 1663.0556688413596,
+        "impact_ground_relative_m_s": 1667.6819669063118
+      }
+    },
+    {
+      "tip_offset_m": 3000.0,
+      "release_radius_m": 1738105.5890276057,
+      "inclination_deg": 0.0988935453463783,
+      "site_tip_speed_m_s": 1684.52177669069,
+      "hub_rate_rad_s": 0.5615072588968967,
+      "actual_centripetal_earth_g": 96.45202035167154,
+      "max_wheel_path_radius_m": 63.68573056428859,
+      "flight_s": 1629.826716508412,
+      "catch_relative_m_s": 19.425271567963062,
+      "catch_relative_vector_m_s": [
+        0.0024874870705389185,
+        19.21023888175908,
+        2.882341306520423
+      ],
+      "catcher_phase_at_release_deg": 1.300576319398981,
+      "transfer_apoapsis_altitude_m": 40459.7783772971,
+      "numerical_position_error_m": 4.114564966257581e-10,
+      "numerical_velocity_error_m_s": 1.6535397402037435e-12,
+      "relative_energy_error": 8.350202346635374e-16,
+      "relative_angular_momentum_error": 4.872453265552817e-16,
+      "equal_radius_counter": {
+        "periapsis_altitude_m": 5.5890277770813555,
+        "apoapsis_altitude_m": 1579.3845615503378,
+        "impacts_reference_sphere": false
+      },
+      "shorter_radius_counter": {
+        "periapsis_altitude_m": -66521.01458803983,
+        "apoapsis_altitude_m": 5.537505992222577,
+        "impacts_reference_sphere": true,
+        "impact_s": 18.702140141093913,
+        "impact_longitude_rad": -0.017944383484138182,
+        "impact_latitude_rad": 0.0017084842505854382,
+        "impact_inertial_m_s": 1663.0556557767,
+        "impact_ground_relative_m_s": 1667.6819477189222
+      }
+    },
+    {
+      "tip_offset_m": 10000.0,
+      "release_radius_m": 1738131.766756767,
+      "inclination_deg": 0.3296418413158088,
+      "site_tip_speed_m_s": 1684.4963366970755,
+      "hub_rate_rad_s": 0.16844963366970755,
+      "actual_centripetal_earth_g": 28.9347321291763,
+      "max_wheel_path_radius_m": 212.28897457929438,
+      "flight_s": 1629.8579410502696,
+      "catch_relative_m_s": 21.456103939452344,
+      "catch_relative_vector_m_s": [
+        0.027638120834808433,
+        19.184798888144805,
+        9.607659653437826
+      ],
+      "catcher_phase_at_release_deg": 1.2988769983365651,
+      "transfer_apoapsis_altitude_m": 40432.36873566895,
+      "numerical_position_error_m": 2.8431686463833192e-09,
+      "numerical_velocity_error_m_s": 3.1079402425008823e-12,
+      "relative_energy_error": 3.340079768600442e-16,
+      "relative_angular_momentum_error": 1.6266538373664149e-16,
+      "equal_radius_counter": {
+        "periapsis_altitude_m": 31.766756701283157,
+        "apoapsis_altitude_m": 1552.5826972171199,
+        "impacts_reference_sphere": false
+      },
+      "shorter_radius_counter": {
+        "periapsis_altitude_m": -66547.25656190608,
+        "apoapsis_altitude_m": 31.194302960764617,
+        "impacts_reference_sphere": true,
+        "impact_s": 44.37461936221957,
+        "impact_longitude_rad": -0.04257646209405275,
+        "impact_latitude_rad": 0.005690670316019413,
+        "impact_inertial_m_s": 1663.0555073895564,
+        "impact_ground_relative_m_s": 1667.681729687128
+      }
+    }
+  ],
+  "cycles": [
+    {
+      "travel_speed_m_s": 0.5,
+      "trip_s": 5900.5,
+      "minimum_cycle_s": 11921.0,
+      "passes_skipped": 1,
+      "launch_interval_s": 13266.972469293138,
+      "phase_wait_budget_s": 1345.9724692931377,
+      "peak_electrical_w": 222512.48713058137,
+      "electrical_energy_j": 667378007.6758292,
+      "dumped_energy_j": 283635653.2622274
+    },
+    {
+      "travel_speed_m_s": 1.0,
+      "trip_s": 2951.0,
+      "minimum_cycle_s": 6022.0,
+      "passes_skipped": 0,
+      "launch_interval_s": 6633.486234646569,
+      "phase_wait_budget_s": 611.4862346465688,
+      "peak_electrical_w": 444971.1245151858,
+      "electrical_energy_j": 667460111.5966853,
+      "dumped_energy_j": 283670547.42859125
+    },
+    {
+      "travel_speed_m_s": 5.0,
+      "trip_s": 595.0,
+      "minimum_cycle_s": 1310.0,
+      "passes_skipped": 0,
+      "launch_interval_s": 6633.486234646569,
+      "phase_wait_budget_s": 5323.486234646569,
+      "peak_electrical_w": 2216092.774985365,
+      "electrical_energy_j": 667487139.8960534,
+      "dumped_energy_j": 283682034.4558227
+    },
+    {
+      "travel_speed_m_s": 10.0,
+      "trip_s": 305.0,
+      "minimum_cycle_s": 730.0,
+      "passes_skipped": 0,
+      "launch_interval_s": 6633.486234646569,
+      "phase_wait_budget_s": 5903.486234646569,
+      "peak_electrical_w": 4376008.218968744,
+      "electrical_energy_j": 667488161.6340117,
+      "dumped_energy_j": 283682468.694455
+    }
+  ],
+  "sun": {
+    "available_fraction": 0.4444444444444444,
+    "operating_window_s": 1133952.0,
+    "night_or_low_sun_s": 1417440.0,
+    "ideal_complete_cycles_per_solar_day": 170,
+    "conditional_catches_per_year": 2102.6921774466646,
+    "conditional_payload_kg_year": 210269.21774466644
+  },
+  "climber_mass_sensitivity": [
+    {
+      "each_climber_to_payload_ratio": 0.0,
+      "each_climber_kg": 0.0,
+      "peak_electrical_w": 4376008.218968744,
+      "electrical_energy_j": 667488161.6340117,
+      "outbound": {
+        "electrical_energy_j": 667488161.6340117,
+        "dumped_energy_j": 283682468.694455,
+        "peak_electrical_w": 4376008.218968744,
+        "peak_wheel_input_w": 4376008.218968744,
+        "peak_radial_drive_input_w": 0.0,
+        "peak_radial_braking_available_w": 1860189.2012156094,
+        "wheel_input_energy_j": 667488161.6340117,
+        "radial_input_energy_j": 0.0,
+        "radial_braking_energy_j": 283682468.694455
+      },
+      "returning": {
+        "electrical_energy_j": 0.0,
+        "dumped_energy_j": 0.0,
+        "peak_electrical_w": 0.0,
+        "peak_wheel_input_w": 0.0,
+        "peak_radial_drive_input_w": 0.0,
+        "peak_radial_braking_available_w": 0.0,
+        "wheel_input_energy_j": 0.0,
+        "radial_input_energy_j": 0.0,
+        "radial_braking_energy_j": 0.0
+      }
+    },
+    {
+      "each_climber_to_payload_ratio": 0.01,
+      "each_climber_kg": 1.0,
+      "peak_electrical_w": 4419768.301158432,
+      "electrical_energy_j": 677709074.1090326,
+      "outbound": {
+        "electrical_energy_j": 674163043.2503519,
+        "dumped_energy_j": 286519293.3813995,
+        "peak_electrical_w": 4419768.301158432,
+        "peak_wheel_input_w": 4419768.301158432,
+        "peak_radial_drive_input_w": 0.0,
+        "peak_radial_braking_available_w": 1878791.0932277655,
+        "wheel_input_energy_j": 674163043.2503519,
+        "radial_input_energy_j": 0.0,
+        "radial_braking_energy_j": 286519293.3813995
+      },
+      "returning": {
+        "electrical_energy_j": 3546030.858680687,
+        "dumped_energy_j": 5673649.3738891,
+        "peak_electrical_w": 23252.365015195155,
+        "peak_wheel_input_w": 0.0,
+        "peak_radial_drive_input_w": 23252.365015195155,
+        "peak_radial_braking_available_w": 0.0,
+        "wheel_input_energy_j": 0.0,
+        "radial_input_energy_j": 3546030.858680687,
+        "radial_braking_energy_j": 0.0
+      }
+    },
+    {
+      "each_climber_to_payload_ratio": 0.1,
+      "each_climber_kg": 10.0,
+      "peak_electrical_w": 4813609.04086562,
+      "electrical_energy_j": 769697286.3842198,
+      "outbound": {
+        "electrical_energy_j": 734236977.7974129,
+        "dumped_energy_j": 312050715.5639005,
+        "peak_electrical_w": 4813609.04086562,
+        "peak_wheel_input_w": 4813609.04086562,
+        "peak_radial_drive_input_w": 0.0,
+        "peak_radial_braking_available_w": 2046208.1213371705,
+        "wheel_input_energy_j": 734236977.7974129,
+        "radial_input_energy_j": 0.0,
+        "radial_braking_energy_j": 312050715.5639005
+      },
+      "returning": {
+        "electrical_energy_j": 35460308.58680688,
+        "dumped_energy_j": 56736493.73889099,
+        "peak_electrical_w": 232523.65015195153,
+        "peak_wheel_input_w": 0.0,
+        "peak_radial_drive_input_w": 232523.65015195153,
+        "peak_radial_braking_available_w": 0.0,
+        "wheel_input_energy_j": 0.0,
+        "radial_input_energy_j": 35460308.58680688,
+        "radial_braking_energy_j": 0.0
+      }
+    }
+  ],
+  "constant_spin_phase_mismatch_rad": -1.1782146108037388,
+  "required_phase_integral_correction_rad": 1.1782146108037388,
+  "ideal_phase_correction_mean_rad_s": 0.00019957946270612019,
+  "illustrative_wheel_speed_m_s": 28.075362944844834
+}
