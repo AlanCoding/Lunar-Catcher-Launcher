@@ -3,7 +3,7 @@
 **For publication, start here:** [current checkpoint and chart index](publication/README.md).
 The [checkpoint](publication/CHECKPOINT.md) gives the selected design and pie charts;
 [mass payoff](publication/MASS_PAYOFF.md) gives launch counts and calendar scenarios.
-[Blender workspace](blender/README.md) is reserved; no scene is built yet.
+[Blender scene and renders](blender/README.md) illustrate the frozen 50-g case.
 
 **Current reference: [50 mph, one pass, separate upper and low ties](results/split_tie/README.md).**
 The low tie is included below the approximately 616 m road-grip radius; the
