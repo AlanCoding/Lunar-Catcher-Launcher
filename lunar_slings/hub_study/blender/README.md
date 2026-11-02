@@ -1,7 +1,7 @@
 # Blender illustration — reference 50 g lunar sling
 
 The scene is now generated from the frozen numerical candidate. Open
-**[lunar_sling_50g.blend](lunar_sling_50g.blend)** in Blender. It contains five
+**[lunar_sling_50g.blend](lunar_sling_50g.blend)** in Blender. It contains six
 named cameras, separate hardware/tether/utility collections, and a static,
 fully deployed loaded pose immediately before release.
 
@@ -11,6 +11,7 @@ fully deployed loaded pose immediately before release.
 | --- | --- | --- |
 | Launcher overview | [hub.png](renders/hub.png) | Both A-frames, circular track, upper and low ties |
 | One A-frame | [frame.png](renders/frame.png) | Four wheels, two poles, ballast and apex machinery |
+| Center pivot | [pivot.png](renders/pivot.png) | Ground swivel, apex stays, and the separate low-tie crossing |
 | Site | [site.png](renders/site.png) | Launcher, stationary solar and radiator installations |
 | Full span | [span.png](renders/span.png) | The roughly 11.57 km tip-to-tip system over lunar ground |
 | Cable profile | [profile.png](renders/profile.png) | True-scale loaded outward cable and lunar curvature |
@@ -23,8 +24,12 @@ itself remains at true scale.
 The full-span and profile exports use **render-only gold cable highlights**
 with an 8 m display diameter; the physical cable geometry remains separately
 present with its actual taper. Positions and sag are not exaggerated. These
-highlights are explicitly labeled in those images, hidden in the saved default
-view, and live in `Render annotations`. Without a highlight, centimeter-scale
+long-span highlights are explicitly labeled in those images, hidden in the saved
+default view, and live in `Render annotations`. The two apex-to-pivot stays
+have separate **cyan visibility highlights, 0.24 m display diameter**, enabled
+in the hub/frame/pivot/site views and the default saved view. Their thin
+underlying illustrative lines remain separate. Display thickness does not
+represent an engineered stay diameter. Without a highlight, centimeter-scale
 rope cannot be seen reliably in a kilometer-scale image.
 
 ## Reproduction
@@ -37,7 +42,7 @@ flatpak run org.blender.Blender --background --factory-startup --python "$PWD/lu
 ```
 
 The exporter uses the NumPy/SciPy environment; Blender itself needs only its
-bundled Python. `build_scene.py` creates the `.blend` file and exports all five
+bundled Python. `build_scene.py` creates the `.blend` file and exports all six
 PNG pictures. For quicker iterations, append `-- --draft --views hub,frame`.
 Use `-- --views site,span,profile` to select other exports. The script rebuilds
 the scene from scratch each run. It does not alter the installed Blender app
@@ -72,6 +77,10 @@ Sources: [frozen candidate](../publication/candidate_50g.json),
   not a termination of radial loads on the ground pivot.
 - Two outward slings use **501 solved centerline points each** and the
   mass-derived rope taper. The payload radius is **5,787.088 m**.
+- Two cyan stays run from the A-frame apexes to a **ground-mounted center
+  pivot/swivel**, distinct from the upper payload tie and the floating low-tie
+  crossing junction. Their crossing with the low connection is retained in
+  the drawing; no invented routing mechanism has been added.
 - The local spherical lunar surface uses the same **1,738,100 m** reference
   radius as the physical model. Cosmetic relief is modest and kept away from
   the prepared launcher/utility area.
@@ -111,7 +120,11 @@ choices are visible packaging, not additional engineering results:
   unspecified; the blocks are illustrative.
 - Track width (22 m), wheel tread, tandem coupling clearance, top platforms,
   crossing-junction hardware and light stays are schematic. The center pivot
-  remains a ground-level stabilizing feature, not the main radial force anchor.
+  has an illustrative 1.05 m attachment height and 3.6 m foundation diameter.
+  Stay sizing remains outside the mass estimate; the underlying 24 mm lines
+  and thicker display overlays are not strength calculations. The center
+  pivot remains a ground-mounted stabilizing feature, separate from the main
+  upper/low radial force connections.
 - Terrain/crater decoration is illustrative, not a surveyed lunar site.
 
 The final packaging has small local offsets from the mass model's concentrated

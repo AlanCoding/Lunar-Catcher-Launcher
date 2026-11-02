@@ -93,3 +93,20 @@ Use SI internally; Earth-g is an input/display convention. The report manifest
 records the actual Python/NumPy/SciPy/Matplotlib versions and source hashes.
 See `notebooks/README.md` for the earlier orbital notebook's kernel setup.
 Historical notebooks, plots and the separate `frozen_retreat/` work are unchanged.
+
+## Blog post documents
+
+These are the current Markdown sources for the post. Older upper-only and
+climber checkpoints are historical, not alternative current results.
+
+| Document | Use |
+| --- | --- |
+| [Publication index](publication/README.md) | Figure downloads and links to the current checkpoint files. |
+| [Engineering checkpoint](publication/CHECKPOINT.md) | Main narrative, selected design, mass pies and scope. |
+| [Dimensions and parameters at a glance](publication/DESIGN_AT_A_GLANCE.md) | Pole height, wheel sizes, track/tether dimensions, speeds, timing and power. |
+| [Mass composition table](publication/MASS_TABLE.md) | Grouped masses and percentages behind the imported-equipment pie. |
+| [Mass-payoff calculations](publication/MASS_PAYOFF.md) | Launch counts, daylight/availability cases and replacement-mass formula. |
+| [Reference design method](results/split_tie/README.md) | Upper/low force paths, sizing method, assumptions and current minimum. |
+| [Scenario comparison table](results/split_tie/SCENARIOS.md) | Other acceleration cases at 50 mph and one pass. |
+| [Sources and estimation assumptions](results/hardware_mass/SOURCES.md) | Manufacturer anchors, engineering extrapolations and exclusions. |
+| [Blender illustration guide](blender/README.md) | Six rendered views, scripting instructions and illustration-only assumptions. |

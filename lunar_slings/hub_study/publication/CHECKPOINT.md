@@ -38,6 +38,9 @@ force needed for spin-up and payout.
 
 ## Selected dimensions and mass
 
+The [at-a-glance sheet](DESIGN_AT_A_GLANCE.md) collects dimensions, operating
+parameters, and distinctions between calculated and illustrative geometry.
+
 | Quantity | Reference estimate |
 | --- | ---: |
 | Useful payload per successful launch | 1,000 kg |
@@ -141,6 +144,6 @@ exact underlying data. Earlier hub checkpoints describe earlier models and
 are historical rather than alternate current answers.
 
 The [Blender illustration](../blender/README.md), added after this numerical
-checkpoint, now includes a Python-generated scene and five render views of
+checkpoint, now includes a Python-generated scene and six render views of
 this exact 50-g case, using calculated geometry and drooping tethers over a
 lunar surface. A companion axis-labeled plot makes the small sag readable.

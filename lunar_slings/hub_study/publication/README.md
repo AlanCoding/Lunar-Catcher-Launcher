@@ -4,6 +4,8 @@ Start with **[CHECKPOINT.md](CHECKPOINT.md)** for the blog-ready engineering
 summary, selected dimensions, mass charts and scope. This is the current
 publication checkpoint; the older `hub_study/CHECKPOINT.md` is historical.
 
+- **[DESIGN_AT_A_GLANCE.md](DESIGN_AT_A_GLANCE.md):** a compact dimensions and
+  parameters sheet, including the 28.68 m pole-top height.
 - **[MASS_PAYOFF.md](MASS_PAYOFF.md):** equations, launch counts, sunlight and
   availability scenarios, and the meaning of “mass payoff.”
 - **[MASS_TABLE.md](MASS_TABLE.md):** exact grouped mass totals and percentages.
@@ -19,7 +21,7 @@ methods and scenario sweeps; the [source register](../results/hardware_mass/SOUR
 identifies manufacturer data and engineering extrapolations.
 
 The [Blender illustration](../blender/README.md) now supplies a Python-generated
-scene and five render views of this frozen candidate. It was added after this
+scene and six render views of this frozen candidate. It was added after this
 numerical publication checkpoint.
 
 Rebuild charts, data snapshot, mass table and payoff document from repository root:

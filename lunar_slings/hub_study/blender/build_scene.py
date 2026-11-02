@@ -3,7 +3,7 @@ import bpy, math, json, sys, argparse, random
 from pathlib import Path
 from mathutils import Vector
 P=Path(__file__).resolve().parent
-parser=argparse.ArgumentParser();parser.add_argument('--draft',action='store_true');parser.add_argument('--views',default='hub,frame,site,span,profile');args=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
+parser=argparse.ArgumentParser();parser.add_argument('--draft',action='store_true');parser.add_argument('--views',default='hub,frame,pivot,site,span,profile');args=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
 D=json.loads((P/'scene_inputs.json').read_text());C=D['candidate'];R=C['track_radius_m'];H=C['apex_height_m'];MOON=D['moon_radius_m'];OUT=P/'renders';OUT.mkdir(exist_ok=True)
 bpy.ops.object.select_all(action='SELECT');bpy.ops.object.delete(use_global=False)
 for c in list(bpy.data.collections):
@@ -17,7 +17,7 @@ try:scene.view_settings.view_transform='Standard';scene.view_settings.look='None
 except Exception:pass
 scene.world.color=(.035,.035,.035)
 COL={}
-for name in ['Surface','Rotating hardware','Upper payload tie','Low rover ties','Outward slings','Payloads','Stationary utilities','Cameras','Render annotations']:
+for name in ['Surface','Rotating hardware','Upper payload tie','Low rover ties','Pivot and stabilizing stays','Outward slings','Payloads','Stationary utilities','Cameras','Render annotations']:
  c=bpy.data.collections.new(name);scene.collection.children.link(c);COL[name]=c
 
 def put(o,group):
@@ -156,9 +156,21 @@ for theta,nm,height,T,group in [(0,'Upper apex-to-apex tie',H,C['upper_tie_endpo
   tension=T*math.exp(rho*D['omega_rad_s']**2*(R*R-x*x)/(2*stress));rads.append(math.sqrt(tension/stress/math.pi/.65))
  rope(nm,points,rads,gold,group)
 rod('Floating low-tie crossing junction',(0,0,C['low_tie_attachment_height_m']-.12),(0,0,C['low_tie_attachment_height_m']+.12),.4,steel,'Low rover ties')
-rod('Ground pivot (schematic; not a radial anchor for upper/low ties)',(0,0,0),(0,0,.5),.65,steel)
+# Ground-mounted pivot/swivel is independent of the floating low-tie junction.
+# These dimensions and stay diameters are illustration assumptions, not sizing.
+staymat=mat('Center-pivot stays / cyan',(.04,.65,.85),.25,.35)
+bs=staymat.node_tree.nodes.get('Principled BSDF');bs.inputs['Emission Color'].default_value=(.04,.65,.85,1);bs.inputs['Emission Strength'].default_value=.35
+pivot=(0,0,1.05)
+rod('Ground pivot foundation (schematic)',(0,0,0),(0,0,.18),1.8,steel,'Pivot and stabilizing stays',vertices=48)
+rod('Ground pivot post',(0,0,.18),pivot,.35,lightsteel,'Pivot and stabilizing stays')
+rod('Rotating stay swivel',(0,0,.85),(0,0,1.1),.62,staymat,'Pivot and stabilizing stays',vertices=40)
+stay_highlights=[]
 for sign in [-1,1]:
- rope(f'Light stabilizer {sign}',[(sign*R,.5,H),(0,0,.5)],[.012,.012],steel,'Rotating hardware')
+ pts=[(sign*R,0,H),pivot]
+ ob=rope(f'Apex-to-ground-pivot stay {sign}',pts,[.012,.012],staymat,'Pivot and stabilizing stays')
+ ob['diameter_is_illustrative']=True;ob['ground_attachment_m']=list(pivot)
+ ob=rope(f'STAY VISIBILITY highlight {sign}',pts,[.12,.12],staymat,'Render annotations')
+ ob['display_only']=True;ob.visible_shadow=False;stay_highlights.append(ob)
 
 # Physical outward ropes: exact exported centerline and mass-derived taper.
 for sign,nm in [(1,'Useful payload'),(-1,'Rock countermass')]:
@@ -193,6 +205,7 @@ cameras={}
 def camera(name,pos,target,scale,res):
  bpy.ops.object.camera_add(location=pos);o=bpy.context.object;o.name='Camera / '+name;put(o,'Cameras');o.rotation_euler=(Vector(target)-o.location).to_track_quat('-Z','Y').to_euler();o.data.type='ORTHO';o.data.ortho_scale=scale;o.data.clip_start=.1;o.data.clip_end=50000;cameras[name]=(o,res);return o
 camera('hub',(215,-270,175),(0,0,11),320,(1800,1200))
+camera('pivot',(30,-42,27),(0,0,3),35,(1800,1200))
 camera('frame',(145,-100,65),(R-3,-12,13),105,(1800,1400))
 camera('site',(900,-1000,1050),(0,270,0),1450,(2000,1400))
 camera('span',(0,-11500,8500),(0,0,-2),13000,(2400,1100))
@@ -202,7 +215,8 @@ annotation_objects=[]
 textmat=mat('Annotation ivory',(.9,.92,.93),0,1)
 bs=textmat.node_tree.nodes.get('Principled BSDF');bs.inputs['Emission Color'].default_value=(.9,.92,.93,1);bs.inputs['Emission Strength'].default_value=1
 captions={
- 'hub':('THE 50 g LUNAR SLING','76.79 m track radius  /  28.68 m apex  /  4 powered + 4 passive wheels','Upper tie: payload loads. Low ties: rover and ballast turning loads.'),
+ 'hub':('THE 50 g LUNAR SLING','76.79 m track radius  /  28.68 m apex  /  4 powered + 4 passive wheels','Cyan: apex-to-ground-pivot stays (highlighted). Gold: upper and low cross-ties.'),
+ 'pivot':('GROUND PIVOT + STAY CONNECTIONS','Cyan stays terminate on the ground-mounted swivel','Gold low ties cross above it; their center junction is not the ground pivot.'),
  'frame':('ONE A-FRAME / FOUR WHEELS','25.44 m vertical leg  /  35.97 m trailing leg  /  50 mph','Sized parts; ballast boxes and drive packaging are illustrative.'),
  'site':('STATIONARY POWER + HEAT REJECTION','21.97 MW solar peak  /  33,123 m² radiator area','Solar area assumes 200 W/m². Heat-transfer interfaces not designed.'),
  'span':('11.57 km TIP-TO-TIP','1,000 kg useful payload + 1,000 kg rock countermass','Physical positions to scale. Gold rope highlights widened for visibility.'),
@@ -213,6 +227,18 @@ def titles(name):
  for idx,(txt,y,size) in enumerate([(captions[name][0],.44,.024),(captions[name][1],.365,.012),(captions[name][2],-.455,.011)]):
   cu=bpy.data.curves.new('Render caption','FONT');cu.body=txt;cu.size=min(width*size,height*(.047 if idx==0 else .025));cu.align_x='CENTER';cu.align_y='CENTER';cu.extrude=0;cu.materials.append(textmat)
   ob=bpy.data.objects.new('Caption '+str(idx),cu);COL['Render annotations'].objects.link(ob);ob.parent=cam;ob.location=(0,height*y,-5);ob.rotation_euler=(0,0,0);ob.visible_shadow=False;annotation_objects.append(ob)
+ if name in ['hub','pivot']:
+  bpy.context.view_layer.update()
+  target=cam.matrix_world.inverted() @ Vector(pivot)
+  end=(target.x,target.y,-4.5)
+  start=(target.x-width*.20,target.y-height*.12,-4.5)
+  a,b=Vector(start),Vector(end);direction=(b-a).normalized();side=Vector((-direction.y,direction.x,0));arrow=width*.006
+  segments=[(a.lerp(b,i/12),a.lerp(b,(i+.55)/12)) for i in range(12)]
+  segments += [(b-direction*arrow+side*arrow*.4,b),(b-direction*arrow-side*arrow*.4,b)]
+  for a1,b1 in segments:
+   line=rope('Annotation only / pivot leader',[a1,b1],[width*.00022]*2,textmat,'Render annotations');line.parent=cam;line.visible_shadow=False;annotation_objects.append(line)
+  cu=bpy.data.curves.new('Pivot label','FONT');cu.body='GROUND PIVOT';cu.size=width*.011;cu.align_x='CENTER';cu.materials.append(textmat)
+  ob=bpy.data.objects.new('Ground pivot label',cu);COL['Render annotations'].objects.link(ob);ob.parent=cam;ob.location=(start[0],start[1]-height*.024,-4.5);ob.visible_shadow=False;annotation_objects.append(ob)
 # Save with hub selected; camera list and physical ropes retained in the file.
 scene['geometry_source']='publication/candidate_50g.json + scene_inputs.json'
 scene['pose']='Fully deployed loaded equilibrium; static engineering illustration'
@@ -234,16 +260,19 @@ assert all(abs(a-b)<1e-4 for a,b in zip(sorted(o['axis_length_m'] for o in legs)
 assert abs(sum(o.get('rock_mass_kg',0) for o in bpy.data.objects)-C['ballast_kg'])<1e-5
 scene['validated_powered_wheel_count']=len(wp);scene['validated_passive_wheel_count']=len(wq)
 bpy.ops.wm.save_as_mainfile(filepath=str(P/'lunar_sling_50g.blend'))
-manifest={'blender_version':bpy.app.version_string,'views':{},'true_rope_geometry':True,'illustration_assumptions':{'regolith_bulk_density_kg_m3':1800,'motor_packaging_density_kg_m3':2000,'gear_packaging_density_kg_m3':3000,'solar_installed_w_m2':200,'ballast_bins':8,'span_highlight_radius_m':4,'payload_envelope_m':[1.5,1.2,1.3]}}
+prior_views=json.loads((P/'render_manifest.json').read_text()).get('views',{}) if (P/'render_manifest.json').exists() else {}
+manifest={'blender_version':bpy.app.version_string,'views':prior_views,'true_rope_geometry':True,'illustration_assumptions':{'regolith_bulk_density_kg_m3':1800,'motor_packaging_density_kg_m3':2000,'gear_packaging_density_kg_m3':3000,'solar_installed_w_m2':200,'ballast_bins':8,'span_highlight_radius_m':4,'stay_highlight_radius_m':.12,'schematic_stay_radius_m':.012,'schematic_pivot_height_m':1.05,'payload_envelope_m':[1.5,1.2,1.3]}}
 for name in args.views.split(','):
  cam,res=cameras[name];scene.camera=cam;factor=.6 if args.draft else 1
  scene.render.resolution_x=int(res[0]*factor);scene.render.resolution_y=int(res[1]*factor)
  for o in highlights:o.hide_render=name not in ['span','profile']
+ for o in stay_highlights:o.hide_render=name not in ['hub','frame','pivot','site']
  titles(name);scene.render.filepath=str(OUT/f'{name}.png');bpy.ops.render.render(write_still=True)
  manifest['views'][name]={'file':str(OUT/f'{name}.png'),'position':list(cam.location),'ortho_width_m':cam.data.ortho_scale,'resolution':[scene.render.resolution_x,scene.render.resolution_y],'rope_highlights':name in ['span','profile']}
 (P/'render_manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
-# Leave the saved file at the useful launcher view, without exaggerated ropes.
+# Leave the hub view with labeled stay highlights; long-span highlights off.
 for o in highlights:o.hide_render=True
+for o in stay_highlights:o.hide_render=False
 titles('hub');scene.camera=cameras['hub'][0];scene.render.resolution_x=1800;scene.render.resolution_y=1200
 bpy.ops.wm.save_as_mainfile(filepath=str(P/'lunar_sling_50g.blend'))
 print('SCENE_AND_RENDERS_COMPLETE',P)
