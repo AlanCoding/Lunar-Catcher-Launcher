@@ -1,0 +1,460 @@
+{
+  "limits": {
+    "50": {
+      "lower_45deg_fit_g": 8.390138767402494,
+      "upper_45deg_fit_g": 2551.268613728812,
+      "road_only_radial_friction_ceiling_g": 6.234332524463111,
+      "min_sampled_compact_tipover_ratio": 1.3439765568177304,
+      "compact_tipover_passed_samples": 0,
+      "scope": "Tip-over assumes compact ballast at R, radial restraint at apex and support lever <= R. Road-only limit is an alternative radial load path, not an additional limit for the tie-supported model."
+    },
+    "80": {
+      "lower_45deg_fit_g": 5.059800718949898,
+      "upper_45deg_fit_g": 4090.393441006646,
+      "road_only_radial_friction_ceiling_g": 3.894991461405207,
+      "min_sampled_compact_tipover_ratio": 1.298831398313713,
+      "compact_tipover_passed_samples": 0,
+      "scope": "Tip-over assumes compact ballast at R, radial restraint at apex and support lever <= R. Road-only limit is an alternative radial load path, not an additional limit for the tie-supported model."
+    }
+  },
+  "summary": [
+    {
+      "rover_mph": 50,
+      "passes": 1,
+      "minimum_sampled_accounted_physical": 2130.656794695985,
+      "maximum_sampled_accounted_physical": 2134.3580521176154,
+      "physical_span_percent": 0.17371438848548398,
+      "minimum_sampled_accounted_imported": 259.0059880296248,
+      "maximum_sampled_accounted_imported": 259.1231864893165,
+      "total_mass_optimum": null
+    },
+    {
+      "rover_mph": 50,
+      "passes": 2,
+      "minimum_sampled_accounted_physical": 1014.2518087622962,
+      "maximum_sampled_accounted_physical": 1016.0771555960783,
+      "physical_span_percent": 0.17996978837135963,
+      "minimum_sampled_accounted_imported": 143.35846254149095,
+      "maximum_sampled_accounted_imported": 143.47201152229516,
+      "total_mass_optimum": null
+    },
+    {
+      "rover_mph": 80,
+      "passes": 1,
+      "minimum_sampled_accounted_physical": 1408.2080620301797,
+      "maximum_sampled_accounted_physical": 1410.6515970826695,
+      "physical_span_percent": 0.17352088220308814,
+      "minimum_sampled_accounted_imported": 258.72541912322436,
+      "maximum_sampled_accounted_imported": 258.7816802694961,
+      "total_mass_optimum": null
+    },
+    {
+      "rover_mph": 80,
+      "passes": 2,
+      "minimum_sampled_accounted_physical": 670.3832023763238,
+      "maximum_sampled_accounted_physical": 671.6077378995328,
+      "physical_span_percent": 0.18266202358120176,
+      "minimum_sampled_accounted_imported": 143.17305238714547,
+      "maximum_sampled_accounted_imported": 143.3149212816882,
+      "total_mass_optimum": null
+    }
+  ],
+  "ratios": [
+    {
+      "acceleration_g": 4,
+      "rover_mph": 50,
+      "passes": 1,
+      "accounted_imported": 259.0059880296248,
+      "accounted_permanent_physical": 2134.3580521176154,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 4,
+      "rover_mph": 50,
+      "passes": 2,
+      "accounted_imported": 143.47201152229516,
+      "accounted_permanent_physical": 1016.0771555960783,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 10,
+      "rover_mph": 50,
+      "passes": 1,
+      "accounted_imported": 259.10496930699077,
+      "accounted_permanent_physical": 2131.2504196881882,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 10,
+      "rover_mph": 50,
+      "passes": 2,
+      "accounted_imported": 143.37674992001607,
+      "accounted_permanent_physical": 1014.5444414826495,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 30,
+      "rover_mph": 50,
+      "passes": 1,
+      "accounted_imported": 259.1211726500613,
+      "accounted_permanent_physical": 2130.722776491437,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 30,
+      "rover_mph": 50,
+      "passes": 2,
+      "accounted_imported": 143.36049764336556,
+      "accounted_permanent_physical": 1014.2843337146596,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 60,
+      "rover_mph": 50,
+      "passes": 1,
+      "accounted_imported": 259.12268348230975,
+      "accounted_permanent_physical": 2130.673289375841,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 60,
+      "rover_mph": 50,
+      "passes": 2,
+      "accounted_imported": 143.35897139062078,
+      "accounted_permanent_physical": 1014.2599395707715,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 100,
+      "rover_mph": 50,
+      "passes": 1,
+      "accounted_imported": 259.1230055012674,
+      "accounted_permanent_physical": 2130.6627307598355,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 100,
+      "rover_mph": 50,
+      "passes": 2,
+      "accounted_imported": 143.3586456722971,
+      "accounted_permanent_physical": 1014.2547348533105,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 125,
+      "rover_mph": 50,
+      "passes": 1,
+      "accounted_imported": 259.12307069809145,
+      "accounted_permanent_physical": 2130.6605925858767,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 125,
+      "rover_mph": 50,
+      "passes": 2,
+      "accounted_imported": 143.35857970955064,
+      "accounted_permanent_physical": 1014.2536808729099,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 300,
+      "rover_mph": 50,
+      "passes": 1,
+      "accounted_imported": 259.1231664726495,
+      "accounted_permanent_physical": 2130.657451275843,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 300,
+      "rover_mph": 50,
+      "passes": 2,
+      "accounted_imported": 143.3584827977926,
+      "accounted_permanent_physical": 1014.2521324129401,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 1000,
+      "rover_mph": 50,
+      "passes": 1,
+      "accounted_imported": 259.12318478124104,
+      "accounted_permanent_physical": 2130.656850724713,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 1000,
+      "rover_mph": 50,
+      "passes": 2,
+      "accounted_imported": 143.35846427000533,
+      "accounted_permanent_physical": 1014.2518363807596,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 2500,
+      "rover_mph": 50,
+      "passes": 1,
+      "accounted_imported": 259.1231863027978,
+      "accounted_permanent_physical": 2130.6568008364357,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 2500,
+      "rover_mph": 50,
+      "passes": 2,
+      "accounted_imported": 143.3584627311155,
+      "accounted_permanent_physical": 1014.2518117890638,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 4000,
+      "rover_mph": 50,
+      "passes": 1,
+      "accounted_imported": 259.12318647893034,
+      "accounted_permanent_physical": 2130.656795042397,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 4000,
+      "rover_mph": 50,
+      "passes": 2,
+      "accounted_imported": 143.3584625522041,
+      "accounted_permanent_physical": 1014.2518089330335,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 4200,
+      "rover_mph": 50,
+      "passes": 1,
+      "accounted_imported": 259.1231864893165,
+      "accounted_permanent_physical": 2130.656794695985,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 4200,
+      "rover_mph": 50,
+      "passes": 2,
+      "accounted_imported": 143.35846254149095,
+      "accounted_permanent_physical": 1014.2518087622962,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 4,
+      "rover_mph": 80,
+      "passes": 1,
+      "accounted_imported": 258.72541912322436,
+      "accounted_permanent_physical": 1410.6515970826695,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 4,
+      "rover_mph": 80,
+      "passes": 2,
+      "accounted_imported": 143.3149212816882,
+      "accounted_permanent_physical": 671.6077378995328,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 10,
+      "rover_mph": 80,
+      "passes": 1,
+      "accounted_imported": 258.77313300233897,
+      "accounted_permanent_physical": 1408.599636196837,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 10,
+      "rover_mph": 80,
+      "passes": 2,
+      "accounted_imported": 143.19585866541144,
+      "accounted_permanent_physical": 670.5793518168116,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 30,
+      "rover_mph": 80,
+      "passes": 1,
+      "accounted_imported": 258.7807387628242,
+      "accounted_permanent_physical": 1408.2515776426496,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 30,
+      "rover_mph": 80,
+      "passes": 2,
+      "accounted_imported": 143.17558844223285,
+      "accounted_permanent_physical": 670.404999315365,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 60,
+      "rover_mph": 80,
+      "passes": 1,
+      "accounted_imported": 258.78144524203947,
+      "accounted_permanent_physical": 1408.218940159671,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 60,
+      "rover_mph": 80,
+      "passes": 2,
+      "accounted_imported": 143.1736864211716,
+      "accounted_permanent_physical": 670.3886511807261,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 100,
+      "rover_mph": 80,
+      "passes": 1,
+      "accounted_imported": 258.7815957144603,
+      "accounted_permanent_physical": 1408.2119768047373,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 100,
+      "rover_mph": 80,
+      "passes": 2,
+      "accounted_imported": 143.17328056562303,
+      "accounted_permanent_physical": 670.3851632653643,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 125,
+      "rover_mph": 80,
+      "passes": 1,
+      "accounted_imported": 258.7816261745652,
+      "accounted_permanent_physical": 1408.2105666944847,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 125,
+      "rover_mph": 80,
+      "passes": 2,
+      "accounted_imported": 143.1731983759289,
+      "accounted_permanent_physical": 670.3844569484921,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 300,
+      "rover_mph": 80,
+      "passes": 1,
+      "accounted_imported": 258.7816709183291,
+      "accounted_permanent_physical": 1408.2084950343792,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 300,
+      "rover_mph": 80,
+      "passes": 2,
+      "accounted_imported": 143.1730776256985,
+      "accounted_permanent_physical": 670.3834192655816,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 1000,
+      "rover_mph": 80,
+      "passes": 1,
+      "accounted_imported": 258.78167947113195,
+      "accounted_permanent_physical": 1408.2080989775995,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 1000,
+      "rover_mph": 80,
+      "passes": 2,
+      "accounted_imported": 143.17305454061866,
+      "accounted_permanent_physical": 670.3832208831233,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 2500,
+      "rover_mph": 80,
+      "passes": 1,
+      "accounted_imported": 258.78168018253166,
+      "accounted_permanent_physical": 1408.2080660789056,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 2500,
+      "rover_mph": 80,
+      "passes": 2,
+      "accounted_imported": 143.1730526232776,
+      "accounted_permanent_physical": 670.383204404258,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 4000,
+      "rover_mph": 80,
+      "passes": 1,
+      "accounted_imported": 258.7816802645434,
+      "accounted_permanent_physical": 1408.2080622575327,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 4000,
+      "rover_mph": 80,
+      "passes": 2,
+      "accounted_imported": 143.17305240039522,
+      "accounted_permanent_physical": 670.3832024902099,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 4200,
+      "rover_mph": 80,
+      "passes": 1,
+      "accounted_imported": 258.7816802694961,
+      "accounted_permanent_physical": 1408.2080620301797,
+      "total_imported": null,
+      "total_permanent_physical": null
+    },
+    {
+      "acceleration_g": 4200,
+      "rover_mph": 80,
+      "passes": 2,
+      "accounted_imported": 143.17305238714547,
+      "accounted_permanent_physical": 670.3832023763238,
+      "total_imported": null,
+      "total_permanent_physical": null
+    }
+  ]
+}

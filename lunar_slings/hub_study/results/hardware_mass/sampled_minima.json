@@ -1,0 +1,167 @@
+[
+  {
+    "rover_mph": 50,
+    "passes": 1,
+    "profile": "lighter",
+    "acceleration_g": 85,
+    "imported_ratio": 1053.1248971044167,
+    "physical_ratio": 2299.3471969818474,
+    "flags": [
+      "radial contact moment needs additional stabilizing reaction",
+      "wheel diameter extrapolated beyond manufacturer anchors",
+      "50/80 mph lunar wheel qualification unresolved",
+      "release transient unresolved",
+      "equal-radius rock disposal unresolved"
+    ],
+    "feasible_design": false
+  },
+  {
+    "rover_mph": 50,
+    "passes": 1,
+    "profile": "reference",
+    "acceleration_g": 75,
+    "imported_ratio": 1535.5014660781494,
+    "physical_ratio": 2446.469908248035,
+    "flags": [
+      "radial contact moment needs additional stabilizing reaction",
+      "wheel diameter extrapolated beyond manufacturer anchors",
+      "50/80 mph lunar wheel qualification unresolved",
+      "release transient unresolved",
+      "equal-radius rock disposal unresolved"
+    ],
+    "feasible_design": false
+  },
+  {
+    "rover_mph": 50,
+    "passes": 1,
+    "profile": "heavier",
+    "acceleration_g": null,
+    "reason": "no closed mass fixed point among samples"
+  },
+  {
+    "rover_mph": 50,
+    "passes": 2,
+    "profile": "lighter",
+    "acceleration_g": 85,
+    "imported_ratio": 628.3560567535268,
+    "physical_ratio": 1094.1887640930781,
+    "flags": [
+      "radial contact moment needs additional stabilizing reaction",
+      "wheel diameter extrapolated beyond manufacturer anchors",
+      "50/80 mph lunar wheel qualification unresolved",
+      "release transient unresolved",
+      "equal-radius rock disposal unresolved"
+    ],
+    "feasible_design": false
+  },
+  {
+    "rover_mph": 50,
+    "passes": 2,
+    "profile": "reference",
+    "acceleration_g": 70,
+    "imported_ratio": 926.2206716939254,
+    "physical_ratio": 1164.2840205386437,
+    "flags": [
+      "radial contact moment needs additional stabilizing reaction",
+      "wheel diameter extrapolated beyond manufacturer anchors",
+      "50/80 mph lunar wheel qualification unresolved",
+      "release transient unresolved",
+      "equal-radius rock disposal unresolved"
+    ],
+    "feasible_design": false
+  },
+  {
+    "rover_mph": 50,
+    "passes": 2,
+    "profile": "heavier",
+    "acceleration_g": 75,
+    "imported_ratio": 2187.692872088422,
+    "physical_ratio": 2187.692872088422,
+    "flags": [
+      "radial contact moment needs additional stabilizing reaction",
+      "wheel diameter extrapolated beyond manufacturer anchors",
+      "50/80 mph lunar wheel qualification unresolved",
+      "release transient unresolved",
+      "equal-radius rock disposal unresolved"
+    ],
+    "feasible_design": false
+  },
+  {
+    "rover_mph": 80,
+    "passes": 1,
+    "profile": "lighter",
+    "acceleration_g": 85,
+    "imported_ratio": 1027.3468196885344,
+    "physical_ratio": 1574.7424920301755,
+    "flags": [
+      "radial contact moment needs additional stabilizing reaction",
+      "wheel diameter extrapolated beyond manufacturer anchors",
+      "50/80 mph lunar wheel qualification unresolved",
+      "release transient unresolved",
+      "equal-radius rock disposal unresolved"
+    ],
+    "feasible_design": false
+  },
+  {
+    "rover_mph": 80,
+    "passes": 1,
+    "profile": "reference",
+    "acceleration_g": 75,
+    "imported_ratio": 1493.1753339172203,
+    "physical_ratio": 1721.1210645071242,
+    "flags": [
+      "radial contact moment needs additional stabilizing reaction",
+      "wheel diameter extrapolated beyond manufacturer anchors",
+      "50/80 mph lunar wheel qualification unresolved",
+      "release transient unresolved",
+      "equal-radius rock disposal unresolved"
+    ],
+    "feasible_design": false
+  },
+  {
+    "rover_mph": 80,
+    "passes": 1,
+    "profile": "heavier",
+    "acceleration_g": null,
+    "reason": "no closed mass fixed point among samples"
+  },
+  {
+    "rover_mph": 80,
+    "passes": 2,
+    "profile": "lighter",
+    "acceleration_g": 80,
+    "imported_ratio": 604.6648218360601,
+    "physical_ratio": 749.0563706401376,
+    "flags": [
+      "radial contact moment needs additional stabilizing reaction",
+      "wheel diameter extrapolated beyond manufacturer anchors",
+      "50/80 mph lunar wheel qualification unresolved",
+      "release transient unresolved",
+      "equal-radius rock disposal unresolved"
+    ],
+    "feasible_design": false
+  },
+  {
+    "rover_mph": 80,
+    "passes": 2,
+    "profile": "reference",
+    "acceleration_g": 70,
+    "imported_ratio": 906.3986396719479,
+    "physical_ratio": 906.3986396719479,
+    "flags": [
+      "radial contact moment needs additional stabilizing reaction",
+      "wheel diameter extrapolated beyond manufacturer anchors",
+      "50/80 mph lunar wheel qualification unresolved",
+      "release transient unresolved",
+      "equal-radius rock disposal unresolved"
+    ],
+    "feasible_design": false
+  },
+  {
+    "rover_mph": 80,
+    "passes": 2,
+    "profile": "heavier",
+    "acceleration_g": null,
+    "reason": "no closed mass fixed point among samples"
+  }
+]

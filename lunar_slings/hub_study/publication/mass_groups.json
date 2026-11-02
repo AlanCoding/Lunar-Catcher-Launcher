@@ -1,0 +1,15 @@
+{
+  "groups_kg": {
+    "Heat rejection & transport": 317982.71934851684,
+    "Reel drives & mechanical assemblies": 235295.6631128587,
+    "Eight wheel assemblies": 231654.967007917,
+    "Solar power": 219668.60622317766,
+    "Four wheel drives": 120996.78974222342,
+    "Four poles & joints": 63547.05611111452,
+    "Tethers, sheath & end fittings": 43396.31124210855,
+    "Steering, retention & controls": 20503.114491042368
+  },
+  "imported_total_kg": 1253045.227278959,
+  "local_ballast_kg": 1193412.952006583,
+  "physical_total_kg": 2446458.179285542
+}
