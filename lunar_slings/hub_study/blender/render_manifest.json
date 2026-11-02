@@ -29,6 +29,20 @@
       ],
       "rope_highlights": false
     },
+    "pivot": {
+      "file": "/home/arominge/repos/Lunar-Catcher-Launcher/lunar_slings/hub_study/blender/renders/pivot.png",
+      "position": [
+        30.0,
+        -42.0,
+        27.0
+      ],
+      "ortho_width_m": 35.0,
+      "resolution": [
+        1800,
+        1200
+      ],
+      "rope_highlights": false
+    },
     "site": {
       "file": "/home/arominge/repos/Lunar-Catcher-Launcher/lunar_slings/hub_study/blender/renders/site.png",
       "position": [
@@ -80,6 +94,9 @@
     "solar_installed_w_m2": 200,
     "ballast_bins": 8,
     "span_highlight_radius_m": 4,
+    "stay_highlight_radius_m": 0.12,
+    "schematic_stay_radius_m": 0.012,
+    "schematic_pivot_height_m": 1.05,
     "payload_envelope_m": [
       1.5,
       1.2,
