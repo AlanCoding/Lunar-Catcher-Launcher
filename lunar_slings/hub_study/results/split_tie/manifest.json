@@ -1,0 +1,25 @@
+{
+  "source_sha256": {
+    "__init__.py": "e7b82c3ba6d0fcc6c98af24405d173e9dca92bfca25361d88db6559af8d1f5e0",
+    "config.py": "aaafa4d9d05a7369d207016c0f15a004c68795f821115a1eb970e1ec34655531",
+    "accounting.py": "4d404ed4b5a43beceb1966345d8299985bd299f0d665306d935ae70708c57f7f",
+    "environment.py": "4673ce754be61934b8b189de6bbc408fc187dba5641d8e5788b170d507d993e9",
+    "orbit.py": "98f9b3ee51a0b919ac04dbf79a7af11385e1e5bcec321ac448a1ec161dfaa099",
+    "cycle.py": "1322c6cdb4665255d622bed8f3cd820a605b0723773d7c960310fb5854fb88b9",
+    "study_inputs.py": "0134ea1dd675823503ef88f0f1d1a9ca80e28956f9477fefb897fbf2707c55ee",
+    "run_orbit_cycle.py": "6e14e48219d6b0cec05bacd77d8aa989b8b735476dfc8010de79fe02a4f79eb6",
+    "mass_screen.py": "4af2a37ef25e47b947398a60016e48bbf515a067977ed43fec600624ec47b7fb",
+    "spooling_cycle.py": "8d849c2a0d65e9f40411afe574c9958010c6c6778a8a8af1c0b42fbf97f72f69",
+    "cable_shape.py": "3596b8f8c9839f598a80c295769c6d99b538dd7079a32aa76877de2cdfe1fac3",
+    "scenario_study.py": "3c2f008dd5e90d99c036b8dc324eadf1f5becdccdd2826e3535b1af768425fda",
+    "scenario_report.py": "aa5c2ad65c2908eed9b8d40dbccb762a5fbcd6ffc986630519d65e418d48d419",
+    "mass_ratio_trade.py": "a82cfc424a22b53a5e56368985f82ec647882bee0e0b98dedbb5bb9feddaf418",
+    "component_sizing.py": "bac5053265c4587345a4bd01634b667aab22c005b5075ee3561b2405b192a61b",
+    "hardware_study.py": "1322ca2128b3ce8d431b1828e6be23582820bdd7ca7e00dda92196e2a373f365",
+    "hardware_report.py": "0ee53675122514138df3eb3e49943dff83d18283c37ffc7a2139a58a7ad876df",
+    "split_tie_report.py": "e3fa6247699c98b9a47b28d15c58fd76ce531409d1401e8b7dccee028d959be5"
+  },
+  "policy": "split",
+  "rover_mph": 50,
+  "passes": 1
+}

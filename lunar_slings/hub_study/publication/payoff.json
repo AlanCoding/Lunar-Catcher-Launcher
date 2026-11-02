@@ -1,0 +1,38 @@
+{
+  "useful_payload_kg": 1000.0,
+  "cycle_s": 6633.486234646569,
+  "imported_mass_kg": 1253045.227278959,
+  "physical_mass_kg": 2446458.179285542,
+  "successful_launches_imported": 1254,
+  "successful_launches_physical": 2447,
+  "cases": [
+    {
+      "label": "Continuous operation \u2014 mathematical lower bound",
+      "sun_fraction": 1.0,
+      "availability": 1.0,
+      "success_fraction": 1.0,
+      "expected_useful_kg_per_calendar_day": 13024.82540006407,
+      "imported_equal_mass_days": 96.27768215563424,
+      "physical_equal_mass_days": 187.87200018727032
+    },
+    {
+      "label": "Half-time sunlight; no further downtime",
+      "sun_fraction": 0.5,
+      "availability": 1.0,
+      "success_fraction": 1.0,
+      "expected_useful_kg_per_calendar_day": 6512.412700032035,
+      "imported_equal_mass_days": 192.55536431126848,
+      "physical_equal_mass_days": 375.74400037454063
+    },
+    {
+      "label": "Half-time sunlight; 80% availability; 95% success",
+      "sun_fraction": 0.5,
+      "availability": 0.8,
+      "success_fraction": 0.95,
+      "expected_useful_kg_per_calendar_day": 4949.433652024347,
+      "imported_equal_mass_days": 253.36232146219535,
+      "physical_equal_mass_days": 494.4000004928166
+    }
+  ],
+  "annual_half_sun_useful_kg": 2378658.738686701
+}

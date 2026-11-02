@@ -1,0 +1,90 @@
+{
+  "tires": [
+    {
+      "name": "Michelin XTRA LOAD PROTECT 18.00R33",
+      "diameter_m": 1.888,
+      "width_m": 0.498,
+      "mass_kg": 473.0,
+      "load_earth_kg": 13100.0,
+      "tkph": 194.0
+    },
+    {
+      "name": "Michelin XD GRIP 27.00R49",
+      "diameter_m": 2.726,
+      "width_m": 0.733,
+      "mass_kg": 1330.0,
+      "load_earth_kg": 32100.0,
+      "tkph": 720.0
+    },
+    {
+      "name": "Michelin XDR4 EXTRA LOAD 59/80R63",
+      "diameter_m": 4.027,
+      "width_m": 1.495,
+      "mass_kg": 5350.0,
+      "load_earth_kg": 115000.0,
+      "tkph": 1840.0
+    }
+  ],
+  "motors": [
+    {
+      "name": "Dana SUMO MD HV1800-3P",
+      "continuous_kw": 100.0,
+      "motor_kg": 180.0,
+      "inverter_kg": 13.0
+    },
+    {
+      "name": "Dana SUMO MD HV2200-3P",
+      "continuous_kw": 145.0,
+      "motor_kg": 225.0,
+      "inverter_kg": 13.0
+    },
+    {
+      "name": "Dana SUMO MD HV2200-6P",
+      "continuous_kw": 190.0,
+      "motor_kg": 225.0,
+      "inverter_kg": 25.0
+    },
+    {
+      "name": "Dana SUMO HD HV3500-9P",
+      "continuous_kw": 260.0,
+      "motor_kg": 340.0,
+      "inverter_kg": 38.0
+    }
+  ],
+  "gear_torque_nm_dry_kg": [
+    [
+      480000.0,
+      2250.0
+    ],
+    [
+      1050000.0,
+      4500.0
+    ],
+    [
+      2260000.0,
+      11420.0
+    ],
+    [
+      4010000.0,
+      20470.0
+    ],
+    [
+      5450000.0,
+      29500.0
+    ]
+  ],
+  "fit_coefficients": {
+    "wheel_mass": [
+      58.71392673017413,
+      3.206086455785347
+    ],
+    "wheel_load": [
+      19620.662068794205,
+      2.8719088655130194
+    ],
+    "gear_mass": [
+      0.0017446161861956373,
+      1.0713280660304725
+    ]
+  }
+}

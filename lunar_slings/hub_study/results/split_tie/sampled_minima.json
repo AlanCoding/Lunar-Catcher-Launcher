@@ -1,0 +1,1394 @@
+[
+  {
+    "assumptions": {
+      "name": "lighter",
+      "steel_density": 7850.0,
+      "steel_E": 210000000000.0,
+      "steel_yield_pa": 650000000.0,
+      "yield_factor": 2.0,
+      "buckling_factor": 2.0,
+      "euler_K": 2.0,
+      "diameter_wall_ratio": 30.0,
+      "min_wall_m": 0.004,
+      "deflection_fraction": 0.006666666666666667,
+      "joint_fraction": 0.1,
+      "bearing_pressure_pa": 250000.0,
+      "width_diameter": 0.35,
+      "contact_length_diameter": 0.4,
+      "wheel_install_factor": 1.5,
+      "motor_kg_per_kw": 1.3076923076923077,
+      "motor_install_factor": 1.0,
+      "inverter_kg_per_kw": 0.14615384615384616,
+      "motor_base_rad_s": 131.9796954314721,
+      "gearbox_kg_per_nm": 0.0046875,
+      "gearbox_kg_per_kw": 1.0,
+      "gearbox_service_factor": 1.5,
+      "gearbox_install_factor": 1.4,
+      "gear_efficiency": 0.96,
+      "bend_D_over_d": 20.0,
+      "rope_fiber_fill": 0.65,
+      "reel_pack_fill": 0.75,
+      "radiator_temp_k": 350.0,
+      "radiator_sink_k": 250.0,
+      "radiator_kg_m2": 6.0,
+      "radiator_view_factor": 0.7,
+      "radiator_emissivity": 0.85,
+      "thermal_transport_fraction": 0.2,
+      "controls_fraction": 0.02,
+      "solar_w_kg": 100.0,
+      "recovery": 0.7
+    },
+    "acceleration_g": 55,
+    "rover_mph": 50,
+    "passes": 1,
+    "converged": true,
+    "iterations": 17,
+    "fixed_point_relative_residual": 1.1329084783961167e-05,
+    "track_radius_m": 69.80857100494028,
+    "release_radius_m": 5260.997356062701,
+    "clearance_height_m": 24.2233688236551,
+    "apex_height_m": 24.2233688236551,
+    "pole_legs": [
+      {
+        "id": "frame_A_vertical",
+        "length_m": 20.981117284766448,
+        "diameter_m": 0.5656240137319035,
+        "wall_m": 0.01885413379106345,
+        "bare_mass_kg": 5334.0773352171655,
+        "mass_with_joints_kg": 5867.485068738883,
+        "axial_n": 713129.0703354653,
+        "bending_moment_nm": 100120.25843909438,
+        "stress_pa": 68755691.49054429,
+        "euler_n": 1426258.1501744115,
+        "deflection_m": 0.03608463665277755,
+        "utilization": {
+          "stress": 0.21155597381705935,
+          "buckling": 0.9999999933367736,
+          "deflection": 0.2579793737603561
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      },
+      {
+        "id": "frame_A_trailing",
+        "length_m": 29.67178061785728,
+        "diameter_m": 0.6903713435827492,
+        "wall_m": 0.023012378119424973,
+        "bare_mass_kg": 11237.873506881346,
+        "mass_with_joints_kg": 12361.66085756948,
+        "axial_n": 791330.3288096928,
+        "bending_moment_nm": 354390.47048236686,
+        "stress_pa": 107382229.36686923,
+        "euler_n": 1582660.6724399158,
+        "deflection_m": 0.17785012766543462,
+        "utilization": {
+          "stress": 0.33040685959036686,
+          "buckling": 0.9999999906356868,
+          "deflection": 0.8990872335366331
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      },
+      {
+        "id": "frame_B_vertical",
+        "length_m": 20.981117284766448,
+        "diameter_m": 0.5656240137319035,
+        "wall_m": 0.01885413379106345,
+        "bare_mass_kg": 5334.0773352171655,
+        "mass_with_joints_kg": 5867.485068738883,
+        "axial_n": 713129.0703354653,
+        "bending_moment_nm": 100120.25843909438,
+        "stress_pa": 68755691.49054429,
+        "euler_n": 1426258.1501744115,
+        "deflection_m": 0.03608463665277755,
+        "utilization": {
+          "stress": 0.21155597381705935,
+          "buckling": 0.9999999933367736,
+          "deflection": 0.2579793737603561
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      },
+      {
+        "id": "frame_B_trailing",
+        "length_m": 29.67178061785728,
+        "diameter_m": 0.6903713435827492,
+        "wall_m": 0.023012378119424973,
+        "bare_mass_kg": 11237.873506881346,
+        "mass_with_joints_kg": 12361.66085756948,
+        "axial_n": 791330.3288096928,
+        "bending_moment_nm": 354390.47048236686,
+        "stress_pa": 107382229.36686923,
+        "euler_n": 1582660.6724399158,
+        "deflection_m": 0.17785012766543462,
+        "utilization": {
+          "stress": 0.33040685959036686,
+          "buckling": 0.9999999906356868,
+          "deflection": 0.8990872335366331
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      }
+    ],
+    "powered_wheel": {
+      "diameter_m": 6.484503077777307,
+      "radius_m": 3.2422515388886537,
+      "width_m": 2.2695760772220575,
+      "mass_kg": 35300.37179524882,
+      "normal_n": 581446.4874638466,
+      "contact_area_m2": 5.886829223198472,
+      "actual_pressure_pa": 98770.74150079237,
+      "sizing_diameters_m": {
+        "pressure": 4.075874971669436,
+        "load": 3.2544685787408016,
+        "terrestrial_thermal": 6.484503077777307
+      },
+      "extrapolated": true
+    },
+    "passive_wheel": {
+      "diameter_m": 3.7438295975156852,
+      "radius_m": 1.8719147987578426,
+      "width_m": 1.3103403591304899,
+      "mass_kg": 6066.431293565208,
+      "normal_n": 193815.4958212822,
+      "contact_area_m2": 1.9622764077328239,
+      "actual_pressure_pa": 98770.74150079237,
+      "sizing_diameters_m": {
+        "pressure": 2.3532075120766076,
+        "load": 2.219965578146772,
+        "terrestrial_thermal": 3.7438295975156852
+      },
+      "extrapolated": false
+    },
+    "wheel_drive": {
+      "motor_kg": 8851.777327422367,
+      "inverter_kg": 989.3162895354411,
+      "gearbox_kg": 9482.94112157411,
+      "mass_kg": 19324.03473853192,
+      "continuous_rating_kw": 6769.006191558281,
+      "shaft_peak_torque_nm": 942597.8843805294,
+      "ratio": 19.14420949421735,
+      "motor_peak_torque_nm": 51288.23922065312,
+      "extrapolation_from_260kw": 26.03463919830108,
+      "gear_torque_extrapolation": 0.2594306103799622
+    },
+    "reel_drive": {
+      "motor_kg": 18542.837122447658,
+      "inverter_kg": 2072.4347372147386,
+      "gearbox_kg": 42648.18887043218,
+      "mass_kg": 63263.46073009458,
+      "continuous_rating_kw": 14179.81662304821,
+      "shaft_peak_torque_nm": 3835400.049470702,
+      "ratio": 37.18569850633499,
+      "motor_peak_torque_nm": 107439.37979771143,
+      "extrapolation_from_260kw": 54.53775624249311,
+      "gear_torque_extrapolation": 1.0556146925148722
+    },
+    "reel": {
+      "core_radius_m": 0.9090813481365034,
+      "outer_radius_m": 2.331962052422462,
+      "width_m": 1.8181626962730069,
+      "rope_outer_diameter_m": 0.09090813481365034,
+      "shaft_diameter_m": 0.4704202574820492,
+      "mass_kg": 8273.715168298373,
+      "holding_torque_nm": 3835400.049470702,
+      "rotor_inertia_kg_m2": 25915.244685076545,
+      "architecture": "tension capstan plus low-tension storage; two such assemblies"
+    },
+    "masses_kg": {
+      "poles": 36458.29185261673,
+      "wheels": 165467.2123552561,
+      "wheel_motors": 35407.10930968947,
+      "wheel_inverters": 3957.2651581417645,
+      "wheel_gearboxes": 37931.76448629644,
+      "reel_motors": 37085.674244895315,
+      "reel_inverters": 4144.869474429477,
+      "reel_gearboxes": 85296.37774086437,
+      "reel_mechanical": 16547.430336596746,
+      "steering": 2426.5725174260833,
+      "retention": 7130.817711447006,
+      "fittings_sheath": 3723.9905498084186,
+      "main_tie": 977.5979550626269,
+      "low_tie": 1233.4564574753206,
+      "tie_end_fittings": 221.10544125379477,
+      "controls": 7385.805455391458,
+      "outward_cables": 37239.90549808418,
+      "solar": 219668.83736583107,
+      "thermal": 170873.42493683813,
+      "central_pivot_and_stabilizers": 0.0,
+      "ballast_local": 1426163.5422894012
+    },
+    "imported_total_kg": 873177.5088474045,
+    "permanent_physical_total_kg": 2299341.0511368057,
+    "imported_ratio": 873.1775088474045,
+    "physical_ratio": 2299.3410511368056,
+    "moving_hardware_kg": 445395.3410466511,
+    "ballast_kg": 1426163.5422894012,
+    "peak_solar_w": 21966883.736583106,
+    "peak_heat_w": 8887788.455307305,
+    "radiator_area_m2": 23732.42013011641,
+    "radiator_net_flux_w_m2": 374.499878502855,
+    "solar_cycle_energy_j": 29790881070.5088,
+    "minimum_traction_margin_n": 2.3283064365386963e-10,
+    "radial_policy": "split",
+    "low_tie_used": true,
+    "road_only_radius_threshold_m": 615.6985126515107,
+    "effective_tangential_friction": 0.5,
+    "low_tie": {
+      "mass_kg": 1233.4564574753206,
+      "inertia_kg_m2": 2003454.248120164,
+      "endpoint_force_n": 6085238.228346188,
+      "center_tension_n": 6087445.021442648,
+      "sag_m": 0.005739640390302578
+    },
+    "upper_tie_endpoint_force_n": 4822964.290346004,
+    "low_tie_attachment_height_m": 3.7422515388886537,
+    "apex_radial_restraint_per_frame_n": 604099.9875928508,
+    "pole_ground_radial_force_each_n": 0.0,
+    "frame_apex_tangential_n": 550436.0081324414,
+    "tipping_moment_per_frame_nm": null,
+    "required_support_lever_m": null,
+    "available_support_lever_m": null,
+    "missing_stabilizing_moment_nm": null,
+    "frame_chord_fits": true,
+    "reel_envelopes_fit": true,
+    "wheel_envelopes_fit": true,
+    "pole_source_domain_ok": true,
+    "height_increase_m": 0.0,
+    "orbit_speed_fractional_error_estimate": 0.0,
+    "flags": [
+      "wheel diameter extrapolated beyond manufacturer anchors",
+      "50/80 mph lunar wheel qualification unresolved",
+      "release transient unresolved",
+      "equal-radius rock disposal unresolved"
+    ],
+    "phases": [
+      {
+        "phase": "loading",
+        "wheel_peak_abs_w": 1416654.9128127703,
+        "reel_peak_abs_w": 0.0,
+        "solar_peak_w": 1666652.8386032593,
+        "heat_peak_w": 249997.92579048895
+      },
+      {
+        "phase": "payout",
+        "wheel_peak_abs_w": 25992983.775583796,
+        "reel_peak_abs_w": 12304424.536954883,
+        "solar_peak_w": 21966883.736583106,
+        "heat_peak_w": 8278324.4979541935
+      },
+      {
+        "phase": "retraction",
+        "wheel_peak_abs_w": 19162535.928962138,
+        "reel_peak_abs_w": 10274747.473654833,
+        "solar_peak_w": 1629225.2422826798,
+        "heat_peak_w": 8887788.455307305
+      },
+      {
+        "phase": "buffer",
+        "wheel_peak_abs_w": 1412208.229854823,
+        "reel_peak_abs_w": 0.0,
+        "solar_peak_w": 1661421.4468880272,
+        "heat_peak_w": 249213.21703320416
+      }
+    ],
+    "initial_load_pole_estimates": [
+      {
+        "id": "frame_A_vertical",
+        "length_m": 20.981117284766448,
+        "diameter_m": 0.5467986614828935,
+        "wall_m": 0.01822662204942978,
+        "bare_mass_kg": 4984.923695723276,
+        "mass_with_joints_kg": 5483.416065295604,
+        "axial_n": 622825.7469098924,
+        "bending_moment_nm": 93566.66905067669,
+        "stress_pa": 68923407.40018268,
+        "euler_n": 1245651.4937932978,
+        "deflection_m": 0.03861207423714018,
+        "utilization": {
+          "stress": 0.21207202276979287,
+          "buckling": 1.0000000000212637,
+          "deflection": 0.27604874692618153
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      },
+      {
+        "id": "frame_A_trailing",
+        "length_m": 29.67178061785728,
+        "diameter_m": 0.6903713435827492,
+        "wall_m": 0.023012378119424973,
+        "bare_mass_kg": 11237.873506881346,
+        "mass_with_joints_kg": 12361.66085756948,
+        "axial_n": 791330.3288096928,
+        "bending_moment_nm": 354390.47048236686,
+        "stress_pa": 107382229.36686923,
+        "euler_n": 1582660.6724399158,
+        "deflection_m": 0.17785012766543462,
+        "utilization": {
+          "stress": 0.33040685959036686,
+          "buckling": 0.9999999906356868,
+          "deflection": 0.8990872335366331
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      },
+      {
+        "id": "frame_B_vertical",
+        "length_m": 20.981117284766448,
+        "diameter_m": 0.5467986614828935,
+        "wall_m": 0.01822662204942978,
+        "bare_mass_kg": 4984.923695723276,
+        "mass_with_joints_kg": 5483.416065295604,
+        "axial_n": 622825.7469098924,
+        "bending_moment_nm": 93566.66905067669,
+        "stress_pa": 68923407.40018268,
+        "euler_n": 1245651.4937932978,
+        "deflection_m": 0.03861207423714018,
+        "utilization": {
+          "stress": 0.21207202276979287,
+          "buckling": 1.0000000000212637,
+          "deflection": 0.27604874692618153
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      },
+      {
+        "id": "frame_B_trailing",
+        "length_m": 29.67178061785728,
+        "diameter_m": 0.6903713435827492,
+        "wall_m": 0.023012378119424973,
+        "bare_mass_kg": 11237.873506881346,
+        "mass_with_joints_kg": 12361.66085756948,
+        "axial_n": 791330.3288096928,
+        "bending_moment_nm": 354390.47048236686,
+        "stress_pa": 107382229.36686923,
+        "euler_n": 1582660.6724399158,
+        "deflection_m": 0.17785012766543462,
+        "utilization": {
+          "stress": 0.33040685959036686,
+          "buckling": 0.9999999906356868,
+          "deflection": 0.8990872335366331
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      }
+    ],
+    "iteration_trace": [
+      {
+        "iteration": 1,
+        "moving_hardware_kg": 446384.3942081782,
+        "ballast_kg": 1771553.8374144712
+      },
+      {
+        "iteration": 2,
+        "moving_hardware_kg": 445894.1974660443,
+        "ballast_kg": 1598361.6403103818
+      },
+      {
+        "iteration": 3,
+        "moving_hardware_kg": 445645.2001735781,
+        "ballast_kg": 1512010.6401294044
+      },
+      {
+        "iteration": 4,
+        "moving_hardware_kg": 445520.08281804534,
+        "ballast_kg": 1468959.6386851487
+      },
+      {
+        "iteration": 5,
+        "moving_hardware_kg": 445457.5188257533,
+        "ballast_kg": 1447496.696640787
+      },
+      {
+        "iteration": 6,
+        "moving_hardware_kg": 445426.30665331206,
+        "ballast_kg": 1436796.5076147523
+      },
+      {
+        "iteration": 7,
+        "moving_hardware_kg": 445410.7530474221,
+        "ballast_kg": 1431462.0191879554
+      },
+      {
+        "iteration": 8,
+        "moving_hardware_kg": 445403.00674488617,
+        "ballast_kg": 1428802.5517775025
+      },
+      {
+        "iteration": 9,
+        "moving_hardware_kg": 445399.14986058,
+        "ballast_kg": 1427476.6912235434
+      },
+      {
+        "iteration": 10,
+        "moving_hardware_kg": 445397.2297841827,
+        "ballast_kg": 1426815.6893887173
+      },
+      {
+        "iteration": 11,
+        "moving_hardware_kg": 445396.2739762858,
+        "ballast_kg": 1426486.1485095026
+      },
+      {
+        "iteration": 12,
+        "moving_hardware_kg": 445395.7981940796,
+        "ballast_kg": 1426321.8559738442
+      },
+      {
+        "iteration": 13,
+        "moving_hardware_kg": 445395.5613628796,
+        "ballast_kg": 1426239.9475971176
+      },
+      {
+        "iteration": 14,
+        "moving_hardware_kg": 445395.44347568817,
+        "ballast_kg": 1426199.1118243544
+      },
+      {
+        "iteration": 15,
+        "moving_hardware_kg": 445395.3847952638,
+        "ballast_kg": 1426178.7528815686
+      },
+      {
+        "iteration": 16,
+        "moving_hardware_kg": 445395.355586057,
+        "ballast_kg": 1426168.6027503877
+      },
+      {
+        "iteration": 17,
+        "moving_hardware_kg": 445395.3410466511,
+        "ballast_kg": 1426163.5422894012
+      }
+    ],
+    "feasible_design": false
+  },
+  {
+    "assumptions": {
+      "name": "reference",
+      "steel_density": 7850.0,
+      "steel_E": 210000000000.0,
+      "steel_yield_pa": 650000000.0,
+      "yield_factor": 2.0,
+      "buckling_factor": 2.0,
+      "euler_K": 2.0,
+      "diameter_wall_ratio": 30.0,
+      "min_wall_m": 0.004,
+      "deflection_fraction": 0.006666666666666667,
+      "joint_fraction": 0.2,
+      "bearing_pressure_pa": 100000.0,
+      "width_diameter": 0.35,
+      "contact_length_diameter": 0.4,
+      "wheel_install_factor": 2.1,
+      "motor_kg_per_kw": 1.3076923076923077,
+      "motor_install_factor": 1.25,
+      "inverter_kg_per_kw": 0.14615384615384616,
+      "motor_base_rad_s": 131.9796954314721,
+      "gearbox_kg_per_nm": 0.0046875,
+      "gearbox_kg_per_kw": 2.0,
+      "gearbox_service_factor": 1.5,
+      "gearbox_install_factor": 1.4,
+      "gear_efficiency": 0.96,
+      "bend_D_over_d": 40.0,
+      "rope_fiber_fill": 0.65,
+      "reel_pack_fill": 0.75,
+      "radiator_temp_k": 330.0,
+      "radiator_sink_k": 250.0,
+      "radiator_kg_m2": 8.0,
+      "radiator_view_factor": 0.7,
+      "radiator_emissivity": 0.85,
+      "thermal_transport_fraction": 0.2,
+      "controls_fraction": 0.02,
+      "solar_w_kg": 100.0,
+      "recovery": 0.7
+    },
+    "acceleration_g": 50,
+    "rover_mph": 50,
+    "passes": 1,
+    "converged": true,
+    "iterations": 17,
+    "fixed_point_relative_residual": 1.2734130178751827e-05,
+    "track_radius_m": 76.78937039996255,
+    "release_radius_m": 5787.088393934127,
+    "clearance_height_m": 28.680286199805998,
+    "apex_height_m": 28.680286199805998,
+    "pole_legs": [
+      {
+        "id": "frame_A_vertical",
+        "length_m": 25.438030864222686,
+        "diameter_m": 0.6398152210180523,
+        "wall_m": 0.021327174033935078,
+        "bare_mass_kg": 8274.99315189357,
+        "mass_with_joints_kg": 9929.991782272284,
+        "axial_n": 794264.7679858449,
+        "bending_moment_nm": 171195.6860463155,
+        "stress_pa": 74380209.94085974,
+        "euler_n": 1588529.5411678907,
+        "deflection_m": 0.0553982487923327,
+        "utilization": {
+          "stress": 0.22886218443341458,
+          "buckling": 0.9999999967289239,
+          "deflection": 0.3266659028445922
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      },
+      {
+        "id": "frame_A_trailing",
+        "length_m": 35.97480824824911,
+        "diameter_m": 0.7979654690483723,
+        "wall_m": 0.026598848968279076,
+        "bare_mass_kg": 18202.946894404147,
+        "mass_with_joints_kg": 21843.536273284975,
+        "axial_n": 799325.0700980738,
+        "bending_moment_nm": 651781.9377196484,
+        "stress_pa": 105165826.7818694,
+        "euler_n": 1921690.4078207647,
+        "deflection_m": 0.2398320549178421,
+        "utilization": {
+          "stress": 0.3235871593288289,
+          "buckling": 0.8318978612215944,
+          "deflection": 0.9999999997061054
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      },
+      {
+        "id": "frame_B_vertical",
+        "length_m": 25.438030864222686,
+        "diameter_m": 0.6398152210180523,
+        "wall_m": 0.021327174033935078,
+        "bare_mass_kg": 8274.99315189357,
+        "mass_with_joints_kg": 9929.991782272284,
+        "axial_n": 794264.7679858449,
+        "bending_moment_nm": 171195.6860463155,
+        "stress_pa": 74380209.94085974,
+        "euler_n": 1588529.5411678907,
+        "deflection_m": 0.0553982487923327,
+        "utilization": {
+          "stress": 0.22886218443341458,
+          "buckling": 0.9999999967289239,
+          "deflection": 0.3266659028445922
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      },
+      {
+        "id": "frame_B_trailing",
+        "length_m": 35.97480824824911,
+        "diameter_m": 0.7979654690483723,
+        "wall_m": 0.026598848968279076,
+        "bare_mass_kg": 18202.946894404147,
+        "mass_with_joints_kg": 21843.536273284975,
+        "axial_n": 799325.0700980738,
+        "bending_moment_nm": 651781.9377196484,
+        "stress_pa": 105165826.7818694,
+        "euler_n": 1921690.4078207647,
+        "deflection_m": 0.2398320549178421,
+        "utilization": {
+          "stress": 0.3235871593288289,
+          "buckling": 0.8318978612215944,
+          "deflection": 0.9999999997061054
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      }
+    ],
+    "powered_wheel": {
+      "diameter_m": 6.484510671166622,
+      "radius_m": 3.242255335583311,
+      "width_m": 2.2695787349083174,
+      "mass_kg": 49420.706055279166,
+      "normal_n": 581447.8492188114,
+      "contact_area_m2": 5.886843010226331,
+      "actual_pressure_pa": 98770.74150079238,
+      "sizing_diameters_m": {
+        "pressure": 6.4445317308486505,
+        "load": 3.2544712327248804,
+        "terrestrial_thermal": 6.484510671166622
+      },
+      "extrapolated": true
+    },
+    "passive_wheel": {
+      "diameter_m": 3.74383398156105,
+      "radius_m": 1.871916990780525,
+      "width_m": 1.3103418935463675,
+      "mass_kg": 8493.035696700086,
+      "normal_n": 193815.9497396038,
+      "contact_area_m2": 1.9622810034087768,
+      "actual_pressure_pa": 98770.74150079238,
+      "sizing_diameters_m": {
+        "pressure": 3.720752129606553,
+        "load": 2.219967388504794,
+        "terrestrial_thermal": 3.74383398156105
+      },
+      "extrapolated": false
+    },
+    "wheel_drive": {
+      "motor_kg": 11064.747572994836,
+      "inverter_kg": 989.3186065265971,
+      "gearbox_kg": 18195.131256034423,
+      "mass_kg": 30249.197435555856,
+      "continuous_rating_kw": 6769.022044655664,
+      "shaft_peak_torque_nm": 942601.1957465658,
+      "ratio": 19.144231912193572,
+      "motor_peak_torque_nm": 51288.35933835252,
+      "extrapolation_from_260kw": 26.034700171752554,
+      "gear_torque_extrapolation": 0.25943152176510986
+    },
+    "reel_drive": {
+      "motor_kg": 23178.776600941343,
+      "inverter_kg": 2072.455319613579,
+      "gearbox_kg": 76893.77601261035,
+      "mass_kg": 102145.00793316527,
+      "continuous_rating_kw": 14179.957449987645,
+      "shaft_peak_torque_nm": 6649020.006112864,
+      "ratio": 64.46420049945398,
+      "motor_peak_torque_nm": 107440.4468325987,
+      "extrapolation_from_260kw": 54.53829788456787,
+      "gear_torque_extrapolation": 1.8300055062695955
+    },
+    "reel": {
+      "core_radius_m": 1.733558098370038,
+      "outer_radius_m": 2.328858128883561,
+      "width_m": 3.467116196740076,
+      "rope_outer_diameter_m": 0.0866779049185019,
+      "shaft_diameter_m": 0.5651126191516535,
+      "mass_kg": 15502.823623264065,
+      "holding_torque_nm": 6649020.006112864,
+      "rotor_inertia_kg_m2": 65335.129836248794,
+      "architecture": "tension capstan plus low-tension storage; two such assemblies"
+    },
+    "masses_kg": {
+      "poles": 63547.05611111452,
+      "wheels": 231654.967007917,
+      "wheel_motors": 44258.990291979346,
+      "wheel_inverters": 3957.2744261063885,
+      "wheel_gearboxes": 72780.52502413769,
+      "reel_motors": 46357.553201882685,
+      "reel_inverters": 4144.910639227158,
+      "reel_gearboxes": 153787.5520252207,
+      "reel_mechanical": 31005.64724652813,
+      "steering": 3397.2142786800346,
+      "retention": 5967.064760032916,
+      "fittings_sheath": 3724.0131904012123,
+      "main_tie": 1055.6816701571456,
+      "low_tie": 1155.3784641112334,
+      "tie_end_fittings": 221.1060134268379,
+      "controls": 11138.835452329418,
+      "outward_cables": 37240.13190401212,
+      "solar": 219668.60622317766,
+      "thermal": 317982.71934851684,
+      "central_pivot_and_stabilizers": 0.0,
+      "ballast_local": 1193412.952006583
+    },
+    "imported_total_kg": 1253045.227278959,
+    "permanent_physical_total_kg": 2446458.179285542,
+    "imported_ratio": 1253.045227278959,
+    "physical_ratio": 2446.458179285542,
+    "moving_hardware_kg": 678153.7698032524,
+    "ballast_kg": 1193412.952006583,
+    "peak_solar_w": 21966860.622317765,
+    "peak_heat_w": 8887708.180347316,
+    "radiator_area_m2": 33123.19993213717,
+    "radiator_net_flux_w_m2": 268.3227525890149,
+    "solar_cycle_energy_j": 29781249570.826416,
+    "minimum_traction_margin_n": 0.0,
+    "radial_policy": "split",
+    "low_tie_used": true,
+    "road_only_radius_threshold_m": 615.6985126515107,
+    "effective_tangential_friction": 0.5,
+    "low_tie": {
+      "mass_kg": 1155.3784641112334,
+      "inertia_kg_m2": 2270725.263904265,
+      "endpoint_force_n": 5181859.9519922,
+      "center_tension_n": 5183739.137710124,
+      "sag_m": 0.00694495443431044
+    },
+    "upper_tie_endpoint_force_n": 4734720.906233626,
+    "low_tie_attachment_height_m": 3.742255335583311,
+    "apex_radial_restraint_per_frame_n": 899377.322774014,
+    "pole_ground_radial_force_each_n": 0.0,
+    "frame_apex_tangential_n": 550437.2972604748,
+    "tipping_moment_per_frame_nm": null,
+    "required_support_lever_m": null,
+    "available_support_lever_m": null,
+    "missing_stabilizing_moment_nm": null,
+    "frame_chord_fits": true,
+    "reel_envelopes_fit": true,
+    "wheel_envelopes_fit": true,
+    "pole_source_domain_ok": true,
+    "height_increase_m": 0.0,
+    "orbit_speed_fractional_error_estimate": 0.0,
+    "flags": [
+      "wheel diameter extrapolated beyond manufacturer anchors",
+      "50/80 mph lunar wheel qualification unresolved",
+      "release transient unresolved",
+      "equal-radius rock disposal unresolved"
+    ],
+    "phases": [
+      {
+        "phase": "loading",
+        "wheel_peak_abs_w": 1621725.53450822,
+        "reel_peak_abs_w": 0.0,
+        "solar_peak_w": 1907912.3935390823,
+        "heat_peak_w": 286186.85903086234
+      },
+      {
+        "phase": "payout",
+        "wheel_peak_abs_w": 25993044.651477747,
+        "reel_peak_abs_w": 12304559.869760754,
+        "solar_peak_w": 21966860.622317765,
+        "heat_peak_w": 8278375.840600773
+      },
+      {
+        "phase": "retraction",
+        "wheel_peak_abs_w": 19162580.635457747,
+        "reel_peak_abs_w": 10274872.455110433,
+        "solar_peak_w": 1629229.061949448,
+        "heat_peak_w": 8887708.180347316
+      },
+      {
+        "phase": "buffer",
+        "wheel_peak_abs_w": 1617193.4946732724,
+        "reel_peak_abs_w": 0.0,
+        "solar_peak_w": 1902580.5819685557,
+        "heat_peak_w": 285387.08729528333
+      }
+    ],
+    "initial_load_pole_estimates": [
+      {
+        "id": "frame_A_vertical",
+        "length_m": 25.438030864222686,
+        "diameter_m": 0.6030068821277839,
+        "wall_m": 0.020100229404259463,
+        "bare_mass_kg": 7350.265818112966,
+        "mass_with_joints_kg": 8820.31898173556,
+        "axial_n": 626665.9591947722,
+        "bending_moment_nm": 152064.6333183595,
+        "stress_pa": 75608618.12254773,
+        "euler_n": 1253331.9194772516,
+        "deflection_m": 0.0623678302022043,
+        "utilization": {
+          "stress": 0.23264190191553147,
+          "buckling": 0.9999999991321475,
+          "deflection": 0.36776331392412254
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      },
+      {
+        "id": "frame_A_trailing",
+        "length_m": 35.97480824824911,
+        "diameter_m": 0.7979654690483723,
+        "wall_m": 0.026598848968279076,
+        "bare_mass_kg": 18202.946894404147,
+        "mass_with_joints_kg": 21843.536273284975,
+        "axial_n": 799325.0700980738,
+        "bending_moment_nm": 651781.9377196484,
+        "stress_pa": 105165826.7818694,
+        "euler_n": 1921690.4078207647,
+        "deflection_m": 0.2398320549178421,
+        "utilization": {
+          "stress": 0.3235871593288289,
+          "buckling": 0.8318978612215944,
+          "deflection": 0.9999999997061054
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      },
+      {
+        "id": "frame_B_vertical",
+        "length_m": 25.438030864222686,
+        "diameter_m": 0.6030068821277839,
+        "wall_m": 0.020100229404259463,
+        "bare_mass_kg": 7350.265818112966,
+        "mass_with_joints_kg": 8820.31898173556,
+        "axial_n": 626665.9591947722,
+        "bending_moment_nm": 152064.6333183595,
+        "stress_pa": 75608618.12254773,
+        "euler_n": 1253331.9194772516,
+        "deflection_m": 0.0623678302022043,
+        "utilization": {
+          "stress": 0.23264190191553147,
+          "buckling": 0.9999999991321475,
+          "deflection": 0.36776331392412254
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      },
+      {
+        "id": "frame_B_trailing",
+        "length_m": 35.97480824824911,
+        "diameter_m": 0.7979654690483723,
+        "wall_m": 0.026598848968279076,
+        "bare_mass_kg": 18202.946894404147,
+        "mass_with_joints_kg": 21843.536273284975,
+        "axial_n": 799325.0700980738,
+        "bending_moment_nm": 651781.9377196484,
+        "stress_pa": 105165826.7818694,
+        "euler_n": 1921690.4078207647,
+        "deflection_m": 0.2398320549178421,
+        "utilization": {
+          "stress": 0.3235871593288289,
+          "buckling": 0.8318978612215944,
+          "deflection": 0.9999999997061054
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      }
+    ],
+    "iteration_trace": [
+      {
+        "iteration": 1,
+        "moving_hardware_kg": 678875.8444716764,
+        "ballast_kg": 1771558.0861114496
+      },
+      {
+        "iteration": 2,
+        "moving_hardware_kg": 678546.9124350197,
+        "ballast_kg": 1482120.1638756115
+      },
+      {
+        "iteration": 3,
+        "moving_hardware_kg": 678357.302529162,
+        "ballast_kg": 1337565.6687760206
+      },
+      {
+        "iteration": 4,
+        "moving_hardware_kg": 678257.0229057653,
+        "ballast_kg": 1265383.2261791541
+      },
+      {
+        "iteration": 5,
+        "moving_hardware_kg": 678205.6695826617,
+        "ballast_kg": 1229342.1446924189
+      },
+      {
+        "iteration": 6,
+        "moving_hardware_kg": 678179.7400725413,
+        "ballast_kg": 1211347.2806106037
+      },
+      {
+        "iteration": 7,
+        "moving_hardware_kg": 678166.7342978375,
+        "ballast_kg": 1202362.813324756
+      },
+      {
+        "iteration": 8,
+        "moving_hardware_kg": 678160.2318164515,
+        "ballast_kg": 1197877.0825691838
+      },
+      {
+        "iteration": 9,
+        "moving_hardware_kg": 678156.985938639,
+        "ballast_kg": 1195637.468432091
+      },
+      {
+        "iteration": 10,
+        "moving_hardware_kg": 678155.3669536166,
+        "ballast_kg": 1194519.2843024505
+      },
+      {
+        "iteration": 11,
+        "moving_hardware_kg": 678154.5597494959,
+        "ballast_kg": 1193961.001730142
+      },
+      {
+        "iteration": 12,
+        "moving_hardware_kg": 678154.1573664282,
+        "ballast_kg": 1193682.2640460478
+      },
+      {
+        "iteration": 13,
+        "moving_hardware_kg": 678153.9568015954,
+        "ballast_kg": 1193543.0963955347
+      },
+      {
+        "iteration": 14,
+        "moving_hardware_kg": 678153.8568360902,
+        "ballast_kg": 1193473.6128526947
+      },
+      {
+        "iteration": 15,
+        "moving_hardware_kg": 678153.8070123153,
+        "ballast_kg": 1193438.921064027
+      },
+      {
+        "iteration": 16,
+        "moving_hardware_kg": 678153.7821798642,
+        "ballast_kg": 1193421.600081581
+      },
+      {
+        "iteration": 17,
+        "moving_hardware_kg": 678153.7698032524,
+        "ballast_kg": 1193412.952006583
+      }
+    ],
+    "feasible_design": false
+  },
+  {
+    "assumptions": {
+      "name": "heavier",
+      "steel_density": 7850.0,
+      "steel_E": 210000000000.0,
+      "steel_yield_pa": 650000000.0,
+      "yield_factor": 2.0,
+      "buckling_factor": 2.0,
+      "euler_K": 2.0,
+      "diameter_wall_ratio": 30.0,
+      "min_wall_m": 0.004,
+      "deflection_fraction": 0.006666666666666667,
+      "joint_fraction": 0.35,
+      "bearing_pressure_pa": 50000.0,
+      "width_diameter": 0.35,
+      "contact_length_diameter": 0.4,
+      "wheel_install_factor": 3.0,
+      "motor_kg_per_kw": 4.55,
+      "motor_install_factor": 1.3,
+      "inverter_kg_per_kw": 0.14615384615384616,
+      "motor_base_rad_s": 313.1120678077827,
+      "gearbox_kg_per_nm": 0.0046875,
+      "gearbox_kg_per_kw": 3.0,
+      "gearbox_service_factor": 1.5,
+      "gearbox_install_factor": 1.4,
+      "gear_efficiency": 0.96,
+      "bend_D_over_d": 50.0,
+      "rope_fiber_fill": 0.65,
+      "reel_pack_fill": 0.75,
+      "radiator_temp_k": 315.0,
+      "radiator_sink_k": 250.0,
+      "radiator_kg_m2": 12.0,
+      "radiator_view_factor": 0.7,
+      "radiator_emissivity": 0.85,
+      "thermal_transport_fraction": 0.2,
+      "controls_fraction": 0.02,
+      "solar_w_kg": 100.0,
+      "recovery": 0.7
+    },
+    "acceleration_g": 50,
+    "rover_mph": 50,
+    "passes": 1,
+    "converged": true,
+    "iterations": 17,
+    "fixed_point_relative_residual": 1.3815005961779999e-05,
+    "track_radius_m": 76.78937039996255,
+    "release_radius_m": 5787.088393934127,
+    "clearance_height_m": 28.680286199805998,
+    "apex_height_m": 28.680286199805998,
+    "pole_legs": [
+      {
+        "id": "frame_A_vertical",
+        "length_m": 24.12331411135104,
+        "diameter_m": 0.6505305668709365,
+        "wall_m": 0.021684352229031215,
+        "bare_mass_kg": 8112.363557136146,
+        "mass_with_joints_kg": 10951.690802133797,
+        "axial_n": 943867.210307291,
+        "bending_moment_nm": 159157.11603113427,
+        "stress_pa": 70868585.48667173,
+        "euler_n": 1887734.4115021124,
+        "deflection_m": 0.04333947909487392,
+        "utilization": {
+          "stress": 0.2180571861128361,
+          "buckling": 1.000000004827199,
+          "deflection": 0.2694870959364629
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      },
+      {
+        "id": "frame_A_trailing",
+        "length_m": 34.11551798565891,
+        "diameter_m": 0.7605373753711551,
+        "wall_m": 0.02535124584570517,
+        "bare_mass_kg": 15680.796213697962,
+        "mass_with_joints_kg": 21169.07488849225,
+        "axial_n": 796430.7224118247,
+        "bending_moment_nm": 532454.1443616144,
+        "stress_pa": 106834439.53948726,
+        "euler_n": 1763284.1840577559,
+        "deflection_m": 0.22743678548507057,
+        "utilization": {
+          "stress": 0.32872135242919154,
+          "buckling": 0.9033492497834801,
+          "deflection": 0.9999999952250959
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      },
+      {
+        "id": "frame_B_vertical",
+        "length_m": 24.12331411135104,
+        "diameter_m": 0.6505305668709365,
+        "wall_m": 0.021684352229031215,
+        "bare_mass_kg": 8112.363557136146,
+        "mass_with_joints_kg": 10951.690802133797,
+        "axial_n": 943867.210307291,
+        "bending_moment_nm": 159157.11603113427,
+        "stress_pa": 70868585.48667173,
+        "euler_n": 1887734.4115021124,
+        "deflection_m": 0.04333947909487392,
+        "utilization": {
+          "stress": 0.2180571861128361,
+          "buckling": 1.000000004827199,
+          "deflection": 0.2694870959364629
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      },
+      {
+        "id": "frame_B_trailing",
+        "length_m": 34.11551798565891,
+        "diameter_m": 0.7605373753711551,
+        "wall_m": 0.02535124584570517,
+        "bare_mass_kg": 15680.796213697962,
+        "mass_with_joints_kg": 21169.07488849225,
+        "axial_n": 796430.7224118247,
+        "bending_moment_nm": 532454.1443616144,
+        "stress_pa": 106834439.53948726,
+        "euler_n": 1763284.1840577559,
+        "deflection_m": 0.22743678548507057,
+        "utilization": {
+          "stress": 0.32872135242919154,
+          "buckling": 0.9033492497834801,
+          "deflection": 0.9999999952250959
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      }
+    ],
+    "powered_wheel": {
+      "diameter_m": 9.113944176909918,
+      "radius_m": 4.556972088454959,
+      "width_m": 3.189880461918471,
+      "mass_kg": 210263.53278630233,
+      "normal_n": 581447.8492188114,
+      "contact_area_m2": 11.628956984376227,
+      "actual_pressure_pa": 50000.0,
+      "sizing_diameters_m": {
+        "pressure": 9.113944176909918,
+        "load": 3.2544712327248804,
+        "terrestrial_thermal": 6.484510671166622
+      },
+      "extrapolated": true
+    },
+    "passive_wheel": {
+      "diameter_m": 5.2619381239181635,
+      "radius_m": 2.6309690619590818,
+      "width_m": 1.841678343371357,
+      "mass_kg": 36134.15979267614,
+      "normal_n": 193815.9497396038,
+      "contact_area_m2": 3.876318994792076,
+      "actual_pressure_pa": 49999.99999999999,
+      "sizing_diameters_m": {
+        "pressure": 5.2619381239181635,
+        "load": 2.219967388504794,
+        "terrestrial_thermal": 3.74383398156105
+      },
+      "extrapolated": true
+    },
+    "wheel_drive": {
+      "motor_kg": 40038.76539413825,
+      "inverter_kg": 989.3186065265971,
+      "gearbox_kg": 27292.696884051627,
+      "mass_kg": 68320.78088471649,
+      "continuous_rating_kw": 6769.022044655664,
+      "shaft_peak_torque_nm": 1324820.8098911454,
+      "ratio": 63.835135717541256,
+      "motor_peak_torque_nm": 21618.52812652088,
+      "extrapolation_from_260kw": 26.034700171752554,
+      "gear_torque_extrapolation": 0.364629580703985
+    },
+    "reel_drive": {
+      "motor_kg": 83874.44831667692,
+      "inverter_kg": 2072.455319613579,
+      "gearbox_kg": 97659.29956177837,
+      "mass_kg": 183606.2031980689,
+      "continuous_rating_kw": 14179.957449987645,
+      "shaft_peak_torque_nm": 8311275.00764108,
+      "ratio": 191.17068587682823,
+      "motor_peak_torque_nm": 45287.16363207254,
+      "extrapolation_from_260kw": 54.53829788456787,
+      "gear_torque_extrapolation": 2.287506882836994
+    },
+    "reel": {
+      "core_radius_m": 2.1669476229625473,
+      "outer_radius_m": 2.574946058444175,
+      "width_m": 4.333895245925095,
+      "rope_outer_diameter_m": 0.0866779049185019,
+      "shaft_diameter_m": 0.6087491152375493,
+      "mass_kg": 21034.787081728973,
+      "holding_torque_nm": 8311275.00764108,
+      "rotor_inertia_kg_m2": 119120.09605181344,
+      "architecture": "tension capstan plus low-tension storage; two such assemblies"
+    },
+    "masses_kg": {
+      "poles": 64241.53138125209,
+      "wheels": 985590.7703159138,
+      "wheel_motors": 160155.061576553,
+      "wheel_inverters": 3957.2744261063885,
+      "wheel_gearboxes": 109170.78753620651,
+      "reel_motors": 167748.89663335384,
+      "reel_inverters": 4144.910639227158,
+      "reel_gearboxes": 195318.59912355675,
+      "reel_mechanical": 42069.574163457946,
+      "steering": 14453.663917070457,
+      "retention": 428.1282774087652,
+      "fittings_sheath": 3724.0131904012123,
+      "main_tie": 1189.8949735180113,
+      "low_tie": 1021.1654375772863,
+      "tie_end_fittings": 221.10604110952977,
+      "controls": 32521.72600501835,
+      "outward_cables": 37240.13190401212,
+      "solar": 219668.11859878403,
+      "thermal": 638677.0227580563,
+      "central_pivot_and_stabilizers": 0.0,
+      "ballast_local": 85625.65548175304
+    },
+    "imported_total_kg": 2681542.3768985835,
+    "permanent_physical_total_kg": 2767168.0323803364,
+    "imported_ratio": 2681.5423768985834,
+    "physical_ratio": 2767.1680323803366,
+    "moving_hardware_kg": 1785957.103637731,
+    "ballast_kg": 85625.65548175304,
+    "peak_solar_w": 21966811.859878402,
+    "peak_heat_w": 8887640.240826335,
+    "radiator_area_m2": 44352.57102486502,
+    "radiator_net_flux_w_m2": 200.38613400435636,
+    "solar_cycle_energy_j": 29781183767.72929,
+    "minimum_traction_margin_n": 0.0,
+    "radial_policy": "split",
+    "low_tie_used": true,
+    "road_only_radius_threshold_m": 615.6985126515107,
+    "effective_tangential_friction": 0.5,
+    "low_tie": {
+      "mass_kg": 1021.1654375772863,
+      "inertia_kg_m2": 2006949.4367080037,
+      "endpoint_force_n": 4579915.975334375,
+      "center_tension_n": 4581576.867903816,
+      "sag_m": 0.00694495443431044
+    },
+    "upper_tie_endpoint_force_n": 5336666.124457196,
+    "low_tie_attachment_height_m": 5.056972088454959,
+    "apex_radial_restraint_per_frame_n": 1501322.5409975841,
+    "pole_ground_radial_force_each_n": 0.0,
+    "frame_apex_tangential_n": 550437.2972604748,
+    "tipping_moment_per_frame_nm": null,
+    "required_support_lever_m": null,
+    "available_support_lever_m": null,
+    "missing_stabilizing_moment_nm": null,
+    "frame_chord_fits": true,
+    "reel_envelopes_fit": true,
+    "wheel_envelopes_fit": true,
+    "pole_source_domain_ok": true,
+    "height_increase_m": 0.0,
+    "orbit_speed_fractional_error_estimate": 0.0,
+    "flags": [
+      "wheel diameter extrapolated beyond manufacturer anchors",
+      "50/80 mph lunar wheel qualification unresolved",
+      "release transient unresolved",
+      "equal-radius rock disposal unresolved"
+    ],
+    "phases": [
+      {
+        "phase": "loading",
+        "wheel_peak_abs_w": 1708709.52789983,
+        "reel_peak_abs_w": 0.0,
+        "solar_peak_w": 2010246.5034115647,
+        "heat_peak_w": 301536.97551173484
+      },
+      {
+        "phase": "payout",
+        "wheel_peak_abs_w": 25993044.651477747,
+        "reel_peak_abs_w": 12304629.530388415,
+        "solar_peak_w": 21966811.859878402,
+        "heat_peak_w": 8278396.73878907
+      },
+      {
+        "phase": "retraction",
+        "wheel_peak_abs_w": 19162580.635457747,
+        "reel_peak_abs_w": 10274940.394631412,
+        "solar_peak_w": 1629229.0619594816,
+        "heat_peak_w": 8887640.240826335
+      },
+      {
+        "phase": "buffer",
+        "wheel_peak_abs_w": 1704182.8482020358,
+        "reel_peak_abs_w": 0.0,
+        "solar_peak_w": 2004920.997884748,
+        "heat_peak_w": 300738.1496827123
+      }
+    ],
+    "initial_load_pole_estimates": [
+      {
+        "id": "frame_A_vertical",
+        "length_m": 24.12331411135104,
+        "diameter_m": 0.58693350023945,
+        "wall_m": 0.019564450007981668,
+        "bare_mass_kg": 6603.737268388296,
+        "mass_with_joints_kg": 8915.0453123242,
+        "axial_n": 625454.409897659,
+        "bending_moment_nm": 129559.25498918844,
+        "stress_pa": 72062812.42849717,
+        "euler_n": 1250908.8198015871,
+        "deflection_m": 0.053240399308222434,
+        "utilization": {
+          "stress": 0.22173173054922204,
+          "buckling": 0.9999999999949882,
+          "deflection": 0.3310515238234031
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      },
+      {
+        "id": "frame_A_trailing",
+        "length_m": 34.11551798565891,
+        "diameter_m": 0.7605373753711551,
+        "wall_m": 0.02535124584570517,
+        "bare_mass_kg": 15680.796213697962,
+        "mass_with_joints_kg": 21169.07488849225,
+        "axial_n": 796430.7224118247,
+        "bending_moment_nm": 532454.1443616144,
+        "stress_pa": 106834439.53948726,
+        "euler_n": 1763284.1840577559,
+        "deflection_m": 0.22743678548507057,
+        "utilization": {
+          "stress": 0.32872135242919154,
+          "buckling": 0.9033492497834801,
+          "deflection": 0.9999999952250959
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      },
+      {
+        "id": "frame_B_vertical",
+        "length_m": 24.12331411135104,
+        "diameter_m": 0.58693350023945,
+        "wall_m": 0.019564450007981668,
+        "bare_mass_kg": 6603.737268388296,
+        "mass_with_joints_kg": 8915.0453123242,
+        "axial_n": 625454.409897659,
+        "bending_moment_nm": 129559.25498918844,
+        "stress_pa": 72062812.42849717,
+        "euler_n": 1250908.8198015871,
+        "deflection_m": 0.053240399308222434,
+        "utilization": {
+          "stress": 0.22173173054922204,
+          "buckling": 0.9999999999949882,
+          "deflection": 0.3310515238234031
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      },
+      {
+        "id": "frame_B_trailing",
+        "length_m": 34.11551798565891,
+        "diameter_m": 0.7605373753711551,
+        "wall_m": 0.02535124584570517,
+        "bare_mass_kg": 15680.796213697962,
+        "mass_with_joints_kg": 21169.07488849225,
+        "axial_n": 796430.7224118247,
+        "bending_moment_nm": 532454.1443616144,
+        "stress_pa": 106834439.53948726,
+        "euler_n": 1763284.1840577559,
+        "deflection_m": 0.22743678548507057,
+        "utilization": {
+          "stress": 0.32872135242919154,
+          "buckling": 0.9033492497834801,
+          "deflection": 0.9999999952250959
+        },
+        "plate_thickness_within_source": true,
+        "slender_beam": true
+      }
+    ],
+    "iteration_trace": [
+      {
+        "iteration": 1,
+        "moving_hardware_kg": 1790363.243997559,
+        "ballast_kg": 1771558.0861114496
+      },
+      {
+        "iteration": 2,
+        "moving_hardware_kg": 1788255.5933123124,
+        "ballast_kg": 926376.4641126698
+      },
+      {
+        "iteration": 3,
+        "moving_hardware_kg": 1787123.7101921614,
+        "ballast_kg": 504839.4784559036
+      },
+      {
+        "iteration": 4,
+        "moving_hardware_kg": 1786543.0269251894,
+        "ballast_kg": 294636.92718759587
+      },
+      {
+        "iteration": 5,
+        "moving_hardware_kg": 1786249.9985107053,
+        "ballast_kg": 189825.99318692813
+      },
+      {
+        "iteration": 6,
+        "moving_hardware_kg": 1786103.178822029,
+        "ballast_kg": 137567.04039383633
+      },
+      {
+        "iteration": 7,
+        "moving_hardware_kg": 1786029.8600792938,
+        "ballast_kg": 111510.97384162866
+      },
+      {
+        "iteration": 8,
+        "moving_hardware_kg": 1785993.3055366003,
+        "ballast_kg": 98519.5999368926
+      },
+      {
+        "iteration": 9,
+        "moving_hardware_kg": 1785975.094924977,
+        "ballast_kg": 92042.19025587068
+      },
+      {
+        "iteration": 10,
+        "moving_hardware_kg": 1785966.0264071864,
+        "ballast_kg": 88812.59072117218
+      },
+      {
+        "iteration": 11,
+        "moving_hardware_kg": 1785961.5113544327,
+        "ballast_kg": 87202.32521271762
+      },
+      {
+        "iteration": 12,
+        "moving_hardware_kg": 1785959.2636092403,
+        "ballast_kg": 86399.44998486736
+      },
+      {
+        "iteration": 13,
+        "moving_hardware_kg": 1785958.1446595062,
+        "ballast_kg": 85999.136243538
+      },
+      {
+        "iteration": 14,
+        "moving_hardware_kg": 1785957.5876480574,
+        "ballast_kg": 85799.53884774064
+      },
+      {
+        "iteration": 15,
+        "moving_hardware_kg": 1785957.310371513,
+        "ballast_kg": 85700.01865556675
+      },
+      {
+        "iteration": 16,
+        "moving_hardware_kg": 1785957.1723456953,
+        "ballast_kg": 85650.39719775197
+      },
+      {
+        "iteration": 17,
+        "moving_hardware_kg": 1785957.103637731,
+        "ballast_kg": 85625.65548175304
+      }
+    ],
+    "feasible_design": false
+  }
+]
