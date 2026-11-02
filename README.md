@@ -2,7 +2,7 @@
 
 **Current blog/publication checkpoint:** [50-g wheeled lunar sling](lunar_slings/hub_study/publication/README.md),
 including mass-composition pie charts, mass-payoff calculations and the
-[reserved Blender workspace](lunar_slings/hub_study/blender/README.md).
+[Blender scene and renders](lunar_slings/hub_study/blender/README.md).
 
 This repository contains two related research topics:
 

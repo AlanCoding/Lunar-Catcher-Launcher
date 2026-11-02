@@ -18,8 +18,9 @@ The supporting [separate-tie study](../results/split_tie/README.md) contains
 methods and scenario sweeps; the [source register](../results/hardware_mass/SOURCES.md)
 identifies manufacturer data and engineering extrapolations.
 
-The [Blender workspace](../blender/README.md) is reserved for a later Python-scripted
-scene. No Blender script or scene has been created at this checkpoint.
+The [Blender illustration](../blender/README.md) now supplies a Python-generated
+scene and five render views of this frozen candidate. It was added after this
+numerical publication checkpoint.
 
 Rebuild charts, data snapshot, mass table and payoff document from repository root:
 

@@ -140,7 +140,7 @@ checkpoint text. The [publication index](README.md) links SVG/PNG figures and
 exact underlying data. Earlier hub checkpoints describe earlier models and
 are historical rather than alternate current answers.
 
-The [Blender workspace](../blender/README.md) is reserved for a later
-Python-scripted illustration of this exact 50-g case, using calculated
-geometry and drooping tethers over a lunar surface. No scene creation has
-started yet.
+The [Blender illustration](../blender/README.md), added after this numerical
+checkpoint, now includes a Python-generated scene and five render views of
+this exact 50-g case, using calculated geometry and drooping tethers over a
+lunar surface. A companion axis-labeled plot makes the small sag readable.
