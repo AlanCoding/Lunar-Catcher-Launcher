@@ -41,6 +41,10 @@ calculation failure, not a proof that the architecture cannot operate.
 
 ## Updated mass minimum
 
+[Why this minimum exists](../../publication/WHY_THE_MASS_MINIMUM_EXISTS.md)
+compares the low-acceleration pole penalty with the high-acceleration reel
+penalty, using this sweep's component masses.
+
 The reference sampled imported-mass minimum moves from 75 g to **50 g**.
 These are Earth-g units for the payload's release centripetal acceleration.
 The grid spacing near the minimum is 5 g; the component estimates do not
