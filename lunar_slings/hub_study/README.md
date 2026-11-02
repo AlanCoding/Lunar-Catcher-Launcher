@@ -104,6 +104,7 @@ climber checkpoints are historical, not alternative current results.
 | [Publication index](publication/README.md) | Figure downloads and links to the current checkpoint files. |
 | [Engineering checkpoint](publication/CHECKPOINT.md) | Main narrative, selected design, mass pies and scope. |
 | [Dimensions and parameters at a glance](publication/DESIGN_AT_A_GLANCE.md) | Pole height, wheel sizes, track/tether dimensions, speeds, timing and power. |
+| [Why the mass minimum exists](publication/WHY_THE_MASS_MINIMUM_EXISTS.md) | Low-acceleration pole penalty versus high-acceleration reel torque, with numbers. |
 | [Mass composition table](publication/MASS_TABLE.md) | Grouped masses and percentages behind the imported-equipment pie. |
 | [Mass-payoff calculations](publication/MASS_PAYOFF.md) | Launch counts, daylight/availability cases and replacement-mass formula. |
 | [Reference design method](results/split_tie/README.md) | Upper/low force paths, sizing method, assumptions and current minimum. |

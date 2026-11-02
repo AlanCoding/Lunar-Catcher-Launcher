@@ -8,6 +8,8 @@ publication checkpoint; the older `hub_study/CHECKPOINT.md` is historical.
   parameters sheet, including the 28.68 m pole-top height.
 - **[MASS_PAYOFF.md](MASS_PAYOFF.md):** equations, launch counts, sunlight and
   availability scenarios, and the meaning of “mass payoff.”
+- **[WHY_THE_MASS_MINIMUM_EXISTS.md](WHY_THE_MASS_MINIMUM_EXISTS.md):** which
+  components drive each side of the mass-ratio valley, with numerical comparisons.
 - **[MASS_TABLE.md](MASS_TABLE.md):** exact grouped mass totals and percentages.
 - **[Imported equipment pie — SVG](imported_mass_pie.svg)** /
   **[PNG](imported_mass_pie.png):** detailed composition of imported equipment.

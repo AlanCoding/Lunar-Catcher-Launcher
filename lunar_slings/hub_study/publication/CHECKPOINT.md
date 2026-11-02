@@ -94,7 +94,10 @@ These normalize the machine against **one launch**, not lifetime output.
 Payload and expendable countermass are excluded from permanent machine mass.
 Local ballast is a permanent inventory and is not replenished every cycle.
 
-The imported-mass curve has a minimum near this candidate. The total-mass
+The imported-mass curve has a minimum near this candidate: lower acceleration
+requires taller, heavier poles, while higher acceleration requires heavier
+high-torque reel mechanisms. [Why the minimum exists](WHY_THE_MASS_MINIMUM_EXISTS.md)
+explains both trends with component masses on either side of 50 g. The total-mass
 curve has a broad plateau because reducing imported hardware often requires
 adding local ballast to maintain tangential traction. See the
 [full mass trade](../results/split_tie/mass_trade.svg).
