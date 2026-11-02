@@ -227,18 +227,6 @@ def titles(name):
  for idx,(txt,y,size) in enumerate([(captions[name][0],.44,.024),(captions[name][1],.365,.012),(captions[name][2],-.455,.011)]):
   cu=bpy.data.curves.new('Render caption','FONT');cu.body=txt;cu.size=min(width*size,height*(.047 if idx==0 else .025));cu.align_x='CENTER';cu.align_y='CENTER';cu.extrude=0;cu.materials.append(textmat)
   ob=bpy.data.objects.new('Caption '+str(idx),cu);COL['Render annotations'].objects.link(ob);ob.parent=cam;ob.location=(0,height*y,-5);ob.rotation_euler=(0,0,0);ob.visible_shadow=False;annotation_objects.append(ob)
- if name in ['hub','pivot']:
-  bpy.context.view_layer.update()
-  target=cam.matrix_world.inverted() @ Vector(pivot)
-  end=(target.x,target.y,-4.5)
-  start=(target.x-width*.20,target.y-height*.12,-4.5)
-  a,b=Vector(start),Vector(end);direction=(b-a).normalized();side=Vector((-direction.y,direction.x,0));arrow=width*.006
-  segments=[(a.lerp(b,i/12),a.lerp(b,(i+.55)/12)) for i in range(12)]
-  segments += [(b-direction*arrow+side*arrow*.4,b),(b-direction*arrow-side*arrow*.4,b)]
-  for a1,b1 in segments:
-   line=rope('Annotation only / pivot leader',[a1,b1],[width*.00022]*2,textmat,'Render annotations');line.parent=cam;line.visible_shadow=False;annotation_objects.append(line)
-  cu=bpy.data.curves.new('Pivot label','FONT');cu.body='GROUND PIVOT';cu.size=width*.011;cu.align_x='CENTER';cu.materials.append(textmat)
-  ob=bpy.data.objects.new('Ground pivot label',cu);COL['Render annotations'].objects.link(ob);ob.parent=cam;ob.location=(start[0],start[1]-height*.024,-4.5);ob.visible_shadow=False;annotation_objects.append(ob)
 # Save with hub selected; camera list and physical ropes retained in the file.
 scene['geometry_source']='publication/candidate_50g.json + scene_inputs.json'
 scene['pose']='Fully deployed loaded equilibrium; static engineering illustration'
