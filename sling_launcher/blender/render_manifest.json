@@ -1,0 +1,110 @@
+{
+  "blender_version": "5.1.1",
+  "views": {
+    "hub": {
+      "file": "/home/arominge/repos/Lunar-Catcher-Launcher/sling_launcher/blender/renders/hub.png",
+      "position": [
+        215.0,
+        -270.0,
+        175.0
+      ],
+      "ortho_width_m": 320.0,
+      "resolution": [
+        1800,
+        1200
+      ],
+      "rope_highlights": false
+    },
+    "frame": {
+      "file": "/home/arominge/repos/Lunar-Catcher-Launcher/sling_launcher/blender/renders/frame.png",
+      "position": [
+        145.0,
+        -100.0,
+        65.0
+      ],
+      "ortho_width_m": 105.0,
+      "resolution": [
+        1800,
+        1400
+      ],
+      "rope_highlights": false
+    },
+    "pivot": {
+      "file": "/home/arominge/repos/Lunar-Catcher-Launcher/sling_launcher/blender/renders/pivot.png",
+      "position": [
+        30.0,
+        -42.0,
+        27.0
+      ],
+      "ortho_width_m": 35.0,
+      "resolution": [
+        1800,
+        1200
+      ],
+      "rope_highlights": false
+    },
+    "site": {
+      "file": "/home/arominge/repos/Lunar-Catcher-Launcher/sling_launcher/blender/renders/site.png",
+      "position": [
+        900.0,
+        -1000.0,
+        1050.0
+      ],
+      "ortho_width_m": 1450.0,
+      "resolution": [
+        2000,
+        1400
+      ],
+      "rope_highlights": false
+    },
+    "span": {
+      "file": "/home/arominge/repos/Lunar-Catcher-Launcher/sling_launcher/blender/renders/span.png",
+      "position": [
+        0.0,
+        -11500.0,
+        8500.0
+      ],
+      "ortho_width_m": 13000.0,
+      "resolution": [
+        2400,
+        1100
+      ],
+      "rope_highlights": true
+    },
+    "profile": {
+      "file": "/home/arominge/repos/Lunar-Catcher-Launcher/sling_launcher/blender/renders/profile.png",
+      "position": [
+        3000.0,
+        -7500.0,
+        0.0
+      ],
+      "ortho_width_m": 6500.0,
+      "resolution": [
+        2400,
+        650
+      ],
+      "rope_highlights": true
+    }
+  },
+  "true_rope_geometry": true,
+  "illustration_assumptions": {
+    "illustrated_outward_reels": 2,
+    "cross_tie_reels": 0,
+    "stay_color": "muted sage green, non-emissive",
+    "reel_layout": "one illustrated reel per outward sling; numerical capstan/storage allowance unchanged",
+    "regolith_bulk_density_kg_m3": 1800,
+    "motor_packaging_density_kg_m3": 2000,
+    "gear_packaging_density_kg_m3": 3000,
+    "solar_installed_w_m2": 200,
+    "ballast_bins": 8,
+    "span_highlight_radius_m": 4,
+    "stay_highlight_radius_m": 0.12,
+    "schematic_stay_radius_m": 0.012,
+    "schematic_pivot_height_m": 1.05,
+    "payload_envelope_m": [
+      1.5,
+      1.2,
+      1.3
+    ]
+  }
+}
