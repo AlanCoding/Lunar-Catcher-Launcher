@@ -1,4 +1,10 @@
-# Low lunar orbit catcher: original mass-driver study
+# Low lunar orbit catcher studies: reader guide
+
+**For the completed equatorial launch-site study, start with the
+[checkpoint and reading guide](analysis/LAUNCH_SITE_CHECKPOINT.md).** It leads to
+the six-site catalog and final east/west impact results, then the earlier graphs
+and calculations. The [analysis directory guide](analysis/README.md) also maps
+the separate spherical heading result and historical notebook review.
 
 This directory preserves the original LLO catcher calculations for
 [The Value of Low Lunar Orbit Space Stations](https://alanse.medium.com/the-value-of-low-lunar-orbit-space-stations-db1a5bb9e8af)
@@ -17,16 +23,16 @@ The later wheeled launcher work lives separately in [sling_launcher/](../sling_l
   original notebook outputs, kept beside it so relative output paths still apply.
 - [requirements.txt](requirements.txt): dependencies moved with the original notebook.
 
-## Later review and upcoming launcher post
+## Later review and published launcher post
 
 - [Baseline review](analysis/README.md) and [baseline.py](analysis/baseline.py):
   a later Python 3 consistency calculation and assessment of the historical
   ballistic model. These are not the original notebook or a replacement for it.
 - [Wheeled Kevlar hub study](../sling_launcher/README.md): the subsequent surface-launcher
   hardware, cable, operating-cycle and mass-optimization analysis.
-- [Upcoming post's publication index](../sling_launcher/publication/README.md): current
+- [Sling post's publication index](../sling_launcher/publication/README.md): current
   50-g checkpoint, mass charts, dimensions, payoff and Blender illustrations;
-  includes a placeholder for the future article URL. Its sampled mass minimum
+  includes the published article link. Its sampled mass minimum
   is conditional on the documented model assumptions.
 - [Frozen-retreat study](../frozen_retreat/README.md): a separate 30 km catcher /
   120 km retreat calculation with its own notebook and sensitivity sweep.
@@ -52,3 +58,16 @@ python3 -m jupyter notebook 'variations analysis for lunar catcher-launcher syst
 ```
 
 The original notebook describes a ballistic transfer to an orbital catcher. It does not yet specify a rotating tether, material, length, tip speed, or capture mechanism.
+
+## Completed catcher-orbit follow-up
+
+- [Equatorial launch-site checkpoint](analysis/LAUNCH_SITE_CHECKPOINT.md): final
+  findings, six-site coordinates, impact results, and a reading path through
+  preserved terrain surveys and figures. Closed at the agreed exploratory scope.
+- [Accepted spherical heading optimum](analysis/heading_optimization/RESULT.md):
+  the completed offset-release geometry study for a 25 km equatorial catcher.
+- [Two offset useful payloads](analysis/dual_offset_release/README.md): deferred
+  comprehensive paired study; the approximate six-site westward check is recorded
+  in the checkpoint above.
+- [Repository work queue](../WORK_ITEMS.md): launcher operations next, then
+  segmented tether dynamics. Neither is started.

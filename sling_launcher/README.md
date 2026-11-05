@@ -1,9 +1,13 @@
 # Wheeled Kevlar lunar sling hub study
 
-This is the subsequent **surface sling-launcher study**, being prepared for a
-new post. The original LLO catcher notebook and sensitivity calculations belong
-to the [previously published post](../llo_catcher/README.md#published-post-original-notebook-and-plots).
-The new post's publication status and future URL are maintained in the index below.
+This surface sling-launcher study supports
+[Lunar Slings: The Go-Kart Version](https://medium.com/@alanse/lunar-slings-the-go-kart-version-e5a991da7e0c).
+The original LLO catcher notebook and sensitivity calculations belong to the
+[earlier post](../llo_catcher/README.md#published-post-original-notebook-and-plots).
+
+Next work: [operations simulation](work_items/01_OPERATIONS_SIMULATION.md), then
+[3D tether dynamics](work_items/02_DYNAMIC_TETHERS.md). These plans extend the
+frozen reference design; they are not part of its completed validation.
 
 **For publication, start here:** [current checkpoint and chart index](publication/README.md).
 The [checkpoint](publication/CHECKPOINT.md) gives the selected design and pie charts;

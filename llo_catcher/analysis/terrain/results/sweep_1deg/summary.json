@@ -1,0 +1,55 @@
+{
+  "prograde": {
+    "total": 360,
+    "outbound_collision": 357,
+    "outbound_clear": 3,
+    "arrested_after_missed_capture": 3,
+    "not_arrested": 0,
+    "outbound_clear_fraction": 0.008333333333333333,
+    "conditional_return_impact_fraction": 1.0,
+    "outbound_clear_longitudes": [
+      39,
+      283,
+      295
+    ],
+    "return_impact_longitudes": [
+      39,
+      283,
+      295
+    ],
+    "not_arrested_longitudes": []
+  },
+  "retrograde": {
+    "total": 360,
+    "outbound_collision": 354,
+    "outbound_clear": 6,
+    "arrested_after_missed_capture": 6,
+    "not_arrested": 0,
+    "outbound_clear_fraction": 0.016666666666666666,
+    "conditional_return_impact_fraction": 1.0,
+    "outbound_clear_longitudes": [
+      100,
+      123,
+      132,
+      209,
+      326,
+      333
+    ],
+    "return_impact_longitudes": [
+      100,
+      123,
+      132,
+      209,
+      326,
+      333
+    ],
+    "not_arrested_longitudes": []
+  },
+  "paired": {
+    "total": 360,
+    "both_outbound_clear": 0,
+    "both_arrested_after_missed_capture": 0,
+    "both_outbound_clear_longitudes": [],
+    "both_arrested_longitudes": []
+  }
+}

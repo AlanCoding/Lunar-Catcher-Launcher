@@ -1,0 +1,363 @@
+{
+  "reference_rpm_phase_optimization": {
+    "angle_deg": 141.55702153836415,
+    "heading_toward_equator_deg": -0.2400503004611178,
+    "inclination_from_corresponding_equatorial_plane_deg": 0.30648754724671984,
+    "relative_catch_m_s": 13.282500443623864,
+    "radial_catch_m_s": 8.340425593445323,
+    "north_catch_m_s": 8.893855775547411,
+    "along_track_catch_m_s": -5.268913398304465,
+    "apoapsis_altitude_m": 28087.8053724824,
+    "flight_time_s": 2575.8302755513146,
+    "period_s": 6577.376162202172,
+    "release_speed_inertial_m_s": 1686.5758197553212,
+    "release_speed_surface_relative_m_s": 1681.9514422444036,
+    "release_velocity_m_s": [
+      -0.023500548159778346,
+      1686.5610172753666,
+      -7.066133181479219
+    ],
+    "initial_state": [
+      1737393.3914176582,
+      0.0,
+      -5778.223537380886,
+      -0.023500548159778346,
+      1686.5610172753666,
+      -7.066133181479219
+    ],
+    "catch_position_m": [
+      -1380367.4349603355,
+      1095736.9686658492,
+      -7.643191635153812e-13
+    ],
+    "catch_velocity_m_s": [
+      -1040.2397519447677,
+      -1297.0393011384224,
+      8.893855775547411
+    ],
+    "minimum_clearance_m": 3.0,
+    "offset_m": 5778.223537380886,
+    "equivalent_speed_over_offset_rpm": 2.779652441709547,
+    "hub_frame_initial_state": [
+      1737393.3912480664,
+      -24.27540793522161,
+      -5778.223537380886,
+      6.461382842285968e-05,
+      1686.5610174390938,
+      -7.066133181479218
+    ],
+    "sling_phase_deg": -0.2407089702812424,
+    "sling_horizontal_radius_m": 5778.274529941694,
+    "release_east_offset_from_hub_m": -24.27540793522161,
+    "release_north_offset_from_hub_m": -5778.223537380886,
+    "rotation_plane_height_over_hub_tangent_m": -6.60875193355605,
+    "sling_rpm": 2.77962791161922,
+    "centripetal_acceleration_earth_g": 49.92384889090625,
+    "validation_node_z_error_m": 4.490630090003833e-12
+  },
+  "assumptions": "Fixed 5796.553 m south offset, 3 m release/periapsis clearance, 25 km equatorial prograde catcher; locally horizontal release, free heading and speed",
+  "best": {
+    "angle_deg": 141.49198297699994,
+    "heading_toward_equator_deg": -0.24025124385083862,
+    "inclination_from_corresponding_equatorial_plane_deg": 0.30702094725909773,
+    "relative_catch_m_s": 13.301435987086535,
+    "radial_catch_m_s": 8.355669459801616,
+    "north_catch_m_s": 8.909348328493223,
+    "along_track_catch_m_s": -5.266355434137949,
+    "apoapsis_altitude_m": 28099.11290739593,
+    "flight_time_s": 2574.635299260483,
+    "period_s": 6577.408010456122,
+    "release_speed_inertial_m_s": 1686.5784986232936,
+    "release_speed_surface_relative_m_s": 1681.9541213430548,
+    "release_velocity_m_s": [
+      -0.02359486775681728,
+      1686.5636713274753,
+      -7.072059111276256
+    ],
+    "initial_state": [
+      1737393.330360641,
+      0.0,
+      -5796.553058510536,
+      -0.02359486775681728,
+      1686.5636713274753,
+      -7.072059111276256
+    ],
+    "catch_position_m": [
+      -1379122.7649563074,
+      1097303.1300325675,
+      7.643191635153812e-13
+    ],
+    "catch_velocity_m_s": [
+      -1041.7248839121876,
+      -1295.8501907550447,
+      8.909348328493223
+    ],
+    "minimum_clearance_m": 3.0,
+    "offset_m": 5796.553058510536,
+    "equivalent_speed_over_offset_rpm": 2.77086720087042
+  },
+  "selected": [
+    {
+      "angle_deg": 90.0,
+      "heading_toward_equator_deg": 1.170510069146489e-17,
+      "inclination_from_corresponding_equatorial_plane_deg": 0.1911580917729751,
+      "relative_catch_m_s": 24.633761288676748,
+      "radial_catch_m_s": 23.99701234876174,
+      "north_catch_m_s": 5.564665972929951,
+      "along_track_catch_m_s": -0.009282812141689996,
+      "apoapsis_altitude_m": 50726.7918939786,
+      "flight_time_s": 1629.896843818711,
+      "period_s": 6641.24289602903,
+      "release_speed_inertial_m_s": 1691.8964101075208,
+      "release_speed_surface_relative_m_s": 1687.2719920606437,
+      "release_velocity_m_s": [
+        1.153175850575957e-18,
+        1691.8964101075208,
+        3.4563990207629443e-16
+      ],
+      "initial_state": [
+        1737393.330360641,
+        0.0,
+        -5796.553058510536,
+        1.153175850575957e-18,
+        1691.8964101075208,
+        3.4563990207629443e-16
+      ],
+      "catch_position_m": [
+        1.0791647655765271e-10,
+        1762400.0,
+        -4.2428236674850806e-29
+      ],
+      "catch_velocity_m_s": [
+        -1667.8901149466171,
+        23.997012348761842,
+        5.564665972929951
+      ],
+      "minimum_clearance_m": 3.0,
+      "offset_m": 5796.553058510536,
+      "equivalent_speed_over_offset_rpm": 2.7796279116192184
+    },
+    {
+      "angle_deg": 120.0,
+      "heading_toward_equator_deg": -0.11036565349202668,
+      "inclination_from_corresponding_equatorial_plane_deg": 0.22073048798486522,
+      "relative_catch_m_s": 15.751395944905369,
+      "radial_catch_m_s": 13.821578037797046,
+      "north_catch_m_s": 6.410170056281535,
+      "along_track_catch_m_s": -3.997521057833118,
+      "apoapsis_altitude_m": 33492.946268631145,
+      "flight_time_s": 2180.124923973796,
+      "period_s": 6592.605878673281,
+      "release_speed_inertial_m_s": 1687.8538996244567,
+      "release_speed_surface_relative_m_s": 1683.2294901804048,
+      "release_velocity_m_s": [
+        -0.01084713731743123,
+        1687.8507683052997,
+        -3.251198399907958
+      ],
+      "initial_state": [
+        1737393.330360641,
+        0.0,
+        -5796.553058510536,
+        -0.01084713731743123,
+        1687.8507683052997,
+        -3.251198399907958
+      ],
+      "catch_position_m": [
+        -881204.9044082613,
+        1526280.3400577586,
+        3.821595817576906e-13
+      ],
+      "catch_velocity_m_s": [
+        -1447.8894487899454,
+        -819.9857531634714,
+        6.410170056281535
+      ],
+      "minimum_clearance_m": 3.0,
+      "offset_m": 5796.553058510536,
+      "equivalent_speed_over_offset_rpm": 2.772968255611202
+    },
+    {
+      "angle_deg": 150.0,
+      "heading_toward_equator_deg": -0.33109859851037343,
+      "inclination_from_corresponding_equatorial_plane_deg": 0.3823183113957317,
+      "relative_catch_m_s": 13.972212691762346,
+      "radial_catch_m_s": 6.40861956411532,
+      "north_catch_m_s": 11.09236009454188,
+      "along_track_catch_m_s": -5.577801566862879,
+      "apoapsis_altitude_m": 26822.40778475278,
+      "flight_time_s": 2731.0350878927215,
+      "period_s": 6573.812429550181,
+      "release_speed_inertial_m_s": 1686.2758982183716,
+      "release_speed_surface_relative_m_s": 1681.6515575976923,
+      "release_velocity_m_s": [
+        -0.032510988469652155,
+        1686.2477424846954,
+        -9.744476408729604
+      ],
+      "initial_state": [
+        1737393.330360641,
+        0.0,
+        -5796.553058510536,
+        -0.032510988469652155,
+        1686.2477424846954,
+        -9.744476408729604
+      ],
+      "catch_position_m": [
+        -1526291.666313985,
+        881185.2866114365,
+        1.5286383270307624e-12
+      ],
+      "catch_velocity_m_s": [
+        -836.6969784464494,
+        -1436.416487593091,
+        11.09236009454188
+      ],
+      "minimum_clearance_m": 3.0,
+      "offset_m": 5796.553058510536,
+      "equivalent_speed_over_offset_rpm": 2.77036875448145
+    },
+    {
+      "angle_deg": 160.0,
+      "heading_toward_equator_deg": -0.5252118447840878,
+      "inclination_from_corresponding_equatorial_plane_deg": 0.5589166972324753,
+      "relative_catch_m_s": 17.748772429087666,
+      "radial_catch_m_s": 4.216650970945441,
+      "north_catch_m_s": 16.21358765564234,
+      "along_track_catch_m_s": -5.8615998380621095,
+      "apoapsis_altitude_m": 25788.72147239698,
+      "flight_time_s": 2915.1038552284776,
+      "period_s": 6570.9017419612255,
+      "release_speed_inertial_m_s": 1686.0306957989155,
+      "release_speed_surface_relative_m_s": 1681.4064725752046,
+      "release_velocity_m_s": [
+        -0.051563278497148125,
+        1685.9598594449592,
+        -15.45499458871391
+      ],
+      "initial_state": [
+        1737393.330360641,
+        0.0,
+        -5796.553058510536,
+        -0.051563278497148125,
+        1685.9598594449592,
+        -15.45499458871391
+      ],
+      "catch_position_m": [
+        -1656123.49214559,
+        602750.9757466138,
+        0.0
+      ],
+      "catch_velocity_m_s": [
+        -572.3889010188462,
+        -1560.3712275778887,
+        16.21358765564234
+      ],
+      "minimum_clearance_m": 3.0,
+      "offset_m": 5796.553058510536,
+      "equivalent_speed_over_offset_rpm": 2.7699649990866875
+    },
+    {
+      "angle_deg": 170.0,
+      "heading_toward_equator_deg": -1.0841801323983677,
+      "inclination_from_corresponding_equatorial_plane_deg": 1.1009012735357426,
+      "relative_catch_m_s": 32.60082201545402,
+      "radial_catch_m_s": 2.092012672002737,
+      "north_catch_m_s": 31.93186053971424,
+      "along_track_catch_m_s": -6.228431707559457,
+      "apoapsis_altitude_m": 25194.107895820867,
+      "flight_time_s": 3099.5078485857825,
+      "period_s": 6569.227604369178,
+      "release_speed_inertial_m_s": 1685.8895647524164,
+      "release_speed_surface_relative_m_s": 1681.265976870813,
+      "release_velocity_m_s": [
+        -0.10642686402678596,
+        1685.587747686784,
+        -31.899185923927252
+      ],
+      "initial_state": [
+        1737393.330360641,
+        0.0,
+        -5796.553058510536,
+        -0.10642686402678596,
+        1685.587747686784,
+        -31.899185923927252
+      ],
+      "catch_position_m": [
+        -1735634.8437072753,
+        305982.7598235262,
+        -7.643191635153812e-13
+      ],
+      "catch_velocity_m_s": [
+        -290.5547198127417,
+        -1636.0723488675815,
+        31.93186053971424
+      ],
+      "minimum_clearance_m": 3.0,
+      "offset_m": 5796.553058510536,
+      "equivalent_speed_over_offset_rpm": 2.7697335451283283
+    },
+    {
+      "angle_deg": 175.0,
+      "heading_toward_equator_deg": -2.1854850202853195,
+      "inclination_from_corresponding_equatorial_plane_deg": 2.1938250764672698,
+      "relative_catch_m_s": 64.03110135346367,
+      "radial_catch_m_s": 1.0439909260176374,
+      "north_catch_m_s": 63.61939435233381,
+      "along_track_catch_m_s": -7.173889163220096,
+      "apoapsis_altitude_m": 25048.338140514446,
+      "flight_time_s": 3191.8639279203544,
+      "period_s": 6568.817210574448,
+      "release_speed_inertial_m_s": 1685.854957297258,
+      "release_speed_surface_relative_m_s": 1681.2339122581318,
+      "release_velocity_m_s": [
+        -0.2144911308766201,
+        1684.628682062012,
+        -64.28914847236945
+      ],
+      "initial_state": [
+        1737393.330360641,
+        0.0,
+        -5796.553058510536,
+        -0.2144911308766201,
+        1684.628682062012,
+        -64.28914847236945
+      ],
+      "catch_position_m": [
+        -1755703.3074079072,
+        153491.5514187524,
+        0.0
+      ],
+      "catch_velocity_m_s": [
+        -145.67650539987454,
+        -1654.3242307937837,
+        63.61939435233381
+      ],
+      "minimum_clearance_m": 3.0,
+      "offset_m": 5796.553058510536,
+      "equivalent_speed_over_offset_rpm": 2.76968072158073
+    }
+  ],
+  "search_bounds_deg": [
+    13.67970291434619,
+    179.80883190822752
+  ],
+  "interior_minima": 1,
+  "checks": [
+    {
+      "angle_deg": 90.0,
+      "catch_position_error_m": 1.424891305473115e-09,
+      "catch_velocity_error_m_s": 1.5348093162298077e-12
+    },
+    {
+      "angle_deg": 141.49198297699994,
+      "catch_position_error_m": 2.3744349828606874e-09,
+      "catch_velocity_error_m_s": 2.37391732530423e-12
+    },
+    {
+      "angle_deg": 170.0,
+      "catch_position_error_m": 5.608674549612032e-09,
+      "catch_velocity_error_m_s": 3.766385910809493e-12
+    }
+  ]
+}

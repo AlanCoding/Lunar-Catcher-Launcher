@@ -1,15 +1,10 @@
 # Publication checkpoint — 2026-11-01
 
-**Article status:** Upcoming; not yet published.
+**Article status:** Published.
 
-**Working topic:** Wheeled Kevlar lunar sling launcher.
+**Article:** [Lunar Slings: The Go-Kart Version](https://medium.com/@alanse/lunar-slings-the-go-kart-version-e5a991da7e0c).
 
-**Published article URL:** To be added here when the new post goes public.
-
-<!-- Publication update: replace the URL placeholder above with the article link,
-     set Article status to Published, and update the status in the root README. -->
-
-These are working materials for a **new post**, separate from
+These are supporting materials for the published sling-launcher post, separate from
 [The Value of Low Lunar Orbit Space Stations](https://alanse.medium.com/the-value-of-low-lunar-orbit-space-stations-db1a5bb9e8af)
 (December 24, 2017). That earlier post's original notebook, catcher sensitivity
 analysis and plots are indexed in the [lunar studies guide](../../llo_catcher/README.md#published-post-original-notebook-and-plots).

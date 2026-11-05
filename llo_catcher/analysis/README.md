@@ -1,4 +1,27 @@
-# LLO catcher baseline: later review of the original notebook
+# LLO orbital analyses: start here
+
+**[Equatorial launch-site checkpoint](LAUNCH_SITE_CHECKPOINT.md)** is the entry
+point for the completed terrain study: final six-site outcomes, coordinates,
+limits and the supporting calculation sequence.
+
+These folders address different questions; the original published mass-driver
+notebook and later sling-related orbital work are kept distinct.
+
+| Start point | Question / status |
+| --- | --- |
+| [Final six-site east/west outcomes](single_equatorial_release/summit_sites/missed_capture/README.md) | **Completed:** impact coordinates and hub/sweep checks; no paired successful hub under the tested assumptions. |
+| [Movable summit hubs](single_equatorial_release/summit_sites/README.md) | Six terrain candidates with signed decimal coordinates; follow-up trajectories are checked separately. |
+| [5 km hub footprint screen](single_equatorial_release/hub_footprints/README.md) | Both hub orientations tested throughout all 49 corridors. Fixed nominal latitudes fail the 10 m maximum-rise limit; followed by the movable-summit search. |
+| [Local 10 m launch corridors](single_equatorial_release/local_corridors/README.md) | **Completed:** refine eight successful seed sites; 22.604 km in their connected intervals, 90.727 km including additional nearby intervals. Includes the 144° orbit/terrain check. |
+| [Single equatorial release](single_equatorial_release/README.md) | **Historical / approach closed:** height scan over 360 longitudes, 50% clearance at 2,310.7 m, then failed-capture outcomes through 1.5 orbits. |
+| [Two offset useful payloads](dual_offset_release/README.md) | **Deferred:** separate branch; links existing spherical/terrain results and defines future work. |
+| [Accepted heading optimum](heading_optimization/RESULT.md) | **Completed:** how a finite-offset sling reaches a 25 km equatorial circular catcher with minimum relative speed; selected 141.557° solution. |
+| [Spherical clearance baseline](spherical_release/README.md) | Earlier 90° comparison, periapsis geometry and tower-height margin equations. |
+| [Terrain release audit](terrain/results/release_audit/README.md) | Why saved terrain trajectories collided despite starting at periapsis; no new terrain sweep. |
+| [Terrain source and study](terrain/README.md) | Terrain source and preserved historical 360-site/720-trajectory survey; the new single-equator branch is separate. |
+| [Historical baseline below](#historical-notebook-review-and-python-3-baseline) | Later review of the original 2017 mass-driver notebook; reproduced by `baseline.py`. |
+
+## Historical notebook review and Python 3 baseline
 
 The [original notebook](<../variations analysis for lunar catcher-launcher system.ipynb>)
 and its launch-error sensitivity calculations support the published
@@ -8,7 +31,7 @@ baseline**, added during repository reorganization; it is not the original
 publication's notebook or newly introduced catcher sensitivity research.
 
 The separate [wheeled launcher study](../../sling_launcher/README.md) and its
-[upcoming-post checkpoint](../../sling_launcher/publication/README.md) contain the
+[sling-post checkpoint](../../sling_launcher/publication/README.md) contain the
 subsequent launcher work.
 
 ## Initial assessment
@@ -86,8 +109,8 @@ propagation to predict arrival position and time.
 
 The list below records the initial assessment, before the surface wheeled
 launcher architecture was developed in [sling_launcher/](../../sling_launcher/README.md).
-Keep new launcher derivations, scenarios and results there; this directory
-remains the ballistic baseline and review. The original catcher notebook did
+Keep new launcher derivations, scenarios and results there; the historical `baseline.py` remains the ballistic baseline and review;
+the separately named analysis subfolders above contain later orbital studies. The original catcher notebook did
 not select a rotating-sling architecture.
 
 | Work item | Inputs and outputs needed |
