@@ -1,0 +1,65 @@
+[
+  {
+    "longitude_deg_east": 39,
+    "direction": "prograde",
+    "spatial_step_m": 0.125,
+    "status": "arrested_after_missed_capture",
+    "impact_time_difference_s": 1.4551915228366852e-11
+  },
+  {
+    "longitude_deg_east": 100,
+    "direction": "retrograde",
+    "spatial_step_m": 0.125,
+    "status": "arrested_after_missed_capture",
+    "impact_time_difference_s": 1.2732925824820995e-11
+  },
+  {
+    "longitude_deg_east": 123,
+    "direction": "retrograde",
+    "spatial_step_m": 0.125,
+    "status": "arrested_after_missed_capture",
+    "impact_time_difference_s": 9.094947017729282e-13
+  },
+  {
+    "longitude_deg_east": 132,
+    "direction": "retrograde",
+    "spatial_step_m": 0.125,
+    "status": "arrested_after_missed_capture",
+    "impact_time_difference_s": 7.275957614183426e-12
+  },
+  {
+    "longitude_deg_east": 209,
+    "direction": "retrograde",
+    "spatial_step_m": 0.125,
+    "status": "arrested_after_missed_capture",
+    "impact_time_difference_s": 9.094947017729282e-13
+  },
+  {
+    "longitude_deg_east": 283,
+    "direction": "prograde",
+    "spatial_step_m": 0.125,
+    "status": "arrested_after_missed_capture",
+    "impact_time_difference_s": 1.000444171950221e-11
+  },
+  {
+    "longitude_deg_east": 295,
+    "direction": "prograde",
+    "spatial_step_m": 0.125,
+    "status": "arrested_after_missed_capture",
+    "impact_time_difference_s": 6.093614501878619e-11
+  },
+  {
+    "longitude_deg_east": 326,
+    "direction": "retrograde",
+    "spatial_step_m": 0.125,
+    "status": "arrested_after_missed_capture",
+    "impact_time_difference_s": 0.0
+  },
+  {
+    "longitude_deg_east": 333,
+    "direction": "retrograde",
+    "spatial_step_m": 0.125,
+    "status": "arrested_after_missed_capture",
+    "impact_time_difference_s": 9.094947017729282e-13
+  }
+]

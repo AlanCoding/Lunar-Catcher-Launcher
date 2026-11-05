@@ -1,0 +1,8 @@
+{
+  "site_count": 6,
+  "minimum_hub_separation_km": 16.507805504220077,
+  "maximum_sampled_terrain_above_selected_summits_m": 0.0,
+  "finer_perimeter_bearings": 36000,
+  "new_strip_hashes_verified": 8,
+  "signed_decimal_coordinates_verified": true
+}

@@ -5,7 +5,7 @@ notebook and sensitivity sweep. It is distinct from the original 100 km
 catcher notebook associated with
 [The Value of Low Lunar Orbit Space Stations](https://alanse.medium.com/the-value-of-low-lunar-orbit-space-stations-db1a5bb9e8af),
 which is preserved under [llo_catcher/](../llo_catcher/README.md).
-It is also separate from the [upcoming wheeled-launcher post](../sling_launcher/publication/README.md).
+It is also separate from the [published wheeled-launcher post](../sling_launcher/publication/README.md).
 No published-article link is assigned to this study here.
 
 This folder reproduces the full calculation chain from the prompt in `frozen_retreat/PROMPT.md`:
