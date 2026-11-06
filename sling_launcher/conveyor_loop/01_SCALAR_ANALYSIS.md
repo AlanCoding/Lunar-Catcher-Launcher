@@ -102,3 +102,21 @@ rather than allowing negative margins or omitting critical masses. Verify units,
 energy/angular-momentum balances and limiting cases. Select a small set of
 explicit input snapshots for Stage 2; do not call a scalar optimum a validated
 working machine.
+
+## Updated concept inputs (2026-11-05)
+
+Use reusable attachments returning on the inward strand and loaded again near
+the feed wheel. Both conveyors circulate in the hub's rotational sense. The
+current concept has a **wheel-free outer turn**, while the two-stage intermediate
+wheels remain. Revise the earlier turnaround-mass assumptions accordingly;
+check whether line curvature, transport and tension permit that free turn.
+Do not silently reintroduce a tip pulley to make the model work.
+
+Add a controlled unloading stroke between attachment and payload before release,
+with approximately 10 m as an initial sensitivity input. Determine required
+travel and time, force/acceleration ramp, device energy/mass, reset cycle and
+release-state changes. Compare instantaneous release against progressive
+unloading and track waves after reflection and repeated launches. A smooth
+command or simultaneous paired release alone does not establish safe stresses.
+The [illustration notes](figures/README.md) link the motivating external simulation;
+its results do not size this mechanism.
