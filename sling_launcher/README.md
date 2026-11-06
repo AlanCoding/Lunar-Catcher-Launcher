@@ -5,9 +5,18 @@ This surface sling-launcher study supports
 The original LLO catcher notebook and sensitivity calculations belong to the
 [earlier post](../llo_catcher/README.md#published-post-original-notebook-and-plots).
 
-Next work: [operations simulation](work_items/01_OPERATIONS_SIMULATION.md), then
-[3D tether dynamics](work_items/02_DYNAMIC_TETHERS.md). These plans extend the
-frozen reference design; they are not part of its completed validation.
+## New concept: conveyor-loop feeding
+
+[Conveyor-loop concept and work plan](conveyor_loop/README.md): single-loop
+**Zyling** and the **two-loop Kevlar variant**, with circulating constant-section
+lines in place of outward spools. Next proposed work is
+[scalar mass-flow and payback screening](conveyor_loop/01_SCALAR_ANALYSIS.md),
+then [2D stresses and dynamics](conveyor_loop/02_PLANAR_DYNAMICS.md).
+These are planning stubs, not completed feasibility results.
+
+The earlier spool-based [operations simulation](work_items/01_OPERATIONS_SIMULATION.md)
+and [3D tether dynamics](work_items/02_DYNAMIC_TETHERS.md) are **on hold at the
+user's request**. The published reference design below remains unchanged.
 
 **For publication, start here:** [current checkpoint and chart index](publication/README.md).
 The [checkpoint](publication/CHECKPOINT.md) gives the selected design and pie charts;

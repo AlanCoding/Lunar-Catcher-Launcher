@@ -3,8 +3,9 @@
 Updated 2026-11-04. **The equatorial launch-site study is closed at its agreed
 exploratory scope**, including the six summit hubs and east/west impact checks.
 Start with its [checkpoint](llo_catcher/analysis/LAUNCH_SITE_CHECKPOINT.md).
-The spherical heading study is also complete. **Next: launcher operations;
-then segmented tether dynamics.** The comprehensive two-offset-payload terrain
+The spherical heading study is also complete. **New priority: conveyor-loop
+scalar screening, then 2D dynamics. The earlier spool-based operations and
+3D tether-dynamics plans are on hold at the user’s request.** The comprehensive two-offset-payload terrain
 branch remains deferred.
 
 The [published sling study](sling_launcher/publication/README.md) remains the
@@ -18,8 +19,10 @@ from tested operating limits and new results.
 | [Local 10 m corridors](llo_catcher/analysis/single_equatorial_release/local_corridors/README.md) | LLO catcher / terrain | **Completed:** eight seed-connected intervals total 22.604 km; all 49 nearby intervals passing departure and return-impact criteria total 90.727 km. |
 | [Single equatorial release](llo_catcher/analysis/single_equatorial_release/README.md) | LLO catcher / terrain | **Historical; further height-percentage surveying abandoned:** 360 sites; 50% outbound clearance at 2,310.7 m; 95 subsequent impacts and 85 unarrested through 1.5 orbits among 180 clear departures. |
 | [Two offset useful releases](llo_catcher/analysis/dual_offset_release/README.md) | LLO catcher / terrain | **Deferred:** separate branch, preserving the historical two-arm survey and accepted spherical heading solution. |
-| [Time-stepped launcher operations](sling_launcher/work_items/01_OPERATIONS_SIMULATION.md) | Sling launcher | Next launcher stage: use frozen design parameters as constraints; model batch loading, spinup, repeated launches, spindown and refill. Can start with a declared provisional terrain/catcher interface. |
-| [3D segmented tether dynamics](sling_launcher/work_items/02_DYNAMIC_TETHERS.md) | Sling launcher | Follow the operations stage; replace quasi-static tether treatment while retaining its controls, inventory, energy accounting and event sequence. |
+| [Conveyor-loop scalar screening](sling_launcher/conveyor_loop/01_SCALAR_ANALYSIS.md) | Sling launcher / new conveyor concept | **Next proposed work; stub only:** single-loop Zyling and two-stage Kevlar, material checks, mass flow, power and mass-payback periods. |
+| [Conveyor-loop 2D dynamics](sling_launcher/conveyor_loop/02_PLANAR_DYNAMICS.md) | Sling launcher / new conveyor concept | **Planned after scalar screening:** moving strands, payloads, stresses, intermediate handoff and paired release in the rotation plane. |
+| [Time-stepped launcher operations](sling_launcher/work_items/01_OPERATIONS_SIMULATION.md) | Sling launcher | **On hold; not started:** use frozen design parameters as constraints; model batch loading, spinup, repeated launches, spindown and refill. Can start with a declared provisional terrain/catcher interface. |
+| [3D segmented tether dynamics](sling_launcher/work_items/02_DYNAMIC_TETHERS.md) | Sling launcher | **On hold; not started:** follows the spool operations stage; replace quasi-static tether treatment while retaining its controls, inventory, energy accounting and event sequence. |
 
 The terrain survey is for failed-shot clearance and targeting, **not mountain
 height optimization**. The operations model is forward simulation of an existing

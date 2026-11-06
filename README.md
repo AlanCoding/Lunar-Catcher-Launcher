@@ -53,7 +53,11 @@ agreed scope; it does not establish six buildable launcher installations.
 
 ## Next work
 
-The [work-item index](WORK_ITEMS.md) separates completed studies from pending work:
-**time-stepped launcher operations** comes next, followed by **3D segmented tether
-dynamics**. The comprehensive two-offset useful-payload terrain branch remains
-deferred. Neither launcher simulation has started.
+The new [conveyor-loop sling concept](sling_launcher/conveyor_loop/README.md)
+explores single-loop Zyling and a two-stage Kevlar variant. The planned sequence
+is **scalar mass-flow and payback analysis**, then **2D tether stresses and
+dynamics**; currently these are documentation stubs only.
+
+The earlier spool-based operations and 3D tether-dynamics plans are **on hold**.
+The comprehensive two-offset useful-payload terrain branch remains deferred.
+See the [work-item index](WORK_ITEMS.md) for all statuses.
