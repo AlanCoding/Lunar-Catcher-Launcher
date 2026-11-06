@@ -7,11 +7,13 @@ Status: **New concept; planning stubs only.** Recorded 2026-11-04.
 
 Replace the outward payload/countermass spools with circulating tether loops.
 Each loop has constant cross-section along its own length, an outward-moving
-strand, an inward return strand, a drive/brake wheel near its inner end, and an
-outer turnaround. Payloads attach near the inner end, travel outward with the
+strand, an inward return strand, a drive/brake wheel near its inner end, and a
+free outer turn (no tip pulley in the current illustration). Payloads attach near the inner end, travel outward with the
 line, and detach at a controlled release phase. Several payloads may be in
-transit simultaneously. The empty line returns without retracting the whole arm.
-Reusable attachment hardware and its return route remain to be specified.
+transit simultaneously. The line returns with its small reusable attachment devices, which receive new
+payloads on their next loading pass. It does not retract the whole arm. Both
+conveyors circulate in the same rotational sense as the hub in this iteration.
+The free outer-turn shape and attachment passage need dynamic/mechanical checks.
 
 Two motions coexist: the entire sling rotates about the lunar hub at angular
 speed **Ω**, while line circulates through its wheels at linear feed speed **u**.
@@ -91,3 +93,13 @@ and dynamic loads. Neither the material values nor the claimed two-stage
 optimum has been independently checked here. Source material properties before
 using them in results. The handoff's concept-post and four illustration ideas
 are retained as later communication options; this task creates research plans.
+
+## Revision: reusable devices and gentle release
+
+The [revised concept figures](figures/README.md) remove tip pulleys, retain the
+intermediate stage wheels, and show returning reusable attachment devices.
+Release should progressively unload the line through a controlled extension
+before detachment. Approximately 10 m of travel is a suggested starting input,
+not a validated requirement. Include device mass, stroke reset, dissipation or
+recovery, and release-vector/timing changes in the scalar and dynamic studies.
+See the figure guide for the motivating Rüdiger simulation reference.
