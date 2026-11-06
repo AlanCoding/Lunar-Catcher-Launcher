@@ -1,6 +1,8 @@
 # Stage 2: 3D segmented tether dynamics in the operations simulator
 
-Status: **Planned after Stage 1**. Captured 2026-11-03.
+Status: **On hold at the user's request, 2026-11-04; not started.**
+The new [conveyor-loop work plan](../conveyor_loop/README.md) takes priority.
+This preserved plan applies to the spool-based reference. Originally captured 2026-11-03.
 Dependency: [time-stepped operations simulator](01_OPERATIONS_SIMULATION.md).
 [Work-item index](../../WORK_ITEMS.md).
 

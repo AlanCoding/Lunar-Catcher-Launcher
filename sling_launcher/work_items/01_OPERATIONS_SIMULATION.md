@@ -1,6 +1,8 @@
 # Stage 1: time-stepped launcher operations
 
-Status: **Next launcher work item; planned, not started**. Captured 2026-11-03.
+Status: **On hold at the user's request, 2026-11-04; not started.**
+The new [conveyor-loop work plan](../conveyor_loop/README.md) takes priority.
+This preserved plan applies to the spool-based reference. Originally captured 2026-11-03.
 [Work-item index](../../WORK_ITEMS.md) · [Frozen reference](../publication/candidate_50g.json)
 
 ## Objective and boundary

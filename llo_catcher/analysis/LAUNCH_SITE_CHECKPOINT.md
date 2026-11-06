@@ -71,9 +71,11 @@ clearance, capture control, or a fully coupled launcher design.
 
 ## What comes next
 
-The next planned launcher task is [time-stepped operations](../../sling_launcher/work_items/01_OPERATIONS_SIMULATION.md),
-then [3D segmented tether dynamics](../../sling_launcher/work_items/02_DYNAMIC_TETHERS.md).
-Both remain unstarted. The comprehensive [two-offset useful-payload terrain
-study](dual_offset_release/README.md) remains deferred; the six-site westward
-check does not complete that separate design problem. No further launch-site
-sweep is scheduled as part of this closed item.
+The new launcher priority is [conveyor-loop scalar screening followed by 2D
+dynamics](../../sling_launcher/conveyor_loop/README.md). The earlier spool-based
+[operations](../../sling_launcher/work_items/01_OPERATIONS_SIMULATION.md) and
+[3D tether dynamics](../../sling_launcher/work_items/02_DYNAMIC_TETHERS.md) plans
+are on hold at the user's request; neither has started. The comprehensive
+[two-offset useful-payload terrain study](dual_offset_release/README.md) remains
+deferred; the six-site westward check does not complete that separate design
+problem. No further launch-site sweep is scheduled as part of this closed item.

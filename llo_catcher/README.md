@@ -69,5 +69,5 @@ The original notebook describes a ballistic transfer to an orbital catcher. It d
 - [Two offset useful payloads](analysis/dual_offset_release/README.md): deferred
   comprehensive paired study; the approximate six-site westward check is recorded
   in the checkpoint above.
-- [Repository work queue](../WORK_ITEMS.md): launcher operations next, then
-  segmented tether dynamics. Neither is started.
+- [Repository work queue](../WORK_ITEMS.md): conveyor-loop scalar analysis next, then
+  2D dynamics. The earlier spool operations and 3D dynamics plans are on hold.

@@ -1,0 +1,74 @@
+# Stage 2: 2D moving-loop stress and dynamics
+
+Status: **Planned after scalar screening; not started.**
+[Concept](README.md) · [Stage 1 inputs](01_SCALAR_ANALYSIS.md)
+
+## Objective and dimensional scope
+
+Test the moving-loop geometry and stresses using discrete cable segments in the
+**plane of sling rotation**. Resolve radial transport and tangential deflection,
+including the outgoing and returning strands. This is a new conveyor model,
+separate from the paused spool-based 3D plan.
+
+Declare an inertial or rotating frame and apply its equations consistently.
+A horizontal planar model cannot validate vertical lunar-gravity droop, ground
+clearance or out-of-plane stability. Track those as separate static checks or
+explicitly excluded questions. Do not project full lunar gravity into the plane
+and imply that vertical support has been solved.
+
+## Implementation stages
+
+1. **Uniform unloaded loop:** closed material path, finite-mass turnaround,
+   driven inner wheel, tension-only cable law and resolved curved wheel paths.
+   Specify wheel constraints, traction/slip assumption, bending idealization,
+   elasticity and damping. Start with steady Ω and u to verify force balances.
+2. **Loaded single loop:** attach discrete payloads/fixtures, transport them,
+   release at defined phase, and return reusable fixtures. Resolve differing
+   outgoing/returning tensions and deflections. Separate prescribed-drive tests
+   from actuator-limited runs with feedback to main-drive torque and feed brake.
+3. **Two-stage variant:** add the intermediate assembly as a moving mass, not a
+   pinned radial point in the stability test. Model each loop separately and
+   transfer payload support over a finite interval. Matched feed speed does not
+   by itself demonstrate a smooth force transfer. Test position stability and
+   tension continuity under repeated transfers.
+4. **Opposing arms and events:** coordinate payload/countermass release and
+   examine small timing/load mismatches, loading pulses, feed changes and
+   controlled slowdown. Preserve the static cross-tie force paths. A symmetric
+   one-arm test cannot establish balance after an asymmetric event.
+
+Advect actual material around the closed path or use a demonstrably conservative
+moving-mesh equivalent. Prevent artificial creation of cable mass, momentum or
+energy at wheels, transfer stations and segment remeshing. Assign material mass
+from each loop's constant area; discontinuity between stages belongs to two
+separate loops, not a taper circulating through one wheel.
+
+## Slippage model
+
+No-slip wheel contact is an initial comparison case, not the default feasibility
+conclusion. Compare demanded tension difference/brake torque with finite contact
+traction; model onset of sliding and relative line/rim speed when the limit is
+exceeded. Track accumulated slip distance, frictional heat, lost recovery and
+payload timing errors. Examine loading, handoff and release transients as well
+as steady feed. Treat friction coefficients as uncertain inputs until supported
+by appropriate material/contact data. Compare added wraps or a separate traction
+mechanism with their mass, routing and attachment-passage constraints.
+
+## Outputs and checks
+
+- 2D animations and strand trajectories; tension/stress histories, peak locations,
+  slack events, wheel reactions, intermediate displacement and payload paths.
+- Grip margin, slip onset, relative slip speed/distance and contact heating,
+  alongside breaking, bending, attachment and slack limits.
+- Drive/brake torque and power, energy recovery, losses and energy balance;
+  comparison with Stage 1 mass flow and ideal energy relations.
+- Sensitivity to feed speed, inventory, stage ratio, assembly mass and controller
+  limits. Distinguish absence of observed instability from proven stability.
+- Segment/time-step convergence and limiting cases: stationary feed, unloaded
+  steady rotation, prescribed motion and isolated conservation tests. Include
+  momentum flux and release/attachment bookkeeping in open-system checks.
+- A result summary identifying feasible simulated regimes, broken scalar
+  assumptions and the unresolved 3D/clearance and mechanical-transfer questions.
+
+Begin with numerical trajectories and scientific plots; detailed Blender assets
+or a new publication draft are later tasks. No 3D simulator is required to finish
+this stage, and a successful planar run is not full launcher validation.
