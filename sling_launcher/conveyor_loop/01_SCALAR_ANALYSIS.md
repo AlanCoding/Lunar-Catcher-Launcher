@@ -26,8 +26,8 @@ Build an explicit variable dictionary with units and provenance before scanning.
 
 For two loops, state each loop's feed speed and wheel radius. Equal line speeds
 do not imply equal wheel RPM. Specify transfer timing and whether intermediate
-buffer inventory is permitted. Do not assume both loops are driven by one rigid
-coaxial wheel without checking speed compatibility.
+buffer inventory is permitted. The selected concept locks both contact surfaces to one shared pulley/common
+shaft; check effective groove radii and speed compatibility under that constraint.
 
 ## Calculation sequence
 
@@ -107,8 +107,8 @@ working machine.
 
 Use reusable attachments returning on the inward strand and loaded again near
 the feed wheel. Both conveyors circulate in the hub's rotational sense. The
-current concept has a **wheel-free outer turn**, while the two-stage intermediate
-wheels remain. Revise the earlier turnaround-mass assumptions accordingly;
+current concept has a **wheel-free outer turn**, while the two-stage shared intermediate
+pulley remains. Revise the earlier turnaround-mass assumptions accordingly;
 check whether line curvature, transport and tension permit that free turn.
 Do not silently reintroduce a tip pulley to make the model work.
 
@@ -120,3 +120,14 @@ unloading and track waves after reflection and repeated launches. A smooth
 command or simultaneous paired release alone does not establish safe stresses.
 The [illustration notes](figures/README.md) link the motivating external simulation;
 its results do not size this mechanism.
+
+## Shared intermediate pulley: selected concept
+
+The two-stage design uses **one shared intermediate pulley/common shaft**, with
+both loop contact surfaces locked to the same angular velocity. This is the
+mechanical torque/power connection between the outer and inner loops, not two
+independent wheels on a bracket. Use matched effective groove radii for matched
+feed speeds in the initial no-slip model. Calculate the torque balance and
+traction capacity at both contacts; do not assume shaft coupling guarantees grip.
+Detailed out-of-plane shaft/groove bending is outside the initial 2D scope.
+The payload handoff still needs its own load-transfer mechanism.

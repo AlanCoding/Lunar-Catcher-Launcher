@@ -1,6 +1,10 @@
 """Concept schematics, not dimensioned engineering drawings. Run from repo root."""
 from pathlib import Path
 import math
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("--only", help="Output basename to regenerate; default: all three")
+ONLY = parser.parse_args().only
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -53,6 +57,9 @@ def payload(ax,x,y,scale=1,c=BLUE,side=1):
 def badge(ax,x,y,n):
  ax.add_patch(Circle((x,y),13,facecolor=INK,edgecolor=BG,lw=1));txt(ax,x,y,str(n),10,BG,'center')
 def save(f,name):
+ if ONLY and name != ONLY:
+  plt.close(f)
+  return
  f.savefig(OUT/(name+'.svg'),facecolor=BG)
  svg=OUT/(name+'.svg')
  svg.write_text('\n'.join(row.rstrip() for row in svg.read_text().splitlines())+'\n')
@@ -130,17 +137,18 @@ txt(ax,60,587,'Extra wraps / separate holding device',10,MUTED)
 save(f,'02_feed_and_attachment')
 
 f,ax=start('03  /  Two loops, one step in thickness','One arm shown · thicker inner loop + thinner outer loop')
-# distinct ends avoid implying coaxial compatibility already resolved
-loop(ax,155,535,300,42,width=6,right_wheel=True)
-loop(ax,670,1085,300,42,width=2.7)
-ax.add_patch(FancyBboxPatch((487,233),231,150,boxstyle='round,pad=0,rounding_size=14',facecolor='none',edgecolor=BLUE,lw=1.5,linestyle='--'))
-line(ax,[535,670],[300,300],INK,3)
+# Both loops contact one shared rigid pulley / common shaft.
+# Inner loop wraps its right half; outer loop wraps its left half.
+loop(ax,155,600,300,42,width=6,right_wheel=True)
+loop(ax,600,1085,300,42,width=2.7,left_wheel=False)
+ax.add_patch(Circle((600,300),55,facecolor='none',edgecolor=BLUE,lw=1.5,linestyle='--'))
 for x in [270,420,810,965]:payload(ax,x,342,1.1)
 for x in [270,420,810,965]:clip(ax,x,258,1.1)
 arrow(ax,(1117,342),(1140,240),BLUE)
 txt(ax,1000,198,'Gentle release; devices return',10,BLUE,'center')
-arrow(ax,(553,348),(654,348),BLUE,2,curve=-.35)
-badge(ax,601,216,6);txt(ax,601,180,'Intermediate assembly',13,BLUE,'center')
+arrow(ax,(665,375),(535,375),GREEN,2)
+txt(ax,600,395,'Power passes through the shared pulley',10,GREEN,'center')
+badge(ax,600,220,6);txt(ax,600,180,'Shared intermediate pulley',13,BLUE,'center')
 txt(ax,330,427,'Thicker inner loop',13,INK,'center');txt(ax,875,427,'Thinner outer loop',13,INK,'center')
 badge(ax,96,300,3);badge(ax,1143,300,5)
 # transfer inset restrained graphic
@@ -149,6 +157,6 @@ txt(ax,228,505,'6  Payload handoff',12,BLUE)
 line(ax,[240,400],[539,539],lw=6);line(ax,[490,650],[539,539],lw=2.7)
 payload(ax,373,539,.95);payload(ax,516,539,.95)
 arrow(ax,(407,555),(481,555),BLUE)
-txt(ax,704,530,'Match feed velocity.',11);txt(ax,704,555,'Transfer the full load.',11);txt(ax,704,579,'Mechanism not yet designed.',10,MUTED)
+txt(ax,704,530,'One pulley · common shaft.',11);txt(ax,704,555,'Transfer payload support.',11);txt(ax,704,579,'Handoff mechanism to design.',10,MUTED)
 txt(ax,600,132,'No rigid arm to the hub: the intermediate assembly must balance tether forces.',10,MUTED,'center')
 save(f,'03_two_stage_loop')

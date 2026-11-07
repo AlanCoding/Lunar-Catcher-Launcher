@@ -1,6 +1,15 @@
 # Conveyor-loop lunar sling: concept and work plan
 
-Status: **New concept; planning stubs only.** Recorded 2026-11-04.
+Status: **Concept and illustrations published; analysis remains planned.**
+Publication recorded 2026-11-06.
+
+[Conveyor Belt Lunar Mass Sling](https://alanse.medium.com/conveyor-belt-lunar-mass-sling-7abc7bac7a05) ·
+[Lunar Mass Launchers collection](https://alanse.medium.com/list/lunar-mass-launchers-9a765f4e596a)
+
+This folder contains the concept notes and [four supporting illustrations](figures/README.md)
+for the published post. The scalar and 2D dynamics documents are future research
+plans, not completed results. The original handoff is preserved as historical
+context; subsequent clarifications are recorded here and in the figure guide.
 [Launcher guide](../README.md) · [Work queue](../../WORK_ITEMS.md)
 
 ## Proposal
@@ -67,7 +76,8 @@ work, not created independently by the feed mechanism.
    strands, discrete payloads and turnaround assemblies. Test steady transport,
    loading, transfer and paired release, with explicit planar limitations.
 
-[Initial SVG concept illustrations](figures/README.md) are available for review.
+[SVG concept illustrations](figures/README.md) are available for review, including
+a separate [Coriolis / tangential-force diagram](figures/README.md#4-coriolis--tangential-force-picture).
 They describe the mechanism, not calculated geometry. No numerical analysis,
 material selection, optimization or simulation has been performed yet. The older spool-based
 [operations](../work_items/01_OPERATIONS_SIMULATION.md) and
@@ -92,14 +102,25 @@ These exclude payloads, wheel/attachment masses, bending, environmental losses
 and dynamic loads. Neither the material values nor the claimed two-stage
 optimum has been independently checked here. Source material properties before
 using them in results. The handoff's concept-post and four illustration ideas
-are retained as later communication options; this task creates research plans.
+are retained as later communication options; the concept and four illustrations are now published; numerical research remains planned.
 
 ## Revision: reusable devices and gentle release
 
 The [revised concept figures](figures/README.md) remove tip pulleys, retain the
-intermediate stage wheels, and show returning reusable attachment devices.
+shared intermediate stage pulley, and show returning reusable attachment devices.
 Release should progressively unload the line through a controlled extension
 before detachment. Approximately 10 m of travel is a suggested starting input,
 not a validated requirement. Include device mass, stroke reset, dissipation or
 recovery, and release-vector/timing changes in the scalar and dynamic studies.
 See the figure guide for the motivating Rüdiger simulation reference.
+
+## Shared intermediate pulley: selected concept
+
+The two-stage design uses **one shared intermediate pulley/common shaft**, with
+both loop contact surfaces locked to the same angular velocity. This is the
+mechanical torque/power connection between the outer and inner loops, not two
+independent wheels on a bracket. Use matched effective groove radii for matched
+feed speeds in the initial no-slip model. Calculate the torque balance and
+traction capacity at both contacts; do not assume shaft coupling guarantees grip.
+Detailed out-of-plane shaft/groove bending is outside the initial 2D scope.
+The payload handoff still needs its own load-transfer mechanism.

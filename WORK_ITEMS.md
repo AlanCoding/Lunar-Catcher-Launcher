@@ -8,6 +8,11 @@ scalar screening, then 2D dynamics. The earlier spool-based operations and
 3D tether-dynamics plans are on hold at the user’s request.** The comprehensive two-offset-payload terrain
 branch remains deferred.
 
+The [conveyor concept post](https://alanse.medium.com/conveyor-belt-lunar-mass-sling-7abc7bac7a05) and its
+[four illustrations](sling_launcher/conveyor_loop/figures/README.md) are now
+published (recorded 2026-11-06). Its scalar and dynamics studies remain planned.
+The [Lunar Mass Launchers collection](https://alanse.medium.com/list/lunar-mass-launchers-9a765f4e596a) is the broader publication index.
+
 The [published sling study](sling_launcher/publication/README.md) remains the
 reference snapshot. New simulations must distinguish inherited assumptions
 from tested operating limits and new results.
