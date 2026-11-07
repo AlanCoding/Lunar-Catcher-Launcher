@@ -1,8 +1,13 @@
 # Lunar Catcher / Launcher Studies
 
-This repository contains the calculations behind a published low-lunar-orbit
-catcher post and a published surface sling-launcher post, along with subsequent
-studies and planned simulation work.
+This repository contains supporting calculations, illustrations and research
+plans for lunar launchers and orbital catchers, spanning electromagnetic mass
+drivers, wheeled slings and conveyor-loop slings.
+
+**Read the broader collection: [Lunar Mass Launchers on Medium](https://alanse.medium.com/list/lunar-mass-launchers-9a765f4e596a).**
+The list is the publication-level container for posts on this subject; this
+repository organizes their supporting work and related unpublished studies.
+The table below maps individual posts to their files.
 
 ## Posts and supporting work
 
@@ -10,6 +15,7 @@ studies and planned simulation work.
 | --- | --- | --- |
 | [The Value of Low Lunar Orbit Space Stations](https://alanse.medium.com/the-value-of-low-lunar-orbit-space-stations-db1a5bb9e8af) | Published December 24, 2017 | [Original notebook and plots](llo_catcher/README.md#published-post-original-notebook-and-plots): 100 km catcher, launch-error sensitivity, downrange rise and energy/payoff calculations. |
 | [Lunar Slings: The Go-Kart Version](https://medium.com/@alanse/lunar-slings-the-go-kart-version-e5a991da7e0c) | **Published** | [Publication index](sling_launcher/publication/README.md): current 50-g design, component masses, mass optimization, payoff and Blender illustrations. |
+| [Conveyor Belt Lunar Mass Sling](https://alanse.medium.com/conveyor-belt-lunar-mass-sling-7abc7bac7a05) | **Published** | [Conveyor concept and work plan](sling_launcher/conveyor_loop/README.md), [four SVG illustrations](sling_launcher/conveyor_loop/figures/README.md), and planned scalar/dynamics studies. |
 | Frozen-retreat catcher study | Separate study; no article link assigned here | [30 km catcher / 120 km retreat study](frozen_retreat/README.md), including its own notebook and sensitivity sweep. |
 
 The LLO catcher sensitivity analysis is **existing work from the published

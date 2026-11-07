@@ -5,9 +5,10 @@ This surface sling-launcher study supports
 The original LLO catcher notebook and sensitivity calculations belong to the
 [earlier post](../llo_catcher/README.md#published-post-original-notebook-and-plots).
 
-## New concept: conveyor-loop feeding
+## Published concept: conveyor-loop feeding
 
-[Conveyor-loop concept and work plan](conveyor_loop/README.md): single-loop
+[Conveyor Belt Lunar Mass Sling](https://alanse.medium.com/conveyor-belt-lunar-mass-sling-7abc7bac7a05) introduces the new architecture.
+Its [concept notes and work plan](conveyor_loop/README.md) cover single-loop
 **Zyling** and the **two-loop Kevlar variant**, with circulating constant-section
 lines in place of outward spools. Next proposed work is
 [scalar mass-flow and payback screening](conveyor_loop/01_SCALAR_ANALYSIS.md),
