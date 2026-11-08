@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.2",
+  "pillow": "13.0.0",
+  "sources": {
+    "model.py": "86c5c40b2bd382c020dd370336d8ce64aa8954f4a467c6966114cd7c3d25bf15",
+    "report.py": "a78536399b7bdcd8f4fdebf826ae41550087e642516a5260a6b059f8529b6d44",
+    "validate.py": "dacfb9c24b53ded1ebf0d19a106324c767c7ecd7d3677fa194e45ed77921d3e8"
+  },
+  "gif_frames": 180,
+  "gif_fps": 12
+}

@@ -1,5 +1,8 @@
 # Summit catalog for hubs north and south of the equator
 
+**[Post-ready terrain maps](maps/README.md):** all six hubs at 15 km scale, with
+track, tether sweep and saved impacts; S1/S2 also have 80 km context maps.
+
 The [six-hub missed-capture study](missed_capture/README.md) gives east and opposite-tip west impact coordinates, distances from the hub, and checks for passage through the tether footprint.
 
 

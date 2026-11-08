@@ -1,6 +1,12 @@
 # Stage 2: 2D moving-loop stress and dynamics
 
-Status: **Planned after scalar screening; not started.**
+**Resumed after acceptance of the [point-mass prerequisite](../payout_control/README.md).**
+The [first steady results](steady/README.md) are available; time-domain elasticity,
+discrete payload/release dynamics and contact/slip simulation remain future work.
+
+Status: **Single-loop steady solver implemented; dynamic model outlined.**
+See the [one-arm stack and output plan](03_SIMULATION_STACK.md). A steady solve
+is optional; direct dynamics is allowed after specifying the model inputs.
 [Concept](README.md) · [Stage 1 inputs](01_SCALAR_ANALYSIS.md)
 
 ## Objective and dimensional scope
@@ -18,7 +24,7 @@ and imply that vertical support has been solved.
 
 ## Implementation stages
 
-1. **Uniform unloaded loop:** closed material path, finite-mass turnaround,
+1. **Uniform unloaded loop:** closed material path, wheel-free outer turn,
    driven inner wheel, tension-only cable law and resolved curved wheel paths.
    Specify wheel constraints, traction/slip assumption, bending idealization,
    elasticity and damping. Start with steady Ω and u to verify force balances.
@@ -31,10 +37,12 @@ and imply that vertical support has been solved.
    transfer payload support over a finite interval. Matched feed speed does not
    by itself demonstrate a smooth force transfer. Test position stability and
    tension continuity under repeated transfers.
-4. **Opposing arms and events:** coordinate payload/countermass release and
-   examine small timing/load mismatches, loading pulses, feed changes and
+4. **Events on the symmetric one-arm model:** initially assume the opposite arm
+   is mirrored and coordinate payload/countermass release and
+   examine loading pulses, feed changes and
    controlled slowdown. Preserve the static cross-tie force paths. A symmetric
-   one-arm test cannot establish balance after an asymmetric event.
+   one-arm test cannot establish balance after an asymmetric event; explicit
+   two-arm timing/load mismatches are a deferred extension.
 
 Advect actual material around the closed path or use a demonstrably conservative
 moving-mesh equivalent. Prevent artificial creation of cable mass, momentum or

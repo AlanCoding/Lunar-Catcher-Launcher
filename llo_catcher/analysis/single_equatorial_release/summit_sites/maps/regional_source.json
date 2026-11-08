@@ -1,0 +1,15 @@
+{
+  "url": "https://imbrium.mit.edu/DATA/LOLA_GDR/CYLINDRICAL/IMG/LDEM_64.IMG",
+  "first_row": 5472,
+  "rows": 576,
+  "cols": 23040,
+  "ppd": 64,
+  "scale_m": 0.5,
+  "byte_range": [
+    252149760,
+    278691839
+  ],
+  "sha256": "cfe7a6a296973c4494c9f4f40d87a97498035a360ab63b542d8f041ee5e7eb8a",
+  "frame": "ME/PA DE421",
+  "reference_radius_m": 1737400
+}

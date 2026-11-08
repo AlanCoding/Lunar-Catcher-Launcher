@@ -1,0 +1,6 @@
+{
+  "sling_launcher/architecture_comparison/stress_frontier.py": "2df833fa7f1dde9e381e09dbf45590141fe28c6defd7ec6bfa1a4d8bfc0b71c3",
+  "sling_launcher/architecture_comparison/plot_frontier.py": "c01a72e3cab05fce7f94705e5812d2612abe07348b75dc7e6220771259004f1a",
+  "sling_launcher/architecture_comparison/compare.py": "47fde8bd955f5c52b36348027c82e5aecc89bb3c412d1635d85bb4497f9b8363",
+  "sling_launcher/conveyor_loop/steady/model.py": "91489df3e962afa4275dd645d1a8191e8b663f9acf6a0b4cbad54fcf0494b8e4"
+}

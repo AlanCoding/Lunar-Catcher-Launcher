@@ -1,0 +1,454 @@
+{
+  "mdot_kg_s": 0.15075029398222303,
+  "release_speed_m_s": 1684.516998999626,
+  "reference_cycle_s": 6633.486234646569,
+  "curves": [
+    {
+      "feed_m_s": 2.0,
+      "rows": [
+        {
+          "q": 0,
+          "specific_stress_J_kg": 1476405.8034175702,
+          "mass_per_flow_s": null,
+          "tether_mass_kg": null,
+          "spool_tether_mass_kg": 3723.293865360697,
+          "equal_mass_spool_cycle_s": null,
+          "radius_scale_m": 5885.237854404169,
+          "release_speed_m_s": 1684.5169980365029
+        },
+        {
+          "q": 0.003,
+          "specific_stress_J_kg": 1480660.2913137188,
+          "mass_per_flow_s": 1955395.443202003,
+          "tether_mass_kg": 294776.43791420123,
+          "spool_tether_mass_kg": 3705.028751385172,
+          "equal_mass_spool_cycle_s": 527767.9538845557,
+          "radius_scale_m": 5885.236674420884,
+          "release_speed_m_s": 1684.5170000922114
+        },
+        {
+          "q": 0.007,
+          "specific_stress_J_kg": 1486332.9651751409,
+          "mass_per_flow_s": 838026.4040564302,
+          "tether_mass_kg": 126332.72677637207,
+          "spool_tether_mass_kg": 3680.9316504340063,
+          "equal_mass_spool_cycle_s": 227666.92882157193,
+          "radius_scale_m": 5885.2351733961705,
+          "release_speed_m_s": 1684.5170003897133
+        },
+        {
+          "q": 0.015,
+          "specific_stress_J_kg": 1497678.2631564254,
+          "mass_per_flow_s": 391078.80047636747,
+          "tether_mass_kg": 58955.24414202754,
+          "spool_tether_mass_kg": 3633.598371236645,
+          "equal_mass_spool_cycle_s": 107628.51601104972,
+          "radius_scale_m": 5885.232352496376,
+          "release_speed_m_s": 1684.5170016129757
+        },
+        {
+          "q": 0.03,
+          "specific_stress_J_kg": 1518950.5929262612,
+          "mass_per_flow_s": 195539.2459464053,
+          "tether_mass_kg": 29477.598811482814,
+          "spool_tether_mass_kg": 3547.8262032156063,
+          "equal_mass_spool_cycle_s": 55115.2268307778,
+          "radius_scale_m": 5885.227724317351,
+          "release_speed_m_s": 1684.5170032895178
+        },
+        {
+          "q": 0.06,
+          "specific_stress_J_kg": 1561494.9810304737,
+          "mass_per_flow_s": 97769.51249018521,
+          "tether_mass_kg": 14738.782750394048,
+          "spool_tether_mass_kg": 3387.1086064375486,
+          "equal_mass_spool_cycle_s": 28865.183804370543,
+          "radius_scale_m": 5885.221096158458,
+          "release_speed_m_s": 1684.5170051495204
+        },
+        {
+          "q": 0.1,
+          "specific_stress_J_kg": 1618220.1729774748,
+          "mass_per_flow_s": 58661.668009050416,
+          "tether_mass_kg": 8843.263697851919,
+          "spool_tether_mass_kg": 3192.8448043591034,
+          "equal_mass_spool_cycle_s": 18372.85292694504,
+          "radius_scale_m": 5885.217148141908,
+          "release_speed_m_s": 1684.5170026668009
+        },
+        {
+          "q": 0.18,
+          "specific_stress_J_kg": 1731668.5065272541,
+          "mass_per_flow_s": 32589.85347083548,
+          "tether_mass_kg": 4912.92999156602,
+          "spool_tether_mass_kg": 2861.007215623958,
+          "equal_mass_spool_cycle_s": 11391.042040321434,
+          "radius_scale_m": 5885.223971140907,
+          "release_speed_m_s": 1684.5169926529156
+        },
+        {
+          "q": 0.3,
+          "specific_stress_J_kg": 1901836.4808544407,
+          "mass_per_flow_s": 19554.045590525082,
+          "tether_mass_kg": 2947.778121313448,
+          "spool_tether_mass_kg": 2469.989277869073,
+          "equal_mass_spool_cycle_s": 7916.65201372651,
+          "radius_scale_m": 5885.264018580511,
+          "release_speed_m_s": 1684.5169988787934
+        },
+        {
+          "q": 0.5,
+          "specific_stress_J_kg": 2185439.5433019004,
+          "mass_per_flow_s": 11732.67207534583,
+          "tether_mass_kg": 1768.7037645554028,
+          "spool_tether_mass_kg": 2004.806725357434,
+          "equal_mass_spool_cycle_s": 5852.270908186439,
+          "radius_scale_m": 5885.386363924484,
+          "release_speed_m_s": 1684.51699863171
+        },
+        {
+          "q": 0.8,
+          "specific_stress_J_kg": 2610825.7833267725,
+          "mass_per_flow_s": 7333.242846280962,
+          "tether_mass_kg": 1105.488514919889,
+          "spool_tether_mass_kg": 1556.4379190388577,
+          "equal_mass_spool_cycle_s": 4711.554991418762,
+          "radius_scale_m": 5885.644571254369,
+          "release_speed_m_s": 1684.5169982334937
+        },
+        {
+          "q": 1.2,
+          "specific_stress_J_kg": 3177983.693290653,
+          "mass_per_flow_s": 4889.162291312338,
+          "tether_mass_kg": 737.0426527421341,
+          "spool_tether_mass_kg": 1194.2939728547594,
+          "equal_mass_spool_cycle_s": 4093.767868245718,
+          "radius_scale_m": 5886.0449941526795,
+          "release_speed_m_s": 1684.516997841186
+        },
+        {
+          "q": 1.6,
+          "specific_stress_J_kg": 3745124.2562431805,
+          "mass_per_flow_s": 3667.1274720752695,
+          "tether_mass_kg": 552.8205444856333,
+          "spool_tether_mass_kg": 966.7722547381852,
+          "equal_mass_spool_cycle_s": 3793.1658196669873,
+          "radius_scale_m": 5886.454149169267,
+          "release_speed_m_s": 1684.5169978496444
+        }
+      ],
+      "crossings": [
+        {
+          "spool_cycle_s": 1800.0,
+          "specific_stress_J_kg": null
+        },
+        {
+          "spool_cycle_s": 3600.0,
+          "specific_stress_J_kg": null
+        },
+        {
+          "spool_cycle_s": 6633.486234646569,
+          "specific_stress_J_kg": 2042105.1243050855
+        }
+      ]
+    },
+    {
+      "feed_m_s": 5.0,
+      "rows": [
+        {
+          "q": 0,
+          "specific_stress_J_kg": 1475896.3719496583,
+          "mass_per_flow_s": null,
+          "tether_mass_kg": null,
+          "spool_tether_mass_kg": 3725.49209718573,
+          "equal_mass_spool_cycle_s": null,
+          "radius_scale_m": 5874.256596030318,
+          "release_speed_m_s": 1684.516995439541
+        },
+        {
+          "q": 0.003,
+          "specific_stress_J_kg": 1480146.21307795,
+          "mass_per_flow_s": 781977.0825289991,
+          "tether_mass_kg": 117883.2750786077,
+          "spool_tether_mass_kg": 3707.2269486353644,
+          "equal_mass_spool_cycle_s": 210933.1566055987,
+          "radius_scale_m": 5874.25223241649,
+          "release_speed_m_s": 1684.5170055151814
+        },
+        {
+          "q": 0.007,
+          "specific_stress_J_kg": 1485812.6232877576,
+          "mass_per_flow_s": 335132.708505402,
+          "tether_mass_kg": 50521.35433024801,
+          "spool_tether_mass_kg": 3683.1299296534958,
+          "equal_mass_spool_cycle_s": 90991.28048869318,
+          "radius_scale_m": 5874.246513551235,
+          "release_speed_m_s": 1684.5170075418346
+        },
+        {
+          "q": 0.015,
+          "specific_stress_J_kg": 1497145.3894075663,
+          "mass_per_flow_s": 156394.97274661544,
+          "tether_mass_kg": 23576.588118894037,
+          "spool_tether_mass_kg": 3635.796291002486,
+          "equal_mass_spool_cycle_s": 43015.328755806935,
+          "radius_scale_m": 5874.235595106402,
+          "release_speed_m_s": 1684.5170153197823
+        },
+        {
+          "q": 0.03,
+          "specific_stress_J_kg": 1518394.0647080715,
+          "mass_per_flow_s": 78197.23608509771,
+          "tether_mass_kg": 11788.25632842578,
+          "spool_tether_mass_kg": 3550.0222650170526,
+          "equal_mass_spool_cycle_s": 22027.25229519711,
+          "radius_scale_m": 5874.216827618183,
+          "release_speed_m_s": 1684.5170270877018
+        },
+        {
+          "q": 0.06,
+          "specific_stress_J_kg": 1560890.376376871,
+          "mass_per_flow_s": 39098.40958117314,
+          "tether_mass_kg": 5894.096738599216,
+          "spool_tether_mass_kg": 3389.2975188714327,
+          "equal_mass_spool_cycle_s": 11535.844629595138,
+          "radius_scale_m": 5874.1855652822605,
+          "release_speed_m_s": 1684.516999243666
+        },
+        {
+          "q": 0.1,
+          "specific_stress_J_kg": 1617550.3039530732,
+          "mass_per_flow_s": 23458.92912253372,
+          "tether_mass_kg": 3536.4404617300916,
+          "spool_tether_mass_kg": 3195.017211416806,
+          "equal_mass_spool_cycle_s": 7342.348278659519,
+          "radius_scale_m": 5874.156415151125,
+          "release_speed_m_s": 1684.516999228417
+        },
+        {
+          "q": 0.18,
+          "specific_stress_J_kg": 1730864.1707912118,
+          "mass_per_flow_s": 13032.69192965887,
+          "tether_mass_kg": 1964.6821397758201,
+          "spool_tether_mass_kg": 2863.131052575117,
+          "equal_mass_spool_cycle_s": 4551.901987838521,
+          "radius_scale_m": 5874.135507462855,
+          "release_speed_m_s": 1684.5170305787776
+        },
+        {
+          "q": 0.3,
+          "specific_stress_J_kg": 1900821.3223795404,
+          "mass_per_flow_s": 7819.674337850942,
+          "tether_mass_kg": 1178.8182052762747,
+          "spool_tether_mass_kg": 2472.020704580781,
+          "equal_mass_spool_cycle_s": 3163.2721859330245,
+          "radius_scale_m": 5874.179882744699,
+          "release_speed_m_s": 1684.5169986457481
+        },
+        {
+          "q": 0.5,
+          "specific_stress_J_kg": 2184053.5358991493,
+          "mass_per_flow_s": 4691.980274824968,
+          "tether_mass_kg": 707.3174057886555,
+          "spool_tether_mass_kg": 2006.6708106947613,
+          "equal_mass_spool_cycle_s": 2338.1913215753025,
+          "radius_scale_m": 5874.39942461345,
+          "release_speed_m_s": 1684.5169972450537
+        },
+        {
+          "q": 0.8,
+          "specific_stress_J_kg": 2608848.8248752905,
+          "mass_per_flow_s": 2932.754782267317,
+          "tether_mass_kg": 442.1136456045685,
+          "spool_tether_mass_kg": 1558.0714112591895,
+          "equal_mass_spool_cycle_s": 1882.298051985401,
+          "radius_scale_m": 5874.933528173766,
+          "release_speed_m_s": 1684.5169947784568
+        },
+        {
+          "q": 1.2,
+          "specific_stress_J_kg": 3175175.7976886244,
+          "mass_per_flow_s": 1955.4660127291638,
+          "tether_mass_kg": 294.78707629116695,
+          "spool_tether_mass_kg": 1195.6805229206905,
+          "equal_mass_spool_cycle_s": 1635.4418887350814,
+          "radius_scale_m": 5875.821806555088,
+          "release_speed_m_s": 1684.516992187535
+        },
+        {
+          "q": 1.6,
+          "specific_stress_J_kg": 3741455.9051165897,
+          "mass_per_flow_s": 1466.836314486826,
+          "tether_mass_kg": 221.12600563268958,
+          "spool_tether_mass_kg": 967.969811339734,
+          "equal_mass_spool_cycle_s": 1515.3740305770777,
+          "radius_scale_m": 5876.768818187677,
+          "release_speed_m_s": 1684.516992011942
+        }
+      ],
+      "crossings": [
+        {
+          "spool_cycle_s": 1800.0,
+          "specific_stress_J_kg": 2749027.9497284116
+        },
+        {
+          "spool_cycle_s": 3600.0,
+          "specific_stress_J_kg": 1827030.5637437599
+        },
+        {
+          "spool_cycle_s": 6633.486234646569,
+          "specific_stress_J_kg": 1635557.5265313855
+        }
+      ]
+    },
+    {
+      "feed_m_s": 10.0,
+      "rows": [
+        {
+          "q": 0,
+          "specific_stress_J_kg": 1474278.0585966886,
+          "mass_per_flow_s": null,
+          "tether_mass_kg": null,
+          "spool_tether_mass_kg": 3732.4911836082165,
+          "equal_mass_spool_cycle_s": null,
+          "radius_scale_m": 5854.331669823185,
+          "release_speed_m_s": 1684.5169852100569
+        },
+        {
+          "q": 0.003,
+          "specific_stress_J_kg": 1478514.972916747,
+          "mass_per_flow_s": 390717.3372783624,
+          "tether_mass_kg": 58900.75345866453,
+          "spool_tether_mass_kg": 3714.218132047275,
+          "equal_mass_spool_cycle_s": 105195.04331400138,
+          "radius_scale_m": 5854.318989727693,
+          "release_speed_m_s": 1684.517031573442
+        },
+        {
+          "q": 0.007,
+          "specific_stress_J_kg": 1484163.9527627535,
+          "mass_per_flow_s": 167449.80448299318,
+          "tether_mass_kg": 25243.10725307699,
+          "spool_tether_mass_kg": 3690.1111144063543,
+          "equal_mass_spool_cycle_s": 45377.9843726824,
+          "radius_scale_m": 5854.302094276397,
+          "release_speed_m_s": 1684.516999384098
+        },
+        {
+          "q": 0.015,
+          "specific_stress_J_kg": 1495461.899810489,
+          "mass_per_flow_s": 78142.81286583078,
+          "tether_mass_kg": 11780.05201212183,
+          "spool_tether_mass_kg": 3642.756313074879,
+          "equal_mass_spool_cycle_s": 21451.56199039563,
+          "radius_scale_m": 5854.269915297361,
+          "release_speed_m_s": 1684.5169997334938
+        },
+        {
+          "q": 0.03,
+          "specific_stress_J_kg": 1516644.8536898415,
+          "mass_per_flow_s": 39071.03341001738,
+          "tether_mass_kg": 5889.969772749378,
+          "spool_tether_mass_kg": 3556.941106449748,
+          "equal_mass_spool_cycle_s": 10984.447659020965,
+          "radius_scale_m": 5854.213984432461,
+          "release_speed_m_s": 1684.5170002801697
+        },
+        {
+          "q": 0.06,
+          "specific_stress_J_kg": 1559008.0469779072,
+          "mass_per_flow_s": 19535.198193769716,
+          "tether_mass_kg": 2944.936870711777,
+          "spool_tether_mass_kg": 3396.1291941379923,
+          "equal_mass_spool_cycle_s": 5752.195242598288,
+          "radius_scale_m": 5854.118469615601,
+          "release_speed_m_s": 1684.5170012018534
+        },
+        {
+          "q": 0.1,
+          "specific_stress_J_kg": 1615487.7568064677,
+          "mass_per_flow_s": 11720.930202700714,
+          "tether_mass_kg": 1766.9336738022496,
+          "spool_tether_mass_kg": 3201.7234853901873,
+          "equal_mass_spool_cycle_s": 3660.8190108185777,
+          "radius_scale_m": 5854.02415090155,
+          "release_speed_m_s": 1684.5170011922323
+        },
+        {
+          "q": 0.18,
+          "specific_stress_J_kg": 1728430.852814993,
+          "mass_per_flow_s": 6511.525606332917,
+          "tether_mass_kg": 981.6143994274603,
+          "spool_tether_mass_kg": 2869.574272188423,
+          "equal_mass_spool_cycle_s": 2269.1608540827324,
+          "radius_scale_m": 5853.932132396763,
+          "release_speed_m_s": 1684.5170011657215
+        },
+        {
+          "q": 0.3,
+          "specific_stress_J_kg": 1897809.9961770198,
+          "mass_per_flow_s": 3906.9568427782597,
+          "tether_mass_kg": 588.9748926246806,
+          "spool_tether_mass_kg": 2478.065312272897,
+          "equal_mass_spool_cycle_s": 1576.61576691648,
+          "radius_scale_m": 5853.994325758452,
+          "release_speed_m_s": 1684.5169975193937
+        },
+        {
+          "q": 0.5,
+          "specific_stress_J_kg": 2180030.09276708,
+          "mass_per_flow_s": 2344.3722970919753,
+          "tether_mass_kg": 353.4148129903948,
+          "spool_tether_mass_kg": 2012.100909829706,
+          "equal_mass_spool_cycle_s": 1165.136542426389,
+          "radius_scale_m": 5854.489604424491,
+          "release_speed_m_s": 1684.516987177663
+        },
+        {
+          "q": 0.8,
+          "specific_stress_J_kg": 2603220.434958446,
+          "mass_per_flow_s": 1465.5640209390313,
+          "tether_mass_kg": 220.93420700632782,
+          "spool_tether_mass_kg": 1562.740171115762,
+          "equal_mass_spool_cycle_s": 937.816822032962,
+          "radius_scale_m": 5855.814410893306,
+          "release_speed_m_s": 1684.516967996334
+        },
+        {
+          "q": 1.2,
+          "specific_stress_J_kg": 3167296.786478037,
+          "mass_per_flow_s": 977.4328170616685,
+          "tether_mass_kg": 147.34828451991896,
+          "spool_tether_mass_kg": 1199.5880466928513,
+          "equal_mass_spool_cycle_s": 814.8070662727565,
+          "radius_scale_m": 5858.1542858911835,
+          "release_speed_m_s": 1684.5169985417022
+        },
+        {
+          "q": 1.6,
+          "specific_stress_J_kg": 3731245.8103667484,
+          "mass_per_flow_s": 733.4035769787929,
+          "tether_mass_kg": 110.56080483716697,
+          "spool_tether_mass_kg": 971.3183518786766,
+          "equal_mass_spool_cycle_s": 755.0599405028016,
+          "radius_scale_m": 5860.784939269459,
+          "release_speed_m_s": 1684.5169985371456
+        }
+      ],
+      "crossings": [
+        {
+          "spool_cycle_s": 1800.0,
+          "specific_stress_J_kg": 1822727.5867871714
+        },
+        {
+          "spool_cycle_s": 3600.0,
+          "specific_stress_J_kg": 1618281.1293548935
+        },
+        {
+          "spool_cycle_s": 6633.486234646569,
+          "specific_stress_J_kg": 1546792.3244416001
+        }
+      ]
+    }
+  ]
+}

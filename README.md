@@ -15,7 +15,7 @@ The table below maps individual posts to their files.
 | --- | --- | --- |
 | [The Value of Low Lunar Orbit Space Stations](https://alanse.medium.com/the-value-of-low-lunar-orbit-space-stations-db1a5bb9e8af) | Published December 24, 2017 | [Original notebook and plots](llo_catcher/README.md#published-post-original-notebook-and-plots): 100 km catcher, launch-error sensitivity, downrange rise and energy/payoff calculations. |
 | [Lunar Slings: The Go-Kart Version](https://medium.com/@alanse/lunar-slings-the-go-kart-version-e5a991da7e0c) | **Published** | [Publication index](sling_launcher/publication/README.md): current 50-g design, component masses, mass optimization, payoff and Blender illustrations. |
-| [Conveyor Belt Lunar Mass Sling](https://alanse.medium.com/conveyor-belt-lunar-mass-sling-7abc7bac7a05) | **Published** | [Conveyor concept and work plan](sling_launcher/conveyor_loop/README.md), [four SVG illustrations](sling_launcher/conveyor_loop/figures/README.md), and planned scalar/dynamics studies. |
+| [Conveyor Belt Lunar Mass Sling](https://alanse.medium.com/conveyor-belt-lunar-mass-sling-7abc7bac7a05) | **Published** | [Conveyor concept and work plan](sling_launcher/conveyor_loop/README.md), [four SVG illustrations](sling_launcher/conveyor_loop/figures/README.md), and [first steady stress/grip results](sling_launcher/conveyor_loop/steady/README.md). |
 | Frozen-retreat catcher study | Separate study; no article link assigned here | [30 km catcher / 120 km retreat study](frozen_retreat/README.md), including its own notebook and sensitivity sweep. |
 
 The LLO catcher sensitivity analysis is **existing work from the published
@@ -52,18 +52,28 @@ climber checkpoints are historical, not alternative current results.
 ## Completed equatorial LLO launch-site study
 
 Start with the [launch-site checkpoint and reading guide](llo_catcher/analysis/LAUNCH_SITE_CHECKPOINT.md).
-It summarizes the final six hilltop candidates, east/west missed-capture outcomes,
+[Terrain maps for the post](llo_catcher/analysis/single_equatorial_release/summit_sites/maps/README.md)
+show the six hubs, rover tracks, tether sweeps and saved impact points.
+The checkpoint summarizes the final six hilltop candidates, east/west missed-capture outcomes,
 coordinates and model limits, and links the preserved elevation graphs, release
 corridors and earlier orbital studies. This exploratory item is closed at the
 agreed scope; it does not establish six buildable launcher installations.
 
+## Conveyor versus tapered-spool material comparison
+
+[Matched-throughput analysis](sling_launcher/architecture_comparison/README.md):
+now includes a material-independent mass–stress frontier at fixed payload flow,
+the conveyor self-stress floor, and architecture crossovers versus mechanical cycle time.
+
 ## Next work
 
-The new [conveyor-loop sling concept](sling_launcher/conveyor_loop/README.md)
-explores single-loop Zyling and a two-stage Kevlar variant. The planned sequence
-is **scalar mass-flow and payback analysis**, then **2D tether stresses and
-dynamics**; currently these are documentation stubs only.
+The [point-mass payout-control experiment](sling_launcher/payout_control/README.md)
+is accepted at its initial scope: four payout strategies, tension-only/slack
+behavior, torque/energy histories and animated GIFs. It isolates control geometry
+before introducing cable mass and material stresses.
 
-The earlier spool-based operations and 3D tether-dynamics plans are **on hold**.
-The comprehensive two-offset useful-payload terrain branch remains deferred.
-See the [work-item index](WORK_ITEMS.md) for all statuses.
+The [first conveyor results](sling_launcher/conveyor_loop/steady/README.md) now
+show calculated free-turn shapes, tensile stress and wheel-grip demand.
+Optimal payout control and conveyor time dynamics remain future work. The older full-machine spool operations and
+3D tether-dynamics plans remain on hold, and the comprehensive two-offset
+useful-payload terrain branch remains deferred. See the [work-item index](WORK_ITEMS.md).

@@ -1,16 +1,16 @@
 # Planned work after the sling publication
 
-Updated 2026-11-04. **The equatorial launch-site study is closed at its agreed
+Updated 2026-11-07. **The equatorial launch-site study is closed at its agreed
 exploratory scope**, including the six summit hubs and east/west impact checks.
 Start with its [checkpoint](llo_catcher/analysis/LAUNCH_SITE_CHECKPOINT.md).
-The spherical heading study is also complete. **New priority: conveyor-loop
-scalar screening, then 2D dynamics. The earlier spool-based operations and
+The spherical heading study is also complete. **Point-mass payout control is accepted; optimal control is deferred.
+The first [steady conveyor stress/grip results](sling_launcher/conveyor_loop/steady/README.md) are available. The earlier spool-based operations and
 3D tether-dynamics plans are on hold at the user’s request.** The comprehensive two-offset-payload terrain
 branch remains deferred.
 
 The [conveyor concept post](https://alanse.medium.com/conveyor-belt-lunar-mass-sling-7abc7bac7a05) and its
 [four illustrations](sling_launcher/conveyor_loop/figures/README.md) are now
-published (recorded 2026-11-06). Its scalar and dynamics studies remain planned.
+published (recorded 2026-11-06). Its first steady screen is complete; full scalar sizing and time dynamics remain planned.
 The [Lunar Mass Launchers collection](https://alanse.medium.com/list/lunar-mass-launchers-9a765f4e596a) is the broader publication index.
 
 The [published sling study](sling_launcher/publication/README.md) remains the
@@ -24,8 +24,10 @@ from tested operating limits and new results.
 | [Local 10 m corridors](llo_catcher/analysis/single_equatorial_release/local_corridors/README.md) | LLO catcher / terrain | **Completed:** eight seed-connected intervals total 22.604 km; all 49 nearby intervals passing departure and return-impact criteria total 90.727 km. |
 | [Single equatorial release](llo_catcher/analysis/single_equatorial_release/README.md) | LLO catcher / terrain | **Historical; further height-percentage surveying abandoned:** 360 sites; 50% outbound clearance at 2,310.7 m; 95 subsequent impacts and 85 unarrested through 1.5 orbits among 180 clear departures. |
 | [Two offset useful releases](llo_catcher/analysis/dual_offset_release/README.md) | LLO catcher / terrain | **Deferred:** separate branch, preserving the historical two-arm survey and accepted spherical heading solution. |
-| [Conveyor-loop scalar screening](sling_launcher/conveyor_loop/01_SCALAR_ANALYSIS.md) | Sling launcher / new conveyor concept | **Next proposed work; stub only:** single-loop Zyling and two-stage Kevlar, material checks, mass flow, power and mass-payback periods. |
-| [Conveyor-loop 2D dynamics](sling_launcher/conveyor_loop/02_PLANAR_DYNAMICS.md) | Sling launcher / new conveyor concept | **Planned after scalar screening:** moving strands, payloads, stresses, intermediate handoff and paired release in the rotation plane. |
+| [Point-mass payout controls](sling_launcher/payout_control/README.md) | Sling launcher / prerequisite | **Accepted initial simulation; optimal control deferred:** four prescribed payout laws, slack/re-tension events, torque/energy histories and GIFs. No cable material dynamics. |
+| [Conveyor versus tapered-spool material](sling_launcher/architecture_comparison/README.md) | Sling launcher / architecture comparison | **Initial screen complete:** matched throughput/speed/material, strength-sized tether masses, equal-mass stress comparison and feed/cadence/allowance sensitivities. Full-machine and delivered-flow comparisons remain open. |
+| [Conveyor-loop scalar screening](sling_launcher/conveyor_loop/01_SCALAR_ANALYSIS.md) | Sling launcher / new conveyor concept | **Broader sizing still planned:** single-loop Zyling and two-stage Kevlar, material checks, mass flow, power and mass-payback periods. |
+| [Conveyor-loop 2D dynamics](sling_launcher/conveyor_loop/02_PLANAR_DYNAMICS.md) | Sling launcher / new conveyor concept | **Steady screen complete:** [results](sling_launcher/conveyor_loop/steady/README.md), adjustable feed/payload density, stress and grip. Time dynamics and two-stage shared pulley remain planned; see the [one-arm plan](sling_launcher/conveyor_loop/03_SIMULATION_STACK.md). |
 | [Time-stepped launcher operations](sling_launcher/work_items/01_OPERATIONS_SIMULATION.md) | Sling launcher | **On hold; not started:** use frozen design parameters as constraints; model batch loading, spinup, repeated launches, spindown and refill. Can start with a declared provisional terrain/catcher interface. |
 | [3D segmented tether dynamics](sling_launcher/work_items/02_DYNAMIC_TETHERS.md) | Sling launcher | **On hold; not started:** follows the spool operations stage; replace quasi-static tether treatment while retaining its controls, inventory, energy accounting and event sequence. |
 
