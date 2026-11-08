@@ -42,6 +42,7 @@ report documents that constraint and the alternative local-10-m west releases.
 
 | Document / data | What to use it for |
 | --- | --- |
+| [Terrain maps for the post](single_equatorial_release/summit_sites/maps/README.md) | Six 15 km summit maps, two 80 km context maps, track/tip overlays, saved impacts and links to longitude figures. |
 | [Six-site east/west results](single_equatorial_release/summit_sites/missed_capture/README.md) | Final trajectory outcomes, impact coordinates, hub distances, sweep re-entry, assumptions and reproduction. |
 | [Summit catalog](single_equatorial_release/summit_sites/README.md) | Hilltop selection, terrain checks and formal lunar coordinates. |
 | [Numeric hub coordinates](single_equatorial_release/summit_sites/hub_coordinates.csv) | Strict floating-point latitude/longitude; positive north/east, signed longitude. No map-service links. |

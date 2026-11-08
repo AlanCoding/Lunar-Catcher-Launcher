@@ -1,16 +1,19 @@
 # Conveyor-loop lunar sling: concept and work plan
 
-Status: **Concept and illustrations published; analysis remains planned.**
+Status: **Concept and illustrations published; first steady conveyor results available.**
 Publication recorded 2026-11-06.
 
 [Conveyor Belt Lunar Mass Sling](https://alanse.medium.com/conveyor-belt-lunar-mass-sling-7abc7bac7a05) ·
 [Lunar Mass Launchers collection](https://alanse.medium.com/list/lunar-mass-launchers-9a765f4e596a)
 
 This folder contains the concept notes and [four supporting illustrations](figures/README.md)
-for the published post. The scalar and 2D dynamics documents are future research
-plans, not completed results. The original handoff is preserved as historical
+for the published post. Start with the [steady shape, strength and grip results](steady/README.md).
+The scalar and 2D dynamics documents describe the broader unfinished program. The original handoff is preserved as historical
 context; subsequent clarifications are recorded here and in the figure guide.
 [Launcher guide](../README.md) · [Work queue](../../WORK_ITEMS.md)
+
+The [matched-throughput comparison with tapered spooling](../architecture_comparison/README.md)
+now uses these steady results to compare tether material and peak stress on equal terms.
 
 ## Proposal
 
@@ -66,6 +69,25 @@ contact pressure, bending, wear, attachment passage and transient slip remain
 to be quantified; regenerative energy is recovered from the coupled main-drive
 work, not created independently by the feed mechanism.
 
+## Accepted prerequisite and first conveyor results
+
+The [point-mass payout experiment](../payout_control/README.md) now precedes
+conveyor simulation. It isolates rotating-attachment geometry, payout controls,
+slack and torque using an ideal massless cable, with four initial strategy GIFs.
+The point-mass study is accepted; optimal control is deferred. The
+[first conveyor calculation](steady/README.md) now solves a free-turn moving
+loop, with adjustable feed and payload loading, stress and grip estimates.
+This does not resume the earlier full-machine spool operations plan.
+
+## Simulation implementation outline
+
+The [one-arm simulation stack](03_SIMULATION_STACK.md) proposes Python/NumPy/SciPy
+and stress-colored 2D plots, with adjustable machine rotation, conveyor speed
+and outgoing payload density. Model both strands on one side and assume a
+symmetric counterweight arm. Attempt a moving-line steady solution if useful,
+otherwise proceed directly to dynamics. A [steady solver](steady/model.py) is now
+implemented; time dynamics and the shared-pulley two-stage model remain future work.
+
 ## Stages and deliverables
 
 1. **[Scalar screening, mass flow and payback](01_SCALAR_ANALYSIS.md).** Define free
@@ -78,8 +100,9 @@ work, not created independently by the feed mechanism.
 
 [SVG concept illustrations](figures/README.md) are available for review, including
 a separate [Coriolis / tangential-force diagram](figures/README.md#4-coriolis--tangential-force-picture).
-They describe the mechanism, not calculated geometry. No numerical analysis,
-material selection, optimization or simulation has been performed yet. The older spool-based
+They describe the mechanism, not calculated geometry. New calculated geometry
+and material screening are in the [steady report](steady/README.md); no complete
+machine optimization or dynamic-stability demonstration has been performed. The older spool-based
 [operations](../work_items/01_OPERATIONS_SIMULATION.md) and
 [3D dynamics](../work_items/02_DYNAMIC_TETHERS.md) plans are **on hold**, not
 prerequisites. The [published 50-g spool design](../publication/README.md) stays
@@ -99,10 +122,9 @@ It proposes these **self-loading-only estimates, to reproduce in Stage 1**:
 - Its illustrative Kevlar allowance is **1.04 MJ/kg** at safety factor two.
 
 These exclude payloads, wheel/attachment masses, bending, environmental losses
-and dynamic loads. Neither the material values nor the claimed two-stage
-optimum has been independently checked here. Source material properties before
-using them in results. The handoff's concept-post and four illustration ideas
-are retained as later communication options; the concept and four illustrations are now published; numerical research remains planned.
+and dynamic loads. The [steady screen](steady/README.md) now sources Zylon HM and Kevlar 49 fiber
+properties. The claimed two-stage optimum has not yet been independently checked. The handoff's concept-post and four illustration ideas
+are retained as later communication options; the concept and four illustrations are now published; the first single-loop numerical results are now separate from that publication.
 
 ## Revision: reusable devices and gentle release
 

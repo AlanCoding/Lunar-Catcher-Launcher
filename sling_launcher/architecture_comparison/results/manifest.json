@@ -1,0 +1,16 @@
+{
+  "checks": "All saved-scenario assertions passed",
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "sha256": {
+    "sling_launcher/architecture_comparison/compare.py": "47fde8bd955f5c52b36348027c82e5aecc89bb3c412d1635d85bb4497f9b8363",
+    "sling_launcher/architecture_comparison/plot.py": "0b4ee900d85b273d22e046bb9747b22cf764e6171a94def62fe768c50de475f4",
+    "sling_launcher/architecture_comparison/validate.py": "50919d1c4f9366a8c533e71eb2c8d9f1559f13bd6140f69754848db354292a2f",
+    "sling_launcher/publication/candidate_50g.json": "846c120bbe080b7e50fdc3d8212ebb67a190b3b974e35777f51106d35b5e0947",
+    "sling_launcher/cable_shape.py": "3596b8f8c9839f598a80c295769c6d99b538dd7079a32aa76877de2cdfe1fac3",
+    "sling_launcher/orbit.py": "98f9b3ee51a0b919ac04dbf79a7af11385e1e5bcec321ac448a1ec161dfaa099",
+    "sling_launcher/conveyor_loop/steady/model.py": "91489df3e962afa4275dd645d1a8191e8b663f9acf6a0b4cbad54fcf0494b8e4",
+    "sling_launcher/environment.py": "4673ce754be61934b8b189de6bbc408fc187dba5641d8e5788b170d507d993e9"
+  }
+}

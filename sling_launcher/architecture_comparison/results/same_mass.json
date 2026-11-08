@@ -1,0 +1,41 @@
+{
+  "material": "Zylon HM",
+  "spool_peak_Pa": 2900000000.0,
+  "common_material_mass_kg": 2558.602919576615,
+  "conveyor": {
+    "inputs": {
+      "radius_scale": 5874.1405828744055,
+      "station_radius": 76.78937039996255,
+      "track_speed": 22.352,
+      "wheel_radius": 25.0,
+      "feed_speed": 5,
+      "area": 0.00013983029632099283,
+      "density": 1560,
+      "payload_per_m": 0.030150058796444605,
+      "release_center": 0.49,
+      "release_width": 0.001
+    },
+    "omega_rad_s": 0.29108195422853606,
+    "rpm": 2.77962791161922,
+    "length_m": 11729.432889748647,
+    "bare_loop_mass_kg": 2558.602919575174,
+    "payload_inventory_kg": 172.14626024850955,
+    "mass_flow_kg_s": 0.15075029398222303,
+    "release_center_radius_m": 5782.715123599041,
+    "release_center_speed_m_s": 1684.5169989803785,
+    "radius_max_m": 5872.508028896276,
+    "width_m": 375.4180964605023,
+    "max_stress_GPa": 2.60782557434962,
+    "min_tension_N": 3312.8340206069815,
+    "departure_tension_N": 364653.0228147707,
+    "return_tension_N": 321945.8033617222,
+    "wheel_wrap_rad": 3.08350020040524,
+    "capstan_mu_proxy": 0.040396644104564026,
+    "ideal_feed_brake_power_W": 213536.09726524242,
+    "min_effective_tension_N": 3307.3806390489094,
+    "bvp_residual": 1.5669015318845812e-06,
+    "boundary_residual": 2.6454550355881068e-12,
+    "integrated_force_residual_scaled": 6.224557091982774e-09,
+    "unloaded_first_integral_range": null
+  }
+}

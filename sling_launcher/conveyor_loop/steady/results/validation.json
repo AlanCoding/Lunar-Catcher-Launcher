@@ -1,0 +1,10 @@
+{
+  "max_position_change_m": 9.648983457670321e-05,
+  "stress_relative_change": 7.344858055091663e-10,
+  "max_bvp_residual": 1.835723331451495e-06,
+  "max_boundary_residual": 2.3380680204410087e-11,
+  "max_integrated_force_residual_scaled": 7.489312281450111e-09,
+  "unloaded_first_integral_range": 1.5576429035490946e-13,
+  "all_effective_tensions_positive": true,
+  "unloaded_capstan_mu_abs": 0.0
+}

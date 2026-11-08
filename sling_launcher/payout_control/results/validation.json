@@ -1,0 +1,38 @@
+{
+  "fixed_length_corotation_position_error_m": 4.262308918957265e-12,
+  "independent_cartesian_position_error_m": 6.574757159203741e-09,
+  "scenarios": {
+    "constant": {
+      "refined_position_difference_m": 8.518616571054172e-06,
+      "event_time_difference_s": 0.0,
+      "relative_energy_residual": 8.400334249452284e-10,
+      "relative_angular_momentum_residual": 9.108365620884559e-10,
+      "slack_ballistic_error_m": 0.0,
+      "max_torque_lever_m": 45.686974000607755
+    },
+    "slow_then_fast": {
+      "refined_position_difference_m": 4.504377075662591e-06,
+      "event_time_difference_s": 0.0,
+      "relative_energy_residual": 2.430742854283723e-10,
+      "relative_angular_momentum_residual": 2.3506709433607737e-10,
+      "slack_ballistic_error_m": 0.0,
+      "max_torque_lever_m": 54.362271012491625
+    },
+    "fast_then_slow": {
+      "refined_position_difference_m": 5.638180014128464e-07,
+      "event_time_difference_s": 0.0,
+      "relative_energy_residual": 1.902586368435145e-11,
+      "relative_angular_momentum_residual": 1.6964407801246885e-11,
+      "slack_ballistic_error_m": 0.0,
+      "max_torque_lever_m": 66.73787224859167
+    },
+    "too_fast": {
+      "refined_position_difference_m": 1.6527110395428072e-10,
+      "event_time_difference_s": 5.8832938520936295e-12,
+      "relative_energy_residual": 6.5941457162712455e-15,
+      "relative_angular_momentum_residual": 4.245639123431484e-13,
+      "slack_ballistic_error_m": 8.276401786133647e-11,
+      "max_torque_lever_m": 76.78854993846463
+    }
+  }
+}

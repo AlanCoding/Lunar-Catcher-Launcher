@@ -1,0 +1,19 @@
+[
+  {
+    "feed_m_s": 2.0,
+    "interpolated_q_relative_error": 7.555404846204539e-08
+  },
+  {
+    "feed_m_s": 5.0,
+    "interpolated_q_relative_error": 2.771306440996213e-07
+  },
+  {
+    "feed_m_s": 10.0,
+    "interpolated_q_relative_error": 6.051553504970997e-07
+  },
+  {
+    "crossover_check_feed_m_s": 5,
+    "computed_specific_stress_J_kg": 1635557.573831624,
+    "conveyor_over_spool_mass": 0.9999998004357972
+  }
+]

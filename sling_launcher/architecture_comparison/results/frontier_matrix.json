@@ -1,0 +1,146 @@
+[
+  {
+    "specific_stress_MJ_kg": 1.0,
+    "feed_m_s": 2.0,
+    "spool_mass_kg": 7765.035984468659,
+    "conveyor_mass_kg": null
+  },
+  {
+    "specific_stress_MJ_kg": 1.4,
+    "feed_m_s": 2.0,
+    "spool_mass_kg": 4082.0514222419097,
+    "conveyor_mass_kg": null
+  },
+  {
+    "specific_stress_MJ_kg": 1.5,
+    "feed_m_s": 2.0,
+    "spool_mass_kg": 3624.0506737993564,
+    "conveyor_mass_kg": 53153.854198751746
+  },
+  {
+    "specific_stress_MJ_kg": 1.6,
+    "feed_m_s": 2.0,
+    "spool_mass_kg": 3252.9328192595526,
+    "conveyor_mass_kg": 10146.954825881076
+  },
+  {
+    "specific_stress_MJ_kg": 1.8,
+    "feed_m_s": 2.0,
+    "spool_mass_kg": 2690.808734859153,
+    "conveyor_mass_kg": 3875.4759139456314
+  },
+  {
+    "specific_stress_MJ_kg": 2.0,
+    "feed_m_s": 2.0,
+    "spool_mass_kg": 2287.4842028883554,
+    "conveyor_mass_kg": 2395.120880096864
+  },
+  {
+    "specific_stress_MJ_kg": 2.5,
+    "feed_m_s": 2.0,
+    "spool_mass_kg": 1653.4235227993584,
+    "conveyor_mass_kg": 1225.174673453071
+  },
+  {
+    "specific_stress_MJ_kg": 3.0,
+    "feed_m_s": 2.0,
+    "spool_mass_kg": 1288.8607805080808,
+    "conveyor_mass_kg": 823.1317391347294
+  },
+  {
+    "specific_stress_MJ_kg": 1.0,
+    "feed_m_s": 5.0,
+    "spool_mass_kg": 7765.035984468659,
+    "conveyor_mass_kg": null
+  },
+  {
+    "specific_stress_MJ_kg": 1.4,
+    "feed_m_s": 5.0,
+    "spool_mass_kg": 4082.0514222419097,
+    "conveyor_mass_kg": null
+  },
+  {
+    "specific_stress_MJ_kg": 1.5,
+    "feed_m_s": 5.0,
+    "spool_mass_kg": 3624.0506737993564,
+    "conveyor_mass_kg": 20784.36187343772
+  },
+  {
+    "specific_stress_MJ_kg": 1.6,
+    "feed_m_s": 5.0,
+    "spool_mass_kg": 3252.9328192595526,
+    "conveyor_mass_kg": 4036.581261041724
+  },
+  {
+    "specific_stress_MJ_kg": 1.8,
+    "feed_m_s": 5.0,
+    "spool_mass_kg": 2690.808734859153,
+    "conveyor_mass_kg": 1545.557908183375
+  },
+  {
+    "specific_stress_MJ_kg": 2.0,
+    "feed_m_s": 5.0,
+    "spool_mass_kg": 2287.4842028883554,
+    "conveyor_mass_kg": 955.7279994851768
+  },
+  {
+    "specific_stress_MJ_kg": 2.5,
+    "feed_m_s": 5.0,
+    "spool_mass_kg": 1653.4235227993584,
+    "conveyor_mass_kg": 489.1017764833016
+  },
+  {
+    "specific_stress_MJ_kg": 3.0,
+    "feed_m_s": 5.0,
+    "spool_mass_kg": 1288.8607805080808,
+    "conveyor_mass_kg": 328.6608700961797
+  },
+  {
+    "specific_stress_MJ_kg": 1.0,
+    "feed_m_s": 10.0,
+    "spool_mass_kg": 7765.035984468659,
+    "conveyor_mass_kg": null
+  },
+  {
+    "specific_stress_MJ_kg": 1.4,
+    "feed_m_s": 10.0,
+    "spool_mass_kg": 4082.0514222419097,
+    "conveyor_mass_kg": null
+  },
+  {
+    "specific_stress_MJ_kg": 1.5,
+    "feed_m_s": 10.0,
+    "spool_mass_kg": 3624.0506737993564,
+    "conveyor_mass_kg": 9701.642540528863
+  },
+  {
+    "specific_stress_MJ_kg": 1.6,
+    "feed_m_s": 10.0,
+    "spool_mass_kg": 3252.9328192595526,
+    "conveyor_mass_kg": 1984.6386223758
+  },
+  {
+    "specific_stress_MJ_kg": 1.8,
+    "feed_m_s": 10.0,
+    "spool_mass_kg": 2690.808734859153,
+    "conveyor_mass_kg": 765.8871275971065
+  },
+  {
+    "specific_stress_MJ_kg": 2.0,
+    "feed_m_s": 10.0,
+    "spool_mass_kg": 2287.4842028883554,
+    "conveyor_mass_kg": 474.4644256278049
+  },
+  {
+    "specific_stress_MJ_kg": 2.5,
+    "feed_m_s": 10.0,
+    "spool_mass_kg": 1653.4235227993584,
+    "conveyor_mass_kg": 243.16442195919606
+  },
+  {
+    "specific_stress_MJ_kg": 3.0,
+    "feed_m_s": 10.0,
+    "spool_mass_kg": 1288.8607805080808,
+    "conveyor_mass_kg": 163.49463601149196
+  }
+]

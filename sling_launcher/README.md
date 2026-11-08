@@ -5,15 +5,25 @@ This surface sling-launcher study supports
 The original LLO catcher notebook and sensitivity calculations belong to the
 [earlier post](../llo_catcher/README.md#published-post-original-notebook-and-plots).
 
+## Tether-material architecture comparison
+
+The [conveyor versus tapered-spool comparison](architecture_comparison/README.md)
+matches average payload flow, release speed, material and working stress. It
+reports required tether mass, peak modeled stress, and feed/cadence sensitivities.
+This is a material comparison, not a new full-machine optimum.
+
 ## Published concept: conveyor-loop feeding
 
 [Conveyor Belt Lunar Mass Sling](https://alanse.medium.com/conveyor-belt-lunar-mass-sling-7abc7bac7a05) introduces the new architecture.
 Its [concept notes and work plan](conveyor_loop/README.md) cover single-loop
 **Zyling** and the **two-loop Kevlar variant**, with circulating constant-section
-lines in place of outward spools. Next proposed work is
+lines in place of outward spools. The accepted prerequisite is the
+[point-mass payout-control experiment](payout_control/README.md), with four
+strategies and GIFs. The [first steady conveyor results](conveyor_loop/steady/README.md)
+now calculate free-turn geometry, tensile stress and wheel-grip demand. Remaining work is
 [scalar mass-flow and payback screening](conveyor_loop/01_SCALAR_ANALYSIS.md),
 then [2D stresses and dynamics](conveyor_loop/02_PLANAR_DYNAMICS.md).
-These are planning stubs, not completed feasibility results.
+The broader work remains planned; the steady screen does not establish dynamic stability.
 
 The earlier spool-based [operations simulation](work_items/01_OPERATIONS_SIMULATION.md)
 and [3D tether dynamics](work_items/02_DYNAMIC_TETHERS.md) are **on hold at the
