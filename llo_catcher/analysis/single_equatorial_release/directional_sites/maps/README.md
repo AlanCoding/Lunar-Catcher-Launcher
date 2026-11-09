@@ -3,11 +3,9 @@
 [Direction-specific results and assumptions](../README.md).
 
 All maps show a **15 × 15 km** region with the hub, 76.79 m track inset,
-actual-radius tether sweep, common equatorial release point, and both directions’
-first impacts where visible. East and west are alternative launches after
-reversing rotation, **not opposite-tip simultaneous launches**. Notes distinguish
-outbound collisions from impacts after missed capture and flag full-circle
-terrain intersections. Each PNG has a matching SVG.
+actual-radius tether sweep and common equatorial release point. East and west are alternative launches after
+reversing rotation, **not opposite-tip simultaneous launches**. Notes flag full-circle terrain intersections. Impact markers and annotations
+are omitted; the numerical impact results remain in the linked site report. Each PNG has a matching SVG.
 
 ## Equatorial elevation and corridor plots
 
@@ -28,14 +26,12 @@ terrain intersections. Each PNG has a matching SVG.
 | west | W-N1 | [PNG](W-N1_15km.png) | [SVG](W-N1_15km.svg) |
 | west | W-S2 | [PNG](W-S2_15km.png) | [SVG](W-S2_15km.svg) |
 
-No additional 80 km context map is needed for these same-equatorial-tip shots:
-all impacts outside a local map are also outside ±40 km bounds. The older 80 km
-maps remain valid for their **different opposite-tip geometry**, and are preserved
-in the [historical map set](../../summit_sites/maps/README.md).
+The older maps with opposite-tip impact overlays are preserved in the
+[historical map set](../../summit_sites/maps/README.md).
 
 The terrain colors are elevation relative to the hub; illumination is synthetic.
 The circumference overlay does not assert that a horizontal tether clears terrain.
-[Map index](map_index.json) records projected impact locations and visibility;
+[Map index](map_index.json) records footprint radii and confirms impact overlays are disabled;
 [input hashes](inputs.json) tie these overlays to the saved catalog. Terrain data
 and trajectories are reused, not recalculated by the plotting script.
 

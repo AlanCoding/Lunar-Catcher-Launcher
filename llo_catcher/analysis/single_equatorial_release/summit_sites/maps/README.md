@@ -1,6 +1,6 @@
 # Selected summit sites: terrain maps for the post
 
-**[Updated eastward/westward map gallery](../../directional_sites/maps/README.md):** includes the new westward hubs and same-equatorial-tip impacts. The equatorial elevation figures now distinguish both launch directions.
+**[Updated eastward/westward map gallery](../../directional_sites/maps/README.md):** shows the eastward and westward hub candidates, track and tether footprints, without impact overlays. The equatorial elevation figures now distinguish both launch directions.
 
 Created 2026-11-07. Regional maps trimmed to ±40 km after verifying all
 previously shown impacts remain visible; the six local figures are unchanged. [Site catalog](../README.md) · [Saved impact calculations](../missed_capture/README.md) · [Study checkpoint](../../../LAUNCH_SITE_CHECKPOINT.md)
