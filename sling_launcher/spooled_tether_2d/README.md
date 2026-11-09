@@ -78,6 +78,56 @@ For a hypothetical 30-arm bank, ±6° lines on the separate angular figures are
 motion and timing. Neither staying inside nor exceeding a line alone certifies
 or disproves a particular phased layout.
 
+## Where is the release wave?
+
+**It is present in the saved dynamics, but the shape sheets skip its first
+seconds.** Retraction is not restarted from an unloaded equilibrium. At release,
+the endpoint loses the 1,000 kg payload while retaining its 10 kg attachment;
+all cable positions and velocities carry over from the loaded hold. The model
+then evolves for 60 s at fixed paid-out length before retraction starts. The
+first return snapshot is therefore already 60 s after release. The newer
+faster-start control comparisons end at loaded hold and do not include release.
+
+A check of the saved 64-cell, 1.5 GPa-design run finds position and velocity
+continuity across release to roundoff. It also finds an unloading disturbance
+moving from the tip toward the feed. The first sampled drop below 80% of each
+cell's own pre-release stress occurs at:
+
+| Cell location along deployed cable | Time after release |
+| --- | ---: |
+| Tip cell | 0.02 s |
+| Approximately three-quarters from feed | 0.14 s |
+| Approximately halfway | 0.30 s |
+| Approximately one-quarter from feed | 0.46 s |
+| Feed-end cell | 0.58 s |
+
+These are **threshold-crossing times**, not exact wavefront arrival measurements.
+They use the saved 0.02 s samples. The elastic axial-wave scale from the model's
+material inputs is `sqrt(E/rho) ≈ 8.80 km/s`, or about **0.65 s** across the
+5.71 km unstretched cable. This simple estimate ignores taper, prestrain,
+rotation, finite endpoint mass and the chosen damping law. Transverse shape
+waves have a different speed and should not be identified with this axial scale.
+
+A release wave initially changes tension and longitudinal strain much more
+obviously than the kilometer-scale silhouette. Reflections and subsequent
+motion are included by the elastic equations; the peak stress during the
+60 s release interval rises to **1.697 GPa**, versus roughly 1.524 GPa during
+loaded hold. A single maximum-stress history cannot show where that disturbance
+is traveling. These observations establish a modeled release transient, not a
+validated reproduction of any particular published destructive-wave result.
+
+To expose it visually, the next step would be a stress-versus-position/time
+heatmap of the first 2–5 s, supplemented by stress traces at several material
+locations and subsecond snapshots. The saved data already support an initial
+plot; **no new simulation is needed just to display it**. Quantifying an abrupt
+wavefront or failure risk would additionally require spatial/time refinement,
+damping sensitivity, and a defensible release/contact model (including comparison
+with finite-duration unloading). The current 64 cells are about 89 m long at
+full deployment, and the 0.02 s axial damping timescale is assumed rather than
+measured. Agreement of aggregate release peaks alone does not validate detailed
+wavefront shape or local maxima. This follow-up is documented, not undertaken
+in this checkpoint.
+
 ## Kevlar inputs and why 3:1 is aggressive
 
 [Toray–DuPont's Kevlar property table](https://www.td-net.co.jp/kevlar/data/),

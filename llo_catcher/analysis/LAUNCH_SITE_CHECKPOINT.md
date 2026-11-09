@@ -1,5 +1,9 @@
 # Equatorial LLO launch sites: completed study
 
+**[Updated eastward/westward map gallery](single_equatorial_release/directional_sites/maps/README.md):** includes the new westward hubs and same-equatorial-tip impacts. The equatorial elevation figures now distinguish both launch directions.
+
+**[Separate eastward/westward site tables](single_equatorial_release/directional_sites/README.md).** The original six-site study used eastward search corridors and tested westward shots from the opposite tip. The new separate westward search checks reversible equatorial launches and reports both directions at each candidate.
+
 **Closed at the agreed exploratory scope, 2026-11-04.**
 [Repository guide](../../README.md) · [LLO guide](../README.md) · [Work queue](../../WORK_ITEMS.md)
 

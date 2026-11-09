@@ -1,5 +1,7 @@
 # LLO orbital analyses: start here
 
+**[Separate eastward/westward site tables](single_equatorial_release/directional_sites/README.md).** Separate east/west corridor and summit catalogs now check both equatorial directions. Original six-site opposite-tip results below remain a distinct geometry.
+
 **[Equatorial launch-site checkpoint](LAUNCH_SITE_CHECKPOINT.md)** is the entry
 point for the completed terrain study: final six-site outcomes, coordinates,
 limits and the supporting calculation sequence.

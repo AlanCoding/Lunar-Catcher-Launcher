@@ -67,6 +67,10 @@ that does not establish equal wave behavior at release or during retraction.
 
 ## Retraction sequence
 
+[Where is the release wave?](README.md#where-is-the-release-wave) explains the
+subsecond unloading signal already saved in the original runs and why these
+60-seconds-after-release snapshots do not show its onset.
+
 These are the **original complete-cycle runs**, after abrupt payload release.
 The 10 kg attachment remains; the 1,000 kg payload does not return. The new
 payout alternatives above stop after loaded hold and have not been substituted

@@ -1,5 +1,7 @@
 # Six summit hubs: eastward and opposite-tip westward first impacts
 
+**[Separate eastward/westward site tables](../../directional_sites/README.md).** These westward shots start at the opposite, off-equator tip. For westward equatorial launch and separate westward-selected hubs, use the new direction-specific catalogs.
+
 Only **S4 east** and **S3 west** reach their intended catch points in the same-plane comparison. After missed capture they hit terrain 2,255.70 km and 601.17 km from their respective hubs. S3 west crosses back inside the projected tether footprint. The modeled payload remains above the tip plane throughout that crossing.
 
 ## Release geometry

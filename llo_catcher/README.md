@@ -1,5 +1,7 @@
 # Low lunar orbit catcher studies: reader guide
 
+**[Separate eastward/westward site tables](analysis/single_equatorial_release/directional_sites/README.md).** Separate eastward and westward searches, with reverse-direction checks and full-circle terrain limits, supersede treating the six original hills as usable launch sites.
+
 **For the completed equatorial launch-site study, start with the
 [checkpoint and reading guide](analysis/LAUNCH_SITE_CHECKPOINT.md).** It leads to
 the six-site catalog and final east/west impact results, then the earlier graphs
