@@ -1,0 +1,40 @@
+{
+  "static_discrete_equilibrium_max_acceleration": 1.9602452994149644e-09,
+  "fixed_length_undamped_rotating_energy_relative_drift": 1.8270368735177566e-12,
+  "moving_coordinate_acceleration_patch_error": 2.6020852139652106e-18,
+  "payout_profiles": {
+    "quintic": "endpoint and finite-difference derivative checks passed",
+    "early_cruise": "endpoint and finite-difference derivative checks passed",
+    "front_loaded": "endpoint and finite-difference derivative checks passed"
+  },
+  "mesh_and_integrator_comparison": [
+    {
+      "phase": "extend",
+      "max_tip_position_difference_m": 0.05308241838658883,
+      "max_tip_angle_difference_deg": 0.0005657473068616525,
+      "coarse_peak_stress_GPa": 1.5280224138163232,
+      "fine_peak_stress_GPa": 1.5266525229463783
+    },
+    {
+      "phase": "loaded_hold",
+      "max_tip_position_difference_m": 0.11793019361823155,
+      "max_tip_angle_difference_deg": 0.0010755990749758484,
+      "coarse_peak_stress_GPa": 1.5251248290294626,
+      "fine_peak_stress_GPa": 1.523753502589752
+    },
+    {
+      "phase": "release_settle",
+      "max_tip_position_difference_m": 0.9954428199626161,
+      "max_tip_angle_difference_deg": 0.009772468710604443,
+      "coarse_peak_stress_GPa": 1.6974840295986506,
+      "fine_peak_stress_GPa": 1.6973888148968617
+    },
+    {
+      "phase": "retract",
+      "max_tip_position_difference_m": 78.56786470622787,
+      "max_tip_angle_difference_deg": 9.340540203770075,
+      "coarse_peak_stress_GPa": 4.061319111210307,
+      "fine_peak_stress_GPa": 4.148678611960056
+    }
+  ]
+}

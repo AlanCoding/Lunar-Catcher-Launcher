@@ -1,0 +1,107 @@
+{
+  "config": {
+    "name": "kevlar_1p5GPa",
+    "nodes": 64,
+    "density": 1450.0,
+    "modulus": 112400000000.0,
+    "nominal_strength": 3000000000.0,
+    "design_stress": 1500000000.0,
+    "target_tether_payload_ratio": 0.0,
+    "payload": 1000.0,
+    "retained_tip_mass": 10.0,
+    "axial_relaxation_s": 0.02,
+    "initial_length": 500.0,
+    "travel_s": 1326.6972469293137,
+    "loaded_hold_s": 300.0,
+    "release_settle_s": 60.0,
+    "final_hold_s": 120.0,
+    "rtol": 2e-06,
+    "atol": 1e-05,
+    "max_step": 2.0,
+    "method": "Radau"
+  },
+  "station_radius_m": 76.78937039996255,
+  "nominal_release_radius_m": 5787.088393934127,
+  "omega_rad_s": 0.29108195422853606,
+  "unstretched_full_length_m": 5710.299023534165,
+  "required_design_stress_Pa": 1500000000.0,
+  "tether_mass_kg": 7310.89800117368,
+  "tip_area_m2": 0.0003301572166666667,
+  "root_area_m2": 0.0013009277516399008,
+  "solver": [
+    {
+      "phase": "extend",
+      "nfev": 5122,
+      "steps": 668,
+      "accepted_step_peak_stress_Pa": 1526651367.2159894,
+      "peak_strain": 0.013582307058801035,
+      "completed": true,
+      "end_phase_time_s": 1326.6972469293137,
+      "stop_reason": null
+    },
+    {
+      "phase": "loaded_hold",
+      "nfev": 1082,
+      "steps": 154,
+      "accepted_step_peak_stress_Pa": 1523753791.9874172,
+      "peak_strain": 0.01355652847786959,
+      "completed": true,
+      "end_phase_time_s": 300.0,
+      "stop_reason": null
+    },
+    {
+      "phase": "release_settle",
+      "nfev": 7781,
+      "steps": 1069,
+      "accepted_step_peak_stress_Pa": 1697405098.136796,
+      "peak_strain": 0.015081167389229044,
+      "completed": true,
+      "end_phase_time_s": 60.0,
+      "stop_reason": null
+    },
+    {
+      "phase": "retract",
+      "nfev": 305330,
+      "steps": 20525,
+      "accepted_step_peak_stress_Pa": 4148678611.9600563,
+      "peak_strain": 0.010302802025420554,
+      "completed": false,
+      "end_phase_time_s": 1258.683324680565,
+      "stop_reason": "nominal fiber strength reached"
+    }
+  ],
+  "phase_metrics": [
+    {
+      "phase": "extend",
+      "min_angle_deg": -41.14930401062945,
+      "max_angle_deg": 0.4468790477871773,
+      "max_simultaneous_width_deg": 5.04008552305595,
+      "peak_sampled_stress_Pa": 1526652522.9463782,
+      "minimum_sampled_stress_Pa": 136786436.8178313
+    },
+    {
+      "phase": "loaded_hold",
+      "min_angle_deg": -0.4491367798047537,
+      "max_angle_deg": 0.44909913690664827,
+      "max_simultaneous_width_deg": 0.06783935448824363,
+      "peak_sampled_stress_Pa": 1523753502.589752,
+      "minimum_sampled_stress_Pa": 1516695661.3532295
+    },
+    {
+      "phase": "release_settle",
+      "min_angle_deg": 0.2576797385023216,
+      "max_angle_deg": 3.687954032651756,
+      "max_simultaneous_width_deg": 0.6878524946813096,
+      "peak_sampled_stress_Pa": 1697388814.8968616,
+      "minimum_sampled_stress_Pa": 15915211.337657362
+    },
+    {
+      "phase": "retract",
+      "min_angle_deg": -84.27839517000541,
+      "max_angle_deg": 102.0611562926774,
+      "max_simultaneous_width_deg": 6.907889333597083,
+      "peak_sampled_stress_Pa": 4148678611.9600563,
+      "minimum_sampled_stress_Pa": 115447.48968955387
+    }
+  ]
+}

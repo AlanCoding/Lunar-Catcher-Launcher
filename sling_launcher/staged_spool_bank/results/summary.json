@@ -1,0 +1,153 @@
+{
+  "inputs": {
+    "payload_kg": 1000.0,
+    "counterweight_kg": 1000.0,
+    "tether_to_payload_mass": 3.0,
+    "density_kg_m3": 1450.0,
+    "period_s": 6633.486234646569,
+    "travel_s": 1326.6972469293137,
+    "loading_s": 300.0,
+    "minimum_hold_s": 300.0,
+    "count": 15
+  },
+  "omega_rad_s": 0.29108195422853606,
+  "track_radius_m": 76.78937039996255,
+  "tip_radius_m": 5787.088393934127,
+  "release_speed_m_s": 1684.516998999626,
+  "tether_mass_per_arm_kg": 2999.999999751114,
+  "tether_mass_per_pair_kg": 5999.999999502228,
+  "specific_working_stress_J_kg": 1681288.5684283045,
+  "working_stress_Pa": 2437868424.2210417,
+  "taper_root_to_tip_area": 2.325016729189419,
+  "loading_energy_per_pair_J": 499611.90400000004,
+  "released_energy_per_pair_J": 2837597519.918706,
+  "single": {
+    "hub_min_MW": -9.884692726621031,
+    "hub_max_MW": 19.62946718339186,
+    "hub_mean_MW": 0.8553866873878718,
+    "spool_min_MW": -9.815155395327439,
+    "spool_max_MW": 4.9426559839804165,
+    "spool_mean_MW": -0.42769334369393597,
+    "net_mean_MW": 0.4276933436939358,
+    "net_peak_to_peak_MW": 14.756348530705038,
+    "hub_peak_to_peak_over_mean": 34.503880344621045,
+    "net_peak_to_peak_over_mean": 34.50217018403008,
+    "hub_energy_J": 5674195816.087376,
+    "spool_energy_J": -2837097908.0436883
+  },
+  "evenly_staggered": {
+    "hub_min_MW": 11.911685295645855,
+    "hub_max_MW": 13.936747505043828,
+    "hub_mean_MW": 12.830800310818073,
+    "spool_min_MW": -6.968543150690032,
+    "spool_max_MW": -5.955663031342775,
+    "spool_mean_MW": -6.415400155409039,
+    "net_mean_MW": 6.415400155409037,
+    "net_peak_to_peak_MW": 1.0121820900507141,
+    "hub_peak_to_peak_over_mean": 0.15782820715326498,
+    "net_peak_to_peak_over_mean": 0.15777380452212475,
+    "hub_energy_J": 85112937241.31062,
+    "spool_energy_J": -42556468620.65533
+  },
+  "synchronized_release": {
+    "hub_min_MW": -19.166463215199975,
+    "hub_max_MW": 42.80157935135684,
+    "hub_mean_MW": 12.830800310706532,
+    "spool_min_MW": -21.400793821078064,
+    "spool_max_MW": 9.583235414519676,
+    "spool_mean_MW": -6.415400155353264,
+    "net_mean_MW": 6.415400155353266,
+    "net_peak_to_peak_MW": 30.984013330959076,
+    "hub_peak_to_peak_over_mean": 4.829631906502996,
+    "net_peak_to_peak_over_mean": 4.829630666935839,
+    "hub_energy_J": 85112937240.5707,
+    "spool_energy_J": -42556468620.28534
+  },
+  "stagger_s": 442.2324156431046,
+  "synchronized_schedule": [
+    {
+      "retract_start_s": 0.0,
+      "payout_start_s": 1626.6972469293137,
+      "loaded_hold_s": 3680.091740787941
+    },
+    {
+      "retract_start_s": 241.43512434199582,
+      "payout_start_s": 1868.1323712713095,
+      "loaded_hold_s": 3438.656616445946
+    },
+    {
+      "retract_start_s": 482.87024868399163,
+      "payout_start_s": 2109.5674956133053,
+      "loaded_hold_s": 3197.22149210395
+    },
+    {
+      "retract_start_s": 724.3053730259874,
+      "payout_start_s": 2351.0026199553013,
+      "loaded_hold_s": 2955.786367761954
+    },
+    {
+      "retract_start_s": 965.7404973679833,
+      "payout_start_s": 2592.437744297297,
+      "loaded_hold_s": 2714.3512434199583
+    },
+    {
+      "retract_start_s": 1207.1756217099792,
+      "payout_start_s": 2833.872868639293,
+      "loaded_hold_s": 2472.9161190779623
+    },
+    {
+      "retract_start_s": 1448.6107460519747,
+      "payout_start_s": 3075.3079929812884,
+      "loaded_hold_s": 2231.4809947359668
+    },
+    {
+      "retract_start_s": 1690.0458703939707,
+      "payout_start_s": 3316.7431173232844,
+      "loaded_hold_s": 1990.0458703939707
+    },
+    {
+      "retract_start_s": 1931.4809947359665,
+      "payout_start_s": 3558.1782416652804,
+      "loaded_hold_s": 1748.6107460519747
+    },
+    {
+      "retract_start_s": 2172.9161190779623,
+      "payout_start_s": 3799.613366007276,
+      "loaded_hold_s": 1507.1756217099792
+    },
+    {
+      "retract_start_s": 2414.3512434199583,
+      "payout_start_s": 4041.048490349272,
+      "loaded_hold_s": 1265.7404973679832
+    },
+    {
+      "retract_start_s": 2655.786367761954,
+      "payout_start_s": 4282.483614691268,
+      "loaded_hold_s": 1024.3053730259876
+    },
+    {
+      "retract_start_s": 2897.2214921039495,
+      "payout_start_s": 4523.918739033263,
+      "loaded_hold_s": 782.8702486839925
+    },
+    {
+      "retract_start_s": 3138.656616445946,
+      "payout_start_s": 4765.35386337526,
+      "loaded_hold_s": 541.4351243419956
+    },
+    {
+      "retract_start_s": 3380.0917407879415,
+      "payout_start_s": 5006.788987717255,
+      "loaded_hold_s": 300.00000000000045
+    }
+  ],
+  "validation": {
+    "cycle_energy_relative_errors": {
+      "single": 1.0215162049576065e-11,
+      "evenly_staggered": 1.021494000497114e-11,
+      "synchronized_release": 1.5218937221561646e-12
+    },
+    "inventory_refinement_max_power_change_W": 0.010792982764542103,
+    "common_release_all_fully_extended": true
+  }
+}
