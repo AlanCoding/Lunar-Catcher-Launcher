@@ -1,5 +1,7 @@
 # Summit catalog for hubs north and south of the equator
 
+**[Separate eastward/westward site tables](../directional_sites/README.md).** N/S denotes hub latitude, not launch direction. This historical catalog searched near eastward corridors only; see the separate westward search and both-direction rechecks.
+
 **[Post-ready terrain maps](maps/README.md):** all six hubs at 15 km scale, with
 track, tether sweep and saved impacts; S1/S2 also have 80 km context maps.
 

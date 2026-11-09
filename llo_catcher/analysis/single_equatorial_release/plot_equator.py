@@ -1,6 +1,4 @@
-"""Plot the cached equatorial elevation, marking saved 3 m / 10 m successes.
-Does not recalculate trajectories or modify the height-survey results.
-"""
+"""Equatorial terrain with separately calculated east/west 10 m launch markers."""
 import json
 import numpy as np
 import matplotlib
@@ -8,39 +6,45 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from . import calculate as c
 
-
 def main():
-    c.initialize()
-    results=json.loads((c.OUT/'results.json').read_text())
-    clear={h:[r for r in results['trajectories'] if r['release_height_m']==h and r['status']!='outbound_collision'] for h in [3.,10.]}
-    lon=np.r_[0.,(np.arange(len(c._GROUND))+.5)/512,360.]
-    elev=c.terrain(np.radians(lon))/1000
-    three={r['longitude_deg_east'] for r in clear[3.]}
-    extra=[r for r in clear[10.] if r['longitude_deg_east'] not in three]
-    def draw(ax):
-        ax.plot(lon,elev,color='#82745f',lw=.75,label='Equatorial terrain (SLDEM2015)',zorder=1)
-        ax.axhline(0,color='#888888',lw=.6,ls='--')
-        for rows,color,marker,label in [(clear[3.],'#24785b','o','Clears outbound at both 3 m and 10 m (7 sites)'),(extra,'#d57b27','D','Additional site clearing at 10 m (293° E)')]:
-            ax.scatter([r['longitude_deg_east'] for r in rows],[r['release_ground_elevation_m']/1000 for r in rows],color=color,marker=marker,s=65,edgecolor='white',linewidth=.8,zorder=4,label=label)
-        ax.grid(alpha=.15);ax.set_ylabel('Elevation above 1,737.4 km reference sphere (km)');ax.set_xlabel('Longitude east (degrees)')
-    fig,ax=plt.subplots(figsize=(15,5.7),layout='constrained');draw(ax)
-    ax.set_xlim(0,360);ax.set_ylim(-4.8,10.1);ax.set_xticks(np.arange(0,361,30))
-    for label,x,y,tx,ty in [('144°',144,clear[3.][0]['release_ground_elevation_m']/1000,136,6.8),('220°',220,clear[3.][1]['release_ground_elevation_m']/1000,215,9.2),('264°, 267°',264,3.243,259,6.3),('283°',283,2.716,285,5.3),('293°–295°',294,-.554,310,-2.8)]:
-        ax.annotate(label,xy=(x,y),xytext=(tx,ty),ha='center',fontsize=10,arrowprops=dict(arrowstyle='-',color='#555555',lw=.8))
-    ax.annotate('Prograde launches travel east →',xy=(344,8.5),ha='right',color='#265e80',fontsize=10)
+    c.initialize();root=c.OUT/'directional_sites'
+    survey=json.loads((root/'degree_survey.json').read_text())
+    bands={'east':json.loads((c.OUT/'local_corridors/results.json').read_text())['outbound_ranges'],
+           'west':json.loads((root/'west_corridors.json').read_text())['bands']}
+    lon=np.r_[0.,(np.arange(len(c._GROUND))+.5)/512,360.];elev=c.terrain(np.radians(lon))/1000
+    colors={'east':'#24785b','west':'#985631'};markers={'east':'>','west':'<'}
+    def draw(ax,overlays=False):
+        ax.plot(lon,elev,color='#82745f',lw=.7,label='Equatorial terrain',zorder=1)
+        ax.axhline(0,color='.6',lw=.6,ls='--')
+        for d in ['east','west']:
+            rows=[r for r in survey[d] if r['status']!='outbound_collision']
+            xs=[r['longitude_deg_east'] for r in rows]
+            ax.scatter(xs,[r['release_ground_elevation_m']/1000 for r in rows],color=colors[d],marker=markers[d],s=80,edgecolor='white',lw=.7,zorder=4,label=f'{d.capitalize()}ward clear seeds ({len(rows)})')
+            if overlays:
+                for b in bands[d]:ax.axvspan(b['start_deg_east'],b['end_deg_east'],color=colors[d],alpha=.2,lw=0)
+        ax.grid(alpha=.15);ax.set_ylabel('Elevation above reference sphere (km)');ax.set_xlabel('Longitude east (degrees)')
+    plt.rcParams['svg.fonttype']='none'
+    fig,ax=plt.subplots(figsize=(15,6),layout='constrained');draw(ax)
+    ax.set(xlim=(0,360),ylim=(-4.8,10.5),xticks=np.arange(0,361,30))
+    for x,tx,ty,d in [(144,135,6.5,'east'),(220,231,9.5,'east'),(177,165,9.6,'west'),(194,200,10,'west'),(264,255,6,'east'),(267,275,6,'east'),(283,292,4.5,'east'),(294,320,-2.5,'east')]:
+        ax.annotate('293°–295° E' if x==294 else f'{x}° E',xy=(x,float(c.terrain(np.radians(x)))/1000),xytext=(tx,ty),ha='center',fontsize=9,color=colors[d],arrowprops=dict(arrowstyle='-',color=colors[d],lw=.7))
     ax.legend(loc='upper center',bbox_to_anchor=(.5,-.16),ncol=3,fontsize=9)
-    fig.suptitle('Elevation along the entire lunar equator\nMarkers: sampled longitudes that clear the outbound path to the 25 km catcher',fontsize=14)
-    fig.savefig(c.OUT/'equatorial_elevation.png',dpi=160,bbox_inches='tight');fig.savefig(c.OUT/'equatorial_elevation.svg',bbox_inches='tight');plt.close(fig)
-    fig,ax=plt.subplots(figsize=(12,5),layout='constrained');draw(ax)
-    ax.set_xlim(258,302);ax.set_ylim(-4.4,4.8);ax.set_xticks(np.arange(260,301,5))
-    for rows in [clear[3.],extra]:
-        for r in rows:
-            x=r['longitude_deg_east']
-            if 258<x<302:
-                ax.annotate(f'{x}°',(x,r['release_ground_elevation_m']/1000),xytext=(7,10),textcoords='offset points',fontsize=10)
-    ax.legend(loc='upper center',bbox_to_anchor=(.5,-.16),fontsize=9)
-    fig.suptitle('Closer view: successful sites along an eastward descent\nAbsolute elevation alone does not determine departure clearance',fontsize=13)
-    fig.savefig(c.OUT/'equatorial_elevation_detail.png',dpi=160,bbox_inches='tight');fig.savefig(c.OUT/'equatorial_elevation_detail.svg',bbox_inches='tight');plt.close(fig)
-    print('Saved full-equator and detail figures. No trajectory outputs changed.')
-
+    fig.suptitle('Elevation along the lunar equator · eastward and westward launch clearance\n10 m above local terrain; 25 km catcher; all 10 clear one-degree seeds impact after missed capture',fontsize=13)
+    for ext in ['png','svg']:fig.savefig(c.OUT/f'equatorial_elevation.{ext}',dpi=170)
+    plt.close(fig)
+    fig,axes=plt.subplots(2,1,figsize=(13,9),layout='constrained')
+    for ax,lo,hi,title in [(axes[0],174,197,'Westward seed neighborhoods'),(axes[1],258,302,'Eastern group of eastward seeds')]:
+        draw(ax,True);ax.set_xlim(lo,hi)
+        z=elev[(lon>=lo)&(lon<=hi)];ax.set_ylim(z.min()-.7,z.max()+.9)
+        ax.set_title(title+' · shading = refined clear corridors',loc='left',fontsize=11)
+        for d in ['east','west']:
+            for r in survey[d]:
+                x=r['longitude_deg_east']
+                if lo<x<hi and r['status']!='outbound_collision':ax.annotate(f'{x:g}°',xy=(x,r['release_ground_elevation_m']/1000),xytext=(6,12),textcoords='offset points',fontsize=9)
+    axes[0].legend(loc='lower left',fontsize=8)
+    fig.suptitle('Terrain profiles and direction-specific release corridors\nMarkers are equatorial release seeds, not shifted hilltop hubs',fontsize=13)
+    for ext in ['png','svg']:fig.savefig(c.OUT/f'equatorial_elevation_detail.{ext}',dpi=170)
+    plt.close(fig)
+    for path in c.OUT.glob('equatorial_elevation*.svg'):
+        path.write_text('\n'.join(line.rstrip() for line in path.read_text().splitlines())+'\n')
 if __name__=='__main__':main()

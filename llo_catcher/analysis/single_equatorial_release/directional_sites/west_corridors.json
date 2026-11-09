@@ -1,0 +1,102 @@
+{
+  "direction": "west",
+  "seeds": [
+    177,
+    194
+  ],
+  "windows": [
+    [
+      176,
+      178
+    ],
+    [
+      193,
+      195
+    ]
+  ],
+  "bands": [
+    {
+      "start_deg_east": 176.89609625833825,
+      "end_deg_east": 176.95793153046463,
+      "length_km": 1.8750526252610913
+    },
+    {
+      "start_deg_east": 176.9585833959638,
+      "end_deg_east": 176.98267169615463,
+      "length_km": 0.7304379678080885
+    },
+    {
+      "start_deg_east": 176.9838588289871,
+      "end_deg_east": 177.04640800395612,
+      "length_km": 1.8967005513266395
+    },
+    {
+      "start_deg_east": 177.05174666892154,
+      "end_deg_east": 177.05527912029265,
+      "length_km": 0.10711576078257458
+    },
+    {
+      "start_deg_east": 177.05599533039523,
+      "end_deg_east": 177.18714724015908,
+      "length_km": 3.9769653185654685
+    },
+    {
+      "start_deg_east": 193.0423287698952,
+      "end_deg_east": 193.15806939678296,
+      "length_km": 3.5096435874286103
+    },
+    {
+      "start_deg_east": 193.65496112406007,
+      "end_deg_east": 193.69800574291372,
+      "length_km": 1.3052570613733747
+    },
+    {
+      "start_deg_east": 193.98657949620062,
+      "end_deg_east": 194.03015310052703,
+      "length_km": 1.3212976732330102
+    },
+    {
+      "start_deg_east": 194.06297750800374,
+      "end_deg_east": 194.11580064263126,
+      "length_km": 1.6017744218122016
+    },
+    {
+      "start_deg_east": 194.2434227240913,
+      "end_deg_east": 194.2602108473541,
+      "length_km": 0.5090721446621039
+    },
+    {
+      "start_deg_east": 194.26346893507193,
+      "end_deg_east": 194.4314441350463,
+      "length_km": 5.093570851389236
+    },
+    {
+      "start_deg_east": 194.81737085816633,
+      "end_deg_east": 194.89268473587035,
+      "length_km": 2.2837691054205127
+    }
+  ],
+  "convergence": [
+    {
+      "samples_per_degree": 512,
+      "intervals": 9,
+      "total_km": 24.288139547282285
+    },
+    {
+      "samples_per_degree": 1024,
+      "intervals": 12,
+      "total_km": 24.210657066751452
+    },
+    {
+      "samples_per_degree": 2048,
+      "intervals": 12,
+      "total_km": 24.21065706508379
+    },
+    {
+      "samples_per_degree": 4096,
+      "intervals": 12,
+      "total_km": 24.21065706906291
+    }
+  ],
+  "scope": "Local \u00b11 degree neighborhoods of successful one-degree seeds; not globally exhaustive"
+}

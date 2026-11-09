@@ -1,5 +1,7 @@
 # Sub-analysis 1: single equatorial release — height and failed-capture survey
 
+**[Separate eastward/westward site tables](directional_sites/README.md).** The new westward search and east/west tables extend this historical eastward survey.
+
 **This is the preserved initial height survey.** For the completed study's final
 results and navigation, use the [launch-site checkpoint](../LAUNCH_SITE_CHECKPOINT.md).
 The global height-percentage approach was abandoned; subsequent local corridors,
@@ -67,12 +69,14 @@ samples. Elevations are kilometres above the 1,737.4 km reference sphere; zero
 is a reference datum, not ground level or a lunar sea level. Prograde departures
 travel east, to the right on the plot, wrapping from 360° to 0°.
 
-Green markers identify the seven sites clearing at both 3 m and 10 m:
-**144°, 220°, 264°, 267°, 283°, 294° and 295° E**. The orange diamond is
-**293° E**, which clears at 10 m but not at 3 m. These are successes among the
-one-degree samples, not the only possible successful launch points along the
-equator. The markers report outbound clearance; all eight subsequently hit
-terrain after missed capture in the 10 m cases.
+Green right-pointing markers identify the eight eastward-clear one-degree seeds
+at 10 m: **144°, 220°, 264°, 267°, 283°, 293°, 294° and 295° E**.
+Brown left-pointing markers identify the two westward-clear seeds: **177° and
+194° E**. All ten direction-specific shots impact after missed capture. These
+are sampled equatorial release longitudes, not hilltop hub coordinates or an
+exhaustive list of clear points. The updated detail panels shade refined
+outbound-clear corridors for each direction. See the
+[direction-specific tables and map gallery](directional_sites/maps/README.md).
 
 The profile suggests a useful physical interpretation: successful points tend
 to have ground falling away toward the east, giving the shallow orbit room to
@@ -83,7 +87,7 @@ region. Their outbound clearance is compatible with that downhill corridor.
 A local downhill slope alone is not sufficient: the entire later outgoing
 trajectory must still clear subsequent terrain.
 
-[Closer view from 258° to 302° E](equatorial_elevation_detail.png) ·
+[Westward and eastward detail views](equatorial_elevation_detail.png) ·
 [Full-profile SVG](equatorial_elevation.svg) ·
 [Detail SVG](equatorial_elevation_detail.svg)
 
