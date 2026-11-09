@@ -1,6 +1,6 @@
 # Planned work after the sling publication
 
-Updated 2026-11-07. **The equatorial launch-site study is closed at its agreed
+Updated 2026-11-08. **The equatorial launch-site study is closed at its agreed
 exploratory scope**, including the six summit hubs and east/west impact checks.
 Start with its [checkpoint](llo_catcher/analysis/LAUNCH_SITE_CHECKPOINT.md).
 The spherical heading study is also complete. **Point-mass payout control is accepted; optimal control is deferred.
@@ -25,6 +25,8 @@ from tested operating limits and new results.
 | [Single equatorial release](llo_catcher/analysis/single_equatorial_release/README.md) | LLO catcher / terrain | **Historical; further height-percentage surveying abandoned:** 360 sites; 50% outbound clearance at 2,310.7 m; 95 subsequent impacts and 85 unarrested through 1.5 orbits among 180 clear departures. |
 | [Two offset useful releases](llo_catcher/analysis/dual_offset_release/README.md) | LLO catcher / terrain | **Deferred:** separate branch, preserving the historical two-arm survey and accepted spherical heading solution. |
 | [Point-mass payout controls](sling_launcher/payout_control/README.md) | Sling launcher / prerequisite | **Accepted initial simulation; optimal control deferred:** four prescribed payout laws, slack/re-tension events, torque/energy histories and GIFs. No cable material dynamics. |
+| [Spooled tether in 2D](sling_launcher/spooled_tether_2d/README.md) | Sling launcher / shared dynamics | **Initial model and snapshots:** distributed tapered Kevlar mass, elastic stress, extension/release/retraction and angular occupancy. Extension checked across meshes; late retraction and neighbor-safe control remain unresolved. |
+| [Staged multi-tether spool bank](sling_launcher/staged_spool_bank/README.md) | Sling launcher / new variation | **Initial power curves complete:** single pair, exact T/15 phase sums and common-release readiness. Shared [2D tether results](sling_launcher/spooled_tether_2d/README.md) now available; neighbor clearance, controlled return, power scheduling and orbital batch targeting remain open. |
 | [Conveyor versus tapered-spool material](sling_launcher/architecture_comparison/README.md) | Sling launcher / architecture comparison | **Initial screen complete:** matched throughput/speed/material, strength-sized tether masses, equal-mass stress comparison and feed/cadence/allowance sensitivities. Full-machine and delivered-flow comparisons remain open. |
 | [Conveyor-loop scalar screening](sling_launcher/conveyor_loop/01_SCALAR_ANALYSIS.md) | Sling launcher / new conveyor concept | **Broader sizing still planned:** single-loop Zyling and two-stage Kevlar, material checks, mass flow, power and mass-payback periods. |
 | [Conveyor-loop 2D dynamics](sling_launcher/conveyor_loop/02_PLANAR_DYNAMICS.md) | Sling launcher / new conveyor concept | **Steady screen complete:** [results](sling_launcher/conveyor_loop/steady/README.md), adjustable feed/payload density, stress and grip. Time dynamics and two-stage shared pulley remain planned; see the [one-arm plan](sling_launcher/conveyor_loop/03_SIMULATION_STACK.md). |

@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-08",
+  "python": "3.12.14",
+  "libraries": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "source_sha256": {
+    "run.py": "3ab3f1ebdbb391088d55f86cebcd01dded84ed3a9c533cfcdfc54412143eb8ac",
+    "model.py": "c635a281228ab6f631f7383af313d7bee142fe289e25ed4cb8f53625dec4fed2",
+    "validate.py": "68870315892010a8e46bbe51e8d6e88367fabd9bfea426d2e558d8cb3002f28f",
+    "plot.py": "4abf693b2b3ec9583675dfccd9ce3ea46c1542d06a348a34c35ea121266032c6",
+    "compare_controls.py": "4e36c9d08ada3cb8155693c80909cfdd24763501ceee164198ebba52c80ef310"
+  },
+  "notes": [
+    "Saved dynamics were postprocessed to include exact segment intersections with the 500 m cutoff. Empty outside-cutoff envelopes use NaN in NPZ and null phase extrema if a whole phase is empty.",
+    "32-cell runs use BDF; 64-cell run uses Radau. Parameters are in each case JSON.",
+    "Late retraction and damping-sensitive stress events are unresolved; see README.",
+    "Added two 32-cell extension-plus-loaded-hold control runs: early_cruise and front_loaded. Original full-cycle outputs unchanged."
+  ],
+  "material_source": "https://www.td-net.co.jp/kevlar/data/",
+  "original_checkpoint_source_sha256": {
+    "run.py": "3ab3f1ebdbb391088d55f86cebcd01dded84ed3a9c533cfcdfc54412143eb8ac",
+    "model.py": "938d7684c4321b091879c2980b2e6ec752c9dd16f61f779947e80e26e21a5665",
+    "validate.py": "6faa0ac8136e7ecf5d8072a1cbed8d03a8a1b0addc612e3921fe747ff0023be2",
+    "plot.py": "4abf693b2b3ec9583675dfccd9ce3ea46c1542d06a348a34c35ea121266032c6"
+  }
+}

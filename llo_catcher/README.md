@@ -12,6 +12,18 @@ This directory preserves the original LLO catcher calculations for
 its ballistic transfer and launch-error calculations are not a sling design.
 The later wheeled launcher work lives separately in [sling_launcher/](../sling_launcher/README.md).
 
+## Work items and results
+
+- **[Orbital and terrain analyses](analysis/README.md):** offset-release geometry,
+  launch-clearance studies and the original notebook review. The guide distinguishes
+  completed results from historical or deferred branches.
+- **[Launch sites and impacts](analysis/LAUNCH_SITE_CHECKPOINT.md):** where can an
+  equatorial shot clear terrain and where does a missed catch land? The completed
+  exploratory study includes six hilltop hubs, maps and east/west impact tables.
+- **[Original catcher notebook](<variations analysis for lunar catcher-launcher system.ipynb>):**
+  the published mass-driver study's catcher transfer and sensitivity calculations,
+  preserved as historical source material.
+
 ## Published post: original notebook and plots
 
 - [Original catcher notebook](<variations analysis for lunar catcher-launcher system.ipynb>):
@@ -69,5 +81,5 @@ The original notebook describes a ballistic transfer to an orbital catcher. It d
 - [Two offset useful payloads](analysis/dual_offset_release/README.md): deferred
   comprehensive paired study; the approximate six-site westward check is recorded
   in the checkpoint above.
-- [Repository work queue](../WORK_ITEMS.md): conveyor-loop scalar analysis next, then
-  2D dynamics. The earlier spool operations and 3D dynamics plans are on hold.
+- [Repository work queue](../WORK_ITEMS.md): current launcher investigations and
+  deferred topics; terrain work remains closed at its agreed exploratory scope.

@@ -1,0 +1,41 @@
+[
+  {
+    "profile": "quintic",
+    "minimum_tip_angle_deg": -41.14965727022875,
+    "minimum_time_s": 675.3368515995602,
+    "minimum_is_interior": true,
+    "peak_payout_m_s": 7.363632276872484,
+    "payout_at_60_s_m_s": 0.2196710964373564,
+    "peak_extension_stress_GPa": 1.5280229155200449,
+    "extension_completed": true,
+    "end_extension_tip_angle_deg": 0.4471115148183609,
+    "min_tip_omega_over_hub": 0.994390284124178,
+    "max_tip_omega_over_hub": 1.0056472754116281
+  },
+  {
+    "profile": "early_cruise",
+    "minimum_tip_angle_deg": -24.673280315296836,
+    "minimum_time_s": 65.9352547419689,
+    "minimum_is_interior": true,
+    "peak_payout_m_s": 4.488309197331801,
+    "payout_at_60_s_m_s": 4.388066393240555,
+    "peak_extension_stress_GPa": 1.532460615746564,
+    "extension_completed": true,
+    "end_extension_tip_angle_deg": 0.6064552766989889,
+    "min_tip_omega_over_hub": 0.9554911035948133,
+    "max_tip_omega_over_hub": 1.0166703980563607
+  },
+  {
+    "profile": "front_loaded",
+    "minimum_tip_angle_deg": -38.49729702817743,
+    "minimum_time_s": 475.53304935116967,
+    "minimum_is_interior": true,
+    "peak_payout_m_s": 6.981802424363717,
+    "payout_at_60_s_m_s": 1.94291359248923,
+    "peak_extension_stress_GPa": 1.5248345094448978,
+    "extension_completed": true,
+    "end_extension_tip_angle_deg": 0.3134417540303708,
+    "min_tip_omega_over_hub": 0.9821366774163223,
+    "max_tip_omega_over_hub": 1.0043049586747088
+  }
+]

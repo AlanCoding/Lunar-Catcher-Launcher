@@ -15,6 +15,17 @@ context; subsequent clarifications are recorded here and in the figure guide.
 The [matched-throughput comparison with tapered spooling](../architecture_comparison/README.md)
 now uses these steady results to compare tether material and peak stress on equal terms.
 
+## Subfolders and work items
+
+- **[Steady moving-loop results](steady/README.md):** calculated free-turn shapes,
+  stresses and wheel-grip demand with outbound-only payload loading. This is a
+  steady screen; stability and release transients remain open.
+- **[Published concept figures](figures/README.md):** four illustrations explain
+  the conveyor architecture, reusable attachments and shared intermediate pulley.
+- **[Planar dynamics plan](02_PLANAR_DYNAMICS.md):** future loop elasticity,
+  discrete payloads, release and contact/slip simulation; the steady solver is
+  the current implemented subset.
+
 ## Proposal
 
 Replace the outward payload/countermass spools with circulating tether loops.

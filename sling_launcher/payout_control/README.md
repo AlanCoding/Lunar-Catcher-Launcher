@@ -2,8 +2,9 @@
 
 Implemented 2026-11-07. [Launcher guide](../README.md) · [Work queue](../../WORK_ITEMS.md)
 
-The conveyor's cable-stress simulation is **on hold pending this simpler control
-study**. Here the only moving load is a point mass attached to a prescribed
+This initial control study is accepted. The [conveyor steady study](../conveyor_loop/steady/README.md)
+and shared [2D spooled-tether study](../spooled_tether_2d/README.md) now extend its scope.
+Here the only moving load is a point mass attached to a prescribed
 rotating attachment by a massless, infinitely strong, inextensible cable. It
 has a paid-out length and can pull but cannot push. There are no cable segments,
 kinks, elastic waves, bends, pulley-slip physics or material stresses.

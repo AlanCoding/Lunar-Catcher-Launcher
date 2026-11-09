@@ -1,0 +1,73 @@
+{
+  "config": {
+    "name": "kevlar_front_loaded",
+    "nodes": 32,
+    "density": 1450.0,
+    "modulus": 112400000000.0,
+    "nominal_strength": 3000000000.0,
+    "design_stress": 1500000000.0,
+    "target_tether_payload_ratio": 0.0,
+    "payload": 1000.0,
+    "retained_tip_mass": 10.0,
+    "axial_relaxation_s": 0.02,
+    "initial_length": 500.0,
+    "travel_s": 1326.6972469293137,
+    "loaded_hold_s": 300.0,
+    "release_settle_s": 60.0,
+    "final_hold_s": 120.0,
+    "rtol": 2e-06,
+    "atol": 1e-05,
+    "max_step": 2.0,
+    "method": "BDF",
+    "payout_profile": "front_loaded",
+    "extension_only": true
+  },
+  "station_radius_m": 76.78937039996255,
+  "nominal_release_radius_m": 5787.088393934127,
+  "omega_rad_s": 0.29108195422853606,
+  "unstretched_full_length_m": 5710.299023534165,
+  "required_design_stress_Pa": 1500000000.0,
+  "tether_mass_kg": 7310.89800117368,
+  "tip_area_m2": 0.0003301572166666667,
+  "root_area_m2": 0.0013009277516399008,
+  "solver": [
+    {
+      "phase": "extend",
+      "nfev": 114357,
+      "steps": 48138,
+      "accepted_step_peak_stress_Pa": 1524834509.444898,
+      "peak_strain": 0.013566143128762587,
+      "completed": true,
+      "end_phase_time_s": 1326.6972469293137,
+      "stop_reason": null
+    },
+    {
+      "phase": "loaded_hold",
+      "nfev": 17892,
+      "steps": 8668,
+      "accepted_step_peak_stress_Pa": 1524171483.9281492,
+      "peak_strain": 0.01356024487130103,
+      "completed": true,
+      "end_phase_time_s": 300.0,
+      "stop_reason": null
+    }
+  ],
+  "phase_metrics": [
+    {
+      "phase": "extend",
+      "min_angle_deg": -38.497297028177435,
+      "max_angle_deg": 0.3134417540303708,
+      "max_simultaneous_width_deg": 4.671605693178343,
+      "peak_sampled_stress_Pa": 1524833708.297506,
+      "minimum_sampled_stress_Pa": 134348372.47532314
+    },
+    {
+      "phase": "loaded_hold",
+      "min_angle_deg": -0.31861940035519026,
+      "max_angle_deg": 0.31860045613667776,
+      "max_simultaneous_width_deg": 0.04813779106156929,
+      "peak_sampled_stress_Pa": 1524169894.2221887,
+      "minimum_sampled_stress_Pa": 1518194615.95842
+    }
+  ]
+}

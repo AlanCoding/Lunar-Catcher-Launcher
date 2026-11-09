@@ -7,19 +7,27 @@ limits and the supporting calculation sequence.
 These folders address different questions; the original published mass-driver
 notebook and later sling-related orbital work are kept distinct.
 
-| Start point | Question / status |
-| --- | --- |
-| [Final six-site east/west outcomes](single_equatorial_release/summit_sites/missed_capture/README.md) | **Completed:** impact coordinates and hub/sweep checks; no paired successful hub under the tested assumptions. |
-| [Movable summit hubs](single_equatorial_release/summit_sites/README.md) | Six terrain candidates with signed decimal coordinates; follow-up trajectories are checked separately. |
-| [5 km hub footprint screen](single_equatorial_release/hub_footprints/README.md) | Both hub orientations tested throughout all 49 corridors. Fixed nominal latitudes fail the 10 m maximum-rise limit; followed by the movable-summit search. |
-| [Local 10 m launch corridors](single_equatorial_release/local_corridors/README.md) | **Completed:** refine eight successful seed sites; 22.604 km in their connected intervals, 90.727 km including additional nearby intervals. Includes the 144° orbit/terrain check. |
-| [Single equatorial release](single_equatorial_release/README.md) | **Historical / approach closed:** height scan over 360 longitudes, 50% clearance at 2,310.7 m, then failed-capture outcomes through 1.5 orbits. |
-| [Two offset useful payloads](dual_offset_release/README.md) | **Deferred:** separate branch; links existing spherical/terrain results and defines future work. |
-| [Accepted heading optimum](heading_optimization/RESULT.md) | **Completed:** how a finite-offset sling reaches a 25 km equatorial circular catcher with minimum relative speed; selected 141.557° solution. |
-| [Spherical clearance baseline](spherical_release/README.md) | Earlier 90° comparison, periapsis geometry and tower-height margin equations. |
-| [Terrain release audit](terrain/results/release_audit/README.md) | Why saved terrain trajectories collided despite starting at periapsis; no new terrain sweep. |
-| [Terrain source and study](terrain/README.md) | Terrain source and preserved historical 360-site/720-trajectory survey; the new single-equator branch is separate. |
-| [Historical baseline below](#historical-notebook-review-and-python-3-baseline) | Later review of the original 2017 mass-driver notebook; reproduced by `baseline.py`. |
+- [Final six-site east/west outcomes](single_equatorial_release/summit_sites/missed_capture/README.md): **Completed:** impact coordinates and hub/sweep checks; no paired successful hub under the tested assumptions.
+
+- [Movable summit hubs](single_equatorial_release/summit_sites/README.md): Six terrain candidates with signed decimal coordinates; follow-up trajectories are checked separately.
+
+- [5 km hub footprint screen](single_equatorial_release/hub_footprints/README.md): Both hub orientations tested throughout all 49 corridors. Fixed nominal latitudes fail the 10 m maximum-rise limit; followed by the movable-summit search.
+
+- [Local 10 m launch corridors](single_equatorial_release/local_corridors/README.md): **Completed:** refine eight successful seed sites; 22.604 km in their connected intervals, 90.727 km including additional nearby intervals. Includes the 144° orbit/terrain check.
+
+- [Single equatorial release](single_equatorial_release/README.md): **Historical / approach closed:** height scan over 360 longitudes, 50% clearance at 2,310.7 m, then failed-capture outcomes through 1.5 orbits.
+
+- [Two offset useful payloads](dual_offset_release/README.md): **Deferred:** separate branch; links existing spherical/terrain results and defines future work.
+
+- [Accepted heading optimum](heading_optimization/RESULT.md): **Completed:** how a finite-offset sling reaches a 25 km equatorial circular catcher with minimum relative speed; selected 141.557° solution.
+
+- [Spherical clearance baseline](spherical_release/README.md): Earlier 90° comparison, periapsis geometry and tower-height margin equations.
+
+- [Terrain release audit](terrain/results/release_audit/README.md): Why saved terrain trajectories collided despite starting at periapsis; no new terrain sweep.
+
+- [Terrain source and study](terrain/README.md): Terrain source and preserved historical 360-site/720-trajectory survey; the new single-equator branch is separate.
+
+- [Historical baseline below](#historical-notebook-review-and-python-3-baseline): Later review of the original 2017 mass-driver notebook; reproduced by `baseline.py`.
 
 ## Historical notebook review and Python 3 baseline
 
