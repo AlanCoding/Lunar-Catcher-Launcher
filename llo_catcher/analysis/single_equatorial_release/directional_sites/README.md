@@ -21,7 +21,7 @@ a demonstrated paired launch at a common RPM.
 ## Updated figures
 
 - [Whole-equator elevation](../equatorial_elevation.png) and [direction-specific detail](../equatorial_elevation_detail.png): eastward and westward seeds, with refined corridors in the detail views.
-- [Terrain map gallery](maps/README.md): all nine hub candidates with same-equatorial-tip E/W impacts.
+- [Terrain map gallery](maps/README.md): all nine hub candidates with hub, track, tether sweep and release point; impact overlays omitted.
 
 ## Search results
 

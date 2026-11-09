@@ -4,323 +4,62 @@
     "track_radius_m": 76.78937039996255,
     "tip_radius_km": 5.965634402544288,
     "regional_map": false,
-    "events": [
-      {
-        "site": "E-S1",
-        "direction": "east",
-        "release_lat_deg": 0.0,
-        "release_lon_deg": 144.1767578125,
-        "impact_lat_deg": 0.0,
-        "impact_lon_deg": 144.26001619741942,
-        "status": "outbound_collision",
-        "impact_distance_from_hub_km": 6.465442323819884,
-        "x_km": 2.5246781202301123,
-        "y_km": 5.952137837102971,
-        "visible_local": true,
-        "visible_regional": true
-      },
-      {
-        "site": "E-S1",
-        "direction": "west",
-        "release_lat_deg": 0.0,
-        "release_lon_deg": 144.1767578125,
-        "impact_lat_deg": 0.0,
-        "impact_lon_deg": 144.1746266687665,
-        "status": "outbound_collision",
-        "impact_distance_from_hub_km": 5.952492828626167,
-        "x_km": -0.06462354464632827,
-        "y_km": 5.95214202387034,
-        "visible_local": true,
-        "visible_regional": true
-      }
-    ]
+    "impact_overlays": false
   },
   {
     "site": "E-S2",
     "track_radius_m": 76.78937039996255,
     "tip_radius_km": 5.367296659896652,
     "regional_map": false,
-    "events": [
-      {
-        "site": "E-S2",
-        "direction": "east",
-        "release_lat_deg": 0.0,
-        "release_lon_deg": 267.0771484375,
-        "impact_lat_deg": 0.0,
-        "impact_lon_deg": -92.7105853330255,
-        "status": "outbound_collision",
-        "impact_distance_from_hub_km": 8.376061042890006,
-        "x_km": 6.4366334693786245,
-        "y_km": 5.359864566860719,
-        "visible_local": true,
-        "visible_regional": true
-      },
-      {
-        "site": "E-S2",
-        "direction": "west",
-        "release_lat_deg": 0.0,
-        "release_lon_deg": 267.0771484375,
-        "impact_lat_deg": 0.0,
-        "impact_lon_deg": -92.92702613190079,
-        "status": "outbound_collision",
-        "impact_distance_from_hub_km": 5.361383705982723,
-        "x_km": -0.1265871316029654,
-        "y_km": 5.359889079159137,
-        "visible_local": true,
-        "visible_regional": true
-      }
-    ]
+    "impact_overlays": false
   },
   {
     "site": "E-S3",
     "track_radius_m": 76.78937039996255,
     "tip_radius_km": 5.901707880678946,
     "regional_map": false,
-    "events": [
-      {
-        "site": "E-S3",
-        "direction": "east",
-        "release_lat_deg": 0.0,
-        "release_lon_deg": 282.8837890625,
-        "impact_lat_deg": 0.0,
-        "impact_lon_deg": -77.11317863753953,
-        "status": "outbound_collision",
-        "impact_distance_from_hub_km": 5.8936340484463745,
-        "x_km": 0.09194967059625203,
-        "y_km": 5.892916727316262,
-        "visible_local": true,
-        "visible_regional": true
-      },
-      {
-        "site": "E-S3",
-        "direction": "west",
-        "release_lat_deg": 0.0,
-        "release_lon_deg": 282.8837890625,
-        "impact_lat_deg": 0.0,
-        "impact_lon_deg": -93.04735839748332,
-        "status": "outbound_collision",
-        "impact_distance_from_hub_km": 483.12077708868213,
-        "x_km": -483.08667404179226,
-        "y_km": 5.740262886911992,
-        "visible_local": false,
-        "visible_regional": false
-      }
-    ]
+    "impact_overlays": false
   },
   {
     "site": "E-N1",
     "track_radius_m": 76.78937039996255,
     "tip_radius_km": 6.601689856194224,
     "regional_map": false,
-    "events": [
-      {
-        "site": "E-N1",
-        "direction": "east",
-        "release_lat_deg": 0.0,
-        "release_lon_deg": 293.7509765625,
-        "impact_lat_deg": 0.0,
-        "impact_lon_deg": -66.09718119853949,
-        "status": "outbound_collision",
-        "impact_distance_from_hub_km": 8.050334114724595,
-        "x_km": 4.604376507394992,
-        "y_km": -6.603604798657513,
-        "visible_local": true,
-        "visible_regional": true
-      },
-      {
-        "site": "E-N1",
-        "direction": "west",
-        "release_lat_deg": 0.0,
-        "release_lon_deg": 293.7509765625,
-        "impact_lat_deg": 0.0,
-        "impact_lon_deg": -66.27659388886087,
-        "status": "outbound_collision",
-        "impact_distance_from_hub_km": 6.6563308762179245,
-        "x_km": -0.8360304709267824,
-        "y_km": -6.603619748696399,
-        "visible_local": true,
-        "visible_regional": true
-      }
-    ]
+    "impact_overlays": false
   },
   {
     "site": "E-S4",
     "track_radius_m": 76.78937039996255,
     "tip_radius_km": 4.706692658037144,
     "regional_map": false,
-    "events": [
-      {
-        "site": "E-S4",
-        "direction": "east",
-        "release_lat_deg": 0.0,
-        "release_lon_deg": 294.1474609375,
-        "impact_lat_deg": 0.0,
-        "impact_lon_deg": -140.2405903381001,
-        "status": "return_impact",
-        "impact_distance_from_hub_km": 2255.6967289532668,
-        "x_km": -2255.696082191896,
-        "y_km": 1.708155320358285,
-        "visible_local": false,
-        "visible_regional": false
-      },
-      {
-        "site": "E-S4",
-        "direction": "west",
-        "release_lat_deg": 0.0,
-        "release_lon_deg": 294.1474609375,
-        "impact_lat_deg": 0.0,
-        "impact_lon_deg": -65.86525348736808,
-        "status": "outbound_collision",
-        "impact_distance_from_hub_km": 4.724169406243414,
-        "x_km": -0.3855444326406825,
-        "y_km": 4.70841077958862,
-        "visible_local": true,
-        "visible_regional": true
-      }
-    ]
+    "impact_overlays": false
   },
   {
     "site": "E-N2",
     "track_radius_m": 76.78937039996255,
     "tip_radius_km": 3.9348036755764273,
     "regional_map": false,
-    "events": [
-      {
-        "site": "E-N2",
-        "direction": "east",
-        "release_lat_deg": 0.0,
-        "release_lon_deg": 295.9521484375,
-        "impact_lat_deg": 0.0,
-        "impact_lon_deg": -63.96561626184996,
-        "status": "outbound_collision",
-        "impact_distance_from_hub_km": 4.66153618747604,
-        "x_km": 2.493651974557523,
-        "y_km": -3.938479333059614,
-        "visible_local": true,
-        "visible_regional": true
-      },
-      {
-        "site": "E-N2",
-        "direction": "west",
-        "release_lat_deg": 0.0,
-        "release_lon_deg": 295.9521484375,
-        "impact_lat_deg": 0.0,
-        "impact_lon_deg": -64.12988225323966,
-        "status": "outbound_collision",
-        "impact_distance_from_hub_km": 4.658220119738666,
-        "x_km": -2.4874475112299717,
-        "y_km": -3.9384793465007846,
-        "visible_local": true,
-        "visible_regional": true
-      }
-    ]
+    "impact_overlays": false
   },
   {
     "site": "W-S1",
     "track_radius_m": 76.78937039996255,
     "tip_radius_km": 6.326943782661483,
     "regional_map": false,
-    "events": [
-      {
-        "site": "W-S1",
-        "direction": "east",
-        "release_lat_deg": 0.0,
-        "release_lon_deg": 193.3212890625,
-        "impact_lat_deg": 0.0,
-        "impact_lon_deg": -166.67562948522823,
-        "status": "outbound_collision",
-        "impact_distance_from_hub_km": 6.30818586366266,
-        "x_km": 0.09344016230857541,
-        "y_km": 6.307493783316903,
-        "visible_local": true,
-        "visible_regional": true
-      },
-      {
-        "site": "W-S1",
-        "direction": "west",
-        "release_lat_deg": 0.0,
-        "release_lon_deg": 193.3212890625,
-        "impact_lat_deg": 0.0,
-        "impact_lon_deg": -166.7082667913973,
-        "status": "outbound_collision",
-        "impact_distance_from_hub_km": 6.370848224141342,
-        "x_km": -0.8962344835330972,
-        "y_km": 6.307493229926606,
-        "visible_local": true,
-        "visible_regional": true
-      }
-    ]
+    "impact_overlays": false
   },
   {
     "site": "W-N1",
     "track_radius_m": 76.78937039996255,
     "tip_radius_km": 4.309989503154874,
     "regional_map": false,
-    "events": [
-      {
-        "site": "W-N1",
-        "direction": "east",
-        "release_lat_deg": 0.0,
-        "release_lon_deg": 193.4287109375,
-        "impact_lat_deg": 0.0,
-        "impact_lon_deg": -166.57058880173474,
-        "status": "outbound_collision",
-        "impact_distance_from_hub_km": 4.293886304633217,
-        "x_km": 0.02123427418947833,
-        "y_km": -4.29383380008081,
-        "visible_local": true,
-        "visible_regional": true
-      },
-      {
-        "site": "W-N1",
-        "direction": "west",
-        "release_lat_deg": 0.0,
-        "release_lon_deg": 193.4287109375,
-        "impact_lat_deg": 0.0,
-        "impact_lon_deg": -166.80682836482583,
-        "status": "outbound_collision",
-        "impact_distance_from_hub_km": 8.333662879624713,
-        "x_km": -7.142348073824012,
-        "y_km": -4.293809611940242,
-        "visible_local": true,
-        "visible_regional": true
-      }
-    ]
+    "impact_overlays": false
   },
   {
     "site": "W-S2",
     "track_radius_m": 76.78937039996255,
     "tip_radius_km": 5.680080719247406,
     "regional_map": false,
-    "events": [
-      {
-        "site": "W-S2",
-        "direction": "east",
-        "release_lat_deg": 0.0,
-        "release_lon_deg": 194.3076171875,
-        "impact_lat_deg": 0.0,
-        "impact_lon_deg": -165.66546630809614,
-        "status": "outbound_collision",
-        "impact_distance_from_hub_km": 5.714603204214724,
-        "x_km": 0.8162000369035185,
-        "y_km": 5.656015141544489,
-        "visible_local": true,
-        "visible_regional": true
-      },
-      {
-        "site": "W-S2",
-        "direction": "west",
-        "release_lat_deg": 0.0,
-        "release_lon_deg": 194.3076171875,
-        "impact_lat_deg": 0.0,
-        "impact_lon_deg": -140.08551235844726,
-        "status": "return_impact",
-        "impact_distance_from_hub_km": 776.5053152010258,
-        "x_km": 776.4874023764452,
-        "y_km": 5.274323286117625,
-        "visible_local": false,
-        "visible_regional": false
-      }
-    ]
+    "impact_overlays": false
   }
 ]
