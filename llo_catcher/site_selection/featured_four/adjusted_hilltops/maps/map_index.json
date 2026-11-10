@@ -1,0 +1,30 @@
+[
+  {
+    "site": "P1_H0333_hilltop",
+    "track_radius_m": 76.78937039996255,
+    "tip_radius_km": 5.71642557501452,
+    "regional_map": false,
+    "impact_overlays": false
+  },
+  {
+    "site": "P2_H4765_hilltop",
+    "track_radius_m": 76.78937039996255,
+    "tip_radius_km": 5.855195128697623,
+    "regional_map": false,
+    "impact_overlays": false
+  },
+  {
+    "site": "P3_H6308_hilltop",
+    "track_radius_m": 76.78937039996255,
+    "tip_radius_km": 5.791270404878246,
+    "regional_map": false,
+    "impact_overlays": false
+  },
+  {
+    "site": "P4_H6941_hilltop",
+    "track_radius_m": 76.78937039996255,
+    "tip_radius_km": 5.841164530081109,
+    "regional_map": false,
+    "impact_overlays": false
+  }
+]

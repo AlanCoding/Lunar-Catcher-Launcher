@@ -1,0 +1,176 @@
+{
+  "source_sha256": "d89a137b7a31b25b21071f55cf7f6e5277bbd40982efb279e2686add9724dad1",
+  "model": "Central gravity; rotating Moon; periapsis release due east/west; 25 km apoapsis; no catcher targeting correction",
+  "mu_m3_s2": 4902800118000.0,
+  "moon_spin_rad_s": 2.661698975163682e-06,
+  "sites": [
+    {
+      "site": "P1",
+      "source_id": "P1_H0333_hilltop",
+      "shots": {
+        "west_intended": {
+          "clears": false,
+          "minimum_clearance_m": -924.0204644445671,
+          "first_impact": {
+            "latitude_deg": -0.07416391980987097,
+            "longitude_deg": 14.60624766565033,
+            "time_min": 0.46397510899574596
+          },
+          "release_latitude_deg": -0.07419095190803202,
+          "release_longitude_deg": 16.1572265625,
+          "release_ground_clearance_m": 1514.7376971824117,
+          "time_to_apoapsis_min": 54.753476452239596,
+          "coarse_fine_minimum_difference_m": 1.9615712972154142e-05
+        },
+        "west_opposite": {
+          "clears": false,
+          "minimum_clearance_m": -1731.3002508789518,
+          "first_impact": {
+            "latitude_deg": 0.30129844348953005,
+            "longitude_deg": 10.613375570414291,
+            "time_min": 1.658453365349897
+          },
+          "release_latitude_deg": 0.30270657690803204,
+          "release_longitude_deg": 16.1572265625,
+          "release_ground_clearance_m": 1027.2678401659493,
+          "time_to_apoapsis_min": 54.753476452239596,
+          "coarse_fine_minimum_difference_m": 0.0002671782253855781
+        },
+        "east_intended": {
+          "clears": true,
+          "minimum_clearance_m": 647.932895801561,
+          "first_impact": null,
+          "release_latitude_deg": -0.07419095190803202,
+          "release_longitude_deg": 16.1572265625,
+          "release_ground_clearance_m": 1514.7376971824117,
+          "time_to_apoapsis_min": 54.753476452239596,
+          "coarse_fine_minimum_difference_m": 1.3153339750715531e-07
+        }
+      }
+    },
+    {
+      "site": "P2",
+      "source_id": "P2_H4765_hilltop",
+      "shots": {
+        "west_intended": {
+          "clears": true,
+          "minimum_clearance_m": 534.1299628938395,
+          "first_impact": null,
+          "release_latitude_deg": 0.03319361079623645,
+          "release_longitude_deg": 137.3408203125,
+          "release_ground_clearance_m": 1388.3962667409132,
+          "time_to_apoapsis_min": 54.89135959036828,
+          "coarse_fine_minimum_difference_m": 1.1679612725856714e-06
+        },
+        "west_opposite": {
+          "clears": true,
+          "minimum_clearance_m": 930.780162316667,
+          "first_impact": null,
+          "release_latitude_deg": -0.35155298579623645,
+          "release_longitude_deg": 137.3408203125,
+          "release_ground_clearance_m": 1177.132972569495,
+          "time_to_apoapsis_min": 54.89135959036828,
+          "coarse_fine_minimum_difference_m": 3.876975824823603e-07
+        },
+        "east_intended": {
+          "clears": true,
+          "minimum_clearance_m": 1314.0856392581927,
+          "first_impact": null,
+          "release_latitude_deg": 0.03319361079623645,
+          "release_longitude_deg": 137.3408203125,
+          "release_ground_clearance_m": 1388.3962667409132,
+          "time_to_apoapsis_min": 54.89135959036828,
+          "coarse_fine_minimum_difference_m": 2.6122506824322045e-08
+        }
+      }
+    },
+    {
+      "site": "P3",
+      "source_id": "P3_H6308_hilltop",
+      "shots": {
+        "west_intended": {
+          "clears": false,
+          "minimum_clearance_m": -2559.7841659361275,
+          "first_impact": {
+            "latitude_deg": -0.02535771521103701,
+            "longitude_deg": -114.23119932997776,
+            "time_min": 0.8268741438471434
+          },
+          "release_latitude_deg": -0.02538682660073635,
+          "release_longitude_deg": -111.4794921875,
+          "release_ground_clearance_m": 1052.1280242968783,
+          "time_to_apoapsis_min": 54.85849145478394,
+          "coarse_fine_minimum_difference_m": 0.00011761666428355966
+        },
+        "west_opposite": {
+          "clears": false,
+          "minimum_clearance_m": -2528.861524686572,
+          "first_impact": {
+            "latitude_deg": 0.35412987640493265,
+            "longitude_deg": -116.46064010771659,
+            "time_min": 1.496796105163995
+          },
+          "release_latitude_deg": 0.3554649516007363,
+          "release_longitude_deg": -111.4794921875,
+          "release_ground_clearance_m": 954.3888209211273,
+          "time_to_apoapsis_min": 54.85849145478394,
+          "coarse_fine_minimum_difference_m": 0.00016752366900618654
+        },
+        "east_intended": {
+          "clears": true,
+          "minimum_clearance_m": 996.1155848472008,
+          "first_impact": null,
+          "release_latitude_deg": -0.02538682660073635,
+          "release_longitude_deg": -111.4794921875,
+          "release_ground_clearance_m": 1052.1280242968783,
+          "time_to_apoapsis_min": 54.85849145478394,
+          "coarse_fine_minimum_difference_m": 2.1392444068624172e-05
+        }
+      }
+    },
+    {
+      "site": "P4",
+      "source_id": "P4_H6941_hilltop",
+      "shots": {
+        "west_intended": {
+          "clears": false,
+          "minimum_clearance_m": -1244.6700481536773,
+          "first_impact": {
+            "latitude_deg": -0.02144886838786916,
+            "longitude_deg": -76.63141951547101,
+            "time_min": 0.916962638598725
+          },
+          "release_latitude_deg": -0.021479328941938408,
+          "release_longitude_deg": -73.5712890625,
+          "release_ground_clearance_m": 499.0967205791485,
+          "time_to_apoapsis_min": 54.79231055538515,
+          "coarse_fine_minimum_difference_m": 5.3567237955576275e-05
+        },
+        "west_opposite": {
+          "clears": false,
+          "minimum_clearance_m": -1665.0138555576414,
+          "first_impact": {
+            "latitude_deg": 0.3625503949950488,
+            "longitude_deg": -77.20374905506338,
+            "time_min": 1.0884411873147513
+          },
+          "release_latitude_deg": 0.3632762039419384,
+          "release_longitude_deg": -73.5712890625,
+          "release_ground_clearance_m": 1510.990815811133,
+          "time_to_apoapsis_min": 54.79231055538515,
+          "coarse_fine_minimum_difference_m": 6.644636232522316e-05
+        },
+        "east_intended": {
+          "clears": true,
+          "minimum_clearance_m": 234.54921394435655,
+          "first_impact": null,
+          "release_latitude_deg": -0.021479328941938408,
+          "release_longitude_deg": -73.5712890625,
+          "release_ground_clearance_m": 499.0967205791485,
+          "time_to_apoapsis_min": 54.79231055538515,
+          "coarse_fine_minimum_difference_m": 3.8174835026438814e-07
+        }
+      }
+    }
+  ]
+}

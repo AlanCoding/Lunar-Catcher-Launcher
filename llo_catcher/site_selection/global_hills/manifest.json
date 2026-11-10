@@ -1,0 +1,158 @@
+{
+  "terrain_sources": [
+    {
+      "west_deg": 0,
+      "extra_sources": [
+        {
+          "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_00n_30n_000_045_float.img",
+          "start": 1392721920,
+          "end": 1399357439,
+          "sha256": "762a92330f66c62b7588ad1dfcafa086ab0ec79e2a999db41c34fe7aeacde6e7"
+        },
+        {
+          "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_30s_00s_000_045_float.img",
+          "start": 16220160,
+          "end": 22855679,
+          "sha256": "6f76f8b35974100990858d7d9d3cf45741eaa9d9511504485d588ec3eafe1e13"
+        }
+      ]
+    },
+    {
+      "west_deg": 45,
+      "extra_sources": [
+        {
+          "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_00n_30n_045_090_float.img",
+          "start": 1392721920,
+          "end": 1399357439,
+          "sha256": "227a8060b676bcafdfb93242ee23979eb34ecef34ff53b6db0d9891278703b1f"
+        },
+        {
+          "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_30s_00s_045_090_float.img",
+          "start": 16220160,
+          "end": 22855679,
+          "sha256": "fd42fdaa1bb910993063fd2f6069841918b1b3491f45e8c5e972da087e432321"
+        }
+      ]
+    },
+    {
+      "west_deg": 90,
+      "extra_sources": [
+        {
+          "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_00n_30n_090_135_float.img",
+          "start": 1392721920,
+          "end": 1399357439,
+          "sha256": "547a3545ebb8becf738d572d2ae43d552fc84be931f7521ff0f0f284ba5e142a"
+        },
+        {
+          "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_30s_00s_090_135_float.img",
+          "start": 16220160,
+          "end": 22855679,
+          "sha256": "cf965707b9cd46fe06f04905ce2af2f0a0c7f2212cec763399e1a5ad0c833dcc"
+        }
+      ]
+    },
+    {
+      "west_deg": 135,
+      "extra_sources": [
+        {
+          "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_00n_30n_135_180_float.img",
+          "start": 1392721920,
+          "end": 1399357439,
+          "sha256": "dee940985fd4778989e4e7881c9d24bdae36145aaebf67b1584a87b28b519d53"
+        },
+        {
+          "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_30s_00s_135_180_float.img",
+          "start": 16220160,
+          "end": 22855679,
+          "sha256": "7dab5ffe3cbf9c9455c416499183d981d50221227ea7cf8d8638d65b7d0483d6"
+        }
+      ]
+    },
+    {
+      "west_deg": 180,
+      "extra_sources": [
+        {
+          "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_00n_30n_180_225_float.img",
+          "start": 1392721920,
+          "end": 1399357439,
+          "sha256": "5313d9283c722c2544c3335b548db49def1865988a67ecfe914f8d0ad7ea191f"
+        },
+        {
+          "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_30s_00s_180_225_float.img",
+          "start": 16220160,
+          "end": 22855679,
+          "sha256": "94ce89266afdeb5151699f9c4b84b3629a5fe4d5874497beef2cd5406c738c25"
+        }
+      ]
+    },
+    {
+      "west_deg": 225,
+      "extra_sources": [
+        {
+          "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_00n_30n_225_270_float.img",
+          "start": 1392721920,
+          "end": 1399357439,
+          "sha256": "b5f6440582ac8dac8b2ef36689899153107a96130a11a4553c8a2c32c27d109e"
+        },
+        {
+          "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_30s_00s_225_270_float.img",
+          "start": 16220160,
+          "end": 22855679,
+          "sha256": "11e56e4f9e03be1561ba30af4630145d824a6e3f34752c9df3e9bb8001d4a413"
+        }
+      ]
+    },
+    {
+      "west_deg": 270,
+      "extra_sources": [
+        {
+          "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_00n_30n_270_315_float.img",
+          "start": 1392721920,
+          "end": 1399357439,
+          "sha256": "cb4868af49328e3b24782958800a2cd5b394b31cc07df8082fe4356b387415a8"
+        },
+        {
+          "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_30s_00s_270_315_float.img",
+          "start": 16220160,
+          "end": 22855679,
+          "sha256": "3597e41cb472ee378370aa2d15a10f5c8c50071244f27674ccf2e91aef545e53"
+        }
+      ]
+    },
+    {
+      "west_deg": 315,
+      "extra_sources": [
+        {
+          "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_00n_30n_315_360_float.img",
+          "start": 1392721920,
+          "end": 1399357439,
+          "sha256": "632c2321f04d8eb7c6221d533e1ecb7fd8066413472523d591ee6e42a393d747"
+        },
+        {
+          "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_30s_00s_315_360_float.img",
+          "start": 16220160,
+          "end": 22855679,
+          "sha256": "c41925ddcb20a225d84c7550e62f80c4eba8362e4d6e4d7d21d077f058dae389"
+        }
+      ]
+    }
+  ],
+  "terrain_array_sha256": {
+    "000": "4aaa10ca800842497199ceb2c35e9c4f817b69ed8c4418f0460ecc331d70d370",
+    "045": "3341511ab0cbd0fdacded0348bb12c41cd57b6199a5452032f5c4eab85914614",
+    "090": "b899070527c8dd7a83ef324fee45c5d1c54856c4731b0cac87254d8749d2b684",
+    "135": "8e68987ac4c8f5952b80e0785fea86d6d5878a6c491de444939506a7bbd57ca1",
+    "180": "1091602dd6051d1e293a29ec3a8a75be215c529ab7dde0a9c81c2066b09c082f",
+    "225": "5bbbda0762ee33da837901db6c80ad25e3a52fa9831ab0a2ba13ba692f94d057",
+    "270": "b0ecb9d7e02ddb31f648ad17b1de7822492c1732f4303a793731f025c0ec01fe",
+    "315": "745fe08df95a3123a1e2fd99e2876b1af109ecd802ce809741f873b0b90ebb9b"
+  },
+  "source_sha256": {
+    "search.py": "69a373075b8c56c9aaf4d51e274ab84c54686cf9505104e6a61c7d7e3d917e84",
+    "report.py": "1d82e0686c63250971348f215d5b49f1cae77684e0e91b8d17e06126430cded5",
+    "validate.py": "d012b92567ae4caff17198da4c44d94520b3544c2110225a024f10a76793d693",
+    "prepare_terrain.py": "58ab5bdf79d41509b11b8e7208062732dc3e481d083802ba01ada1a345f3de4d",
+    "select_nonoverlap.py": "6c10b599ae55f2b34a5c81c1608a739fa7c65a1d014bdceb78d445a5f0f1da66"
+  },
+  "default_selection": "nonoverlap_results.json; full-lat/lon disjoint projected sweep caps, reference-arm equator miss ranking"
+}

@@ -1,0 +1,78 @@
+{
+  "site": "P1",
+  "arm_radius_m": 5716.425575014519,
+  "reference_apex_height_m": 28.680286199805998,
+  "reference_tip_plane_offset_m": 1.3768156839390109,
+  "model": "Pure eastward, periapsis release; speed retargeted to 25 km apoapsis; spherical gravity and lunar spin; bilinear SLDEM2015",
+  "source_sha256": {
+    "/home/arominge/repos/Lunar-Catcher-Launcher/llo_catcher/site_selection/featured_four/adjusted_hilltops/results.json": "d89a137b7a31b25b21071f55cf7f6e5277bbd40982efb279e2686add9724dad1",
+    "/home/arominge/repos/Lunar-Catcher-Launcher/sling_launcher/blender/scene_inputs.json": "82e6f4fadd1e2eb52741cadfef36826e52ac4d29d940ece794db7fee513bdc5c"
+  },
+  "cases": [
+    {
+      "case": "Existing reference",
+      "tip_plane_offset_m": 1.3768156839390109,
+      "lowering_from_reference_m": 0.0,
+      "release_latitude_deg": -0.07419095190803202,
+      "release_longitude_deg": 16.1572265625,
+      "release_elevation_m": 619.6198270383757,
+      "local_ground_clearance_m": 1514.7376971824117,
+      "eastward_clears": true,
+      "minimum_outbound_clearance_m": 647.9328998823811,
+      "angular_resolution_difference_m": 4.080820076524105e-06,
+      "tip_circle_clearance_m": 423.5862101020757
+    },
+    {
+      "case": "Subtract reference pole height",
+      "tip_plane_offset_m": -27.303470515866987,
+      "lowering_from_reference_m": 28.680286199805998,
+      "release_latitude_deg": -0.07419406167956713,
+      "release_longitude_deg": 16.1572265625,
+      "release_elevation_m": 590.9396959708538,
+      "local_ground_clearance_m": 1486.0917771134082,
+      "eastward_clears": true,
+      "minimum_outbound_clearance_m": 619.2760273151816,
+      "angular_resolution_difference_m": 7.04770741322136e-07,
+      "tip_circle_clearance_m": 394.9059239022697
+    },
+    {
+      "case": "100 m below hub tangent plane",
+      "tip_plane_offset_m": -100.0,
+      "lowering_from_reference_m": 101.37681568393901,
+      "release_latitude_deg": -0.07420194454320422,
+      "release_longitude_deg": 16.1572265625,
+      "release_elevation_m": 518.2435597260483,
+      "local_ground_clearance_m": 1413.4823612693172,
+      "eastward_clears": true,
+      "minimum_outbound_clearance_m": 546.63884765374,
+      "angular_resolution_difference_m": 7.198842695288477e-07,
+      "tip_circle_clearance_m": 322.2093944181367
+    },
+    {
+      "case": "200 m below hub tangent plane",
+      "tip_plane_offset_m": -200.0,
+      "lowering_from_reference_m": 201.37681568393901,
+      "release_latitude_deg": -0.07421278914204849,
+      "release_longitude_deg": 16.1572265625,
+      "release_elevation_m": 418.24410071293823,
+      "local_ground_clearance_m": 1313.6022050886768,
+      "eastward_clears": true,
+      "minimum_outbound_clearance_m": 446.72047922112046,
+      "angular_resolution_difference_m": 8.037184784370766e-07,
+      "tip_circle_clearance_m": 222.2093944181367
+    },
+    {
+      "case": "300 m below hub tangent plane",
+      "tip_plane_offset_m": -300.0,
+      "lowering_from_reference_m": 301.376815683939,
+      "release_latitude_deg": -0.0742236349890284,
+      "release_longitude_deg": 16.1572265625,
+      "release_elevation_m": 318.24464176176116,
+      "local_ground_clearance_m": 1213.7220627008705,
+      "eastward_clears": true,
+      "minimum_outbound_clearance_m": 346.8020880409679,
+      "angular_resolution_difference_m": 8.080324960246799e-07,
+      "tip_circle_clearance_m": 122.2093944181367
+    }
+  ]
+}

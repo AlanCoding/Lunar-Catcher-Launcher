@@ -1,30 +1,16 @@
-# Low lunar orbit catcher studies: reader guide
+# Low lunar orbit catcher studies
 
-**[Separate eastward/westward site tables](analysis/single_equatorial_release/directional_sites/README.md).** Separate eastward and westward searches, with reverse-direction checks and full-circle terrain limits, supersede treating the six original hills as usable launch sites.
-
-**For the completed equatorial launch-site study, start with the
-[checkpoint and reading guide](analysis/LAUNCH_SITE_CHECKPOINT.md).** It leads to
-the six-site catalog and final east/west impact results, then the earlier graphs
-and calculations. The [analysis directory guide](analysis/README.md) also maps
-the separate spherical heading result and historical notebook review.
-
-This directory preserves the original LLO catcher calculations for
-[The Value of Low Lunar Orbit Space Stations](https://alanse.medium.com/the-value-of-low-lunar-orbit-space-stations-db1a5bb9e8af)
-(published December 24, 2017). The post assumes an electromagnetic mass driver;
-its ballistic transfer and launch-error calculations are not a sling design.
-The later wheeled launcher work lives separately in [sling_launcher/](../sling_launcher/README.md).
-
-## Work items and results
-
-- **[Orbital and terrain analyses](analysis/README.md):** offset-release geometry,
-  launch-clearance studies and the original notebook review. The guide distinguishes
-  completed results from historical or deferred branches.
-- **[Launch sites and impacts](analysis/LAUNCH_SITE_CHECKPOINT.md):** where can an
-  equatorial shot clear terrain and where does a missed catch land? The completed
-  exploratory study includes six hilltop hubs, maps and east/west impact tables.
+- **[Launcher site selection](site_selection/README.md):** the blog reading guide:
+  elevation by longitude → red/green/blue search outcomes → candidate tables →
+  terrain maps. Includes the correction from tip-relative to hub-relative height.
+- **[Eastward launch ridges](site_selection/launch_ridges/README.md):** a regional terrain-contact search that traces candidate launch lines and checks their required release heights.
+- **[Orbital analyses](analysis/README.md):** release/capture geometry, heading
+  optimization and other numerical studies supporting LLO launchers.
 - **[Original catcher notebook](<variations analysis for lunar catcher-launcher system.ipynb>):**
-  the published mass-driver study's catcher transfer and sensitivity calculations,
-  preserved as historical source material.
+  historical electromagnetic-mass-driver transfer and sensitivity calculations for
+  [The Value of Low Lunar Orbit Space Stations](https://alanse.medium.com/the-value-of-low-lunar-orbit-space-stations-db1a5bb9e8af).
+
+Launcher hardware and dynamics live in [sling_launcher](../sling_launcher/README.md).
 
 ## Published post: original notebook and plots
 

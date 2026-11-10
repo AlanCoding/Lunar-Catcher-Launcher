@@ -1,8 +1,9 @@
 # Planned work after the sling publication
 
-Updated 2026-11-08. **The equatorial launch-site study is closed at its agreed
-exploratory scope**, including the six summit hubs and east/west impact checks.
-Start with its [checkpoint](llo_catcher/analysis/LAUNCH_SITE_CHECKPOINT.md).
+Updated 2026-11-09. **The site-selection second pass searches hills first around
+all equatorial longitudes**, then tests both launch directions; see the
+[site-selection guide](llo_catcher/site_selection/README.md). The earlier
+corridor-seeded tables remain historical context.
 The spherical heading study is also complete. **Point-mass payout control is accepted; optimal control is deferred.
 The first [steady conveyor stress/grip results](sling_launcher/conveyor_loop/steady/README.md) are available. The earlier spool-based operations and
 3D tether-dynamics plans are on hold at the user’s request.** The comprehensive two-offset-payload terrain
@@ -19,7 +20,10 @@ from tested operating limits and new results.
 
 | Work item | Home | Sequence / dependency |
 | --- | --- | --- |
-| [Equatorial launch sites: closing checkpoint](llo_catcher/analysis/LAUNCH_SITE_CHECKPOINT.md) | LLO catcher / terrain | **Completed:** corridors, movable summit catalog and six-site east/west missed-capture follow-up. Terrain candidates are distinct from demonstrated launcher installations. |
+| [Tether sag and taper tradeoffs](sling_launcher/sag_taper_trade/README.md) | Sling launcher / steady shape and sizing | Planned: taper families, distributed-weight force balance, stress and terrain-coupled support-height/mass comparisons. |
+| [Global hill-first site search](llo_catcher/site_selection/global_hills/README.md) | LLO catcher / site selection | Global hill-first search complete; default plots/tables now use non-overlapping sweeps prioritized by reference-arm equatorial alignment. Return-impact runs are historical checks, not selection criteria. |
+| [Lunar Slider Straw](sling_launcher/lunar_slider_straw/README.md) | Sling launcher / new concept | Concept and staged plan recorded; scalar transverse loads/contact/friction, guide sizing and 2D dynamics remain to be done. |
+| [Historical corridor-first checkpoint](llo_catcher/analysis/LAUNCH_SITE_CHECKPOINT.md) | LLO catcher / terrain | **Historical:** corridor-seeded summit catalog and six-site opposite-tip follow-up; superseded for candidate discovery by the global hill-first pass. |
 | [Spherical-Moon release clearance](llo_catcher/work_items/SPHERICAL_MOON_RELEASE_CLEARANCE.md) | LLO catcher / orbital mechanics | **Completed at agreed scope:** [accepted reference-RPM heading optimum](llo_catcher/analysis/heading_optimization/RESULT.md); spherical clearance/height-margin baseline retained. Tower height remains conditional on tether drop. |
 | [Local 10 m corridors](llo_catcher/analysis/single_equatorial_release/local_corridors/README.md) | LLO catcher / terrain | **Completed:** eight seed-connected intervals total 22.604 km; all 49 nearby intervals passing departure and return-impact criteria total 90.727 km. |
 | [Single equatorial release](llo_catcher/analysis/single_equatorial_release/README.md) | LLO catcher / terrain | **Historical; further height-percentage surveying abandoned:** 360 sites; 50% outbound clearance at 2,310.7 m; 95 subsequent impacts and 85 unarrested through 1.5 orbits among 180 clear departures. |

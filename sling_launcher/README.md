@@ -7,6 +7,12 @@ The original LLO catcher notebook and sensitivity calculations belong to the
 
 ## Work items and results
 
+- **[Sag, taper and support height](sag_taper_trade/README.md):** planned steady force-balance study of how distributed weight, rotational tension and taper shape the cable. Terrain envelopes from site selection will support comparisons of tether mass, stress and required pole height.
+
+- **[Lunar Slider Straw](lunar_slider_straw/README.md):** a new tensile-guide concept
+  coupling outgoing and returning tapered spools through sliding contact. Planned
+  work covers transverse-load exchange, friction, guide mass and phased dynamics.
+
 - **[Spooled tether in 2D](spooled_tether_2d/README.md):** how does a massive elastic
   tether curve, carry stress and sweep sideways during extension, release and
   retraction? This shared investigation applies to all spooled designs; shape

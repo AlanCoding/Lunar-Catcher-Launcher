@@ -1,4 +1,6 @@
-# Equatorial LLO launch sites: completed study
+# Historical launch-site checkpoint — see corrected guide
+
+**[Current site-selection guide and height correction](../site_selection/README.md).** The later summit checks below used 10 m clearance above local tip terrain, which could place the plane below hub ground. The current guide separately evaluates a plane above the summit and provides the blog figures, tables and maps in order.
 
 **[Updated eastward/westward map gallery](single_equatorial_release/directional_sites/maps/README.md):** shows the eastward and westward hub candidates, track and tether footprints, without impact overlays. The equatorial elevation figures now distinguish both launch directions.
 
