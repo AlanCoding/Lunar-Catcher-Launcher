@@ -1,22 +1,22 @@
 [
   {
     "file": "01_equatorial_elevation.png",
-    "source": "analysis/single_equatorial_release/equatorial_elevation.png",
+    "source": "site_selection/equatorial_context/equatorial_elevation.png",
     "sha256": "e4ce400ff31ee95ccbbda6237d1aa08c7258e29530bd8fe7cba9d368f99188e3"
   },
   {
     "file": "01_equatorial_elevation.svg",
-    "source": "analysis/single_equatorial_release/equatorial_elevation.svg",
+    "source": "site_selection/equatorial_context/equatorial_elevation.svg",
     "sha256": "22469a31b71fa2cb1a46a6695356b9e6346a803c37c5db05ad86a82df1931d27"
   },
   {
     "file": "02_trajectory_144.png",
-    "source": "analysis/single_equatorial_release/local_corridors/trajectory_144.png",
+    "source": "site_selection/equatorial_context/trajectory_144.png",
     "sha256": "29e026399efc2bce5966d74ff44626ffc27b7da139d2d7d980bbef30c65b57d3"
   },
   {
     "file": "02_trajectory_144.svg",
-    "source": "analysis/single_equatorial_release/local_corridors/trajectory_144.svg",
+    "source": "site_selection/equatorial_context/trajectory_144.svg",
     "sha256": "50afd95cceab7dabc4266032fd07bf270dec2403d4440dbd61c3370733a6edeb"
   },
   {

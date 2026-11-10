@@ -53,7 +53,7 @@ Finite retraction work remains even after payload release because the tethers
 have mass. Friction and holding-system losses would make the ideal zero-power
 holds nonzero in a real installation.
 
-### Declared baseline
+### Single-pair and original staggered baseline
 
 | Input / derived quantity | Value |
 | --- | ---: |
@@ -116,35 +116,72 @@ single-pair mean throughput.
 **Exact phase shifts also shift release times.** Thus this smooth graph does not
 by itself demonstrate a bank that waits for one shared release window.
 
-## A first common-release schedule
+## Common release with a continuous processing pipeline
 
-To represent the new concept explicitly, a second schedule starts immediately
-after all pairs have released. Empty tethers wait at full extension until their
-staggered retraction starts, retract, reload, extend, then hold loaded until the
-next common release at T. The retraction starts are spread over 3,380.092 s;
-individual loaded holds range from **300 to 3,680.092 s**. This is a feasible
-sequence of the imposed radial motions, not a collision-checked trajectory.
+**Common release is compatible with nearly constant power.** Loaded tethers wait
+at full extension for a release window; after detachment, empty extended tethers
+wait for their return slot. Other tethers keep extending or retracting throughout.
+Installed spool count provides the buffer between these schedules.
 
-![Staged bank: retract, reload, extend and hold](results/staged_schedule.png)
+The example below preserves the payload, taper, RPM and **15 tonnes per window**
+of the original bank. Each travel phase now lasts T, with a new return starting
+every T/15. Sixty physical pairs provide a four-window reuse cycle. This is a
+concrete scheduling example; spool count and travel times remain design variables.
 
-[Schedule PNG](results/staged_schedule.png) · [SVG](results/staged_schedule.svg)
+| Pipeline quantity | Value |
+| --- | ---: |
+| Installed pairs / individual tethers | **60 / 120** |
+| Common release interval | **110.558 min** |
+| Pairs releasing at each window | **15** |
+| Useful payload / opposite mass per window | **15 / 15 tonnes** |
+| Useful throughput | **2.26125 kg/s** |
+| Empty retraction / loaded extension | **110.558 min each** |
+| Reload | **5 min** |
+| Successive processing starts | **7.371 min apart** |
+| Physical pair reuse cycle | **442.232 min** |
+| Loaded wait at full extension | **9.741–112.929 min** |
+| Peak payout speed | **1.614 m/s** |
+| Installed tether material | **360 tonnes**, plus spool machinery |
 
-![Signed power for a common-release bank](results/synchronized_bank_power.png)
+Each pair retracts, reloads, extends, waits for its assigned common release, then
+waits empty until its next return slot. At each window, 15 pairs are ready and
+release; the other 45 pairs retain their current tasks. A fully spooled waiting
+phase could also be inserted by adding inventory and adjusting the schedule.
 
-[Power PNG](results/synchronized_bank_power.png) · [SVG](results/synchronized_bank_power.svg)
+![Continuous pipeline schedule](results/staged_schedule.png)
 
-This initial common-release schedule has hub power from **−19.17 to +42.80 MW**,
-and spool power from **−21.40 to +9.58 MW**. Its average ideal net power remains
-**6.415 MW**, but net peak-to-peak variation is **30.98 MW**. It demonstrates holding
-and common readiness, but does not inherit the evenly phased graph's smoothness.
-We have not optimized this schedule. More overlap, changed travel programs,
-multiple banks, or a finite release window may improve it; none is assumed solved.
+[Schedule PNG](results/staged_schedule.png) · [SVG](results/staged_schedule.svg).
+The schedule shows 15 of the 60 physical pairs over four windows; the other groups
+follow the same sequence with time offsets.
 
-Holding separates preparation from release, but after a shared release all pairs
-are empty. A steady balance between loaded extension and unloaded return is
-therefore a scheduling problem. This is a useful result to keep visible in the
-article rather than label the evenly phased graph as a demonstrated common-release
-solution.
+![Nearly constant power with common releases](results/synchronized_bank_power.png)
+
+[Power PNG](results/synchronized_bank_power.png) · [SVG](results/synchronized_bank_power.svg).
+The power figure shows two windows of an established periodic operation.
+
+| Power metric | Continuous common-release pipeline |
+| --- | ---: |
+| Mean hub drive | **+12.8308 MW** |
+| Mean spool regeneration | **−6.4154 MW** |
+| Mean net shaft input | **+6.4154 MW** |
+| Hub range | **12.8217–12.8388 MW** |
+| Spool range | **−6.4194 to −6.4109 MW** |
+| Net peak-to-peak ripple | **8.53 kW / 0.133% of mean** |
+
+The curves sum the actual quintic travel histories, including radial inertia.
+Residual ripple comes from their discrete overlap. Common release occurs during
+stationary full-extension holds and adds no shaft-power pulse in this model.
+Slower travel increases overlap and reduces ripple; the extra installed tethers
+supply the waiting inventory. Power smoothing and shared release therefore coexist
+at unchanged average throughput and energy per payload.
+
+This replaces the earlier schedule that required all 15 installed pairs to
+finish a complete return-and-extension sequence between consecutive windows.
+Its large power swings were a consequence of that scheduling restriction.
+The pipeline is a steady-operation energy calculation. Startup, electrical losses,
+release waves, neighboring-tether clearance and catcher targeting remain separate
+engineering tasks. Waiting increases installed cable and mechanism mass; ideal
+stationary holds consume zero shaft work.
 
 ## Power equations and energy accounting
 
@@ -177,9 +214,9 @@ payload are excluded.
 
 “Hub + spool” is ideal net mechanical work. Physically using negative power needs
 regenerative drives and a power-transfer path; electrical losses increase input.
-The common-release schedule has net-regenerating intervals, so without storage
-or another simultaneous consumer that energy would need disposal. These curves
-are not solar-array sizing or a claim of storage-free electrical feasibility.
+The common-release pipeline continuously transfers spool regeneration to the hub
+drive. Its net shaft input stays positive. Electrical equipment and solar sizing
+require conversion efficiencies and transient allowances beyond this calculation.
 
 ## Shared follow-up: angle histories and full 2D cable dynamics
 
@@ -208,9 +245,8 @@ The principal outputs should be:
    ripple against angular excursions. Establish tolerable neighboring-arm spacing
    only after specifying their arrangement and physical clearance.
 
-For an illustrative equally spaced 30-arm arrangement, nominal angular spacing
-would be 12°, but that is not an established safe envelope or a selected mechanical
-layout. First solve one arm; then use its swept envelope to assess phase-separated
+An illustrative equally spaced 120-arm arrangement would have nominal angular
+spacing of 3°. Actual safe spacing requires a mechanical layout and dynamic study. First solve one arm; then use its swept envelope to assess phase-separated
 neighbors. Do not assume ideal mirrored force cancellation removes collision risk.
 
 A later scheduling step should use the dynamically acceptable histories to smooth
@@ -228,7 +264,7 @@ implemented here.
 - [Single-cycle template](results/cycle_template.npz): time, deployed length,
   radial speed, signed hub/spool powers, kinetic energy and load state in SI.
 - [All individual bank histories](results/bank_histories.npz): 15 × time arrays
-  for both schedules, plus common-release deployed-length histories.
+  for the original bank and 60 × time arrays for the common-release pipeline, plus common-release deployed-length histories.
 - [Inputs, summaries, timings and validation](results/summary.json).
 
 The saved templates are intended for reuse in the next design/scheduling work;

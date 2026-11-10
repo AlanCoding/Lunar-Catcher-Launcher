@@ -1,0 +1,14 @@
+{
+  "fixed_mass_flow.png": {
+    "source": "../results/fixed_mass_flow.png",
+    "sha256": "4edca2ac7c0f6e2814f290c46340f20882bc60a5dd2f5f0cb2a69d0e1ee08a5a"
+  },
+  "fixed_mass_flow.svg": {
+    "source": "../results/fixed_mass_flow.svg",
+    "sha256": "e779094e5a2174ef8d567206343ea5b37df541758c8f8986b059be3aaef7402f"
+  },
+  "mass_table.csv": {
+    "source": "../results/frontier_matrix.json",
+    "missing_conveyor_mass": "No finite solution in the modeled family"
+  }
+}

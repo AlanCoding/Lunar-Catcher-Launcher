@@ -4,11 +4,11 @@ import csv,json
 from concurrent.futures import ProcessPoolExecutor
 import numpy as np
 from scipy.ndimage import maximum_filter,minimum_filter
-from ...analysis.single_equatorial_release.summit_sites.extend import CACHE,ROWS
-from ...analysis.single_equatorial_release.hub_footprints.terrain import Terrain,RADIUS,PPD,COLS
-from ...analysis.single_equatorial_release.hub_footprints.survey import destination
-from ...analysis.single_equatorial_release.directional_sites import orbits
-from ..audit_height import PLANE_OFFSET
+from llo_catcher.site_selection.support.terrain import CACHE,ROWS
+from llo_catcher.site_selection.support.terrain import Terrain,RADIUS,PPD,COLS
+from llo_catcher.site_selection.support.geometry import destination
+from llo_catcher.site_selection.support import orbits
+from ..support.constants import PLANE_OFFSET
 OUT=Path(__file__).parent
 class GlobalTerrain(Terrain):
     def __init__(self):

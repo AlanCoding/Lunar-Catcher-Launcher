@@ -6,7 +6,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from .calculate import ROOT,GlobalTerrain,RADIUS,solve
 from ..featured_four.adjusted_hilltops.check_launches import trajectory
-from ...analysis.single_equatorial_release.directional_sites.build_maps import project
+from llo_catcher.site_selection.support.maps import project
 
 def main():
     source=ROOT.parent/'featured_four/adjusted_hilltops/results.json'

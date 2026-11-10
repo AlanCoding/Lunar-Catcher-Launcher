@@ -36,6 +36,8 @@ The original LLO catcher notebook and sensitivity calculations belong to the
 - **[Deferred operations and 3D work](work_items/README.md):** full-machine
   operating schedules and spatial cable dynamics remain separate future tasks.
 
+**Conveyor versus tapered sling:** [short technical note and publication assets](architecture_comparison/publication/README.md).
+
 **For publication, start here:** [current checkpoint and chart index](publication/README.md).
 The [checkpoint](publication/CHECKPOINT.md) gives the selected design and pie charts;
 [mass payoff](publication/MASS_PAYOFF.md) gives launch counts and calendar scenarios.

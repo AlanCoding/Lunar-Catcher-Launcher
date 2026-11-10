@@ -4,7 +4,7 @@ import json,csv,hashlib
 import numpy as np
 from scipy.optimize import brentq, minimize_scalar
 from ...global_hills.search import GlobalTerrain,RADIUS
-from ....analysis.terrain.impact_demo import MU,MOON_OMEGA
+from llo_catcher.site_selection.support.constants import MU,MOON_OMEGA
 ROOT=Path(__file__).resolve().parent
 
 def trajectory(lat,lon,rp,direction):

@@ -1,0 +1,18 @@
+{
+  "terrain_samples": 97,
+  "maximum_terrain_difference_m": 0.0,
+  "orbit_cases_equal": 8,
+  "summit_check_equal": true,
+  "modules_imported": 32,
+  "preserved_inputs": "Final SLDEM2015 arrays, publication figures and supporting result datasets",
+  "removed_folders": [
+    "llo_catcher/analysis",
+    "llo_catcher/work_items"
+  ],
+  "regenerated_pngs_identical": {
+    "equatorial_elevation": true,
+    "equatorial_elevation_detail": true,
+    "trajectory_144": true,
+    "P1_footprint": true
+  }
+}

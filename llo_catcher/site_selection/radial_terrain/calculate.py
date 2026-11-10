@@ -4,7 +4,7 @@ import json,csv,hashlib
 import numpy as np
 from scipy.optimize import minimize_scalar
 from ..global_hills.search import GlobalTerrain,RADIUS
-from ...analysis.single_equatorial_release.hub_footprints.survey import destination
+from llo_catcher.site_selection.support.geometry import destination
 ROOT=Path(__file__).resolve().parent
 TRACK=76.78937039996255
 

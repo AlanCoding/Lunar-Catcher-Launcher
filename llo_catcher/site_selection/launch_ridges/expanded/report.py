@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 from .calculate import ROOT
 from ..calculate import GlobalTerrain,RADIUS
-from ....analysis.single_equatorial_release.directional_sites.build_maps import project
+from llo_catcher.site_selection.support.maps import project
 plt.rcParams.update({'svg.fonttype':'none'})
 
 def save(fig,name):
@@ -38,7 +38,7 @@ def main():
         ax.set(title=f'{label} · contact locations from expanded regional seeds',xlabel='Longitude east (degrees)',ylabel='North of equator (km)');ax.grid(alpha=.2)
         # Local terrain panel centered on the hub, 12 x 12 km.
         xaxis=np.linspace(-6,6,401);yaxis=np.linspace(-6,6,401);xx,yy=np.meshgrid(xaxis,yaxis)
-        from ....analysis.single_equatorial_release.hub_footprints.survey import destination
+        from llo_catcher.site_selection.support.geometry import destination
         lat,lon=destination(s['hub_latitude_deg'],s['longitude_deg_east'],np.arctan2(xx,yy),np.hypot(xx,yy)*1000/RADIUS)
         z=terrain.height(lat,lon)
         local,aa=plt.subplots(figsize=(9,9),layout='constrained');im=aa.pcolormesh(xx,yy,z,cmap='gist_earth',shading='auto',rasterized=True)
