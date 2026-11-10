@@ -1,0 +1,22 @@
+{
+  "west_deg": 45,
+  "east_deg": 90,
+  "sources": [
+    {
+      "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_00n_30n_045_090_float.img",
+      "label_url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_00n_30n_045_090_float.lbl",
+      "content_range": "bytes 1403781120-1415577599/1415577600",
+      "bytes": 11796480,
+      "sha256": "5b0911f12cec057bfd067aac866436b8c09899120a92a0e417cbf1ce82ca4d48",
+      "label_sha256": "4f686202ddcabac46f49f18b817b6225a437f237015ad01b720c92765c39eb30"
+    },
+    {
+      "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_30s_00s_045_090_float.img",
+      "label_url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_30s_00s_045_090_float.lbl",
+      "content_range": "bytes 0-11796479/1415577600",
+      "bytes": 11796480,
+      "sha256": "6349524f6a09f0696c28a9096e91e2355e1387d2f62fea20894ce341f7fab543",
+      "label_sha256": "183047c9026eeba7cf8fe17e8697097ec0ec09d30a0ce42b0bb8189de535ed1a"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "west_deg": 135,
+  "extra_sources": [
+    {
+      "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_00n_30n_135_180_float.img",
+      "start": 1392721920,
+      "end": 1399357439,
+      "sha256": "dee940985fd4778989e4e7881c9d24bdae36145aaebf67b1584a87b28b519d53"
+    },
+    {
+      "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/sldem2015/tiles/float_img/sldem2015_512_30s_00s_135_180_float.img",
+      "start": 16220160,
+      "end": 22855679,
+      "sha256": "7dab5ffe3cbf9c9455c416499183d981d50221227ea7cf8d8638d65b7d0483d6"
+    }
+  ]
+}

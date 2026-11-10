@@ -3,7 +3,7 @@ from pathlib import Path
 from itertools import combinations
 import csv,json,hashlib
 from ..global_hills.search import GlobalTerrain,rim,RADIUS
-from ...analysis.single_equatorial_release.summit_sites import find_sites as terrain_screen
+from llo_catcher.site_selection.support import summits as terrain_screen
 OUT=Path(__file__).parent
 
 def angular_separation(a,b):

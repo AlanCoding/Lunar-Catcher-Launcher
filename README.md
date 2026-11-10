@@ -11,8 +11,8 @@ catchers. Published posts are collected in
   shared tether-dynamics investigations. The topic guide links published results
   and new work separately.
 - **[Low lunar orbit catchers and launch sites](llo_catcher/README.md):** original
-  mass-driver/catcher calculations, offset-release orbital geometry, and the
-  completed equatorial terrain and missed-capture study.
+  mass-driver/catcher calculations and the terrain, hilltop and ridge studies for
+  [Lunar Equator to LLO Mass Launcher Sites](https://alanse.medium.com/lunar-equator-to-llo-mass-launcher-sites-145d9351a255?sharedUserId=alanse).
 - **[Frozen-retreat catcher](frozen_retreat/README.md):** a separate study of a
   30 km catcher, retreat to 120 km, and subsequent transport/power requirements.
 

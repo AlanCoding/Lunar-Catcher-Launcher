@@ -50,104 +50,466 @@
     "spool_energy_J": -42556468620.65533
   },
   "synchronized_release": {
-    "hub_min_MW": -19.166463215199975,
-    "hub_max_MW": 42.80157935135684,
-    "hub_mean_MW": 12.830800310706532,
-    "spool_min_MW": -21.400793821078064,
-    "spool_max_MW": 9.583235414519676,
-    "spool_mean_MW": -6.415400155353264,
-    "net_mean_MW": 6.415400155353266,
-    "net_peak_to_peak_MW": 30.984013330959076,
-    "hub_peak_to_peak_over_mean": 4.829631906502996,
-    "net_peak_to_peak_over_mean": 4.829630666935839,
-    "hub_energy_J": 85112937240.5707,
-    "spool_energy_J": -42556468620.28534
+    "hub_min_MW": 12.821729379381035,
+    "hub_max_MW": 12.838791492707905,
+    "hub_mean_MW": 12.8308003106962,
+    "spool_min_MW": -6.419395742611046,
+    "spool_max_MW": -6.410864693015943,
+    "spool_mean_MW": -6.4154001553481,
+    "net_mean_MW": 6.4154001553481,
+    "net_peak_to_peak_MW": 0.008531063731767237,
+    "hub_peak_to_peak_over_mean": 0.0013297777935680549,
+    "net_peak_to_peak_over_mean": 0.0013297788953437997,
+    "hub_energy_J": 85112937240.50217,
+    "spool_energy_J": -42556468620.25108
   },
   "stagger_s": 442.2324156431046,
   "synchronized_schedule": [
     {
       "retract_start_s": 0.0,
-      "payout_start_s": 1626.6972469293137,
-      "loaded_hold_s": 3680.091740787941
+      "payout_start_s": 6933.486234646569,
+      "release_s": 19900.45870393971,
+      "loaded_hold_s": 6333.486234646571,
+      "empty_hold_s": 6633.486234646567
     },
     {
-      "retract_start_s": 241.43512434199582,
-      "payout_start_s": 1868.1323712713095,
-      "loaded_hold_s": 3438.656616445946
+      "retract_start_s": 442.2324156431046,
+      "payout_start_s": 7375.718650289674,
+      "release_s": 19900.45870393971,
+      "loaded_hold_s": 5891.253819003465,
+      "empty_hold_s": 7075.718650289673
     },
     {
-      "retract_start_s": 482.87024868399163,
-      "payout_start_s": 2109.5674956133053,
-      "loaded_hold_s": 3197.22149210395
+      "retract_start_s": 884.4648312862092,
+      "payout_start_s": 7817.951065932778,
+      "release_s": 19900.45870393971,
+      "loaded_hold_s": 5449.0214033603625,
+      "empty_hold_s": 7517.951065932775
     },
     {
-      "retract_start_s": 724.3053730259874,
-      "payout_start_s": 2351.0026199553013,
-      "loaded_hold_s": 2955.786367761954
+      "retract_start_s": 1326.697246929314,
+      "payout_start_s": 8260.183481575883,
+      "release_s": 19900.45870393971,
+      "loaded_hold_s": 5006.7889877172565,
+      "empty_hold_s": 7960.183481575881
     },
     {
-      "retract_start_s": 965.7404973679833,
-      "payout_start_s": 2592.437744297297,
-      "loaded_hold_s": 2714.3512434199583
+      "retract_start_s": 1768.9296625724185,
+      "payout_start_s": 8702.415897218987,
+      "release_s": 19900.45870393971,
+      "loaded_hold_s": 4564.556572074151,
+      "empty_hold_s": 8402.415897218987
     },
     {
-      "retract_start_s": 1207.1756217099792,
-      "payout_start_s": 2833.872868639293,
-      "loaded_hold_s": 2472.9161190779623
+      "retract_start_s": 2211.162078215523,
+      "payout_start_s": 9144.648312862091,
+      "release_s": 19900.45870393971,
+      "loaded_hold_s": 4122.324156431048,
+      "empty_hold_s": 8844.64831286209
     },
     {
-      "retract_start_s": 1448.6107460519747,
-      "payout_start_s": 3075.3079929812884,
-      "loaded_hold_s": 2231.4809947359668
+      "retract_start_s": 2653.394493858628,
+      "payout_start_s": 9586.880728505197,
+      "release_s": 19900.45870393971,
+      "loaded_hold_s": 3680.0917407879424,
+      "empty_hold_s": 9286.880728505195
     },
     {
-      "retract_start_s": 1690.0458703939707,
-      "payout_start_s": 3316.7431173232844,
-      "loaded_hold_s": 1990.0458703939707
+      "retract_start_s": 3095.6269095017324,
+      "payout_start_s": 10029.113144148301,
+      "release_s": 19900.45870393971,
+      "loaded_hold_s": 3237.8593251448365,
+      "empty_hold_s": 9729.113144148301
     },
     {
-      "retract_start_s": 1931.4809947359665,
-      "payout_start_s": 3558.1782416652804,
-      "loaded_hold_s": 1748.6107460519747
+      "retract_start_s": 3537.859325144837,
+      "payout_start_s": 10471.345559791405,
+      "release_s": 19900.45870393971,
+      "loaded_hold_s": 2795.626909501734,
+      "empty_hold_s": 10171.345559791404
     },
     {
-      "retract_start_s": 2172.9161190779623,
-      "payout_start_s": 3799.613366007276,
-      "loaded_hold_s": 1507.1756217099792
+      "retract_start_s": 3980.091740787941,
+      "payout_start_s": 10913.57797543451,
+      "release_s": 19900.45870393971,
+      "loaded_hold_s": 2353.39449385863,
+      "empty_hold_s": 10613.577975434508
     },
     {
-      "retract_start_s": 2414.3512434199583,
-      "payout_start_s": 4041.048490349272,
-      "loaded_hold_s": 1265.7404973679832
+      "retract_start_s": 4422.324156431046,
+      "payout_start_s": 11355.810391077615,
+      "release_s": 19900.45870393971,
+      "loaded_hold_s": 1911.162078215526,
+      "empty_hold_s": 11055.810391077612
     },
     {
-      "retract_start_s": 2655.786367761954,
-      "payout_start_s": 4282.483614691268,
-      "loaded_hold_s": 1024.3053730259876
+      "retract_start_s": 4864.55657207415,
+      "payout_start_s": 11798.042806720718,
+      "release_s": 19900.45870393971,
+      "loaded_hold_s": 1468.92966257242,
+      "empty_hold_s": 11498.042806720718
     },
     {
-      "retract_start_s": 2897.2214921039495,
-      "payout_start_s": 4523.918739033263,
-      "loaded_hold_s": 782.8702486839925
+      "retract_start_s": 5306.788987717256,
+      "payout_start_s": 12240.275222363824,
+      "release_s": 19900.45870393971,
+      "loaded_hold_s": 1026.6972469293141,
+      "empty_hold_s": 11940.275222363824
     },
     {
-      "retract_start_s": 3138.656616445946,
-      "payout_start_s": 4765.35386337526,
-      "loaded_hold_s": 541.4351243419956
+      "retract_start_s": 5749.02140336036,
+      "payout_start_s": 12682.50763800693,
+      "release_s": 19900.45870393971,
+      "loaded_hold_s": 584.4648312862118,
+      "empty_hold_s": 12382.507638006926
     },
     {
-      "retract_start_s": 3380.0917407879415,
-      "payout_start_s": 5006.788987717255,
-      "loaded_hold_s": 300.00000000000045
+      "retract_start_s": 6191.253819003465,
+      "payout_start_s": 13124.740053650034,
+      "release_s": 26533.944938586275,
+      "loaded_hold_s": 6775.718650289673,
+      "empty_hold_s": 6191.253819003465
+    },
+    {
+      "retract_start_s": 6633.486234646569,
+      "payout_start_s": 13566.972469293138,
+      "release_s": 26533.944938586275,
+      "loaded_hold_s": 6333.486234646571,
+      "empty_hold_s": 6633.486234646567
+    },
+    {
+      "retract_start_s": 7075.718650289674,
+      "payout_start_s": 14009.204884936244,
+      "release_s": 26533.944938586275,
+      "loaded_hold_s": 5891.253819003465,
+      "empty_hold_s": 7075.718650289673
+    },
+    {
+      "retract_start_s": 7517.951065932778,
+      "payout_start_s": 14451.437300579346,
+      "release_s": 26533.944938586275,
+      "loaded_hold_s": 5449.021403360359,
+      "empty_hold_s": 7517.951065932779
+    },
+    {
+      "retract_start_s": 7960.183481575882,
+      "payout_start_s": 14893.669716222452,
+      "release_s": 26533.944938586275,
+      "loaded_hold_s": 5006.7889877172565,
+      "empty_hold_s": 7960.183481575881
+    },
+    {
+      "retract_start_s": 8402.415897218987,
+      "payout_start_s": 15335.902131865556,
+      "release_s": 26533.944938586275,
+      "loaded_hold_s": 4564.556572074151,
+      "empty_hold_s": 8402.415897218987
+    },
+    {
+      "retract_start_s": 8844.648312862091,
+      "payout_start_s": 15778.13454750866,
+      "release_s": 26533.944938586275,
+      "loaded_hold_s": 4122.324156431048,
+      "empty_hold_s": 8844.64831286209
+    },
+    {
+      "retract_start_s": 9286.880728505197,
+      "payout_start_s": 16220.366963151766,
+      "release_s": 26533.944938586275,
+      "loaded_hold_s": 3680.0917407879424,
+      "empty_hold_s": 9286.880728505195
+    },
+    {
+      "retract_start_s": 9729.1131441483,
+      "payout_start_s": 16662.59937879487,
+      "release_s": 26533.944938586275,
+      "loaded_hold_s": 3237.8593251448365,
+      "empty_hold_s": 9729.113144148301
+    },
+    {
+      "retract_start_s": 10171.345559791405,
+      "payout_start_s": 17104.831794437974,
+      "release_s": 26533.944938586275,
+      "loaded_hold_s": 2795.6269095017324,
+      "empty_hold_s": 10171.345559791405
+    },
+    {
+      "retract_start_s": 10613.577975434511,
+      "payout_start_s": 17547.06421008108,
+      "release_s": 26533.944938586275,
+      "loaded_hold_s": 2353.3944938586264,
+      "empty_hold_s": 10613.577975434511
+    },
+    {
+      "retract_start_s": 11055.810391077615,
+      "payout_start_s": 17989.296625724186,
+      "release_s": 26533.944938586275,
+      "loaded_hold_s": 1911.1620782155223,
+      "empty_hold_s": 11055.810391077615
+    },
+    {
+      "retract_start_s": 11498.04280672072,
+      "payout_start_s": 18431.52904136729,
+      "release_s": 26533.944938586275,
+      "loaded_hold_s": 1468.9296625724182,
+      "empty_hold_s": 11498.04280672072
+    },
+    {
+      "retract_start_s": 11940.275222363824,
+      "payout_start_s": 18873.76145701039,
+      "release_s": 26533.944938586275,
+      "loaded_hold_s": 1026.6972469293141,
+      "empty_hold_s": 11940.275222363824
+    },
+    {
+      "retract_start_s": 12382.50763800693,
+      "payout_start_s": 19315.993872653497,
+      "release_s": 26533.944938586275,
+      "loaded_hold_s": 584.4648312862082,
+      "empty_hold_s": 12382.50763800693
+    },
+    {
+      "retract_start_s": 12824.740053650032,
+      "payout_start_s": 19758.226288296602,
+      "release_s": 33167.43117323284,
+      "loaded_hold_s": 6775.718650289673,
+      "empty_hold_s": 6191.253819003465
+    },
+    {
+      "retract_start_s": 13266.972469293138,
+      "payout_start_s": 20200.45870393971,
+      "release_s": 33167.43117323284,
+      "loaded_hold_s": 6333.486234646567,
+      "empty_hold_s": 6633.486234646571
+    },
+    {
+      "retract_start_s": 13709.204884936242,
+      "payout_start_s": 20642.69111958281,
+      "release_s": 33167.43117323284,
+      "loaded_hold_s": 5891.253819003465,
+      "empty_hold_s": 7075.718650289673
+    },
+    {
+      "retract_start_s": 14151.437300579348,
+      "payout_start_s": 21084.923535225917,
+      "release_s": 33167.43117323284,
+      "loaded_hold_s": 5449.021403360359,
+      "empty_hold_s": 7517.951065932779
+    },
+    {
+      "retract_start_s": 14593.669716222452,
+      "payout_start_s": 21527.15595086902,
+      "release_s": 33167.43117323284,
+      "loaded_hold_s": 5006.788987717253,
+      "empty_hold_s": 7960.183481575885
+    },
+    {
+      "retract_start_s": 15035.902131865556,
+      "payout_start_s": 21969.388366512125,
+      "release_s": 33167.43117323284,
+      "loaded_hold_s": 4564.556572074147,
+      "empty_hold_s": 8402.41589721899
+    },
+    {
+      "retract_start_s": 15478.134547508662,
+      "payout_start_s": 22411.62078215523,
+      "release_s": 33167.43117323284,
+      "loaded_hold_s": 4122.324156431041,
+      "empty_hold_s": 8844.648312862097
+    },
+    {
+      "retract_start_s": 15920.366963151764,
+      "payout_start_s": 22853.853197798333,
+      "release_s": 33167.43117323284,
+      "loaded_hold_s": 3680.0917407879424,
+      "empty_hold_s": 9286.880728505195
+    },
+    {
+      "retract_start_s": 16362.59937879487,
+      "payout_start_s": 23296.08561344144,
+      "release_s": 33167.43117323284,
+      "loaded_hold_s": 3237.8593251448365,
+      "empty_hold_s": 9729.113144148301
+    },
+    {
+      "retract_start_s": 16804.831794437974,
+      "payout_start_s": 23738.31802908454,
+      "release_s": 33167.43117323284,
+      "loaded_hold_s": 2795.6269095017306,
+      "empty_hold_s": 10171.345559791407
+    },
+    {
+      "retract_start_s": 17247.06421008108,
+      "payout_start_s": 24180.550444727647,
+      "release_s": 33167.43117323284,
+      "loaded_hold_s": 2353.3944938586246,
+      "empty_hold_s": 10613.577975434513
+    },
+    {
+      "retract_start_s": 17689.296625724182,
+      "payout_start_s": 24622.782860370753,
+      "release_s": 33167.43117323284,
+      "loaded_hold_s": 1911.1620782155223,
+      "empty_hold_s": 11055.810391077615
+    },
+    {
+      "retract_start_s": 18131.52904136729,
+      "payout_start_s": 25065.01527601386,
+      "release_s": 33167.43117323284,
+      "loaded_hold_s": 1468.9296625724164,
+      "empty_hold_s": 11498.042806720721
+    },
+    {
+      "retract_start_s": 18573.761457010394,
+      "payout_start_s": 25507.247691656965,
+      "release_s": 33167.43117323284,
+      "loaded_hold_s": 1026.6972469293105,
+      "empty_hold_s": 11940.275222363827
+    },
+    {
+      "retract_start_s": 19015.9938726535,
+      "payout_start_s": 25949.48010730007,
+      "release_s": 33167.43117323284,
+      "loaded_hold_s": 584.4648312862046,
+      "empty_hold_s": 12382.507638006933
+    },
+    {
+      "retract_start_s": 19458.2262882966,
+      "payout_start_s": 26391.71252294317,
+      "release_s": 39800.91740787942,
+      "loaded_hold_s": 6775.71865028968,
+      "empty_hold_s": 6191.2538190034575
+    },
+    {
+      "retract_start_s": 19900.458703939705,
+      "payout_start_s": 26833.944938586275,
+      "release_s": 39800.91740787942,
+      "loaded_hold_s": 6333.486234646574,
+      "empty_hold_s": 6633.486234646563
+    },
+    {
+      "retract_start_s": 20342.69111958281,
+      "payout_start_s": 27276.17735422938,
+      "release_s": 39800.91740787942,
+      "loaded_hold_s": 5891.253819003468,
+      "empty_hold_s": 7075.718650289669
+    },
+    {
+      "retract_start_s": 20784.923535225917,
+      "payout_start_s": 27718.409769872487,
+      "release_s": 39800.91740787942,
+      "loaded_hold_s": 5449.0214033603625,
+      "empty_hold_s": 7517.951065932775
+    },
+    {
+      "retract_start_s": 21227.155950869022,
+      "payout_start_s": 28160.642185515593,
+      "release_s": 39800.91740787942,
+      "loaded_hold_s": 5006.7889877172565,
+      "empty_hold_s": 7960.183481575881
+    },
+    {
+      "retract_start_s": 21669.388366512125,
+      "payout_start_s": 28602.87460115869,
+      "release_s": 39800.91740787942,
+      "loaded_hold_s": 4564.556572074154,
+      "empty_hold_s": 8402.415897218983
+    },
+    {
+      "retract_start_s": 22111.62078215523,
+      "payout_start_s": 29045.107016801798,
+      "release_s": 39800.91740787942,
+      "loaded_hold_s": 4122.324156431048,
+      "empty_hold_s": 8844.64831286209
+    },
+    {
+      "retract_start_s": 22553.853197798333,
+      "payout_start_s": 29487.339432444904,
+      "release_s": 39800.91740787942,
+      "loaded_hold_s": 3680.091740787946,
+      "empty_hold_s": 9286.880728505192
+    },
+    {
+      "retract_start_s": 22996.08561344144,
+      "payout_start_s": 29929.57184808801,
+      "release_s": 39800.91740787942,
+      "loaded_hold_s": 3237.85932514484,
+      "empty_hold_s": 9729.113144148298
+    },
+    {
+      "retract_start_s": 23438.31802908454,
+      "payout_start_s": 30371.80426373111,
+      "release_s": 39800.91740787942,
+      "loaded_hold_s": 2795.626909501738,
+      "empty_hold_s": 10171.3455597914
+    },
+    {
+      "retract_start_s": 23880.550444727647,
+      "payout_start_s": 30814.036679374214,
+      "release_s": 39800.91740787942,
+      "loaded_hold_s": 2353.394493858632,
+      "empty_hold_s": 10613.577975434506
+    },
+    {
+      "retract_start_s": 24322.782860370753,
+      "payout_start_s": 31256.26909501732,
+      "release_s": 39800.91740787942,
+      "loaded_hold_s": 1911.162078215526,
+      "empty_hold_s": 11055.810391077612
+    },
+    {
+      "retract_start_s": 24765.01527601386,
+      "payout_start_s": 31698.501510660426,
+      "release_s": 39800.91740787942,
+      "loaded_hold_s": 1468.92966257242,
+      "empty_hold_s": 11498.042806720718
+    },
+    {
+      "retract_start_s": 25207.247691656965,
+      "payout_start_s": 32140.733926303532,
+      "release_s": 39800.91740787942,
+      "loaded_hold_s": 1026.6972469293141,
+      "empty_hold_s": 11940.275222363824
+    },
+    {
+      "retract_start_s": 25649.480107300064,
+      "payout_start_s": 32582.96634194663,
+      "release_s": 39800.91740787942,
+      "loaded_hold_s": 584.4648312862155,
+      "empty_hold_s": 12382.507638006922
+    },
+    {
+      "retract_start_s": 26091.71252294317,
+      "payout_start_s": 33025.19875758974,
+      "release_s": 46434.403642525984,
+      "loaded_hold_s": 6775.718650289677,
+      "empty_hold_s": 6191.253819003461
     }
   ],
+  "pipeline": {
+    "installed_pairs": 60,
+    "installed_tethers": 120,
+    "pairs_released_per_window": 15,
+    "physical_pair_cycle_s": 26533.944938586275,
+    "travel_each_way_s": 6633.486234646569,
+    "cadence_s": 442.2324156431046,
+    "installed_tether_mass_kg": 359999.9999701337,
+    "useful_mass_flow_kg_s": 2.2612544097333456,
+    "maximum_payout_speed_m_s": 1.614054855982831,
+    "loaded_hold_range_s": [
+      584.4648312862046,
+      6775.71865028968
+    ]
+  },
   "validation": {
     "cycle_energy_relative_errors": {
       "single": 1.0215162049576065e-11,
       "evenly_staggered": 1.021494000497114e-11,
-      "synchronized_release": 1.5218937221561646e-12
+      "synchronized_release": 7.16537940093076e-13
     },
     "inventory_refinement_max_power_change_W": 0.010792982764542103,
-    "common_release_all_fully_extended": true
+    "common_release_payloads_fully_extended": true,
+    "release_count_each_window": 15,
+    "aggregate_window_periodicity_max_error_W": 1.4156103134155273e-07
   }
 }

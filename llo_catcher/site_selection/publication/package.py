@@ -10,8 +10,8 @@ def main():
     def copy(source,name):
         target=assets/name;shutil.copy2(source,target)
         manifest.append(dict(file=name,source=str(source.relative_to(LLO)),sha256=hashlib.sha256(source.read_bytes()).hexdigest()))
-    figures=[(LLO/'analysis/single_equatorial_release/equatorial_elevation','01_equatorial_elevation'),
-      (LLO/'analysis/single_equatorial_release/local_corridors/trajectory_144','02_trajectory_144'),
+    figures=[(SITE/'equatorial_context/equatorial_elevation','01_equatorial_elevation'),
+      (SITE/'equatorial_context/trajectory_144','02_trajectory_144'),
       (SITE/'global_hills/outcomes','03_hub_scan_east_west'),
       (SITE/'launch_ridges/catalog/equator_strips','10_equatorial_ridges'),
       (SITE/'radial_terrain/selected_hill_terrain','11_selected_hill_terrain')]

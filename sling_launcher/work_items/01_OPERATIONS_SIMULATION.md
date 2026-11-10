@@ -101,6 +101,6 @@ refill; the earlier loading allowance does not establish either mechanism.
   missing machinery data and violations of the frozen design. Propose any
   needed redesign separately rather than silently relaxing limits.
 
-The [LLO terrain/failed-shot work](../../llo_catcher/work_items/EQUATOR_TERRAIN_AND_FAILED_SHOTS.md)
+The [LLO terrain/failed-shot work](../../llo_catcher/site_selection/README.md)
 provides targeting and exclusion constraints. Implementation can start with a
 clearly labeled provisional spherical environment without claiming terrain safety.

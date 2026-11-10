@@ -1,8 +1,10 @@
 # Launch-site blog: publication asset checklist
 
+Published article: [Lunar Equator to LLO Mass Launcher Sites](https://alanse.medium.com/lunar-equator-to-llo-mass-launcher-sites-145d9351a255?sharedUserId=alanse).
+
 [Site-selection guide](../README.md).
 
-**Accepted asset set.** The numbered files in [assets/](assets/) are local copies ready to move into a writing or publishing folder. PNG and SVG versions are included for every figure. Tables are supplied as short Markdown files and, where available, CSV files. The source figures remain in their analysis folders.
+**Accepted asset set.** The numbered files in [assets/](assets/) are local copies ready to move into a writing or publishing folder. PNG and SVG versions are included for every figure. Tables are supplied as short Markdown files and, where available, CSV files. The source figures remain in their site-selection study folders.
 
 ## Article order
 
@@ -13,7 +15,7 @@
 | 3 | Red/green launch-clearance scan | [PNG](assets/03_hub_scan_east_west.png) · [SVG](assets/03_hub_scan_east_west.svg) | Use the upper panel for the eastward discussion; the lower panel gives westward context. Each panel contains the same 695 selected hubs. |
 | 4 | Scan counts and narrowing to featured hubs | [Tables](assets/04_hub_scan_tables.md) | 403,002 local peaks → 17,572 circle-clear candidates → 695 spaced hubs → 42 east-clear → 15 alignment-qualified → 6 clearance-qualified → 4 geographically diverse hubs. Also includes the four outcome categories summing to 695. |
 | 5 | Four featured hilltops | [Table](assets/05_four_hills.md) · [CSV](assets/05_four_hills.csv) | Adjusted summit positions, elevation, release offset, tip clearance, and both westward checks. |
-| 6 | Satellite photograph of one or two hills | Author-supplied | Reserved for the photographs selected for the article. |
+| 6 | Satellite photograph of one or two hills | [P1 and P2 QuickMap views](QUICKMAP.md) | Author-selected photographs. |
 | 7 | Terrain maps of the four hills | [P1](assets/07_P1_terrain.png) · [P2](assets/07_P2_terrain.png) · [P3](assets/07_P3_terrain.png) · [P4](assets/07_P4_terrain.png) | Accepted final terrain maps with ridge traces, named ridge, summit star and release triangle. SVG copies use the same stems. |
 | 8 | Ridge-finding sample and segment counts | [Table](assets/08_ridge_scan_table.md) | 3,564 seeds → 3,354 qualifying downstream contacts; 3,335 samples form 84 named segments, with 19 samples left isolated or insufficiently traced. Four named segments contain the featured hubs. |
 | 9 | Which ridge contains each featured hilltop | [Table](assets/09_hilltop_ridges.md) · [CSV](assets/09_hilltop_ridges.csv) | P1 → ER-006; P2 → ER-023; P3 → ER-058; P4 → ER-072. |

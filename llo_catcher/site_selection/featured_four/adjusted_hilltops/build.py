@@ -3,8 +3,8 @@ from pathlib import Path
 import csv,json,hashlib
 import numpy as np
 from ...global_hills.search import GlobalTerrain, RADIUS, rim
-from ....analysis.single_equatorial_release.summit_sites import find_sites as screen
-from ....analysis.single_equatorial_release.directional_sites import build_maps as renderer
+from llo_catcher.site_selection.support import summits as screen
+from llo_catcher.site_selection.support import maps as renderer
 ROOT=Path(__file__).resolve().parent
 
 def main():

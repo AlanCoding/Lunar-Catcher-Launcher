@@ -4,6 +4,8 @@
 [Launcher guide](../README.md) · [Conveyor calculations](../conveyor_loop/steady/README.md) ·
 [Published spool design](../publication/README.md)
 
+**[Short publication packet](publication/README.md):** technical note, accepted graph, fixed assumptions and numerical table.
+
 ## Updated conclusion: the mass–stress frontier
 
 **Mass flow is a constraint, not an output to trade away: every new curve delivers

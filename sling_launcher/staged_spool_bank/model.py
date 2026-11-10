@@ -60,19 +60,26 @@ class Model:
         h,s,e=self.powers(q,qd,qdd,load)
         return dict(q_m=q,qdot_m_s=qd,hub_W=h,spool_W=s,energy_J=e,loaded=load>0)
     def synchronized(self,t,j):
-        c=self.c;t=np.asarray(t)%c.period_s
-        span=c.period_s-2*c.travel_s-c.loading_s-c.minimum_hold_s
-        assert span>=0
-        start=j*span/(c.count-1)
-        out=start+c.travel_s+c.loading_s
-        q,qd,qdd=self.motion(t,start,c.travel_s,True)
-        qo,vo,ao=self.motion(t,out,c.travel_s)
-        after=t>=out
+        """Four-window spool cycle; 15 jobs/window, with 60 reusable pairs.
+
+        Retraction and extension each take one window. Completed payloads wait
+        for a common release; empty extended cables wait for their return slot.
+        """
+        c=self.c; T=c.period_s; cycle=4*T; start=j*T/c.count
+        phase=(np.asarray(t)-start)%cycle
+        out=T+c.loading_s; end=out+T
+        release=np.ceil((start+end+c.minimum_hold_s)/T)*T-start
+        assert end <= release < cycle
+        q,qd,qdd=self.motion(phase,0,T,True)
+        qo,vo,ao=self.motion(phase,out,T)
+        after=phase>=out
         q=np.where(after,qo,q);qd=np.where(after,vo,qd);qdd=np.where(after,ao,qdd)
-        load=np.where(after,c.payload_kg,0.)
+        load=np.where(after & (phase<release),c.payload_kg,0.)
         h,s,e=self.powers(q,qd,qdd,load)
         return dict(q_m=q,qdot_m_s=qd,hub_W=h,spool_W=s,energy_J=e,loaded=load>0,
-                    retract_start_s=start,payout_start_s=out,loaded_hold_s=c.period_s-out-c.travel_s)
+                    retract_start_s=start,payout_start_s=start+out,
+                    release_s=start+release,loaded_hold_s=release-end,
+                    empty_hold_s=cycle-release)
     def metadata(self):
         return dict(inputs=asdict(self.c),omega_rad_s=self.w,track_radius_m=self.a,tip_radius_m=self.R,
            release_speed_m_s=SPEED,tether_mass_per_arm_kg=self.mass,tether_mass_per_pair_kg=2*self.mass,

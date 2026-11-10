@@ -14,9 +14,6 @@ frozen-retreat prompt. The existing PNGs are preserved historical outputs.
 - `llo_catcher/variations analysis ...ipynb`: Python 2, Astropy units,
   nominal 100 km catcher; launch errors, downrange geometry, historical
   solar/battery energy-payoff estimates. No wheeled rotating launcher model.
-- `llo_catcher/analysis/baseline.py`: deterministic SI, standard library,
-  two-body tangential surface-to-apoapsis transfer, checks on energy and angular
-  momentum. Running it reproduces its documented 30/100 km results.
 - `frozen_retreat/`: Python 3 helper modules, immutable Scenario, separate
   30/120 km orbital/catcher/EP/bridge budget. Runner executes successfully.
   Its notebook also duplicates assumptions and some runner calculations; do not
