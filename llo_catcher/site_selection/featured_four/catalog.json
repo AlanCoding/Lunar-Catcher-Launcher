@@ -1,0 +1,40 @@
+{
+  "sites": [
+    {
+      "id": "P1_H0333",
+      "hub_lat_deg": 0.1884765625,
+      "hub_lon_deg_east": 16.0517578125,
+      "hub_elevation_m": 352.5041341781616,
+      "actual_radius_km": 5.71642557501452,
+      "actual_horizontal_tip_min_clearance_m": 221.97540391935036,
+      "height_reference": "Tip plane 1.3768 m above hub tangent plane; eastward launch clears"
+    },
+    {
+      "id": "P2_H4765",
+      "hub_lat_deg": -0.1923828125,
+      "hub_lon_deg_east": 137.4111328125,
+      "hub_elevation_m": 6396.335601806641,
+      "actual_radius_km": 5.855195128697623,
+      "actual_horizontal_tip_min_clearance_m": 106.35714234597981,
+      "height_reference": "Tip plane 1.3768 m above hub tangent plane; eastward launch clears"
+    },
+    {
+      "id": "P3_H6308",
+      "hub_lat_deg": 0.1904296875,
+      "hub_lon_deg_east": 248.4892578125,
+      "hub_elevation_m": 5048.210620880127,
+      "actual_radius_km": 5.791270404878246,
+      "actual_horizontal_tip_min_clearance_m": 246.85299159120768,
+      "height_reference": "Tip plane 1.3768 m above hub tangent plane; eastward launch clears"
+    },
+    {
+      "id": "P4_H6941",
+      "hub_lat_deg": 0.1923828125,
+      "hub_lon_deg_east": 286.4091796875,
+      "hub_elevation_m": 2217.7343368530273,
+      "actual_radius_km": 5.841164530081109,
+      "actual_horizontal_tip_min_clearance_m": 199.54466607840732,
+      "height_reference": "Tip plane 1.3768 m above hub tangent plane; eastward launch clears"
+    }
+  ]
+}

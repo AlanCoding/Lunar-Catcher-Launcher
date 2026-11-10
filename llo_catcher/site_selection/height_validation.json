@@ -1,0 +1,113 @@
+{
+  "contacts": [
+    {
+      "site": "E-S1",
+      "direction": "east",
+      "status": "return_impact",
+      "independent_contact_gap_m": -3.5042830859310925e-09
+    },
+    {
+      "site": "E-S1",
+      "direction": "west",
+      "status": "outbound_collision",
+      "independent_contact_gap_m": -4.320099833421409e-10
+    },
+    {
+      "site": "E-S2",
+      "direction": "east",
+      "status": "return_impact",
+      "independent_contact_gap_m": -1.2045347830280662e-08
+    },
+    {
+      "site": "E-S2",
+      "direction": "west",
+      "status": "outbound_collision",
+      "independent_contact_gap_m": 1.8553691916167736e-10
+    },
+    {
+      "site": "E-S3",
+      "direction": "east",
+      "status": "return_impact",
+      "independent_contact_gap_m": -5.895344656892121e-09
+    },
+    {
+      "site": "E-S3",
+      "direction": "west",
+      "status": "outbound_collision",
+      "independent_contact_gap_m": -2.2873791749589145e-10
+    },
+    {
+      "site": "E-N1",
+      "direction": "east",
+      "status": "return_impact",
+      "independent_contact_gap_m": 5.664333002641797e-09
+    },
+    {
+      "site": "E-N1",
+      "direction": "west",
+      "status": "outbound_collision",
+      "independent_contact_gap_m": 1.6130741187225794e-10
+    },
+    {
+      "site": "E-S4",
+      "direction": "east",
+      "status": "return_impact",
+      "independent_contact_gap_m": -1.8590071704238653e-09
+    },
+    {
+      "site": "E-S4",
+      "direction": "west",
+      "status": "outbound_collision",
+      "independent_contact_gap_m": -3.277023097325582e-10
+    },
+    {
+      "site": "E-N2",
+      "direction": "east",
+      "status": "return_impact",
+      "independent_contact_gap_m": 7.816197467036545e-09
+    },
+    {
+      "site": "E-N2",
+      "direction": "west",
+      "status": "outbound_collision",
+      "independent_contact_gap_m": -2.8830982046201825e-10
+    },
+    {
+      "site": "W-S1",
+      "direction": "east",
+      "status": "outbound_collision",
+      "independent_contact_gap_m": 2.000888343900442e-11
+    },
+    {
+      "site": "W-S1",
+      "direction": "west",
+      "status": "return_impact",
+      "independent_contact_gap_m": 2.5647750589996576e-09
+    },
+    {
+      "site": "W-N1",
+      "direction": "east",
+      "status": "outbound_collision",
+      "independent_contact_gap_m": 2.0190782379359007e-10
+    },
+    {
+      "site": "W-N1",
+      "direction": "west",
+      "status": "return_impact",
+      "independent_contact_gap_m": 8.109054761007428e-09
+    },
+    {
+      "site": "W-S2",
+      "direction": "east",
+      "status": "outbound_collision",
+      "independent_contact_gap_m": -1.8553691916167736e-10
+    },
+    {
+      "site": "W-S2",
+      "direction": "west",
+      "status": "return_impact",
+      "independent_contact_gap_m": -1.4246325008571148e-08
+    }
+  ],
+  "half_cell_classifications_agree": true
+}

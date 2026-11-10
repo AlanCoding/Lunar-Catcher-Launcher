@@ -1,0 +1,182 @@
+[
+  {
+    "file": "01_equatorial_elevation.png",
+    "source": "analysis/single_equatorial_release/equatorial_elevation.png",
+    "sha256": "e4ce400ff31ee95ccbbda6237d1aa08c7258e29530bd8fe7cba9d368f99188e3"
+  },
+  {
+    "file": "01_equatorial_elevation.svg",
+    "source": "analysis/single_equatorial_release/equatorial_elevation.svg",
+    "sha256": "22469a31b71fa2cb1a46a6695356b9e6346a803c37c5db05ad86a82df1931d27"
+  },
+  {
+    "file": "02_trajectory_144.png",
+    "source": "analysis/single_equatorial_release/local_corridors/trajectory_144.png",
+    "sha256": "29e026399efc2bce5966d74ff44626ffc27b7da139d2d7d980bbef30c65b57d3"
+  },
+  {
+    "file": "02_trajectory_144.svg",
+    "source": "analysis/single_equatorial_release/local_corridors/trajectory_144.svg",
+    "sha256": "50afd95cceab7dabc4266032fd07bf270dec2403d4440dbd61c3370733a6edeb"
+  },
+  {
+    "file": "03_hub_scan_east_west.png",
+    "source": "site_selection/global_hills/outcomes.png",
+    "sha256": "f0084c21751809d7aa9248111d3ad7a6c19a5ee00001530788c6484760fb4ac6"
+  },
+  {
+    "file": "03_hub_scan_east_west.svg",
+    "source": "site_selection/global_hills/outcomes.svg",
+    "sha256": "390bcfb41a1f46490cc6ed4d260593e235ef2477c9e3e6fc3c78042ce60b899d"
+  },
+  {
+    "file": "10_equatorial_ridges.png",
+    "source": "site_selection/launch_ridges/catalog/equator_strips.png",
+    "sha256": "30abce77f31afcec92389b1657f98f193f825a73bae46f857198b2a449efe2a4"
+  },
+  {
+    "file": "10_equatorial_ridges.svg",
+    "source": "site_selection/launch_ridges/catalog/equator_strips.svg",
+    "sha256": "c0276cce3412feeeeef024599c75a1889c6cfd8a40df509f61265ed9bab11848"
+  },
+  {
+    "file": "11_selected_hill_terrain.png",
+    "source": "site_selection/radial_terrain/selected_hill_terrain.png",
+    "sha256": "1b89194a1ecaef484f706cb5c88dfa6c10bb94619e52e52f3bcdd831429b2745"
+  },
+  {
+    "file": "11_selected_hill_terrain.svg",
+    "source": "site_selection/radial_terrain/selected_hill_terrain.svg",
+    "sha256": "ab17dadd5d6c431b07633f2a49e31ac4ea05535783446c44cfcf076f49d112d3"
+  },
+  {
+    "file": "07_P1_terrain.png",
+    "source": "site_selection/launch_ridges/expanded/P1_ridge_match.png",
+    "sha256": "740f591aacd70a76a195612a43b0c95fd96137239ff2089639bdc1cce20d29d5"
+  },
+  {
+    "file": "07_P1_terrain.svg",
+    "source": "site_selection/launch_ridges/expanded/P1_ridge_match.svg",
+    "sha256": "a9b9f05ebcbe722601e727dc3fc1a6ff4f8ed8b4015529bdb89de0efd4ef049c"
+  },
+  {
+    "file": "07_P2_terrain.png",
+    "source": "site_selection/launch_ridges/expanded/P2_ridge_match.png",
+    "sha256": "923a0a6e20b76513bfbb0fcb644d08b953aebc68b64e0091559d7a0caedca001"
+  },
+  {
+    "file": "07_P2_terrain.svg",
+    "source": "site_selection/launch_ridges/expanded/P2_ridge_match.svg",
+    "sha256": "e8fb7baddf74f03f13c506db57a5d764f16463d4a1fff23af439ac1fab7d2cd6"
+  },
+  {
+    "file": "07_P3_terrain.png",
+    "source": "site_selection/launch_ridges/expanded/P3_ridge_match.png",
+    "sha256": "23ec88a82437d01552342d9356dff19b1419b7b819c2c024cdeded67d809026e"
+  },
+  {
+    "file": "07_P3_terrain.svg",
+    "source": "site_selection/launch_ridges/expanded/P3_ridge_match.svg",
+    "sha256": "0890415f42d8d9288b74012daa09b0f9335968734463b12e499417ae76ce9357"
+  },
+  {
+    "file": "07_P4_terrain.png",
+    "source": "site_selection/launch_ridges/expanded/P4_ridge_match.png",
+    "sha256": "262d62ff9e906a59c3e5045f837b7ebceadf3b5bd401d0df8249e50b28121758"
+  },
+  {
+    "file": "07_P4_terrain.svg",
+    "source": "site_selection/launch_ridges/expanded/P4_ridge_match.svg",
+    "sha256": "b21ee52ace39d288f414671ace66bc81ab4837182f7077d720482134fe8db0ae"
+  },
+  {
+    "file": "07_alternative_P1_sling_footprint.png",
+    "source": "site_selection/featured_four/adjusted_hilltops/maps/P1_H0333_hilltop_15km.png",
+    "sha256": "4e992623680896d0b566a90bb8e4defa9f8a6fc1c2c6590fc643f0c12b8f5043"
+  },
+  {
+    "file": "07_alternative_P1_sling_footprint.svg",
+    "source": "site_selection/featured_four/adjusted_hilltops/maps/P1_H0333_hilltop_15km.svg",
+    "sha256": "9bcc4105c5cbef4086d28b70076ec0cf1a26f5513eb1a8685c6c2d593135c89b"
+  },
+  {
+    "file": "07_alternative_P2_sling_footprint.png",
+    "source": "site_selection/featured_four/adjusted_hilltops/maps/P2_H4765_hilltop_15km.png",
+    "sha256": "2868319c000813b383b104f7e061c48b35050f03d3e9262486151a4385d86913"
+  },
+  {
+    "file": "07_alternative_P2_sling_footprint.svg",
+    "source": "site_selection/featured_four/adjusted_hilltops/maps/P2_H4765_hilltop_15km.svg",
+    "sha256": "5f9651adeb7eb609754e8a1bd64a92602f7d5f881714bdfc6091f82f271721fa"
+  },
+  {
+    "file": "07_alternative_P3_sling_footprint.png",
+    "source": "site_selection/featured_four/adjusted_hilltops/maps/P3_H6308_hilltop_15km.png",
+    "sha256": "5570dd21fa8bf9295e2b62c2ebc2b9570c4ef4942cc8d5951e7c81a606f33af4"
+  },
+  {
+    "file": "07_alternative_P3_sling_footprint.svg",
+    "source": "site_selection/featured_four/adjusted_hilltops/maps/P3_H6308_hilltop_15km.svg",
+    "sha256": "7957c0c425ae53d0f110df9834871236702770f9020153419a17e07ae5618ccb"
+  },
+  {
+    "file": "07_alternative_P4_sling_footprint.png",
+    "source": "site_selection/featured_four/adjusted_hilltops/maps/P4_H6941_hilltop_15km.png",
+    "sha256": "ce52060f0d4de79feafb4001dc979f022d96f20db4aea0db55a8aad340a633ff"
+  },
+  {
+    "file": "07_alternative_P4_sling_footprint.svg",
+    "source": "site_selection/featured_four/adjusted_hilltops/maps/P4_H6941_hilltop_15km.svg",
+    "sha256": "da4d6943708055446aa7b87591112535cbb8a3c3ddadc8654422a835b91f051d"
+  },
+  {
+    "file": "11_selected_hill_terrain.csv",
+    "source": "site_selection/radial_terrain/P1_profile.csv",
+    "sha256": "9693f5592c79b622e64537d285527ad7bc5c81e71922da828e1cf93c9831a152"
+  },
+  {
+    "file": "05_four_hills.csv",
+    "source": "site_selection/featured_four/adjusted_hilltops/publication_sites.csv",
+    "sha256": "c2166552942bcf88d017aea16ff037b1dd78ac55f6c5ea7ef1d61d3b2dc802ca"
+  },
+  {
+    "file": "09_hilltop_ridges.csv",
+    "source": "site_selection/launch_ridges/catalog/featured_hubs.csv",
+    "sha256": "27a4071f83c9560bcccbe951c8368d3830527d55237f015a24b6a4d5c6fbf48e"
+  },
+  {
+    "file": "08_ridge_catalog.csv",
+    "source": "site_selection/launch_ridges/catalog/ridges.csv",
+    "sha256": "d46b36af7c4a26790c58efd228f1800d87f54674e8181eead9f4b4dceabe3dd0"
+  },
+  {
+    "file": "12_lowered_release.csv",
+    "source": "site_selection/radial_terrain/lowered_release.csv",
+    "sha256": "0c68d67404e5a531ad9b6a8b570295fb6bbe3c4a1d64f23520c6ba469967775d"
+  },
+  {
+    "file": "04_hub_scan_tables.md",
+    "source": "Compiled from saved results by publication/package.py",
+    "sha256": "49b623c5abe2d2567ed2d41d1580db4bb4aa8e9fa4ec17fc4e2fdef5df67b167"
+  },
+  {
+    "file": "05_four_hills.md",
+    "source": "Compiled from saved results by publication/package.py",
+    "sha256": "4540a9cfe7807f0778c232c3fdca5bd02fa42a09ec4ed5326d4e8ab1b5c3338a"
+  },
+  {
+    "file": "08_ridge_scan_table.md",
+    "source": "Compiled from saved results by publication/package.py",
+    "sha256": "325aaad81ab44e2b65149bde4484b01e17a094907ccbc512ec974a44629f83dd"
+  },
+  {
+    "file": "09_hilltop_ridges.md",
+    "source": "Compiled from saved results by publication/package.py",
+    "sha256": "2e1f393ed0b3997a3ec578c30f62ae586ee91043979dcc420a6f7a1ba7102c56"
+  },
+  {
+    "file": "12_lowered_release.md",
+    "source": "Compiled from saved results by publication/package.py",
+    "sha256": "7df4581f46bea6f029677bb2aaf321bac6ef14b1203947394a5894d546acbeab"
+  }
+]

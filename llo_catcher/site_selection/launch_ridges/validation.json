@@ -1,0 +1,114 @@
+{
+  "source_sha256": "494c2e99a1a14276870c83f4ede307841bbd49259b63e12283a0441b926f5d6a",
+  "test": "Threshold minus/plus 0.5 m, independent 15 m full outbound sampling",
+  "checks": [
+    {
+      "seed_lon": 12.0,
+      "seed_lat": 0.0,
+      "below_threshold_minimum_gap_m": -0.4609334879020821,
+      "above_threshold_minimum_gap_m": 0.5385877675863071
+    },
+    {
+      "seed_lon": 12.0,
+      "seed_lat": 0.06595577243361611,
+      "below_threshold_minimum_gap_m": -0.4864356032855426,
+      "above_threshold_minimum_gap_m": 0.5130875333743461
+    },
+    {
+      "seed_lon": 13.5,
+      "seed_lat": 0.0,
+      "below_threshold_minimum_gap_m": -0.4697876117412534,
+      "above_threshold_minimum_gap_m": 0.5301300598981697
+    },
+    {
+      "seed_lon": 13.5,
+      "seed_lat": 0.020611178885505038,
+      "below_threshold_minimum_gap_m": -0.3362128520278702,
+      "above_threshold_minimum_gap_m": 0.6637036083394037
+    },
+    {
+      "seed_lon": 15.0,
+      "seed_lat": 0.0,
+      "below_threshold_minimum_gap_m": -0.4543615400210115,
+      "above_threshold_minimum_gap_m": 0.5439649209621962
+    },
+    {
+      "seed_lon": 15.0,
+      "seed_lat": -0.0535890651023131,
+      "below_threshold_minimum_gap_m": -0.49901820414316234,
+      "above_threshold_minimum_gap_m": 0.4993420487582867
+    },
+    {
+      "seed_lon": 16.5,
+      "seed_lat": 0.0,
+      "below_threshold_minimum_gap_m": -0.4391191235393137,
+      "above_threshold_minimum_gap_m": 0.5601215930183514
+    },
+    {
+      "seed_lon": 16.5,
+      "seed_lat": 0.024733414662606045,
+      "below_threshold_minimum_gap_m": -0.6126814587560148,
+      "above_threshold_minimum_gap_m": 0.38652912644408843
+    },
+    {
+      "seed_lon": 18.0,
+      "seed_lat": 0.0,
+      "below_threshold_minimum_gap_m": -0.4888808438652177,
+      "above_threshold_minimum_gap_m": 0.510905326754596
+    },
+    {
+      "seed_lon": 18.0,
+      "seed_lat": -0.024733414662606045,
+      "below_threshold_minimum_gap_m": -0.4978719605788484,
+      "above_threshold_minimum_gap_m": 0.5019093040377953
+    },
+    {
+      "seed_lon": 19.5,
+      "seed_lat": 0.0,
+      "below_threshold_minimum_gap_m": -0.42075591852182015,
+      "above_threshold_minimum_gap_m": 0.5792412471801356
+    },
+    {
+      "seed_lon": 19.5,
+      "seed_lat": -0.06595577243361611,
+      "below_threshold_minimum_gap_m": -0.3157197416630986,
+      "above_threshold_minimum_gap_m": 0.6842767461815988
+    },
+    {
+      "seed_lon": 21.0,
+      "seed_lat": 0.0,
+      "below_threshold_minimum_gap_m": -0.5674798513973656,
+      "above_threshold_minimum_gap_m": 0.4208594531438621
+    },
+    {
+      "seed_lon": 21.0,
+      "seed_lat": -0.037100121993909066,
+      "below_threshold_minimum_gap_m": -0.4921351979181736,
+      "above_threshold_minimum_gap_m": 0.49621572566843497
+    },
+    {
+      "seed_lon": 22.5,
+      "seed_lat": 0.0,
+      "below_threshold_minimum_gap_m": -0.4888187647629252,
+      "above_threshold_minimum_gap_m": 0.5021409280467992
+    },
+    {
+      "seed_lon": 22.5,
+      "seed_lat": -0.032977886216808056,
+      "below_threshold_minimum_gap_m": -0.3870708706737105,
+      "above_threshold_minimum_gap_m": 0.6038670609664223
+    },
+    {
+      "seed_lon": 24.0,
+      "seed_lat": 0.0,
+      "below_threshold_minimum_gap_m": -0.49507576086665495,
+      "above_threshold_minimum_gap_m": 0.4981675568614605
+    },
+    {
+      "seed_lon": 24.0,
+      "seed_lat": -0.032977886216808056,
+      "below_threshold_minimum_gap_m": -0.3884294850565766,
+      "above_threshold_minimum_gap_m": 0.6048561314933067
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Summit catalog for hubs north and south of the equator
 
+**[Current site-selection guide and height correction](../../../site_selection/README.md).** The later summit checks below used 10 m clearance above local tip terrain, which could place the plane below hub ground. The current guide separately evaluates a plane above the summit and provides the blog figures, tables and maps in order.
+
 **[Separate eastward/westward site tables](../directional_sites/README.md).** N/S denotes hub latitude, not launch direction. This historical catalog searched near eastward corridors only; see the separate westward search and both-direction rechecks.
 
 **[Post-ready terrain maps](maps/README.md):** all six hubs at 15 km scale, with

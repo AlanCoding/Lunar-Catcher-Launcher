@@ -1,0 +1,802 @@
+{
+  "all_eight_sectors_checked": true,
+  "previous_circle_clear_hills_recovered": [
+    "E-S1",
+    "E-S2",
+    "E-S3",
+    "E-S4",
+    "E-N2",
+    "W-S1",
+    "W-N1",
+    "W-S2"
+  ],
+  "equatorial_interpolation_error_m": 2.837623469531536e-10,
+  "candidate_count": 17572,
+  "representative_and_marginal_checks": [
+    {
+      "id": "H0001",
+      "direction": "east",
+      "contact_residual_m": -6.048139766789973e-11,
+      "rim_144000_clearance_m": 1.107178368838504,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H0001",
+      "direction": "west",
+      "contact_residual_m": 1.7848833522293717e-11,
+      "rim_144000_clearance_m": 1.107178368838504,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H0764",
+      "direction": "east",
+      "contact_residual_m": -2.828528522513807e-10,
+      "rim_144000_clearance_m": 14.260805956088006,
+      "rim_clearance_change_m": -0.012352746212854981
+    },
+    {
+      "id": "H0764",
+      "direction": "west",
+      "contact_residual_m": 6.912159733474255e-11,
+      "rim_144000_clearance_m": 14.260805956088006,
+      "rim_clearance_change_m": -0.012352746212854981
+    },
+    {
+      "id": "H1080",
+      "direction": "east",
+      "contact_residual_m": 3.0468072509393096e-11,
+      "rim_144000_clearance_m": 0.01188240246847272,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H1080",
+      "direction": "west",
+      "contact_residual_m": 7.021299097687006e-10,
+      "rim_144000_clearance_m": 0.01188240246847272,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H1475",
+      "direction": "east",
+      "contact_residual_m": 2.3169377527665347e-10,
+      "rim_144000_clearance_m": 0.014919871930032969,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H1475",
+      "direction": "west",
+      "contact_residual_m": -7.09405867382884e-11,
+      "rim_144000_clearance_m": 0.014919871930032969,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H1528",
+      "direction": "east",
+      "contact_residual_m": 3.005879989359528e-10,
+      "rim_144000_clearance_m": 4.316644487902522,
+      "rim_clearance_change_m": -0.011213254183530807
+    },
+    {
+      "id": "H1528",
+      "direction": "west",
+      "contact_residual_m": 1.4665602066088468e-10,
+      "rim_144000_clearance_m": 4.316644487902522,
+      "rim_clearance_change_m": -0.011213254183530807
+    },
+    {
+      "id": "H2292",
+      "direction": "east",
+      "contact_residual_m": 1.9690560293383896e-10,
+      "rim_144000_clearance_m": 11.63322596391663,
+      "rim_clearance_change_m": -0.004615598823875189
+    },
+    {
+      "id": "H2292",
+      "direction": "west",
+      "contact_residual_m": 1.5279510989785194e-10,
+      "rim_144000_clearance_m": 11.63322596391663,
+      "rim_clearance_change_m": -0.004615598823875189
+    },
+    {
+      "id": "H3056",
+      "direction": "east",
+      "contact_residual_m": -2.1600499167107046e-10,
+      "rim_144000_clearance_m": 12.256667219800875,
+      "rim_clearance_change_m": -0.002867867471650243
+    },
+    {
+      "id": "H3056",
+      "direction": "west",
+      "contact_residual_m": 1.7732418200466782e-08,
+      "rim_144000_clearance_m": 12.256667219800875,
+      "rim_clearance_change_m": -0.002867867471650243
+    },
+    {
+      "id": "H3820",
+      "direction": "east",
+      "contact_residual_m": -4.68389771413058e-10,
+      "rim_144000_clearance_m": 1.487659136299044,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H3820",
+      "direction": "west",
+      "contact_residual_m": -4.1382008930668235e-10,
+      "rim_144000_clearance_m": 1.487659136299044,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H3885",
+      "direction": "east",
+      "contact_residual_m": -5.707079253625125e-10,
+      "rim_144000_clearance_m": 0.020700501278042793,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H3885",
+      "direction": "west",
+      "contact_residual_m": -3.9472070056945086e-10,
+      "rim_144000_clearance_m": 0.020700501278042793,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H4584",
+      "direction": "east",
+      "contact_residual_m": 2.496562956366688e-10,
+      "rim_144000_clearance_m": 139.34451649314724,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H4584",
+      "direction": "west",
+      "contact_residual_m": 7.776179700158536e-11,
+      "rim_144000_clearance_m": 139.34451649314724,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H5348",
+      "direction": "east",
+      "contact_residual_m": -1.6962076188065112e-10,
+      "rim_144000_clearance_m": 277.95666756737046,
+      "rim_clearance_change_m": -0.015274787554517388
+    },
+    {
+      "id": "H5348",
+      "direction": "west",
+      "contact_residual_m": -1.268745108973235e-10,
+      "rim_144000_clearance_m": 277.95666756737046,
+      "rim_clearance_change_m": -0.015274787554517388
+    },
+    {
+      "id": "H5650",
+      "direction": "east",
+      "contact_residual_m": 4.2291503632441163e-10,
+      "rim_144000_clearance_m": 0.013198229484260082,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H5650",
+      "direction": "west",
+      "contact_residual_m": 3.2650859793648124e-10,
+      "rim_144000_clearance_m": 0.013198229484260082,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H6112",
+      "direction": "east",
+      "contact_residual_m": -3.8107828004285693e-10,
+      "rim_144000_clearance_m": 376.02193431323394,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H6112",
+      "direction": "west",
+      "contact_residual_m": -1.000444171950221e-09,
+      "rim_144000_clearance_m": 376.02193431323394,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H6876",
+      "direction": "east",
+      "contact_residual_m": -2.115484676323831e-09,
+      "rim_144000_clearance_m": 184.88801119150594,
+      "rim_clearance_change_m": -0.006843923823907971
+    },
+    {
+      "id": "H6876",
+      "direction": "west",
+      "contact_residual_m": 1.0231815394945443e-10,
+      "rim_144000_clearance_m": 184.88801119150594,
+      "rim_clearance_change_m": -0.006843923823907971
+    },
+    {
+      "id": "H7640",
+      "direction": "east",
+      "contact_residual_m": 1.7962520360015333e-10,
+      "rim_144000_clearance_m": 5.924921641591936,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H7640",
+      "direction": "west",
+      "contact_residual_m": 6.707523425575346e-11,
+      "rim_144000_clearance_m": 5.924921641591936,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H7700",
+      "direction": "east",
+      "contact_residual_m": -4.3519321479834616e-10,
+      "rim_144000_clearance_m": 0.022391325794160366,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H7700",
+      "direction": "west",
+      "contact_residual_m": -2.1373125491663814e-11,
+      "rim_144000_clearance_m": 0.022391325794160366,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H7720",
+      "direction": "east",
+      "contact_residual_m": 4.4565240386873484e-10,
+      "rim_144000_clearance_m": 0.015197101049125195,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H7720",
+      "direction": "west",
+      "contact_residual_m": 2.3283064365386963e-10,
+      "rim_144000_clearance_m": 0.015197101049125195,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H7942",
+      "direction": "east",
+      "contact_residual_m": 2.3283064365386963e-10,
+      "rim_144000_clearance_m": 0.01491033798083663,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H7942",
+      "direction": "west",
+      "contact_residual_m": 1.4097167877480388e-10,
+      "rim_144000_clearance_m": 0.01491033798083663,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H8114",
+      "direction": "east",
+      "contact_residual_m": -7.571543392259628e-11,
+      "rim_144000_clearance_m": 0.014315980253741145,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H8114",
+      "direction": "west",
+      "contact_residual_m": 1.4097167877480388e-10,
+      "rim_144000_clearance_m": 0.014315980253741145,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H8207",
+      "direction": "east",
+      "contact_residual_m": 2.928572939708829e-10,
+      "rim_144000_clearance_m": 0.02070765639655292,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H8207",
+      "direction": "west",
+      "contact_residual_m": 2.1873347577638924e-10,
+      "rim_144000_clearance_m": 0.02070765639655292,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H8291",
+      "direction": "east",
+      "contact_residual_m": 5.420588422566652e-10,
+      "rim_144000_clearance_m": 0.014736640267074108,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H8291",
+      "direction": "west",
+      "contact_residual_m": 4.938556230627e-10,
+      "rim_144000_clearance_m": 0.014736640267074108,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H8404",
+      "direction": "east",
+      "contact_residual_m": 1.7053025658242404e-11,
+      "rim_144000_clearance_m": 2.3615434623789042,
+      "rim_clearance_change_m": -0.0023159021511673927
+    },
+    {
+      "id": "H8404",
+      "direction": "west",
+      "contact_residual_m": -1.6052581486292183e-10,
+      "rim_144000_clearance_m": 2.3615434623789042,
+      "rim_clearance_change_m": -0.0023159021511673927
+    },
+    {
+      "id": "H8752",
+      "direction": "east",
+      "contact_residual_m": -7.958078640513122e-11,
+      "rim_144000_clearance_m": 0.013126112287864089,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H8752",
+      "direction": "west",
+      "contact_residual_m": -7.776179700158536e-11,
+      "rim_144000_clearance_m": 0.013126112287864089,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H9168",
+      "direction": "east",
+      "contact_residual_m": 1.0231815394945443e-10,
+      "rim_144000_clearance_m": 1.4438498942181468,
+      "rim_clearance_change_m": -0.004970577545464039
+    },
+    {
+      "id": "H9168",
+      "direction": "west",
+      "contact_residual_m": 1.703028829069808e-10,
+      "rim_144000_clearance_m": 1.4438498942181468,
+      "rim_clearance_change_m": -0.004970577545464039
+    },
+    {
+      "id": "H9252",
+      "direction": "east",
+      "contact_residual_m": 4.363300831755623e-10,
+      "rim_144000_clearance_m": 0.01644371752627194,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H9252",
+      "direction": "west",
+      "contact_residual_m": 2.2646418074145913e-10,
+      "rim_144000_clearance_m": 0.01644371752627194,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H9299",
+      "direction": "east",
+      "contact_residual_m": -6.821210263296962e-12,
+      "rim_144000_clearance_m": 0.01735258987173438,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H9299",
+      "direction": "west",
+      "contact_residual_m": 6.093614501878619e-11,
+      "rim_144000_clearance_m": 0.01735258987173438,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H9381",
+      "direction": "east",
+      "contact_residual_m": 4.8203219193965197e-11,
+      "rim_144000_clearance_m": 0.01792413671500981,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H9381",
+      "direction": "west",
+      "contact_residual_m": 4.390585672808811e-10,
+      "rim_144000_clearance_m": 0.01792413671500981,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H9599",
+      "direction": "east",
+      "contact_residual_m": -4.013145371573046e-10,
+      "rim_144000_clearance_m": 0.019995552487671375,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H9599",
+      "direction": "west",
+      "contact_residual_m": 1.1368683772161603e-10,
+      "rim_144000_clearance_m": 0.019995552487671375,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H9932",
+      "direction": "east",
+      "contact_residual_m": 1.850821718107909e-10,
+      "rim_144000_clearance_m": 2.3571782188955694,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H9932",
+      "direction": "west",
+      "contact_residual_m": 2.510205376893282e-10,
+      "rim_144000_clearance_m": 2.3571782188955694,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H10577",
+      "direction": "east",
+      "contact_residual_m": 2.512479113647714e-10,
+      "rim_144000_clearance_m": 0.015220264671370387,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H10577",
+      "direction": "west",
+      "contact_residual_m": -4.5133674575481564e-10,
+      "rim_144000_clearance_m": 0.015220264671370387,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H10696",
+      "direction": "east",
+      "contact_residual_m": -9.913492249324918e-11,
+      "rim_144000_clearance_m": 11.356681844685227,
+      "rim_clearance_change_m": -0.0013488808181136847
+    },
+    {
+      "id": "H10696",
+      "direction": "west",
+      "contact_residual_m": -4.6497916628140956e-10,
+      "rim_144000_clearance_m": 11.356681844685227,
+      "rim_clearance_change_m": -0.0013488808181136847
+    },
+    {
+      "id": "H11460",
+      "direction": "east",
+      "contact_residual_m": -5.0249582272954285e-11,
+      "rim_144000_clearance_m": 10.195944160455838,
+      "rim_clearance_change_m": -0.0023491904139518738
+    },
+    {
+      "id": "H11460",
+      "direction": "west",
+      "contact_residual_m": -8.501501724822447e-10,
+      "rim_144000_clearance_m": 10.195944160455838,
+      "rim_clearance_change_m": -0.0023491904139518738
+    },
+    {
+      "id": "H11972",
+      "direction": "east",
+      "contact_residual_m": -1.1368683772161603e-11,
+      "rim_144000_clearance_m": 0.015586056048050523,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H11972",
+      "direction": "west",
+      "contact_residual_m": -1.7280399333685637e-11,
+      "rim_144000_clearance_m": 0.015586056048050523,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H12116",
+      "direction": "east",
+      "contact_residual_m": 5.093170329928398e-11,
+      "rim_144000_clearance_m": 0.01433344860561192,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H12116",
+      "direction": "west",
+      "contact_residual_m": 2.091837814077735e-11,
+      "rim_144000_clearance_m": 0.01433344860561192,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H12224",
+      "direction": "east",
+      "contact_residual_m": 3.306013240944594e-10,
+      "rim_144000_clearance_m": 0.18853019597008824,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H12224",
+      "direction": "west",
+      "contact_residual_m": 2.1805135475005955e-10,
+      "rim_144000_clearance_m": 0.18853019597008824,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H12433",
+      "direction": "east",
+      "contact_residual_m": 2.9126567824278027e-10,
+      "rim_144000_clearance_m": 0.013398048467934132,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H12433",
+      "direction": "west",
+      "contact_residual_m": 5.502442945726216e-11,
+      "rim_144000_clearance_m": 0.013398048467934132,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H12988",
+      "direction": "east",
+      "contact_residual_m": 2.3305801732931286e-10,
+      "rim_144000_clearance_m": 1.2697143743280321,
+      "rim_clearance_change_m": -0.0021808056626468897
+    },
+    {
+      "id": "H12988",
+      "direction": "west",
+      "contact_residual_m": -2.2964741219766438e-10,
+      "rim_144000_clearance_m": 1.2697143743280321,
+      "rim_clearance_change_m": -0.0021808056626468897
+    },
+    {
+      "id": "H13352",
+      "direction": "east",
+      "contact_residual_m": 2.02817318495363e-10,
+      "rim_144000_clearance_m": 0.01751997647807002,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H13352",
+      "direction": "west",
+      "contact_residual_m": -7.275957614183426e-11,
+      "rim_144000_clearance_m": 0.01751997647807002,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H13752",
+      "direction": "east",
+      "contact_residual_m": 5.484253051690757e-10,
+      "rim_144000_clearance_m": 16.725182752124965,
+      "rim_clearance_change_m": -0.0035294764675199986
+    },
+    {
+      "id": "H13752",
+      "direction": "west",
+      "contact_residual_m": 4.697540134657174e-10,
+      "rim_144000_clearance_m": 16.725182752124965,
+      "rim_clearance_change_m": -0.0035294764675199986
+    },
+    {
+      "id": "H14090",
+      "direction": "east",
+      "contact_residual_m": 2.332853910047561e-10,
+      "rim_144000_clearance_m": 0.014323220355436206,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H14090",
+      "direction": "west",
+      "contact_residual_m": 3.283275873400271e-10,
+      "rim_144000_clearance_m": 0.014323220355436206,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H14310",
+      "direction": "east",
+      "contact_residual_m": 5.288711690809578e-10,
+      "rim_144000_clearance_m": 0.01314268191345036,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H14310",
+      "direction": "west",
+      "contact_residual_m": 1.3164935808163136e-10,
+      "rim_144000_clearance_m": 0.01314268191345036,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H14311",
+      "direction": "east",
+      "contact_residual_m": -1.978150976356119e-11,
+      "rim_144000_clearance_m": 0.013149409554898739,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H14311",
+      "direction": "west",
+      "contact_residual_m": 1.7757884052116424e-10,
+      "rim_144000_clearance_m": 0.013149409554898739,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H14328",
+      "direction": "east",
+      "contact_residual_m": -7.639755494892597e-11,
+      "rim_144000_clearance_m": 0.017248886171728373,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H14328",
+      "direction": "west",
+      "contact_residual_m": -4.0188297134591267e-10,
+      "rim_144000_clearance_m": 0.017248886171728373,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H14516",
+      "direction": "east",
+      "contact_residual_m": 1.5688783605583012e-10,
+      "rim_144000_clearance_m": 2.8688521930016577,
+      "rim_clearance_change_m": -0.009203262627124786
+    },
+    {
+      "id": "H14516",
+      "direction": "west",
+      "contact_residual_m": -9.888481145026162e-10,
+      "rim_144000_clearance_m": 2.8688521930016577,
+      "rim_clearance_change_m": -0.009203262627124786
+    },
+    {
+      "id": "H14673",
+      "direction": "east",
+      "contact_residual_m": 4.1086423152592033e-10,
+      "rim_144000_clearance_m": 0.019108743406832218,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H14673",
+      "direction": "west",
+      "contact_residual_m": 7.307789928745478e-10,
+      "rim_144000_clearance_m": 0.019108743406832218,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H14832",
+      "direction": "east",
+      "contact_residual_m": 2.348770067328587e-10,
+      "rim_144000_clearance_m": 0.022348811384290457,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H14832",
+      "direction": "west",
+      "contact_residual_m": 8.963070285972208e-10,
+      "rim_144000_clearance_m": 0.022348811384290457,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H15115",
+      "direction": "east",
+      "contact_residual_m": -7.821654435247183e-11,
+      "rim_144000_clearance_m": 0.016907087760046124,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H15115",
+      "direction": "west",
+      "contact_residual_m": 3.7130121199879795e-10,
+      "rim_144000_clearance_m": 0.016907087760046124,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H15220",
+      "direction": "east",
+      "contact_residual_m": -5.2523319027386606e-11,
+      "rim_144000_clearance_m": 0.02178711537271738,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H15220",
+      "direction": "west",
+      "contact_residual_m": -8.744791557546705e-10,
+      "rim_144000_clearance_m": 0.02178711537271738,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H15280",
+      "direction": "east",
+      "contact_residual_m": -5.084075382910669e-10,
+      "rim_144000_clearance_m": 1.0123630894813687,
+      "rim_clearance_change_m": -0.001578373135998845
+    },
+    {
+      "id": "H15280",
+      "direction": "west",
+      "contact_residual_m": 4.547473508864641e-13,
+      "rim_144000_clearance_m": 1.0123630894813687,
+      "rim_clearance_change_m": -0.001578373135998845
+    },
+    {
+      "id": "H15372",
+      "direction": "east",
+      "contact_residual_m": -7.298694981727749e-11,
+      "rim_144000_clearance_m": 0.01765867741778493,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H15372",
+      "direction": "west",
+      "contact_residual_m": 8.958522812463343e-11,
+      "rim_144000_clearance_m": 0.01765867741778493,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H15904",
+      "direction": "east",
+      "contact_residual_m": -4.354205884737894e-10,
+      "rim_144000_clearance_m": 0.018953199964016676,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H15904",
+      "direction": "west",
+      "contact_residual_m": -3.469722287263721e-10,
+      "rim_144000_clearance_m": 0.018953199964016676,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H16044",
+      "direction": "east",
+      "contact_residual_m": -1.2005330063402653e-10,
+      "rim_144000_clearance_m": 0.8093730250839144,
+      "rim_clearance_change_m": -0.017343422630801797
+    },
+    {
+      "id": "H16044",
+      "direction": "west",
+      "contact_residual_m": -3.1809577194508165e-10,
+      "rim_144000_clearance_m": 0.8093730250839144,
+      "rim_clearance_change_m": -0.017343422630801797
+    },
+    {
+      "id": "H16079",
+      "direction": "east",
+      "contact_residual_m": -5.452420737128705e-10,
+      "rim_144000_clearance_m": 0.019763263408094645,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H16079",
+      "direction": "west",
+      "contact_residual_m": -1.5643308870494366e-10,
+      "rim_144000_clearance_m": 0.019763263408094645,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H16358",
+      "direction": "east",
+      "contact_residual_m": -1.268745108973235e-10,
+      "rim_144000_clearance_m": 0.01475768443197012,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H16358",
+      "direction": "west",
+      "contact_residual_m": -1.1596057447604835e-10,
+      "rim_144000_clearance_m": 0.01475768443197012,
+      "rim_clearance_change_m": 0.0
+    },
+    {
+      "id": "H16808",
+      "direction": "east",
+      "contact_residual_m": -6.548361852765083e-11,
+      "rim_144000_clearance_m": 2.149747452000156,
+      "rim_clearance_change_m": -9.529292583465576e-06
+    },
+    {
+      "id": "H16808",
+      "direction": "west",
+      "contact_residual_m": 4.4019543565809727e-10,
+      "rim_144000_clearance_m": 2.149747452000156,
+      "rim_clearance_change_m": -9.529292583465576e-06
+    },
+    {
+      "id": "H17572",
+      "direction": "east",
+      "contact_residual_m": 1.4358647604240105e-10,
+      "rim_144000_clearance_m": 4.640292656375095,
+      "rim_clearance_change_m": -0.0007532944437116385
+    },
+    {
+      "id": "H17572",
+      "direction": "west",
+      "contact_residual_m": 5.120455170981586e-10,
+      "rim_144000_clearance_m": 4.640292656375095,
+      "rim_clearance_change_m": -0.0007532944437116385
+    }
+  ],
+  "minimum_spaced_subset_separation_m": 7000.870628913039
+}

@@ -1,0 +1,11 @@
+{
+  "source_sha256": {
+    "select.py": "c1f35b0695f074c10bb539231165301ae4d477bb88947823aa48784760d7d839",
+    "build_maps.py": "6f2a441e3b954fd2d5a077134ed55d8963b4598b8ee7108c6b553a7a58a41d33"
+  },
+  "parent_catalog_sha256": "d4efbf640703cbce6bdb2818145823b8434f39342774a8d3584f482df44ff722",
+  "selected_count": 4,
+  "fine_rim_bearings": 144000,
+  "plots_regenerated": 4,
+  "interior_terrain_screen": "Native terrain vertices within each full tip disk; reported separately, not a full-rope model."
+}

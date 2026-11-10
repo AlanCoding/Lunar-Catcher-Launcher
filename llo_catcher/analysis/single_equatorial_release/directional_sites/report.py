@@ -9,6 +9,8 @@ def main():
     data=json.loads((OUT/'catalog.json').read_text());west=json.loads((OUT/'west_corridors.json').read_text());survey=json.loads((OUT/'degree_survey.json').read_text())
     text='''# Eastward and westward equatorial launch-site searches
 
+**[Current site-selection guide and height correction](../../../site_selection/README.md).** The tables here use 10 m above local release terrain; they do not represent a tip plane set above the summit. Use the new guide for the hub-relative diagnostic and current blog reading order.
+
 This corrects a gap in the original six-summit catalog: its northern hubs were
 selected near **eastward** corridors, not westward ones. North/south describes
 hub latitude; east/west describes release velocity. We now search westward

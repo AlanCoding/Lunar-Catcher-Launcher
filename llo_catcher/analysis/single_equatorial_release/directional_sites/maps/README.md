@@ -1,5 +1,7 @@
 # Terrain maps: separate eastward / westward site checks
 
+**[Current site-selection guide and height correction](../../../../site_selection/README.md).** The later summit checks below used 10 m clearance above local tip terrain, which could place the plane below hub ground. The current guide separately evaluates a plane above the summit and provides the blog figures, tables and maps in order.
+
 [Direction-specific results and assumptions](../README.md).
 
 All maps show a **15 × 15 km** region with the hub, 76.79 m track inset,

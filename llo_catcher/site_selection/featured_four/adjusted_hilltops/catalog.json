@@ -1,0 +1,52 @@
+{
+  "sites": [
+    {
+      "id": "P1_H0333_hilltop",
+      "hub_lat_deg": 0.1142578125,
+      "hub_lon_deg_east": 16.1572265625,
+      "hub_elevation_m": 608.8421940803528,
+      "actual_radius_km": 5.71642557501452,
+      "actual_horizontal_tip_min_clearance_m": 423.5862101020757,
+      "release_lat_deg": -0.07419095190803202,
+      "release_lon_deg_east": 16.1572265625,
+      "release_caption": "\u25b2 Equator-facing meridional tip \u00b7 flight terrain checks in publication table",
+      "height_reference": "Tip plane 1.3768 m above hub tangent plane; highest sampled point in disk"
+    },
+    {
+      "id": "P2_H4765_hilltop",
+      "hub_lat_deg": -0.1591796875,
+      "hub_lon_deg_east": 137.3408203125,
+      "hub_elevation_m": 6482.579231262207,
+      "actual_radius_km": 5.855195128697623,
+      "actual_horizontal_tip_min_clearance_m": 264.44333423045464,
+      "release_lat_deg": 0.03319361079623645,
+      "release_lon_deg_east": 137.3408203125,
+      "release_caption": "\u25b2 Equator-facing meridional tip \u00b7 flight terrain checks in publication table",
+      "height_reference": "Tip plane 1.3768 m above hub tangent plane; highest sampled point in disk"
+    },
+    {
+      "id": "P3_H6308_hilltop",
+      "hub_lat_deg": 0.1650390625,
+      "hub_lon_deg_east": 248.5205078125,
+      "hub_elevation_m": 5082.967281341553,
+      "actual_radius_km": 5.791270404878246,
+      "actual_horizontal_tip_min_clearance_m": 274.827884913655,
+      "release_lat_deg": -0.02538682660073635,
+      "release_lon_deg_east": 248.5205078125,
+      "release_caption": "\u25b2 Equator-facing meridional tip \u00b7 flight terrain checks in publication table",
+      "height_reference": "Tip plane 1.3768 m above hub tangent plane; highest sampled point in disk"
+    },
+    {
+      "id": "P4_H6941_hilltop",
+      "hub_lat_deg": 0.1708984375,
+      "hub_lon_deg_east": 286.4287109375,
+      "hub_elevation_m": 2263.364791870117,
+      "actual_radius_km": 5.841164530081109,
+      "actual_horizontal_tip_min_clearance_m": 274.1888677664101,
+      "release_lat_deg": -0.021479328941938408,
+      "release_lon_deg_east": 286.4287109375,
+      "release_caption": "\u25b2 Equator-facing meridional tip \u00b7 flight terrain checks in publication table",
+      "height_reference": "Tip plane 1.3768 m above hub tangent plane; highest sampled point in disk"
+    }
+  ]
+}

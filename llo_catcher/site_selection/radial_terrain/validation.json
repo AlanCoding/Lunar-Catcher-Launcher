@@ -1,0 +1,6 @@
+{
+  "flat_sphere_ring_radius_m": 6000,
+  "expected_height_m": -10.360339396866038,
+  "computed_height_m": -10.360339397098869,
+  "results_sha256": "6983d0613b81e19dc8535894744f16997d1a3e523acb59b671c6ff2cb8332c55"
+}

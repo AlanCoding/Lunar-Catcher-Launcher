@@ -1,0 +1,26 @@
+{
+  "results_sha256": "1844879585e4ba4ffcc29ff4db4633bfb8329af1144c956e1f2d8ff49ce4ccae",
+  "samples": 3564,
+  "nearest_contact_checks": [
+    {
+      "site": "P1",
+      "threshold_minus_half_m_gap": -0.25761990041678473,
+      "threshold_plus_half_m_gap": 0.742283148862839
+    },
+    {
+      "site": "P2",
+      "threshold_minus_half_m_gap": -0.4961978776027536,
+      "threshold_plus_half_m_gap": 0.5037452879896591
+    },
+    {
+      "site": "P3",
+      "threshold_minus_half_m_gap": -0.3548354809381635,
+      "threshold_plus_half_m_gap": 0.645088375137675
+    },
+    {
+      "site": "P4",
+      "threshold_minus_half_m_gap": -0.46008499617300913,
+      "threshold_plus_half_m_gap": 0.5397605798007135
+    }
+  ]
+}

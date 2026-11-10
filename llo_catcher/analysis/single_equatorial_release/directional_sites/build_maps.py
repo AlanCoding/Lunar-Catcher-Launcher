@@ -60,7 +60,8 @@ def main():
             ax.add_patch(Circle((0,0),TRACK/1000,fill=False,edgecolor='#f3a126',lw=1.5,label='Rover track · 76.79 m radius'))
             ax.scatter([0],[0],s=28,c='black',edgecolor='white',lw=.6,zorder=8,label='Hub / summit')
             notes=[f"Full-circle minimum clearance: {site['actual_horizontal_tip_min_clearance_m']:.1f} m (negative = terrain intersection)"]
-            rx,ry=project(0.,lon0,lat0,lon0)
+            if site.get('height_reference'):notes.append(site['height_reference'])
+            rx,ry=project(site.get('release_lat_deg',0.),site.get('release_lon_deg_east',lon0),lat0,lon0)
             if max(abs(rx),abs(ry))<side/2:
                 ax.scatter(rx,ry,s=50,marker='^',facecolor='white',edgecolor='#283c46',lw=1.3,zorder=6)
             if local:
@@ -78,7 +79,7 @@ def main():
             cb.set_ticks(np.r_[np.linspace(norm.vmin,0,5),np.linspace(0,norm.vmax,3)[1:]])
             cb.ax.yaxis.set_major_formatter(matplotlib.ticker.StrMethodFormatter('{x:.0f}'))
             ax.legend(loc='upper right',fontsize=8,framealpha=.94)
-            fig.text(.1,.128,'▲ Common equatorial release point for alternative eastward / westward launches',fontsize=9,va='top')
+            fig.text(.1,.128,site.get('release_caption','▲ Common equatorial release point for alternative eastward / westward launches'),fontsize=9,va='top')
             fig.text(.1,.106,'\n'.join(notes),fontsize=9,linespacing=1.6,va='top')
             fig.text(.1,.038,('SLDEM2015 · ~59 m native grid' if local else 'LOLA LDEM64 · ~474 m native grid; context only')+'  |  Hillshade is synthetic illumination',fontsize=8,color='#5b6166')
             fig.text(.1,.019,'Footprint is a geometry overlay, not a demonstration of cable clearance.',fontsize=8,color='#5b6166')

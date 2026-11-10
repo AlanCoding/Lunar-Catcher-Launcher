@@ -1,5 +1,7 @@
 # Eastward and westward equatorial launch-site searches
 
+**[Current site-selection guide and height correction](../../../site_selection/README.md).** The later summit checks below used 10 m clearance above local tip terrain, which could place the plane below hub ground. The current guide separately evaluates a plane above the summit and provides the blog figures, tables and maps in order.
+
 This corrects a gap in the original six-summit catalog: its northern hubs were
 selected near **eastward** corridors, not westward ones. North/south describes
 hub latitude; east/west describes release velocity. We now search westward

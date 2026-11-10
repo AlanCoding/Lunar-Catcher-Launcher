@@ -1,5 +1,7 @@
 # LLO orbital analyses: start here
 
+**[Current site-selection guide and height correction](../site_selection/README.md).** The later summit checks below used 10 m clearance above local tip terrain, which could place the plane below hub ground. The current guide separately evaluates a plane above the summit and provides the blog figures, tables and maps in order.
+
 **[Separate eastward/westward site tables](single_equatorial_release/directional_sites/README.md).** Separate east/west corridor and summit catalogs now check both equatorial directions. Original six-site opposite-tip results below remain a distinct geometry.
 
 **[Equatorial launch-site checkpoint](LAUNCH_SITE_CHECKPOINT.md)** is the entry

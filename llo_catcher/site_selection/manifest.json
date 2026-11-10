@@ -1,0 +1,10 @@
+{
+  "assumption": "Go-kart loaded tip centerline 0.8768156839390109 m above hub tangent plane + 0.5 m; independently targeted 25 km catcher",
+  "source_sha256": {
+    "audit_height.py": "e9c3b37099ef17540420c111b13b5262c9064b4816ffb85b4cbfc6ae6232668d",
+    "build_figures.py": "e0729018e509ca8ef91a530bf0174d6ee035d9f2cb1676780e9304d155b29e96",
+    "validate_height.py": "400e37784e175eedb1ae5a47ad424d1915f236f51a523cf0d2f07a8b442d6bd9"
+  },
+  "input_sha256": "12ebb46b08fbe9b4f7ac6464423a0153ed13ca6bfa6c6f13022b9c70762dd55c",
+  "reference_scene_sha256": "82e6f4fadd1e2eb52741cadfef36826e52ac4d29d940ece794db7fee513bdc5c"
+}
