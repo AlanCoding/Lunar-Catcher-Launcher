@@ -16,10 +16,9 @@ class Case:
     tether_to_payload_mass: float=3.
     density_kg_m3: float=1450.
     period_s: float=PERIOD
-    travel_s: float=PERIOD/5
+    travel_s: float=2*PERIOD/5
     loading_s: float=300.
     minimum_hold_s: float=300.
-    count: int=15
 
 class Model:
     def __init__(self,c=Case(),nodes=30001):
@@ -59,27 +58,6 @@ class Model:
         load=np.where((t>=out)&(t<release),c.payload_kg,0.)
         h,s,e=self.powers(q,qd,qdd,load)
         return dict(q_m=q,qdot_m_s=qd,hub_W=h,spool_W=s,energy_J=e,loaded=load>0)
-    def synchronized(self,t,j):
-        """Four-window spool cycle; 15 jobs/window, with 60 reusable pairs.
-
-        Retraction and extension each take one window. Completed payloads wait
-        for a common release; empty extended cables wait for their return slot.
-        """
-        c=self.c; T=c.period_s; cycle=4*T; start=j*T/c.count
-        phase=(np.asarray(t)-start)%cycle
-        out=T+c.loading_s; end=out+T
-        release=np.ceil((start+end+c.minimum_hold_s)/T)*T-start
-        assert end <= release < cycle
-        q,qd,qdd=self.motion(phase,0,T,True)
-        qo,vo,ao=self.motion(phase,out,T)
-        after=phase>=out
-        q=np.where(after,qo,q);qd=np.where(after,vo,qd);qdd=np.where(after,ao,qdd)
-        load=np.where(after & (phase<release),c.payload_kg,0.)
-        h,s,e=self.powers(q,qd,qdd,load)
-        return dict(q_m=q,qdot_m_s=qd,hub_W=h,spool_W=s,energy_J=e,loaded=load>0,
-                    retract_start_s=start,payout_start_s=start+out,
-                    release_s=start+release,loaded_hold_s=release-end,
-                    empty_hold_s=cycle-release)
     def metadata(self):
         return dict(inputs=asdict(self.c),omega_rad_s=self.w,track_radius_m=self.a,tip_radius_m=self.R,
            release_speed_m_s=SPEED,tether_mass_per_arm_kg=self.mass,tether_mass_per_pair_kg=2*self.mass,

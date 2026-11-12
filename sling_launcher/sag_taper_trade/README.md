@@ -1,6 +1,9 @@
 # Tether sag, taper and support-height tradeoffs
 
-**Status: planned.** This sling-design investigation asks how distributed tether weight, rotational tension and taper determine vertical drop—and how that shape fits above real terrain. It applies to the go-kart launcher and other tapered, spooled architectures.
+**Status: initial steady P1 technical note completed.** This sling-design investigation asks how distributed tether weight, rotational tension and taper determine vertical drop—and how that shape fits above real terrain. It applies to the go-kart launcher and other tapered, spooled architectures.
+
+- **[P1 publication note and figures](publication/README.md):** a fixed-speed Kevlar taper sweep from 100 g to terrain contact near 10.57 g, using the full-circle terrain envelope. Includes six panels, individual figures, numerical tables and reproducible source data.
+- The stages below describe the broader remaining work, including material sensitivity, support optimization and operational states.
 
 ## Physical question
 
@@ -79,4 +82,4 @@ Then identify operational states worth carrying into a dynamic model: fully load
 - Save steady shape/stress profiles, scalar scenario tables, material assumptions and comparison plots.
 - Produce a short physical explanation, a taper/sag figure, and terrain-plus-cable overlays showing the controlling support-height location.
 
-This item is ready for a later numerical study. The present task records the plan while the site-selection work produces the terrain envelope.
+The first P1 steady-shape investigation is available in the publication note above. Support optimization, elastic response and operational dynamics remain follow-on work.

@@ -1,0 +1,22 @@
+[
+  {
+    "target": "Useful caught at LLO",
+    "reference_equivalents": 525.8661715695213,
+    "working_tether_tonnes": 75724.72870601107,
+    "guide_tonnes": 3155.197029417128,
+    "imported_specialized_equipment_proxy_tonnes": 403407.7863093864,
+    "fabricated_tonnes": 909191.8298963448,
+    "discarded_countermass_tonnes_per_year": 10000000.0,
+    "operating_supply_GW": 2.2471989703925903
+  },
+  {
+    "target": "Useful shielding delivered to L1",
+    "reference_equivalents": 734.9543113684855,
+    "working_tether_tonnes": 105833.42083706192,
+    "guide_tonnes": 4409.725868210913,
+    "imported_specialized_equipment_proxy_tonnes": 563805.5988708978,
+    "fabricated_tonnes": 1270692.9849641053,
+    "discarded_countermass_tonnes_per_year": 13976071.310594317,
+    "operating_supply_GW": 3.1407013059300968
+  }
+]

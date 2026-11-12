@@ -1,0 +1,131 @@
+{
+  "config": {
+    "name": "constant_speed",
+    "nodes": 32,
+    "density": 1450.0,
+    "modulus": 112400000000.0,
+    "nominal_strength": 3000000000.0,
+    "design_stress": 1500000000.0,
+    "target_tether_payload_ratio": 3.0,
+    "payload": 1000.0,
+    "retained_tip_mass": 10.0,
+    "axial_relaxation_s": 0.02,
+    "initial_length": 500.0,
+    "travel_s": 3056.325478627499,
+    "loaded_hold_s": 300.0,
+    "release_settle_s": 60.0,
+    "final_hold_s": 120.0,
+    "rtol": 2e-06,
+    "atol": 1e-05,
+    "max_step": 2.0,
+    "method": "BDF",
+    "payout_profile": "constant_cruise",
+    "extension_only": false
+  },
+  "station_radius_m": 76.78937039996255,
+  "nominal_release_radius_m": 5787.088393934127,
+  "omega_rad_s": 0.29108195422853606,
+  "unstretched_full_length_m": 5710.299023534165,
+  "required_design_stress_Pa": 2452940269.425245,
+  "tether_mass_kg": 3000.0000000000005,
+  "tip_area_m2": 0.00020189477549571155,
+  "root_area_m2": 0.0004669815201046795,
+  "cruise_speed_m_s": 1.721658513048353,
+  "ramp_duration_s": 30.0,
+  "modeled_seed_length_m": 500.0,
+  "full_length_reference_travel_s": 3316.7431173232844,
+  "solver": [
+    {
+      "phase": "extend",
+      "nfev": 319035,
+      "steps": 133151,
+      "accepted_step_peak_stress_Pa": 2559846084.3380623,
+      "peak_strain": 0.022773939816870925,
+      "completed": true,
+      "end_phase_time_s": 3056.325478627499,
+      "stop_reason": null
+    },
+    {
+      "phase": "loaded_hold",
+      "nfev": 23995,
+      "steps": 9321,
+      "accepted_step_peak_stress_Pa": 2601439634.1876507,
+      "peak_strain": 0.023144480298407544,
+      "completed": true,
+      "end_phase_time_s": 300.0,
+      "stop_reason": null
+    },
+    {
+      "phase": "release_settle",
+      "nfev": 6869,
+      "steps": 2612,
+      "accepted_step_peak_stress_Pa": 2861281749.027869,
+      "peak_strain": 0.025394388953071,
+      "completed": true,
+      "end_phase_time_s": 60.0,
+      "stop_reason": null
+    },
+    {
+      "phase": "retract",
+      "nfev": 262530,
+      "steps": 91675,
+      "accepted_step_peak_stress_Pa": 1430940312.728934,
+      "peak_strain": 0.012730566650931419,
+      "completed": true,
+      "end_phase_time_s": 3056.325478627499,
+      "stop_reason": null
+    },
+    {
+      "phase": "final_hold",
+      "nfev": 41589,
+      "steps": 10855,
+      "accepted_step_peak_stress_Pa": 109523540.66060393,
+      "peak_strain": 0.0009670313116305618,
+      "completed": true,
+      "end_phase_time_s": 120.0,
+      "stop_reason": null
+    }
+  ],
+  "phase_metrics": [
+    {
+      "phase": "extend",
+      "min_angle_deg": -13.29406203935983,
+      "max_angle_deg": 0.0,
+      "max_simultaneous_width_deg": 1.4041690331118097,
+      "peak_sampled_stress_Pa": 2559846084.338087,
+      "minimum_sampled_stress_Pa": 221886527.6186253
+    },
+    {
+      "phase": "loaded_hold",
+      "min_angle_deg": -8.301149461456603,
+      "max_angle_deg": 8.302849171337638,
+      "max_simultaneous_width_deg": 1.2227431433594642,
+      "peak_sampled_stress_Pa": 2601375337.5102,
+      "minimum_sampled_stress_Pa": 2416348211.304903
+    },
+    {
+      "phase": "release_settle",
+      "min_angle_deg": -3.6523843904078617,
+      "max_angle_deg": 3.8905991583750885,
+      "max_simultaneous_width_deg": 0.7367290692280641,
+      "peak_sampled_stress_Pa": 2859758931.722497,
+      "minimum_sampled_stress_Pa": 0.0
+    },
+    {
+      "phase": "retract",
+      "min_angle_deg": -89.34395157009182,
+      "max_angle_deg": 126.30666260137797,
+      "max_simultaneous_width_deg": 9.902335558015054,
+      "peak_sampled_stress_Pa": 1422739803.5159755,
+      "minimum_sampled_stress_Pa": 0.0
+    },
+    {
+      "phase": "final_hold",
+      "min_angle_deg": -62.52275657857209,
+      "max_angle_deg": 78.94859048118448,
+      "max_simultaneous_width_deg": 5.179424007342905,
+      "peak_sampled_stress_Pa": 79527966.58604057,
+      "minimum_sampled_stress_Pa": 2429996.0052215783
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "config": {
+    "name": "constant_speed",
+    "nodes": 64,
+    "density": 1450.0,
+    "modulus": 112400000000.0,
+    "nominal_strength": 3000000000.0,
+    "design_stress": 1500000000.0,
+    "target_tether_payload_ratio": 3.0,
+    "payload": 1000.0,
+    "retained_tip_mass": 10.0,
+    "axial_relaxation_s": 0.02,
+    "initial_length": 500.0,
+    "travel_s": 3056.325478627499,
+    "loaded_hold_s": 300.0,
+    "release_settle_s": 60.0,
+    "final_hold_s": 120.0,
+    "rtol": 2e-06,
+    "atol": 1e-05,
+    "max_step": 2.0,
+    "method": "BDF",
+    "payout_profile": "constant_cruise",
+    "extension_only": false
+  },
+  "station_radius_m": 76.78937039996255,
+  "nominal_release_radius_m": 5787.088393934127,
+  "omega_rad_s": 0.29108195422853606,
+  "unstretched_full_length_m": 5710.299023534165,
+  "required_design_stress_Pa": 2452940269.425245,
+  "tether_mass_kg": 3000.0000000000005,
+  "tip_area_m2": 0.00020189477549571155,
+  "root_area_m2": 0.0004669815201046795,
+  "cruise_speed_m_s": 1.721658513048353,
+  "ramp_duration_s": 30.0,
+  "modeled_seed_length_m": 500.0,
+  "full_length_reference_travel_s": 3316.7431173232844,
+  "solver": [
+    {
+      "phase": "extend",
+      "nfev": 639541,
+      "steps": 267658,
+      "accepted_step_peak_stress_Pa": 2558757356.7109723,
+      "peak_strain": 0.022764253950918745,
+      "completed": true,
+      "end_phase_time_s": 3056.325478627499,
+      "stop_reason": null
+    },
+    {
+      "phase": "loaded_hold",
+      "nfev": 43125,
+      "steps": 16894,
+      "accepted_step_peak_stress_Pa": 2600363682.8839903,
+      "peak_strain": 0.023134907880541622,
+      "completed": true,
+      "end_phase_time_s": 300.0,
+      "stop_reason": null
+    },
+    {
+      "phase": "release_settle",
+      "nfev": 12063,
+      "steps": 4305,
+      "accepted_step_peak_stress_Pa": 2860991378.816822,
+      "peak_strain": 0.025400789993706985,
+      "completed": true,
+      "end_phase_time_s": 60.0,
+      "stop_reason": null
+    },
+    {
+      "phase": "retract",
+      "nfev": 395295,
+      "steps": 143242,
+      "accepted_step_peak_stress_Pa": 1431020513.4269454,
+      "peak_strain": 0.012731360733141406,
+      "completed": true,
+      "end_phase_time_s": 3056.325478627499,
+      "stop_reason": null
+    },
+    {
+      "phase": "final_hold",
+      "nfev": 47508,
+      "steps": 11843,
+      "accepted_step_peak_stress_Pa": 99601281.02986649,
+      "peak_strain": 0.0008764037011348424,
+      "completed": true,
+      "end_phase_time_s": 120.0,
+      "stop_reason": null
+    }
+  ],
+  "phase_metrics": [
+    {
+      "phase": "extend",
+      "min_angle_deg": -13.29400705926304,
+      "max_angle_deg": 0.0,
+      "max_simultaneous_width_deg": 1.4040930903329212,
+      "peak_sampled_stress_Pa": 2558757356.7098494,
+      "minimum_sampled_stress_Pa": 221686434.70233238
+    },
+    {
+      "phase": "loaded_hold",
+      "min_angle_deg": -8.29678295261447,
+      "max_angle_deg": 8.298468434988873,
+      "max_simultaneous_width_deg": 1.222272213186466,
+      "peak_sampled_stress_Pa": 2600301260.4260917,
+      "minimum_sampled_stress_Pa": 2415690959.304012
+    },
+    {
+      "phase": "release_settle",
+      "min_angle_deg": -3.6563584665530233,
+      "max_angle_deg": 3.901879816771072,
+      "max_simultaneous_width_deg": 0.7623033171825431,
+      "peak_sampled_stress_Pa": 2860282936.463146,
+      "minimum_sampled_stress_Pa": 0.0
+    },
+    {
+      "phase": "retract",
+      "min_angle_deg": -93.07196865355058,
+      "max_angle_deg": 126.18034097832576,
+      "max_simultaneous_width_deg": 10.514409034092978,
+      "peak_sampled_stress_Pa": 1423202514.202203,
+      "minimum_sampled_stress_Pa": 205537.39850514111
+    },
+    {
+      "phase": "final_hold",
+      "min_angle_deg": -83.39532647446802,
+      "max_angle_deg": 75.82161145137866,
+      "max_simultaneous_width_deg": 3.974206799590892,
+      "peak_sampled_stress_Pa": 79941598.80193558,
+      "minimum_sampled_stress_Pa": 3147391.1669081883
+    }
+  ]
+}

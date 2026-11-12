@@ -1,0 +1,88 @@
+{
+  "target_tonnes_per_year": 10000000.0,
+  "target": "Useful caught mass summed across prograde and retrograde LLO catchers",
+  "catcher_period_s": 6633.486234646569,
+  "catch_window_s": 3316.7431173232844,
+  "flow_kg_s": 317.09791983764586,
+  "combined_batch_tonnes": 1051.7323431390423,
+  "batch_per_direction_tonnes": 525.8661715695212,
+  "payload_tonnes": 65.73327144619014,
+  "working_tether_tonnes_each": 197.19981433857046,
+  "root_rope_diameter_m": 0.24538479646711364,
+  "peak_line_tension_MN": 74.93757278044293,
+  "ideal_payload_power_MW": 449.9013409324263,
+  "conditional_electrical_MW": 561.7997425981475,
+  "architecture_steps": [
+    {
+      "scenario": "Early site",
+      "productive_directions": 1,
+      "duty": 0.5,
+      "windows_per_period": 1,
+      "annual_tonnes_at_1t_payload": 19016.24508409354,
+      "required_payload_tonnes": 525.8661715695213,
+      "gain_vs_early": 1.0
+    },
+    {
+      "scenario": "Both directions captured",
+      "productive_directions": 2,
+      "duty": 0.5,
+      "windows_per_period": 1,
+      "annual_tonnes_at_1t_payload": 38032.49016818708,
+      "required_payload_tonnes": 262.93308578476064,
+      "gain_vs_early": 2.0
+    },
+    {
+      "scenario": "Continuous power",
+      "productive_directions": 2,
+      "duty": 1,
+      "windows_per_period": 1,
+      "annual_tonnes_at_1t_payload": 76064.98033637417,
+      "required_payload_tonnes": 131.46654289238032,
+      "gain_vs_early": 4.0
+    },
+    {
+      "scenario": "Two catcher pairs",
+      "productive_directions": 2,
+      "duty": 1,
+      "windows_per_period": 2,
+      "annual_tonnes_at_1t_payload": 152129.96067274833,
+      "required_payload_tonnes": 65.73327144619016,
+      "gain_vs_early": 8.0
+    }
+  ],
+  "schedules": [
+    {
+      "name": "Faster exchange",
+      "exchange_minutes": 27.63952597769404,
+      "hold_minutes": 55.27905195538808,
+      "active_mirrored_groups": 4,
+      "groups": 12,
+      "modules": 24,
+      "tethers": 48,
+      "loaded_outgoing_per_side": 4,
+      "empty_incoming_per_side": 4,
+      "working_fiber_tonnes": 9465.591088251382,
+      "guide_fiber_tonnes": 394.3996286771409,
+      "total_fiber_tonnes": 9859.990716928523,
+      "full_tether_cycle_hours": 2.763952597769404,
+      "mean_payout_m_s": 3.443317026096706
+    },
+    {
+      "name": "More simultaneous exchanges",
+      "exchange_minutes": 55.27905195538808,
+      "hold_minutes": 55.27905195538808,
+      "active_mirrored_groups": 8,
+      "groups": 16,
+      "modules": 32,
+      "tethers": 64,
+      "loaded_outgoing_per_side": 8,
+      "empty_incoming_per_side": 8,
+      "working_fiber_tonnes": 12620.78811766851,
+      "guide_fiber_tonnes": 394.3996286771409,
+      "total_fiber_tonnes": 13015.18774634565,
+      "full_tether_cycle_hours": 3.685270130359205,
+      "mean_payout_m_s": 1.721658513048353
+    }
+  ],
+  "L1_multiplier": 1.397604505876927
+}

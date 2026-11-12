@@ -1,0 +1,22 @@
+component,mass_kg,assumed_local_fraction,basis,lunar_production
+48 tapered working tethers,143999.99998805346,0,48 × 3 tonnes; paired holding schedule,"Import Kevlar fiber, coatings and quality-critical terminations."
+Two straw guides,6000.0,0,One 3 t fiber guide each side; provisional for new inventory,Import fiber; local assembly possible.
+"Jackets, terminations, straw opening hardware",26000.0,0,"26 t allowance, including larger line inventory",Mixed polymers and precision contacts; imported initially.
+24 rigid twin-drum rotors,385822.3214359456,0.7,"80 mm core shells, 25 mm flanges, common shaft, 50% stiffening/bearings allowance",Bulk metal locally fabricated; bearings and qualified contact surfaces imported.
+24 module-to-ground reductions,163215.09326208866,0,"One per module, net torque and net power; no inter-drum gearbox",Precision gearing and heat treatment imported initially.
+"Module clutches, brakes, reversers, levelwinds",36000.0,0,1.5 t per rigid module allowance,Precision mechanisms imported; no storage-follower drivetrain.
+Module ground wheels and suspension,144000.0,0.5,Per module: four 1 t support/drive units + four 0.5 t capture rollers,"Bulk wheel bodies local; bearings, dampers and wear surfaces imported."
+Six fixed circular ground reaction rails,231602.27244188363,1,"12,000 mm² effective steel per path, six radii, 30% joints/base allowance",Locally refined/fabricated metal; precision alignment remains demanding.
+77 m moving drive rim,228460.94284255162,1,"0.70 × 0.50 m steel box, 20 mm wall, 30% teeth/joints allowance",Local structural metal; finish machining and alignment required.
+Rotating cross-structure and low machinery supports,100000.0,1,100 t fabricated allowance; 24 suspended modules,Local bulk metal and fabrication.
+"Opposed tension ties, anchors and lateral bracing",20000.0,0.5,20 t reserve for cable-force imbalance and radial machinery loads,Metal local; high-performance fiber and precision joints imported.
+"Loading, retention and synchronized release hardware",45000.0,0.25,48 line positions and two terminal staging banks,Bulk structure local; release actuators and controls imported.
+Eight stationary rim-drive motors,45500.0,0,"Industrial 4.55 kg/kW anchor, 25% installation allowance","Electrical steel, windings, insulation and precision manufacture imported initially."
+Main reductions and drive wheels,34400.0,0.2,2 kg/kW reduction floor ×1.4 plus 12 t wheels,Precision parts imported; wheel/frame metal partly local.
+Main inverters and protection,1460.0,0,Prior inverter curve,Imported electronics.
+Stationary buffer battery,15000.0,0,1500 kWh at 100 Wh/kg; 2C power screen,Imported cells and battery management; installed pack allowance included.
+Battery bidirectional converter,1427.8845013490138,0,0.5 kg/kW at 125% peak buffer power; allowance,Imported power electronics.
+"Radiators, rotary fluid transfer and manifolds",37773.00845611628,0.5,8 kg/m² plus20% heat transport; two temperature circuits,"Panel/pipe metal partly local; coatings, pumps and unions imported."
+Electrical distribution and controls,12000.0,0.2,12 t allowance; auxiliary slip rings only,Conductors partly local; controls imported.
+External solar generation,51279.9436484498,0.2,100 W/kg illuminated output;20% over battery-smoothed source,Support metal partly local; cells/electronics imported.
+Prepared local foundations,600000.0,1,"600 t local aggregate/anchors allowance, not an excavation estimate","Local feedstock, grading and foundations."

@@ -1,0 +1,74 @@
+[
+  {
+    "nearest_payload_distance_from_tip_m": 445.11881612032903,
+    "guide_axial_tension_at_nearest_payload_N": 16297.091646419072,
+    "payload_normal_over_local_guide_tension": 0.01537525023989251,
+    "phase_label": "Early in window",
+    "time_s": 41.45928896654106,
+    "fully_extended": 7,
+    "loaded_fully_extended": 0,
+    "payload_radii_m": [
+      5341.969577813798,
+      3914.394821930258,
+      2486.820066046717,
+      1059.2453101631747
+    ],
+    "root_residual_N": -794.7663241377138,
+    "guide_Q_over_T_at_90pct": 0.01050463827498756,
+    "shared_Q_over_T_at_90pct": 0.001313079784373445
+  },
+  {
+    "nearest_payload_distance_from_tip_m": 1.0,
+    "guide_axial_tension_at_nearest_payload_N": 35.75239056391915,
+    "payload_normal_over_local_guide_tension": 7.0085344866149715,
+    "phase_label": "Payload one metre from tip",
+    "time_s": 299.41916472260846,
+    "fully_extended": 7,
+    "loaded_fully_extended": 0,
+    "payload_radii_m": [
+      5786.088393934127,
+      4358.513638050586,
+      2930.938882167046,
+      1503.3641262835035
+    ],
+    "root_residual_N": -1288.7847567358558,
+    "guide_Q_over_T_at_90pct": 0.013870541913256717,
+    "shared_Q_over_T_at_90pct": 0.0017338177391570896
+  },
+  {
+    "nearest_payload_distance_from_tip_m": 516.4992755730191,
+    "guide_axial_tension_at_nearest_payload_N": 18973.482959441015,
+    "payload_normal_over_local_guide_tension": 0.01320642408048086,
+    "phase_label": "Just before common release",
+    "time_s": 6633.485234646569,
+    "fully_extended": 8,
+    "loaded_fully_extended": 8,
+    "payload_radii_m": [
+      5270.589118361108,
+      3843.0143624775674,
+      2415.439606594025,
+      987.8648507104841
+    ],
+    "root_residual_N": -1466.9758622433708,
+    "guide_Q_over_T_at_90pct": 0.012126438526865967,
+    "shared_Q_over_T_at_90pct": 0.0002179545178805549
+  },
+  {
+    "nearest_payload_distance_from_tip_m": 516.4958322559924,
+    "guide_axial_tension_at_nearest_payload_N": 18973.35349379812,
+    "payload_normal_over_local_guide_tension": 0.013206514195187492,
+    "phase_label": "Just after release / return start",
+    "time_s": 6633.487234646569,
+    "fully_extended": 7,
+    "loaded_fully_extended": 0,
+    "payload_radii_m": [
+      5270.592561678135,
+      3843.017805794594,
+      2415.4430499110517,
+      987.8682940275108
+    ],
+    "root_residual_N": -715.2619027535296,
+    "guide_Q_over_T_at_90pct": 0.00996168503139893,
+    "shared_Q_over_T_at_90pct": 0.0012452106289248662
+  }
+]

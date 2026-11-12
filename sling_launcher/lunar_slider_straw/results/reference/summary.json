@@ -1,0 +1,259 @@
+{
+  "schedule": {
+    "groups": 12,
+    "rigid_modules": 24,
+    "tethers": 48,
+    "stroke_s": 3316.7431173232844,
+    "paired_hold_s": 6633.486234646569,
+    "exchange_repeat_s": 9950.229351969854,
+    "tether_full_cycle_s": 19900.45870393971,
+    "job_spacing_s": 829.1857793308211,
+    "batch_each_side": 8,
+    "payload_kg": 1000,
+    "min_groups_uniform_schedule": 11,
+    "chosen_groups": 12,
+    "working_fiber_kg": 143999.99998805346,
+    "extra_fiber_vs_old_kg": 47999.999996017825,
+    "useful_LLO_kg_s": 1.2060023518577843
+  },
+  "geometry": {
+    "core_radius_m": 0.6053152654289221,
+    "full_radius_m": 1.2174915421886903,
+    "winding_width_m": 1.2106305308578442,
+    "rotor_rpm": 17.328921505810808,
+    "module_radii_m": [
+      35.0,
+      41.0,
+      47.0,
+      53.0,
+      59.0,
+      65.0
+    ],
+    "max_line_tension_N": 1140024.7500644033,
+    "max_module_radial_imbalance_N": 1140024.6776966974,
+    "max_module_net_torque_Nm": 691108.2932914067,
+    "max_module_net_power_W": 1254140.685569395,
+    "rotor_mass_each_kg": 16075.930059831066,
+    "reduction_each_kg": 6800.6288859203605,
+    "common_shaft_diameter_m": 0.30415496714711887,
+    "module_ground_peak_force_at_35m_N": 123101.38260283673,
+    "module_ground_total_preload_mu_0p35_N": 351718.236008105
+  },
+  "power": {
+    "ideal_net": {
+      "mean_W": 3421542.318514182,
+      "max_W": 5301805.931846568,
+      "min_W": 1398851.2709765905
+    },
+    "electrical": {
+      "mean_W": 4239798.017080475,
+      "max_W": 6342292.5301260995,
+      "min_W": 1988713.4352123945
+    },
+    "moving_heat": {
+      "mean_W": 327412.11565698305,
+      "max_W": 356634.73738416226,
+      "min_W": 305851.92491730076
+    },
+    "stationary_heat": {
+      "mean_W": 486130.7736257447,
+      "max_W": 679434.7919534035,
+      "min_W": 279165.336821727
+    },
+    "battery_heat": {
+      "mean_W": 33530.620290341605,
+      "max_W": 68538.45606475277,
+      "min_W": 2.1409053730000664
+    }
+  },
+  "battery": {
+    "interval_s": 829.1857793308211,
+    "constant_source_W": 4273328.637370816,
+    "energy_swing_kWh": 126.75794374593929,
+    "energy_only_nominal_kWh": 264.0790494707069,
+    "peak_bus_power_W": 2284615.202158422,
+    "selected_nominal_kWh": 1500.0,
+    "mass_kg": 15000.0,
+    "conversion_mass_kg": 1427.8845013490138,
+    "charge_efficiency": 0.97,
+    "discharge_efficiency": 0.97,
+    "energy_closure_J": 3.113556783027684e-06,
+    "battery_soc_excursion_fraction": 0.08450529583062619
+  },
+  "cooling": {
+    "hot_area_m2": 3458.1771210430024,
+    "battery_area_m2": 476.51125980244336,
+    "total_area_m2": 3934.688380845446,
+    "layout_area_with_2x_spacing_m2": 7869.376761690892,
+    "inner60m_area_m2": 11309.733552923255
+  },
+  "solar": {
+    "design_W": 5127994.36484498,
+    "area_at_250W_m2": 20511.97745937992
+  },
+  "motor_unit_rating_W": 1000000.0,
+  "bill_of_materials": [
+    {
+      "component": "48 tapered working tethers",
+      "mass_kg": 143999.99998805346,
+      "assumed_local_fraction": 0,
+      "basis": "48 \u00d7 3 tonnes; paired holding schedule",
+      "lunar_production": "Import Kevlar fiber, coatings and quality-critical terminations."
+    },
+    {
+      "component": "Two straw guides",
+      "mass_kg": 6000.0,
+      "assumed_local_fraction": 0,
+      "basis": "One 3 t fiber guide each side; provisional for new inventory",
+      "lunar_production": "Import fiber; local assembly possible."
+    },
+    {
+      "component": "Jackets, terminations, straw opening hardware",
+      "mass_kg": 26000.0,
+      "assumed_local_fraction": 0,
+      "basis": "26 t allowance, including larger line inventory",
+      "lunar_production": "Mixed polymers and precision contacts; imported initially."
+    },
+    {
+      "component": "24 rigid twin-drum rotors",
+      "mass_kg": 385822.3214359456,
+      "assumed_local_fraction": 0.7,
+      "basis": "80 mm core shells, 25 mm flanges, common shaft, 50% stiffening/bearings allowance",
+      "lunar_production": "Bulk metal locally fabricated; bearings and qualified contact surfaces imported."
+    },
+    {
+      "component": "24 module-to-ground reductions",
+      "mass_kg": 163215.09326208866,
+      "assumed_local_fraction": 0,
+      "basis": "One per module, net torque and net power; no inter-drum gearbox",
+      "lunar_production": "Precision gearing and heat treatment imported initially."
+    },
+    {
+      "component": "Module clutches, brakes, reversers, levelwinds",
+      "mass_kg": 36000.0,
+      "assumed_local_fraction": 0,
+      "basis": "1.5 t per rigid module allowance",
+      "lunar_production": "Precision mechanisms imported; no storage-follower drivetrain."
+    },
+    {
+      "component": "Module ground wheels and suspension",
+      "mass_kg": 144000.0,
+      "assumed_local_fraction": 0.5,
+      "basis": "Per module: four 1 t support/drive units + four 0.5 t capture rollers",
+      "lunar_production": "Bulk wheel bodies local; bearings, dampers and wear surfaces imported."
+    },
+    {
+      "component": "Six fixed circular ground reaction rails",
+      "mass_kg": 231602.27244188363,
+      "assumed_local_fraction": 1,
+      "basis": "12,000 mm\u00b2 effective steel per path, six radii, 30% joints/base allowance",
+      "lunar_production": "Locally refined/fabricated metal; precision alignment remains demanding."
+    },
+    {
+      "component": "77 m moving drive rim",
+      "mass_kg": 228460.94284255162,
+      "assumed_local_fraction": 1,
+      "basis": "0.70 \u00d7 0.50 m steel box, 20 mm wall, 30% teeth/joints allowance",
+      "lunar_production": "Local structural metal; finish machining and alignment required."
+    },
+    {
+      "component": "Rotating cross-structure and low machinery supports",
+      "mass_kg": 100000.0,
+      "assumed_local_fraction": 1,
+      "basis": "100 t fabricated allowance; 24 suspended modules",
+      "lunar_production": "Local bulk metal and fabrication."
+    },
+    {
+      "component": "Opposed tension ties, anchors and lateral bracing",
+      "mass_kg": 20000.0,
+      "assumed_local_fraction": 0.5,
+      "basis": "20 t reserve for cable-force imbalance and radial machinery loads",
+      "lunar_production": "Metal local; high-performance fiber and precision joints imported."
+    },
+    {
+      "component": "Loading, retention and synchronized release hardware",
+      "mass_kg": 45000.0,
+      "assumed_local_fraction": 0.25,
+      "basis": "48 line positions and two terminal staging banks",
+      "lunar_production": "Bulk structure local; release actuators and controls imported."
+    },
+    {
+      "component": "Eight stationary rim-drive motors",
+      "mass_kg": 45500.0,
+      "assumed_local_fraction": 0,
+      "basis": "Industrial 4.55 kg/kW anchor, 25% installation allowance",
+      "lunar_production": "Electrical steel, windings, insulation and precision manufacture imported initially."
+    },
+    {
+      "component": "Main reductions and drive wheels",
+      "mass_kg": 34400.0,
+      "assumed_local_fraction": 0.2,
+      "basis": "2 kg/kW reduction floor \u00d71.4 plus 12 t wheels",
+      "lunar_production": "Precision parts imported; wheel/frame metal partly local."
+    },
+    {
+      "component": "Main inverters and protection",
+      "mass_kg": 1460.0,
+      "assumed_local_fraction": 0,
+      "basis": "Prior inverter curve",
+      "lunar_production": "Imported electronics."
+    },
+    {
+      "component": "Stationary buffer battery",
+      "mass_kg": 15000.0,
+      "assumed_local_fraction": 0,
+      "basis": "1500 kWh at 100 Wh/kg; 2C power screen",
+      "lunar_production": "Imported cells and battery management; installed pack allowance included."
+    },
+    {
+      "component": "Battery bidirectional converter",
+      "mass_kg": 1427.8845013490138,
+      "assumed_local_fraction": 0,
+      "basis": "0.5 kg/kW at 125% peak buffer power; allowance",
+      "lunar_production": "Imported power electronics."
+    },
+    {
+      "component": "Radiators, rotary fluid transfer and manifolds",
+      "mass_kg": 37773.00845611628,
+      "assumed_local_fraction": 0.5,
+      "basis": "8 kg/m\u00b2 plus20% heat transport; two temperature circuits",
+      "lunar_production": "Panel/pipe metal partly local; coatings, pumps and unions imported."
+    },
+    {
+      "component": "Electrical distribution and controls",
+      "mass_kg": 12000.0,
+      "assumed_local_fraction": 0.2,
+      "basis": "12 t allowance; auxiliary slip rings only",
+      "lunar_production": "Conductors partly local; controls imported."
+    },
+    {
+      "component": "External solar generation",
+      "mass_kg": 51279.9436484498,
+      "assumed_local_fraction": 0.2,
+      "basis": "100 W/kg illuminated output;20% over battery-smoothed source",
+      "lunar_production": "Support metal partly local; cells/electronics imported."
+    },
+    {
+      "component": "Prepared local foundations",
+      "mass_kg": 600000.0,
+      "assumed_local_fraction": 1,
+      "basis": "600 t local aggregate/anchors allowance, not an excavation estimate",
+      "lunar_production": "Local feedstock, grading and foundations."
+    }
+  ],
+  "totals": {
+    "fabricated_kg": 1728941.466576438,
+    "installed_with_local_foundations_kg": 2328941.466576438,
+    "assumed_imported_kg": 767130.1333290928,
+    "assumed_locally_made_fabricated_kg": 961811.3332473452
+  },
+  "payback": {
+    "net_L1_kg_s": 0.8629051219448167,
+    "annual_L1_kg_at50pct": 13606287.962825868,
+    "imported_L1_investment_kg": 1768045.0637763431,
+    "annual_multiple_local_build": 7.695668080860103,
+    "all_import_L1_investment_kg": 3984782.1024485026,
+    "annual_multiple_all_import": 3.4145626066894104,
+    "operating_hours_local_build": 569.1513659344922
+  }
+}
