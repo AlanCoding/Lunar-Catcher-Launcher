@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "carrier_contacts": [
+    {
+      "arc_m": 5195.523128132708,
+      "normal_force_N": -839.0170416844826,
+      "cross_stress_30deg_0p5m_MPa": 21.684079024606117
+    },
+    {
+      "arc_m": 3767.948372249167,
+      "normal_force_N": -873.3368287566115,
+      "cross_stress_30deg_0p5m_MPa": 16.260123333722362
+    },
+    {
+      "arc_m": 2340.373616365624,
+      "normal_force_N": -895.4468599808587,
+      "cross_stress_30deg_0p5m_MPa": 13.309366372432178
+    },
+    {
+      "arc_m": 912.7988604820833,
+      "normal_force_N": -906.8285412546946,
+      "cross_stress_30deg_0p5m_MPa": 11.92399773983628
+    }
+  ],
+  "moving_contact_friction_W_at_mu_0p1_both_sides": 5904.463693433486,
+  "gross_contact_max_N_m": 114.21269298932133,
+  "tip_x_m": 5786.469026879507,
+  "tip_y_m": -84.09485490151158,
+  "tip_radius_m": 5787.08007061046,
+  "max_cross_track_m": 84.09485490151158,
+  "chord_angle_deg": -0.8438182513546965,
+  "max_departure_from_chord_m": 0.2127985003462669,
+  "root_tension_N": 8297414.544189054,
+  "root_tangential_force_N": -120925.18283042006,
+  "guide_max_axial_stress_GPa": 1.3893257921372069,
+  "tangent_angle_range_deg": [
+    -0.8751495499486467,
+    -0.8196275885493434
+  ],
+  "minimum_effective_tension_N": 4.9033179477557605,
+  "bvp_residual": 9.666261593024694e-07,
+  "force_integral_error": 8.153707487599792e-06,
+  "torque_integral_error": 5.901688198257884e-05
+}

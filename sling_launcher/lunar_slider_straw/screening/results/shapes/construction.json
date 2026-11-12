@@ -1,0 +1,167 @@
+{
+  "opening_sensitivity": [
+    {
+      "transition_length_m": 1.0,
+      "midspan_guide_tension_N": 427811.9378246496,
+      "total_normal_on_one_payload_N": 382646.629824732,
+      "friction_W_per_payload_mu_0p1": 65878.68277270117
+    },
+    {
+      "transition_length_m": 10.0,
+      "midspan_guide_tension_N": 427811.9378246496,
+      "total_normal_on_one_payload_N": 42727.817350223195,
+      "friction_W_per_payload_mu_0p1": 7356.271048498688
+    },
+    {
+      "transition_length_m": 100.0,
+      "midspan_guide_tension_N": 427811.9378246496,
+      "total_normal_on_one_payload_N": 4278.065902756932,
+      "friction_W_per_payload_mu_0p1": 736.536858086336
+    }
+  ],
+  "payload_kg": 1000,
+  "guide_kg_per_side": 2999.999999751114,
+  "tether_and_straw_total_kg": 101999.99999153787,
+  "delivered_kg_s": 1.2060023518577843,
+  "assumed_flat_face_width_m": 1.5,
+  "equivalent_fiber_wall_range_mm": [
+    0.06704388351840239,
+    0.1558781507701123
+  ],
+  "axial_profiles": [
+    {
+      "length_fraction": 0,
+      "radius_m": 76.78937039996255,
+      "axial_force_N": 649698.7651405497,
+      "axial_stress_GPa": 1.3893304095340462,
+      "equivalent_fiber_wall_mm": 0.1558781507701123,
+      "transverse_30deg_MPa": 12.859883749362474,
+      "transverse_5deg_MPa": 73.77530925641736
+    },
+    {
+      "length_fraction": 0.25,
+      "radius_m": 1504.3641262835038,
+      "axial_force_N": 586667.5077519463,
+      "axial_stress_GPa": 1.3279648858957056,
+      "equivalent_fiber_wall_mm": 0.14725979428696567,
+      "transverse_30deg_MPa": 13.612506439218018,
+      "transverse_5deg_MPa": 78.09299771921098
+    },
+    {
+      "length_fraction": 0.5,
+      "radius_m": 2931.938882167045,
+      "axial_force_N": 427811.9378246496,
+      "axial_stress_GPa": 1.1359315284317868,
+      "equivalent_fiber_wall_mm": 0.12553923868259514,
+      "transverse_30deg_MPa": 15.967715903053001,
+      "transverse_5deg_MPa": 91.60449672997618
+    },
+    {
+      "length_fraction": 0.75,
+      "radius_m": 4359.513638050586,
+      "axial_force_N": 215989.38918412564,
+      "axial_stress_GPa": 0.7454868946867239,
+      "equivalent_fiber_wall_mm": 0.09657643021562477,
+      "transverse_30deg_MPa": 20.756357358556908,
+      "transverse_5deg_MPa": 119.07624617836568
+    },
+    {
+      "length_fraction": 0.9,
+      "radius_m": 5216.058491580711,
+      "axial_force_N": 84111.78262110884,
+      "axial_stress_GPa": 0.35695970027689594,
+      "equivalent_fiber_wall_mm": 0.07854461120388173,
+      "transverse_30deg_MPa": 25.52148221557653,
+      "transverse_5deg_MPa": 146.41308427299404
+    },
+    {
+      "length_fraction": 0.99,
+      "radius_m": 5729.985403698785,
+      "axial_force_N": 8193.196910473445,
+      "axial_stress_GPa": 0.04006601097032156,
+      "equivalent_fiber_wall_mm": 0.06816415137627471,
+      "transverse_30deg_MPa": 29.408051849772686,
+      "transverse_5deg_MPa": 168.70977701904135
+    },
+    {
+      "length_fraction": 1,
+      "radius_m": 5787.088393934127,
+      "axial_force_N": 0.0,
+      "axial_stress_GPa": 0.0,
+      "equivalent_fiber_wall_mm": 0.06704388351840239,
+      "transverse_30deg_MPa": 29.8994448526989,
+      "transverse_5deg_MPa": 171.52882822229336
+    }
+  ],
+  "spool_forces": [
+    {
+      "deployed_fraction": 0.25,
+      "deployed_mass_kg": 506.7843017038367,
+      "empty_hold_N": 32092.733255717947,
+      "loaded_hold_N": 159555.55613640512,
+      "outward_friction_N_mu_0p1": 151.0230993924811,
+      "return_friction_N_mu_0p1": 50.79435449401907,
+      "one_second_speed_ramp_force_N": 2594.1680203560286,
+      "generalized_mass_feed_correction_N": 0.6226219659423281
+    },
+    {
+      "deployed_fraction": 0.5,
+      "deployed_mass_kg": 1198.413736945309,
+      "empty_hold_N": 137899.933970854,
+      "loaded_hold_N": 386319.31589131214,
+      "outward_friction_N_mu_0p1": 220.344249621566,
+      "return_friction_N_mu_0p1": 120.11550472310397,
+      "one_second_speed_ramp_force_N": 3784.917725414334,
+      "generalized_mass_feed_correction_N": 0.8093433088896131
+    },
+    {
+      "deployed_fraction": 0.75,
+      "deployed_mass_kg": 2050.923284285206,
+      "empty_hold_N": 338594.88443026185,
+      "loaded_hold_N": 707970.8253904909,
+      "outward_friction_N_mu_0p1": 305.7902115653999,
+      "return_friction_N_mu_0p1": 205.56146666693786,
+      "one_second_speed_ramp_force_N": 5252.648045047065,
+      "generalized_mass_feed_correction_N": 0.9493743185423686
+    },
+    {
+      "deployed_fraction": 1.0,
+      "deployed_mass_kg": 2999.999999751114,
+      "empty_hold_N": 649698.7651405497,
+      "loaded_hold_N": 1140031.2651405497,
+      "outward_friction_N_mu_0p1": 400.9149795689026,
+      "return_friction_N_mu_0p1": 300.68623467044057,
+      "one_second_speed_ramp_force_N": 6886.634051764916,
+      "generalized_mass_feed_correction_N": 1.004936302400625
+    }
+  ],
+  "thermal": {
+    "total_sliding_heat_W": 4976.806167266141,
+    "two_faces_both_straws_m2": 34261.79414120499,
+    "mean_W_m2": 0.14525818895399814,
+    "ideal_cold_sky_area_at_300K_m2": 13.544531389729144,
+    "incremental_temperature_at_300K_if_uniform_K": 0.029649347901719626,
+    "assumed_emissivity": 0.8
+  },
+  "packaging": [
+    {
+      "bulk_density_kg_m3": 1000,
+      "cubic_payload_side_m": 1.0,
+      "clear_square_side_m": 1.3,
+      "round_bore_for_square_envelope_m": 1.8384776310850237
+    },
+    {
+      "bulk_density_kg_m3": 2000,
+      "cubic_payload_side_m": 0.7937005259840998,
+      "clear_square_side_m": 1.0937005259840997,
+      "round_bore_for_square_envelope_m": 1.5467261170213016
+    },
+    {
+      "bulk_density_kg_m3": 3000,
+      "cubic_payload_side_m": 0.6933612743506347,
+      "clear_square_side_m": 0.9933612743506346,
+      "round_bore_for_square_envelope_m": 1.4048249865228886
+    }
+  ],
+  "sheet_model": "Two 1.5 m faces; transverse membrane strip carried at edge angle alpha; footprint length 0.5 m. Edge support is assumed, not designed."
+}

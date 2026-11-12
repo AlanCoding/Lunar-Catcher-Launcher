@@ -1,0 +1,66 @@
+{
+  "method": "Exact copies of original figures; four reference rows selected from source CSV",
+  "assets": [
+    {
+      "asset": "single_pair_power.png",
+      "source": "sling_launcher/staged_spool_bank/results/single_pair_power.png",
+      "sha256": "05ad82516d3bfeadb47c8575c2e70d288dd61d815b1a8db75fd0bfc2b84c0d7b"
+    },
+    {
+      "asset": "single_pair_power.svg",
+      "source": "sling_launcher/staged_spool_bank/results/single_pair_power.svg",
+      "sha256": "27097f0e565c8e3a752e692643f228bdb1a5d44e8ea24581319d1d0f993c6827"
+    },
+    {
+      "asset": "bank_reference_sequence.png",
+      "source": "sling_launcher/staged_spool_bank/results/bank_reference_sequence.png",
+      "sha256": "580c9ac71d00b21eee6c827eb651d0a5b46a08a1686f74ec523c28b37fa6a3b7"
+    },
+    {
+      "asset": "bank_reference_sequence.svg",
+      "source": "sling_launcher/staged_spool_bank/results/bank_reference_sequence.svg",
+      "sha256": "9a11d32a7dc21e99e39c3093996ce7034cc1fc3d9c6022e965893938917a3be3"
+    },
+    {
+      "asset": "bank_4_reference.png",
+      "source": "sling_launcher/staged_spool_bank/results/bank_4_reference.png",
+      "sha256": "6ea417da7afaf3c87fefbc36153deb913d5679f8ada51311424c17e1cf2779a5"
+    },
+    {
+      "asset": "bank_4_reference.svg",
+      "source": "sling_launcher/staged_spool_bank/results/bank_4_reference.svg",
+      "sha256": "dc07cca29dd89d364175022beee51c7a5a11020cd9c8975f6010d91d4fd20a28"
+    },
+    {
+      "asset": "bank_8_reference.png",
+      "source": "sling_launcher/staged_spool_bank/results/bank_8_reference.png",
+      "sha256": "b6c37e8c2c2a1f4b0e00405b5175f6a62afa5e64d59cab54188c27e673027514"
+    },
+    {
+      "asset": "bank_8_reference.svg",
+      "source": "sling_launcher/staged_spool_bank/results/bank_8_reference.svg",
+      "sha256": "74112cedf32b014576200775e62dadc3769fbe2147edac0fc9d29d83b82bab54"
+    },
+    {
+      "asset": "bank_16_reference.png",
+      "source": "sling_launcher/staged_spool_bank/results/bank_16_reference.png",
+      "sha256": "ce6e61658802ef189ae683a0bfad2eedcb61af7ed8c286dc08dc2e60c066bdda"
+    },
+    {
+      "asset": "bank_16_reference.svg",
+      "source": "sling_launcher/staged_spool_bank/results/bank_16_reference.svg",
+      "sha256": "158fc4bd37fa40f27d581bc3ea1bcf93f3b490677b3b634e614aa3171961255c"
+    },
+    {
+      "asset": "bank_32_reference.png",
+      "source": "sling_launcher/staged_spool_bank/results/bank_32_reference.png",
+      "sha256": "b62265b31d89127b529ec8f7e8d9c74c5863fa93a0dacc0fa11a68eb93cc0703"
+    },
+    {
+      "asset": "bank_32_reference.svg",
+      "source": "sling_launcher/staged_spool_bank/results/bank_32_reference.svg",
+      "sha256": "a61021b443f72e028b5bfb1e375f1057e181e1d3cc5fcfe135f32bfb97ff1a98"
+    }
+  ],
+  "source_table_sha256": "73fc019bee0ee12979166a3b77e50493e575fef6d7dc6ed79e3af05ca56f3903"
+}

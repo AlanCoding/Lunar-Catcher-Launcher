@@ -1,0 +1,358 @@
+[
+  {
+    "success": true,
+    "carrier_contacts": [
+      {
+        "arc_m": 5195.523128132708,
+        "normal_force_N": -837.89665300269,
+        "cross_stress_30deg_0p5m_MPa": 21.655122561260562
+      },
+      {
+        "arc_m": 3767.948372249167,
+        "normal_force_N": -873.1822432966778,
+        "cross_stress_30deg_0p5m_MPa": 16.257245413024652
+      },
+      {
+        "arc_m": 2340.373616365624,
+        "normal_force_N": -895.3711925663146,
+        "cross_stress_30deg_0p5m_MPa": 13.308242176444717
+      },
+      {
+        "arc_m": 912.7988604820833,
+        "normal_force_N": -906.77664118493,
+        "cross_stress_30deg_0p5m_MPa": 11.923315875708296
+      }
+    ],
+    "moving_contact_friction_W_at_mu_0p1_both_sides": 5848.86818599559,
+    "gross_contact_max_N_m": 57.52445260759168,
+    "tip_x_m": 5786.468824307679,
+    "tip_y_m": -84.10876263203289,
+    "tip_radius_m": 5787.080070176685,
+    "max_cross_track_m": 84.10876263203289,
+    "chord_angle_deg": -0.8439578130106522,
+    "max_departure_from_chord_m": 0.20838635640878067,
+    "root_tension_N": 8296662.474273015,
+    "root_tangential_force_N": -120928.62933493723,
+    "guide_max_axial_stress_GPa": 1.3893257656419835,
+    "tangent_angle_range_deg": [
+      -0.8744037956494726,
+      -0.8197860942079377
+    ],
+    "minimum_effective_tension_N": 49.033179473881816,
+    "bvp_residual": 9.612956116254225e-07,
+    "force_integral_error": 7.719505514252633e-06,
+    "torque_integral_error": 1.9800859900464026e-05,
+    "name": "reference_after_release",
+    "B": 8,
+    "K": 4,
+    "line_speed_m_s": 1.721658513048353,
+    "time_s": 6634.486234646569,
+    "fully_extended": 7,
+    "held_payloads": 0,
+    "idle_engaged": true
+  },
+  {
+    "success": true,
+    "carrier_contacts": [
+      {
+        "arc_m": 5192.079811106611,
+        "normal_force_N": -955.8849132649144,
+        "cross_stress_30deg_0p5m_MPa": 24.68190029502574
+      },
+      {
+        "arc_m": 3764.50505522307,
+        "normal_force_N": -901.7492461338375,
+        "cross_stress_30deg_0p5m_MPa": 16.777924720049082
+      },
+      {
+        "arc_m": 2336.9302993395277,
+        "normal_force_N": -888.1336255647407,
+        "cross_stress_30deg_0p5m_MPa": 13.195135899319093
+      },
+      {
+        "arc_m": 909.3555434559865,
+        "normal_force_N": -885.9881914330714,
+        "cross_stress_30deg_0p5m_MPa": 11.647969433540448
+      }
+    ],
+    "moving_contact_friction_W_at_mu_0p1_both_sides": 4500.528278853171,
+    "gross_contact_max_N_m": 59.92891188491386,
+    "tip_x_m": 5786.163830705659,
+    "tip_y_m": -102.7516221751599,
+    "tip_radius_m": 5787.076098655176,
+    "max_cross_track_m": 102.7516221751599,
+    "chord_angle_deg": -1.0310409386657715,
+    "max_departure_from_chord_m": 0.18690355129140812,
+    "root_tension_N": 12219475.022381812,
+    "root_tangential_force_N": -220428.6608469796,
+    "guide_max_axial_stress_GPa": 1.3893235478884296,
+    "tangent_angle_range_deg": [
+      -1.0361027104817806,
+      -1.0173606775089703
+    ],
+    "minimum_effective_tension_N": 3922700.6990414932,
+    "bvp_residual": 1.090324240133156e-08,
+    "force_integral_error": 7.255095496623493e-07,
+    "torque_integral_error": 1.0306052289906345e-05,
+    "name": "reference_before_release",
+    "B": 8,
+    "K": 4,
+    "line_speed_m_s": 1.721658513048353,
+    "time_s": 6632.486234646569,
+    "fully_extended": 8,
+    "held_payloads": 8,
+    "idle_engaged": true
+  },
+  {
+    "success": true,
+    "carrier_contacts": [
+      {
+        "arc_m": 5193.801469619659,
+        "normal_force_N": -950.5338436261733,
+        "cross_stress_30deg_0p5m_MPa": 24.554954431926106
+      },
+      {
+        "arc_m": 3766.226713736118,
+        "normal_force_N": -919.5643902166283,
+        "cross_stress_30deg_0p5m_MPa": 17.115097499959322
+      },
+      {
+        "arc_m": 2338.6519578525767,
+        "normal_force_N": -921.630960834188,
+        "cross_stress_30deg_0p5m_MPa": 13.695680104345705
+      },
+      {
+        "arc_m": 911.077201969035,
+        "normal_force_N": -925.9768639664227,
+        "cross_stress_30deg_0p5m_MPa": 12.174738146882085
+      }
+    ],
+    "moving_contact_friction_W_at_mu_0p1_both_sides": 5765.523471309305,
+    "gross_contact_max_N_m": 58.710522842640316,
+    "tip_x_m": 5786.689343706887,
+    "tip_y_m": -67.50593582492313,
+    "tip_radius_m": 5787.083083207155,
+    "max_cross_track_m": 67.50593582492313,
+    "chord_angle_deg": -0.6773542516715195,
+    "max_departure_from_chord_m": 0.0961210608757952,
+    "root_tension_N": 10257498.053681025,
+    "root_tangential_force_N": -120728.26923878756,
+    "guide_max_axial_stress_GPa": 1.3893274033381051,
+    "tangent_angle_range_deg": [
+      -0.6836669444558882,
+      -0.6651050576125641
+    ],
+    "minimum_effective_tension_N": 1961377.2333209452,
+    "bvp_residual": 1.4889240821212892e-08,
+    "force_integral_error": 6.244075046857875e-06,
+    "torque_integral_error": 1.617454625423697e-05,
+    "name": "reference_midwindow",
+    "B": 8,
+    "K": 4,
+    "line_speed_m_s": 1.721658513048353,
+    "time_s": 3316.7431173232844,
+    "fully_extended": 7,
+    "held_payloads": 4,
+    "idle_engaged": true
+  },
+  {
+    "success": true,
+    "carrier_contacts": [
+      {
+        "arc_m": 3651.1954419283334,
+        "normal_force_N": -4136.9111713611255,
+        "cross_stress_30deg_0p5m_MPa": 75.32567152526802
+      }
+    ],
+    "moving_contact_friction_W_at_mu_0p1_both_sides": 31258.022700340218,
+    "gross_contact_max_N_m": 255.42217262064895,
+    "tip_x_m": 5786.990804444792,
+    "tip_y_m": 33.67192702746813,
+    "tip_radius_m": 5787.08876460335,
+    "max_cross_track_m": 33.67192702746813,
+    "chord_angle_deg": 0.3378579491317533,
+    "max_departure_from_chord_m": 0.9371826410275368,
+    "root_tension_N": 10296599.446196249,
+    "root_tangential_force_N": 58490.414394262145,
+    "guide_max_axial_stress_GPa": 1.3893299299472335,
+    "tangent_angle_range_deg": [
+      0.31613889196167344,
+      0.3646833530761413
+    ],
+    "minimum_effective_tension_N": 49.03325314063193,
+    "bvp_residual": 2.4839936778818177e-06,
+    "force_integral_error": 4.3571933483595773e-07,
+    "torque_integral_error": 0.0002378615716594868,
+    "name": "fast_two_in_transit",
+    "B": 8,
+    "K": 1,
+    "line_speed_m_s": 6.886634052193412,
+    "time_s": 6634.486234646569,
+    "fully_extended": 13,
+    "held_payloads": 0,
+    "idle_engaged": true
+  },
+  {
+    "success": true,
+    "carrier_contacts": [
+      {
+        "arc_m": 2106.8677557239603,
+        "normal_force_N": -7397.636611647402,
+        "cross_stress_30deg_0p5m_MPa": 107.01733856034095
+      }
+    ],
+    "moving_contact_friction_W_at_mu_0p1_both_sides": 81134.28917562509,
+    "gross_contact_max_N_m": 465.26082574017937,
+    "tip_x_m": 5781.858748777237,
+    "tip_y_m": 244.31270040644787,
+    "tip_radius_m": 5787.018168832008,
+    "max_cross_track_m": 244.31270040644787,
+    "chord_angle_deg": 2.452124271677708,
+    "max_departure_from_chord_m": 1.3409466032520214,
+    "root_tension_N": 9998988.838355679,
+    "root_tangential_force_N": 420170.91139906866,
+    "guide_max_axial_stress_GPa": 1.3892918965604548,
+    "tangent_angle_range_deg": [
+      2.4083545724871387,
+      2.474678298580831
+    ],
+    "minimum_effective_tension_N": 49.032654991808634,
+    "bvp_residual": 1.946287007828188e-06,
+    "force_integral_error": 8.799639382274047e-07,
+    "torque_integral_error": 6.869671268440046e-05,
+    "name": "larger_batch_fast",
+    "B": 14,
+    "K": 1,
+    "line_speed_m_s": 12.05160959133847,
+    "time_s": 6634.486234646569,
+    "fully_extended": 13,
+    "held_payloads": 0,
+    "idle_engaged": true
+  },
+  {
+    "success": true,
+    "carrier_contacts": [
+      {
+        "arc_m": 5195.523128132708,
+        "normal_force_N": -605.8229819304163,
+        "cross_stress_30deg_0p5m_MPa": 15.657266176106077
+      },
+      {
+        "arc_m": 3767.948372249167,
+        "normal_force_N": -689.0740844325157,
+        "cross_stress_30deg_0p5m_MPa": 12.829448359004784
+      },
+      {
+        "arc_m": 2340.373616365624,
+        "normal_force_N": -753.9057238951375,
+        "cross_stress_30deg_0p5m_MPa": 11.205587174462575
+      },
+      {
+        "arc_m": 912.7988604820833,
+        "normal_force_N": -788.2523121305821,
+        "cross_stress_30deg_0p5m_MPa": 10.364825118354117
+      }
+    ],
+    "moving_contact_friction_W_at_mu_0p1_both_sides": 6134.126994982525,
+    "gross_contact_max_N_m": 47.20815293128048,
+    "tip_x_m": 5784.0434190859305,
+    "tip_y_m": -186.42934703201624,
+    "tip_radius_m": 5787.047103256206,
+    "max_cross_track_m": 186.42934703201624,
+    "chord_angle_deg": -1.8709203974887803,
+    "max_departure_from_chord_m": 0.714391412065936,
+    "root_tension_N": 3748732.1879684557,
+    "root_tangential_force_N": -120927.70020413017,
+    "guide_max_axial_stress_GPa": 1.3893077627417567,
+    "tangent_angle_range_deg": [
+      -1.9292743808372448,
+      -1.7876398344543005
+    ],
+    "minimum_effective_tension_N": 49.032900149437204,
+    "bvp_residual": 9.46930496845943e-06,
+    "force_integral_error": 1.7043949714825164e-05,
+    "torque_integral_error": 7.105965741842874e-05,
+    "name": "idle_cables_disengaged",
+    "B": 8,
+    "K": 4,
+    "line_speed_m_s": 1.721658513048353,
+    "time_s": 6634.486234646569,
+    "fully_extended": 7,
+    "held_payloads": 0,
+    "idle_engaged": false
+  },
+  {
+    "success": true,
+    "carrier_contacts": [
+      {
+        "arc_m": 5660.299023534165,
+        "normal_force_N": -2042.2527623157384,
+        "cross_stress_30deg_0p5m_MPa": 60.04470846096323
+      }
+    ],
+    "moving_contact_friction_W_at_mu_0p1_both_sides": 79928.22862126054,
+    "gross_contact_max_N_m": 80.88008795134164,
+    "tip_x_m": 5750.976395457834,
+    "tip_y_m": -641.0603675783346,
+    "tip_radius_m": 5786.5955358909305,
+    "max_cross_track_m": 641.0603675783346,
+    "chord_angle_deg": -6.445850982655285,
+    "max_departure_from_chord_m": 4.3828095331862755,
+    "root_tension_N": 10291385.391677374,
+    "root_tangential_force_N": -1132045.159547289,
+    "guide_max_axial_stress_GPa": 1.38906370958306,
+    "tangent_angle_range_deg": [
+      -6.997373517345483,
+      -6.315275051823748
+    ],
+    "minimum_effective_tension_N": 48.20889580038293,
+    "bvp_residual": 6.270190353021865e-06,
+    "force_integral_error": 8.557782238684058e-07,
+    "torque_integral_error": 8.341339490861213e-06,
+    "name": "fast_near_tip",
+    "B": 14,
+    "K": 1,
+    "line_speed_m_s": 12.05160959133847,
+    "time_s": 295.8511765900602,
+    "fully_extended": 13,
+    "held_payloads": 0,
+    "idle_engaged": true
+  },
+  {
+    "success": true,
+    "carrier_contacts": [
+      {
+        "arc_m": 5660.299023534165,
+        "normal_force_N": -190.76291370561972,
+        "cross_stress_30deg_0p5m_MPa": 5.608661058012051
+      }
+    ],
+    "moving_contact_friction_W_at_mu_0p1_both_sides": 65255.93237197005,
+    "gross_contact_max_N_m": 10.804245697480262,
+    "tip_x_m": 4563.295830277018,
+    "tip_y_m": -3532.4895306068993,
+    "tip_radius_m": 5770.801601031781,
+    "max_cross_track_m": 3532.4895306068993,
+    "chord_angle_deg": -38.21543186524683,
+    "max_departure_from_chord_m": 7.425985041377544,
+    "root_tension_N": 1836381.7892668592,
+    "root_tangential_force_N": -1126263.646453876,
+    "guide_max_axial_stress_GPa": 1.380391321056689,
+    "tangent_angle_range_deg": [
+      -38.55235713102834,
+      -37.74378551256075
+    ],
+    "minimum_effective_tension_N": 48.075075837089656,
+    "bvp_residual": 1.795989508761543e-05,
+    "force_integral_error": 4.6425895163777715e-06,
+    "torque_integral_error": 7.288693463766734e-06,
+    "name": "fast_near_tip_idle_disengaged",
+    "B": 14,
+    "K": 1,
+    "line_speed_m_s": 12.05160959133847,
+    "time_s": 295.8511765900602,
+    "fully_extended": 13,
+    "held_payloads": 0,
+    "idle_engaged": false
+  }
+]

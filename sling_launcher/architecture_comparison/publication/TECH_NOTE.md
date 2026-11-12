@@ -64,6 +64,17 @@ smaller batches at the same flow. Consequently, the stated crossover belongs to
 the declared feed and cycle assumptions. Scaling throughput scales both tether
 masses proportionally in this model.
 
+## The shape behind the stress calculation
+
+The conveyor curves use solved two-dimensional loop shapes. The 5 m/s reference
+remains slender: a 597 m transverse span over a 5.87 km radial reach. Stopping
+feed while retaining rotation, tether hardware and onboard payload gives a
+278 m span, with almost unchanged peak stress: **2.900000 GPa moving versus
+2.900122 GPa stopped**. Centrifugal loading dominates peak tension while the
+transverse force balance changes the shape.
+
+[Shape figure, stress profiles and comparison table](SHAPES_AND_STRESS.md)
+
 ## Interpretation
 
 These are steady/quasi-static **tether-material requirements**. Whole-machine

@@ -1,0 +1,50 @@
+[
+  {
+    "feed_m_s": 2,
+    "tether_mass_kg": 3278.0467293804986,
+    "area_mm2": 179.10331617370713,
+    "moving_peak_GPa": 2.900000001706282,
+    "stopped_peak_GPa": 2.900032306756592,
+    "moving_stress_increment_percent": -0.0011139548423244605,
+    "moving_width_m": 406.4506266281409,
+    "stopped_width_m": 277.6048154847046,
+    "moving_tip_radius_m": 5883.193700511273,
+    "stopped_tip_radius_m": 5890.373715393503,
+    "moving_payload_kg": 430.4572984521238,
+    "stopped_payload_kg": 430.4572984521238,
+    "moving_force_residual": 7.404323376647426e-09,
+    "stopped_force_residual": 7.411766755893723e-09
+  },
+  {
+    "feed_m_s": 5,
+    "tether_mass_kg": 1307.602230350101,
+    "area_mm2": 71.46155787959343,
+    "moving_peak_GPa": 2.9000000016345555,
+    "stopped_peak_GPa": 2.900121877996072,
+    "moving_stress_increment_percent": -0.004202456539537103,
+    "moving_width_m": 596.6163538688486,
+    "stopped_width_m": 278.01783562219833,
+    "moving_tip_radius_m": 5871.032179579507,
+    "stopped_tip_radius_m": 5888.907501855769,
+    "moving_payload_kg": 172.14724953550828,
+    "stopped_payload_kg": 172.14724953550825,
+    "moving_force_residual": 7.41319716723865e-09,
+    "stopped_force_residual": 7.438273774695858e-09
+  },
+  {
+    "feed_m_s": 10,
+    "tether_mass_kg": 648.4479834039109,
+    "area_mm2": 35.46443931892327,
+    "moving_peak_GPa": 2.9000000049085113,
+    "stopped_peak_GPa": 2.9003890339707823,
+    "moving_stress_increment_percent": -0.013412995902084557,
+    "moving_width_m": 909.885304668953,
+    "stopped_width_m": 279.24120004873083,
+    "moving_tip_radius_m": 5849.053838068803,
+    "stopped_tip_radius_m": 5884.563692846767,
+    "moving_payload_kg": 86.01540086520419,
+    "stopped_payload_kg": 86.01540086520424,
+    "moving_force_residual": 7.4130115379489325e-09,
+    "stopped_force_residual": 7.485356334768767e-09
+  }
+]

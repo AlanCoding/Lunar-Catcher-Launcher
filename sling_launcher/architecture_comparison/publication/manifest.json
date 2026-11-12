@@ -10,5 +10,21 @@
   "mass_table.csv": {
     "source": "../results/frontier_matrix.json",
     "missing_conveyor_mass": "No finite solution in the modeled family"
+  },
+  "conveyor_shape_and_stress.png": {
+    "generator": "../shape_comparison.py",
+    "sha256": "03cca73a798f68f8e4adab86610ebcdad80f30d64ffad759948671a11b4e449d"
+  },
+  "conveyor_shape_and_stress.svg": {
+    "generator": "../shape_comparison.py",
+    "sha256": "7f5f1f59dbb98b31ae3973507d8ef7c2aa11265735f25b2e124923943bca9115"
+  },
+  "shape_comparison.csv": {
+    "generator": "../shape_comparison.py",
+    "sha256": "16eb1b7d485b5261ac5794d9295587e31d1e632f60f95615c7ebaeeddb2b9869"
+  },
+  "shape_comparison.json": {
+    "generator": "../shape_comparison.py",
+    "sha256": "884ea6eac11ec5f9dd87811e2fd69c9b4c07b6b07884c8a2a4f5f5a87b3a2401"
   }
 }

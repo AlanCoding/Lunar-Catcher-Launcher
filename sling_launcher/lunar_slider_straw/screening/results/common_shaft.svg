@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="none" stroke="#4a5e53" stroke-width="1.5"/></marker></defs>
+<rect width="1120" height="520" fill="white"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#303730">
+<text x="560" y="34" text-anchor="middle" font-size="23">Constant line speed, shared mechanical power</text>
+<text x="560" y="62" text-anchor="middle" font-size="14">16 tethers per side · reference: 4 paying out, 4 returning, others held or reloading</text>
+<rect x="45" y="100" width="300" height="90" rx="12" fill="#f1e5dc" stroke="#a2673d"/>
+<text x="195" y="130" text-anchor="middle" font-size="18">Payout traction drives</text>
+<text x="195" y="156" text-anchor="middle" font-size="15">Loaded lines move outward at +u</text>
+<text x="195" y="178" text-anchor="middle" font-size="14">1.547 MW generated, both sides</text>
+<rect x="775" y="100" width="300" height="90" rx="12" fill="#e3ecf0" stroke="#476d86"/>
+<text x="925" y="130" text-anchor="middle" font-size="18">Return traction drives</text>
+<text x="925" y="156" text-anchor="middle" font-size="15">Empty lines move inward at −u</text>
+<text x="925" y="178" text-anchor="middle" font-size="14">0.691 MW demanded, both sides</text>
+<path d="M195 190 V257 H925 V190" stroke="#4a5e53" fill="none" stroke-width="5" marker-end="url(#a)"/>
+<text x="560" y="238" text-anchor="middle" font-size="18">Common shaft · reversible gearing · clutches</text>
+<text x="195" y="220" text-anchor="end" font-size="13">Power in </text>
+<text x="925" y="220" text-anchor="start" font-size="13"> Power out</text>
+<path d="M560 260 V335" stroke="#4a5e53" fill="none" stroke-width="3" marker-end="url(#a)"/>
+<rect x="360" y="340" width="400" height="67" rx="10" fill="#e9eee7" stroke="#607765"/>
+<text x="560" y="367" text-anchor="middle" font-size="17">Surplus / deficit to rotational drive or buffer</text>
+<text x="560" y="390" text-anchor="middle" font-size="14">Reference mean surplus: 0.855 MW before losses</text>
+<text x="560" y="447" text-anchor="middle" font-size="15">Storage reels change winding radius: gearing or fixed-radius traction stages enforce ±u.</text>
+<text x="560" y="474" text-anchor="middle" font-size="15">Held reels disengage and hold. Real engagement and end-of-stroke transfer require finite ramps.</text>
+<text x="560" y="501" text-anchor="middle" font-size="13">Conceptual power paths; clutch, grip, contact pressure and hardware mass remain to be designed.</text>
+</g></svg>

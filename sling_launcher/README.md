@@ -7,20 +7,20 @@ The original LLO catcher notebook and sensitivity calculations belong to the
 
 ## Work items and results
 
-- **[Sag, taper and support height](sag_taper_trade/README.md):** planned steady force-balance study of how distributed weight, rotational tension and taper shape the cable. Terrain envelopes from site selection will support comparisons of tether mass, stress and required pole height.
+- **[Industrial scale: 10 Mt/year from one site](industrial_scale/README.md):** recover both launch directions, nighttime operation and additional catcher windows, then size payloads, cable inventory and the single-site architecture. Initial paired-hold schedules close the flow budget; industrial hardware and orbital interfaces remain open.
 
-- **[Lunar Slider Straw](lunar_slider_straw/README.md):** a new tensile-guide concept
-  coupling outgoing and returning tapered spools through sliding contact. Planned
-  work covers transverse-load exchange, friction, guide mass and phased dynamics.
+- **[Sag, taper and support height](sag_taper_trade/README.md):** the [P1 technical note](sag_taper_trade/publication/README.md) solves fixed-speed Kevlar shapes from 100 g to terrain contact near 10.57 g, with full-circle terrain maxima and equator markers. Material sensitivity and support optimization remain follow-on work.
+
+- **[Lunar Slider Straw](lunar_slider_straw/README.md):** accepted rigid paired-drum design with 48 tethers, a stationary rim drive and a cycle-buffer battery. The consolidated reference gives the paired-hold schedule, complete mass budget, thermal requirements and first-year L1 mass payoff.
 
 - **[Spooled tether in 2D](spooled_tether_2d/README.md):** how does a massive elastic
   tether curve, carry stress and sweep sideways during extension, release and
   retraction? This shared investigation applies to all spooled designs; shape
   snapshots and angular envelopes are the primary outputs.
 - **[Staged multi-tether bank](staged_spool_bank/README.md):** can many tapered
-  tethers prepare independently and wait for a grouped release? Initial signed
-  power curves show smoothing for staggered cycles and larger swings in a first
-  common-release schedule; cable dynamics are now studied separately above.
+  tethers prepare independently and wait for a grouped release? A 4 → 8 → 16 → 32 sequence
+  splits fixed delivery into smaller payloads, smoothing power on two-window spool cycles, with
+  common releases and continuous full-extension support.
 - **[Conveyor versus tapered spool](architecture_comparison/README.md):** how much
   tether material delivers a fixed mass flow at a given working stress? Results
   show the conveyor self-stress floor and mass crossovers versus feed/cycle time.
