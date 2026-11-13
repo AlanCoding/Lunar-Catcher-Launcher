@@ -25,20 +25,6 @@ the constant-speed straw and rigid paired-drum choices. They establish the power
 smoothing opportunity; later mechanism and control choices determine how much
 of it a particular machine realizes.
 
-### Start with one payload–countermass pair
-
-![One pair over two cycles](power_smoothing/single_pair_power.png)
-
-[Single-pair SVG](power_smoothing/single_pair_power.svg) · [PNG](power_smoothing/single_pair_power.png)
-
-Positive power supplies work and negative power is available for recovery.
-During extension the hub supplies angular momentum while outward payout
-regenerates through the spools. During empty retraction the spool pulls inward
-while the hub can recover rotational energy. The tapered cable's own mass is
-included in both terms. The graph shows a 1 t payload with a 1 t opposing mass,
-3 t of cable per arm, and two complete cycles. Its illustrative travel phases
-last 0.4T each; the bank comparison below uses 0.5T each.
-
 ### Subdivide the workload: 4 → 8 → 16 → 32
 
 ![Original power-smoothing sequence](power_smoothing/bank_reference_sequence.png)

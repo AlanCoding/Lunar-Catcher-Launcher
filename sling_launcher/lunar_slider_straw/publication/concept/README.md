@@ -2,16 +2,18 @@
 
 [Publication packets](../README.md) · [Engineering packet](../engineering/README.md)
 
-**Reading order:** go-kart control problems and angular-deviation graphs → straw
+**Reading order:** free-tether control and single-pair power problems → straw
 preparation and release illustrations → multi-tether load smoothing and comparison table.
 
-## Problems with the go-kart's free tethers
+## Two problems with the single-pair go-kart architecture
 
 The [go-kart launcher](../../../publication/README.md) uses independently spooled
-payload and countermass cables. Its operating cycle leaves two important control
-questions: how to settle the distant payload for accurate release, and how to
-recover the empty cable as its deployed length shrinks. These are the starting
-point for the shared straw proposal.
+payload and countermass cables. Two problems motivate the next architecture:
+**controlling the free tethers through release and return**, and **handling the
+uneven power demand of one pair**. Shared guidance addresses the first;
+phased multi-tether preparation addresses the second.
+
+### Problem 1: controlling the free tethers
 
 The angular-deviation figures below examine that free-tether mechanism using the
 follow-on **3 t tapered cable, 1 t payload, 1.72 m/s constant cruise and 2.78 rpm**
@@ -24,7 +26,7 @@ Loaded payout averages about **8.8° of lag**, reaches **13.3°**, and approache
 **one kilometer of sideways tip displacement** in this run. The important
 questions are the terminal state after payout and the growing motion on return.
 
-### 1. Reaching full extension and settling for release
+#### Settling the loaded payload for release
 
 ![Loaded extension angle](../../guide_comparison/constant_speed/extension_angles.png)
 
@@ -41,7 +43,7 @@ settle the payload: the subsequent loaded hold still oscillates through about
 The distant payload still has a restoring response through the tether, but
 adequate damping and terminal control have not been demonstrated.
 
-### 2. Retrieving the empty cable
+#### Retrieving the empty cable
 
 ![Empty return angle](../../guide_comparison/constant_speed/retraction_angles.png)
 
@@ -65,6 +67,26 @@ These two requirements—settling the loaded terminal state and controlling empt
 recovery—are the principal motivation for shared guidance in the concept post.
 They are unresolved control problems for the free-cable alternative. A matched
 dynamic straw simulation must still show how much the shared guide improves them.
+
+### Problem 2: uneven power demand from one payload–countermass pair
+
+A single pair alternates between large demands and regenerative intervals.
+The hub and spool drives must handle these peaks even though average useful
+launch power is much lower. This motivates overlapping the preparation of
+multiple smaller payloads.
+
+![One pair over two cycles](power_smoothing/single_pair_power.png)
+
+[Single-pair SVG](power_smoothing/single_pair_power.svg) · [PNG](power_smoothing/single_pair_power.png)
+
+Positive power supplies work and negative power is available for recovery.
+During extension the hub supplies angular momentum while outward payout
+regenerates through the spools. During empty retraction the spool pulls inward
+while the hub can recover rotational energy. The tapered cable's own mass is
+included in both terms. The graph shows a 1 t payload with a 1 t opposing mass,
+3 t of cable per arm, and two complete cycles. Its illustrative travel phases
+last 0.4T each; the later bank comparison uses 0.5T each. Its 3:1 taper is a follow-on
+illustration of the single-pair power problem, rather than the frozen go-kart BOM.
 
 ## Publication illustrations
 
@@ -151,20 +173,6 @@ from the [staged-bank study](../../../staged_spool_bank/README.md). They precede
 the constant-speed straw and rigid paired-drum choices. They establish the power-
 smoothing opportunity; later mechanism and control choices determine how much
 of it a particular machine realizes.
-
-### Start with one payload–countermass pair
-
-![One pair over two cycles](power_smoothing/single_pair_power.png)
-
-[Single-pair SVG](power_smoothing/single_pair_power.svg) · [PNG](power_smoothing/single_pair_power.png)
-
-Positive power supplies work and negative power is available for recovery.
-During extension the hub supplies angular momentum while outward payout
-regenerates through the spools. During empty retraction the spool pulls inward
-while the hub can recover rotational energy. The tapered cable's own mass is
-included in both terms. The graph shows a 1 t payload with a 1 t opposing mass,
-3 t of cable per arm, and two complete cycles. Its illustrative travel phases
-last 0.4T each; the bank comparison below uses 0.5T each.
 
 ### Subdivide the workload: 4 → 8 → 16 → 32
 
