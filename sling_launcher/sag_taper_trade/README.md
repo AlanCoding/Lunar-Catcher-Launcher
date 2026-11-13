@@ -1,5 +1,7 @@
 # Tether sag, taper and support-height tradeoffs
 
+**Published article:** [Lunar Hill for Slings to Orbit](https://alanse.medium.com/lunar-hill-for-slings-to-orbit-d8c9f6502357?sharedUserId=alanse).
+
 **Status: initial steady P1 technical note completed.** This sling-design investigation asks how distributed tether weight, rotational tension and taper determine vertical drop—and how that shape fits above real terrain. It applies to the go-kart launcher and other tapered, spooled architectures.
 
 - **[P1 publication note and figures](publication/README.md):** a fixed-speed Kevlar taper sweep from 100 g to terrain contact near 10.57 g, using the full-circle terrain envelope. Includes six panels, individual figures, numerical tables and reproducible source data.

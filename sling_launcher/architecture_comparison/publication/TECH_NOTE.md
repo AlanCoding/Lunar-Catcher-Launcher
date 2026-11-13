@@ -1,5 +1,7 @@
 # How much tether does a lunar launcher need?
 
+**Published article:** [Lunar Sling vs Conveyor Designs](https://alanse.medium.com/lunar-sling-vs-conveyor-designs-c53bc074d3d9?sharedUserId=alanse).
+
 A tapered sling carries one payload outward on a cable, releases it, and reels
 back the cable. A conveyor circulates a uniform tether loop, carrying payloads
 on its outbound strand and returning the unloaded strand. At a given mass flow
