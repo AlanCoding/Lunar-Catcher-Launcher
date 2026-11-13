@@ -5,6 +5,11 @@ This surface sling-launcher study supports
 The original LLO catcher notebook and sensitivity calculations belong to the
 [earlier post](../llo_catcher/README.md#published-post-original-notebook-and-plots).
 
+## Recent publications
+
+- [Lunar Sling vs Conveyor Designs](https://alanse.medium.com/lunar-sling-vs-conveyor-designs-c53bc074d3d9?sharedUserId=alanse) — matched-throughput tether mass, conveyor shapes and stress.
+- [Lunar Hill for Slings to Orbit](https://alanse.medium.com/lunar-hill-for-slings-to-orbit-d8c9f6502357?sharedUserId=alanse) — P1 terrain clearance, Kevlar taper and sag across release accelerations.
+
 ## Work items and results
 
 - **[Industrial scale: 10 Mt/year from one site](industrial_scale/README.md):** recover both launch directions, nighttime operation and additional catcher windows, then size payloads, cable inventory and the single-site architecture. Initial paired-hold schedules close the flow budget; industrial hardware and orbital interfaces remain open.

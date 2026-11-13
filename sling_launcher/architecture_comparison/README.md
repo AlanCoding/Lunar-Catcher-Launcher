@@ -1,5 +1,7 @@
 # Conveyor versus tapered spool: matched-throughput tether comparison
 
+**Published article:** [Lunar Sling vs Conveyor Designs](https://alanse.medium.com/lunar-sling-vs-conveyor-designs-c53bc074d3d9?sharedUserId=alanse).
+
 **2026-11-07 — steady/quasi-static material comparison, per useful-payload arm.**
 [Launcher guide](../README.md) · [Conveyor calculations](../conveyor_loop/steady/README.md) ·
 [Published spool design](../publication/README.md)

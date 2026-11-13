@@ -6,6 +6,8 @@ def main():
  d=json.loads((P/'results.json').read_text());rows=d['cases'];last=rows[-2];s=d['site']
  text=f'''# P1: how tether length and sag fit above a lunar hill
 
+**Published article:** [Lunar Hill for Slings to Orbit](https://alanse.medium.com/lunar-hill-for-slings-to-orbit-d8c9f6502357?sharedUserId=alanse).
+
 [Launcher topics](../../README.md) · [Sag/taper investigation](../README.md) · [Paired-drum straw reference](../../lunar_slider_straw/README.md)
 
 ## Problem and result

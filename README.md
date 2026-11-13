@@ -4,6 +4,11 @@ Calculations, illustrations and research plans for lunar launchers and orbital
 catchers. Published posts are collected in
 [Lunar Mass Launchers on Medium](https://alanse.medium.com/list/lunar-mass-launchers-9a765f4e596a).
 
+## Recent publications
+
+- [Lunar Sling vs Conveyor Designs](https://alanse.medium.com/lunar-sling-vs-conveyor-designs-c53bc074d3d9?sharedUserId=alanse) — matched-throughput tether mass, conveyor shapes and stress.
+- [Lunar Hill for Slings to Orbit](https://alanse.medium.com/lunar-hill-for-slings-to-orbit-d8c9f6502357?sharedUserId=alanse) — P1 terrain clearance, Kevlar taper and sag across release accelerations.
+
 ## Topics
 
 - **[Sling launchers](sling_launcher/README.md):** original wheeled-spool design,

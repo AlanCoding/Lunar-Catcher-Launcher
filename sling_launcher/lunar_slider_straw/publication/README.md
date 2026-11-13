@@ -1,8 +1,9 @@
 # Slider straw publication packets
 
-[Design overview](../README.md) · [Publication queue](../../architecture_comparison/publication/README.md)
+[Design overview](../README.md) · [Published conveyor comparison](../../architecture_comparison/publication/README.md)
 
-The conveyor-versus-tapered-tether technical note remains the first queued item.
+The conveyor comparison is published as [Lunar Sling vs Conveyor Designs](https://alanse.medium.com/lunar-sling-vs-conveyor-designs-c53bc074d3d9?sharedUserId=alanse).
+The P1 terrain/tether note is published as [Lunar Hill for Slings to Orbit](https://alanse.medium.com/lunar-hill-for-slings-to-orbit-d8c9f6502357?sharedUserId=alanse).
 The straw material is staged in two packets so the basic architecture can be
 introduced before its engineering budget.
 
