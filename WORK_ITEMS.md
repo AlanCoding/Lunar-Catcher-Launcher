@@ -19,6 +19,7 @@ from tested operating limits and new results.
 
 | Work item | Home | Sequence / dependency |
 | --- | --- | --- |
+| [Sling mill](sling_launcher/sling_mill/README.md) | Sling launcher / staged flexible-drum architecture | Initial 10 Mt/year discrete-contact model, exact SVG geometry, conditional structural inventory and drive/storage screens. Next: coupled rotating-belt contact shape and torque-member curvature, then payload/contact qualification and hardware optimization. |
 | [Tether sag and taper tradeoffs](sling_launcher/sag_taper_trade/README.md) | Sling launcher / steady shape and sizing | Planned: taper families, distributed-weight force balance, stress and terrain-coupled support-height/mass comparisons. |
 | [Global hill-first site search](llo_catcher/site_selection/global_hills/README.md) | LLO catcher / site selection | Global hill-first search complete; default plots/tables now use non-overlapping sweeps prioritized by reference-arm equatorial alignment. Return-impact runs are historical checks, not selection criteria. |
 | [Industrial single-site scale-up](sling_launcher/industrial_scale/README.md) | Sling launcher / industrial architecture | Initial 10 Mt/year flow and paired-hold inventory study; recover both directions, night operation and two catcher windows. Single-site layout, orbital cadence, hardware and continuous-power sizing are next. |

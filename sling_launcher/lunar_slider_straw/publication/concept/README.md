@@ -1,5 +1,7 @@
 # Packet 1: from the go-kart's control problems to the slider straw
 
+**Published concept article:** [Slider Straw: A Lunar Sling Concept](https://alanse.medium.com/slider-straw-a-lunar-sling-concept-f7e454117258).
+
 [Publication packets](../README.md) · [Engineering packet](../engineering/README.md)
 
 **Reading order:** free-tether control and single-pair power problems → straw

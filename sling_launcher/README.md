@@ -7,10 +7,13 @@ The original LLO catcher notebook and sensitivity calculations belong to the
 
 ## Recent publications
 
+- [Slider Straw: A Lunar Sling Concept](https://alanse.medium.com/slider-straw-a-lunar-sling-concept-f7e454117258) — free-tether control problems, the shared straw, batched release and multi-tether power smoothing.
 - [Lunar Sling vs Conveyor Designs](https://alanse.medium.com/lunar-sling-vs-conveyor-designs-c53bc074d3d9?sharedUserId=alanse) — matched-throughput tether mass, conveyor shapes and stress.
 - [Lunar Hill for Slings to Orbit](https://alanse.medium.com/lunar-hill-for-slings-to-orbit-d8c9f6502357?sharedUserId=alanse) — P1 terrain clearance, Kevlar taper and sag across release accelerations.
 
 ## Work items and results
+
+- **[Sling mill](sling_mill/README.md):** a straight, staged launcher with opposed flexible-belt drums and deliberately sliding manufactured rods. The first 10 Mt/year model closes discrete contact and energy budgets, illustrates the drum/payload scale, and exposes flexible-contact and drive-storage constraints.
 
 - **[Industrial scale: 10 Mt/year from one site](industrial_scale/README.md):** recover both launch directions, nighttime operation and additional catcher windows, then size payloads, cable inventory and the single-site architecture. Initial paired-hold schedules close the flow budget; industrial hardware and orbital interfaces remain open.
 

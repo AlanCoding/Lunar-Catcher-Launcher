@@ -6,6 +6,7 @@ catchers. Published posts are collected in
 
 ## Recent publications
 
+- [Slider Straw: A Lunar Sling Concept](https://alanse.medium.com/slider-straw-a-lunar-sling-concept-f7e454117258) — free-tether control problems, the shared straw, batched release and multi-tether power smoothing.
 - [Lunar Sling vs Conveyor Designs](https://alanse.medium.com/lunar-sling-vs-conveyor-designs-c53bc074d3d9?sharedUserId=alanse) — matched-throughput tether mass, conveyor shapes and stress.
 - [Lunar Hill for Slings to Orbit](https://alanse.medium.com/lunar-hill-for-slings-to-orbit-d8c9f6502357?sharedUserId=alanse) — P1 terrain clearance, Kevlar taper and sag across release accelerations.
 
@@ -13,7 +14,9 @@ catchers. Published posts are collected in
 
 - **[Sling launchers](sling_launcher/README.md):** original wheeled-spool design,
   conveyor loops, matched-flow material comparisons, staged spool banks, and
-  shared tether-dynamics investigations. The topic guide links published results
+  shared tether-dynamics investigations. The new [sling mill](sling_launcher/sling_mill/README.md)
+  studies a staged flexible-drum mass driver at 10 million tonnes/year.
+  The topic guide links published results
   and new work separately.
 - **[Low lunar orbit catchers and launch sites](llo_catcher/README.md):** original
   mass-driver/catcher calculations and the terrain, hilltop and ridge studies for

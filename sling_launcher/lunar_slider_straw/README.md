@@ -1,5 +1,7 @@
 # Lunar Slider Straw: accepted paired-drum reference
 
+**Published concept article:** [Slider Straw: A Lunar Sling Concept](https://alanse.medium.com/slider-straw-a-lunar-sling-concept-f7e454117258).
+
 [Launcher topics](../README.md) · [Detailed design, mass and first-year payoff](RING_REFERENCE.md)
 
 The launcher uses rigid twin-drum modules connecting oppositely phased payload

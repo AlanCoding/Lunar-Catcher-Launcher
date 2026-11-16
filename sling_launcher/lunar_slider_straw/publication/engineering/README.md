@@ -2,7 +2,7 @@
 
 [Publication packets](../README.md) · [Concept prerequisite](../concept/README.md)
 
-This packet follows the conceptual introduction. Its reference is the early-site
+This upcoming engineering packet follows [Slider Straw: A Lunar Sling Concept](https://alanse.medium.com/slider-straw-a-lunar-sling-concept-f7e454117258). Its reference is the early-site
 P1 machine, with 24 rigid modules, 48 tethers and eight one-tonne useful loads per
 catcher orbit. The engineering argument should show how the mechanism leads to
 schedule, power, heat, material and mass requirements.
