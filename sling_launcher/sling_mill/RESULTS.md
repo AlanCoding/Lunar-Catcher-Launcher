@@ -1,5 +1,7 @@
 # Sling mill: first engineering results
 
+**Historical development study.** The [current publication packet](publication/README.md) uses the selected thinner-plate iron case with full-sun solar. Values below retain this study’s original assumptions.
+
 [Overview](README.md) · [Model and assumptions](MODEL.md) · [Figures](publication/README.md)
 
 The reference reaches the requested flow in the prescribed-motion calculation. Flexible-belt contact and rotating-member dynamics remain open feasibility gates. The mass figures below are conditional diagnostic inventories.

@@ -1,5 +1,7 @@
 # Drum spacing: an independent design variable
 
+**Historical development study.** The [current publication packet](publication/README.md) uses the selected thinner-plate iron case with full-sun solar. Values below retain this study’s original assumptions.
+
 [Sling mill overview](README.md) · [Model](MODEL.md) · [CSV](results/pitch_sweep.csv)
 
 Station pitch is independent of drum radius. Increasing it beyond 2R creates a physical gap while reducing the number of pairs. The original handoff example has 200 mm drums on 200 mm pitch; that remains the numerical validation case. The **system-pattern drawing now uses 300 mm pitch, giving a 100 mm clear gap**, with the same drums and rods. Its full parameter file is [config_spaced.json](config_spaced.json).

@@ -1,0 +1,91 @@
+# Complete input classification
+
+[Optimizer design](README.md) · [Machine-readable register](variables.json)
+
+Every key in the baseline and new contact assumptions is classified below. Mission requirements and uncertain material properties stay fixed within a solve; sensitivity studies vary them between solves. Exploration bounds appear in the JSON.
+
+| Input | Classification | Reference |
+|---|---|---|
+| `annual_mass_kg` | mission_fixed | 10000000000 |
+| `operating_days` | mission_fixed | 365 |
+| `v_entry` | independent_design | 100.0 |
+| `v_exit` | mission_fixed | 1600.0 |
+| `acceleration` | independent_design | 9806.65 |
+| `radius` | independent_design | 0.1 |
+| `hub_ratio` | independent_design | 0.25 |
+| `pitch` | derived_or_superseded | 0.2 |
+| `payload_length` | independent_design | 1.0 |
+| `payload_width` | independent_design | 0.06 |
+| `payload_depth` | independent_design | 0.04 |
+| `payload_density` | assumption_or_requirement | 3000.0 |
+| `payload_modulus` | assumption_or_requirement | 70000000000 |
+| `payload_allowable` | assumption_or_requirement | 100000000 |
+| `payload_heat_capacity` | assumption_or_requirement | 800 |
+| `mu` | assumption_or_requirement | 0.5 |
+| `contact_patch` | derived_or_superseded | 0.02 |
+| `belt_width` | derived_or_superseded | 0.06 |
+| `material` | categorical_design | Zylon HM |
+| `strength_safety_factor` | assumption_or_requirement | 2.0 |
+| `joint_efficiency` | assumption_or_requirement | 0.8 |
+| `environment_factor` | assumption_or_requirement | 0.8 |
+| `attachments` | independent_design | 64 |
+| `torque_members_effective` | independent_design | 8 |
+| `belt_deflection_fraction` | independent_design | 0.005 |
+| `minimum_belt_thickness` | assumption_or_requirement | 0.0002 |
+| `dynamic_factor` | assumption_or_requirement | 1.25 |
+| `slip_margin` | independent_design | 0.0 |
+| `speed_droop` | independent_design | 0.0 |
+| `storage_design_droop` | independent_design | 0.01 |
+| `motor_efficiency` | assumption_or_requirement | 0.95 |
+| `radiator_temperature` | independent_design | 400.0 |
+| `radiator_sink_temperature` | assumption_or_requirement | 250.0 |
+| `emissivity` | assumption_or_requirement | 0.85 |
+| `radiator_kg_m2` | assumption_or_requirement | 5.0 |
+| `heat_to_belt_fraction` | assumption_or_requirement | 0.5 |
+| `hub_density` | assumption_or_requirement | 7800 |
+| `hub_shear_allowable` | assumption_or_requirement | 100000000 |
+| `hub_wall_min` | assumption_or_requirement | 0.002 |
+| `motor_kg_per_kw` | assumption_or_requirement | 2.0 |
+| `bearing_kg_per_kn` | assumption_or_requirement | 0.5 |
+| `frame_allowable` | assumption_or_requirement | 100000000 |
+| `frame_density` | assumption_or_requirement | 7800 |
+| `frame_buckling_allowance` | assumption_or_requirement | 4.0 |
+| `startup_support_kg_per_drum` | assumption_or_requirement | 2.0 |
+| `foundation_kg_per_pair` | assumption_or_requirement | 200.0 |
+| `guide_kg_per_m` | assumption_or_requirement | 20.0 |
+| `contact_modulus` | derived_or_superseded | 1000000000 |
+| `normal_mismatch_fraction` | assumption_or_requirement | 0.01 |
+| `traction_mismatch_fraction` | assumption_or_requirement | 0.01 |
+| `misalignment_radians` | assumption_or_requirement | 0.001 |
+| `integration_steps_per_pitch` | numerical | 30 |
+| `motor_supply_mode` | categorical_design | contact_following |
+| `coating_thickness_m` | independent_design | 0.0005 |
+| `coating_density_kg_m3` | assumption_or_requirement | 1400 |
+| `coating_modulus_Pa` | assumption_or_requirement | 1000000000 |
+| `backing_compliance_m_Pa` | assumption_or_requirement | 1e-12 |
+| `bond_tensile_allowable_Pa` | assumption_or_requirement | 5000000 |
+| `bond_shear_allowable_Pa` | assumption_or_requirement | 20000000 |
+| `coating_cyclic_strain_allowable` | assumption_or_requirement | 0.005 |
+| `coating_compressive_allowable_Pa` | assumption_or_requirement | 100000000 |
+| `coating_conductivity_W_m_K` | assumption_or_requirement | 1.0 |
+| `coating_heat_capacity_J_kg_K` | assumption_or_requirement | 1000 |
+| `coating_temperature_limit_K` | assumption_or_requirement | 450 |
+| `belt_bulk_temperature_K` | assumption_or_requirement | 350 |
+| `wear_coefficient` | assumption_or_requirement | 1e-06 |
+| `wear_hardness_Pa` | assumption_or_requirement | 100000000 |
+| `replacement_interval_hours` | assumption_or_requirement | 1000 |
+| `gap_setting_tolerance_m` | assumption_or_requirement | 1e-05 |
+| `allowable_traction_error_fraction` | assumption_or_requirement | 0.1 |
+| `maximum_total_interference_fraction` | assumption_or_requirement | 0.05 |
+| `minimum_drum_clearance_m` | assumption_or_requirement | 0.02 |
+| `maximum_belt_thickness_radius_ratio` | assumption_or_requirement | 0.05 |
+| `maximum_rpm` | assumption_or_requirement | 200000 |
+| `maximum_launch_frequency_Hz` | assumption_or_requirement | 100 |
+| `maximum_corridor_length_m` | assumption_or_requirement | 10000 |
+| `maximum_station_count` | assumption_or_requirement | 10000 |
+| `successful_delivery_fraction` | mission_fixed | 1.0 |
+| `power_system_specific_mass_kg_W` | assumption_or_requirement | None |
+| `injector_and_processing_mass_kg` | assumption_or_requirement | None |
+| `wear_stock_hours` | assumption_or_requirement | 24 |
+| `pitch_over_radius` | independent_design | 3.0 |
+| `belt_width_over_payload_width` | independent_design | 1.0 |

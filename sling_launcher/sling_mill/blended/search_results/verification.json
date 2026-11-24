@@ -1,0 +1,54 @@
+{
+  "resolution": [
+    {
+      "points": 161,
+      "payback_h": 1.4583218998100562,
+      "mass_kg": 1664751.0271804293,
+      "max_residual": 1.8692136727338493e-10
+    },
+    {
+      "points": 321,
+      "payback_h": 1.4582978452871418,
+      "mass_kg": 1664723.5676793857,
+      "max_residual": 1.8692136727338493e-10
+    },
+    {
+      "points": 641,
+      "payback_h": 1.4582918226397792,
+      "mass_kg": 1664716.6925111637,
+      "max_residual": 1.8692136727338493e-10
+    },
+    {
+      "points": 1281,
+      "payback_h": 1.4582903126757962,
+      "mass_kg": 1664714.9688079865,
+      "max_residual": 8.925876123291876e-08
+    }
+  ],
+  "nearby_starts": [
+    {
+      "start": 0,
+      "payback_h": 1.4582913652508707,
+      "max_residual": 1.5481426928615205e-06,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "start": 1,
+      "payback_h": 1.4602772438933769,
+      "max_residual": 1.9610446599926945e-10,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "start": 2,
+      "payback_h": 1.4584009208021245,
+      "max_residual": 4.4170629614863344e-07,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "start": 3,
+      "payback_h": 1.4582926036166113,
+      "max_residual": 1.149654703337319e-06,
+      "message": "Optimization terminated successfully"
+    }
+  ]
+}

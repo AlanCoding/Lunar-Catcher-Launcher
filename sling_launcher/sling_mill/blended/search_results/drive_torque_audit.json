@@ -1,0 +1,86 @@
+{
+  "parameters": {
+    "roller_radius_m": 0.38637764702321753,
+    "hub_radius_m": 0.043117705560845876,
+    "torque_members_effective": 8,
+    "attachments": 128
+  },
+  "stages": [
+    {
+      "payload_speed_m_s": 100.0,
+      "rim_speed_m_s": 100.27570040151203,
+      "lower_drum_normal_force_N": 52.246764683731485,
+      "lower_drum_forward_traction_N": 26.123382341865742,
+      "lower_drum_contact_torque_Nm": 10.093491001537956,
+      "lower_drum_peak_mechanical_W": 2619.5404611870786,
+      "lower_drum_instant_payload_power_W": 2612.338234186574,
+      "lower_drum_instant_slip_heat_W": 7.202227000504553,
+      "torque_member_tension_at_rim_N": 29.261445125177318,
+      "torque_member_inward_component_N": 29.078672335553108,
+      "torque_member_tangential_component_N": 3.265422792733218,
+      "shaft_torsional_shear_MPa": 0.46328507633190735,
+      "hub_rotational_stress_benchmark_MPa": 0.976727260747326
+    },
+    {
+      "payload_speed_m_s": 400.0,
+      "rim_speed_m_s": 401.0980499886747,
+      "lower_drum_normal_force_N": 799.3760747457602,
+      "lower_drum_forward_traction_N": 399.6880373728801,
+      "lower_drum_contact_torque_Nm": 154.43052342346124,
+      "lower_drum_peak_mechanical_W": 160314.09239406275,
+      "lower_drum_instant_payload_power_W": 159875.21494915205,
+      "lower_drum_instant_slip_heat_W": 438.8774449106994,
+      "torque_member_tension_at_rim_N": 447.7004324984763,
+      "torque_member_inward_component_N": 444.90400680542996,
+      "torque_member_tangential_component_N": 49.96100467161001,
+      "shaft_torsional_shear_MPa": 7.088266767297182,
+      "hub_rotational_stress_benchmark_MPa": 15.627265912226258
+    },
+    {
+      "payload_speed_m_s": 800.0,
+      "rim_speed_m_s": 802.1791975612925,
+      "lower_drum_normal_force_N": 3148.501400858501,
+      "lower_drum_forward_traction_N": 1574.2507004292504,
+      "lower_drum_contact_torque_Nm": 608.2552814565058,
+      "lower_drum_peak_mechanical_W": 1262831.1636306387,
+      "lower_drum_instant_payload_power_W": 1259400.5603434003,
+      "lower_drum_instant_slip_heat_W": 3430.6032872384953,
+      "torque_member_tension_at_rim_N": 1763.3570523545188,
+      "torque_member_inward_component_N": 1752.342774481925,
+      "torque_member_tangential_component_N": 196.7813375536563,
+      "shaft_torsional_shear_MPa": 18.67218911460158,
+      "hub_rotational_stress_benchmark_MPa": 62.506429522236374
+    },
+    {
+      "payload_speed_m_s": 1200.0,
+      "rim_speed_m_s": 1203.2392461948475,
+      "lower_drum_normal_force_N": 6969.098844949831,
+      "lower_drum_forward_traction_N": 3484.5494224749154,
+      "lower_drum_contact_torque_Nm": 1346.3520067919694,
+      "lower_drum_peak_mechanical_W": 4192746.6204274087,
+      "lower_drum_instant_payload_power_W": 4181459.3069698988,
+      "lower_drum_instant_slip_heat_W": 11287.31345750996,
+      "torque_member_tension_at_rim_N": 3903.129785315381,
+      "torque_member_inward_component_N": 3878.750062575248,
+      "torque_member_tangential_component_N": 435.56867780936443,
+      "shaft_torsional_shear_MPa": 18.672151575678708,
+      "hub_rotational_stress_benchmark_MPa": 140.6325587982383
+    },
+    {
+      "payload_speed_m_s": 1600.0,
+      "rim_speed_m_s": 1604.2758795152738,
+      "lower_drum_normal_force_N": 12169.102033672632,
+      "lower_drum_forward_traction_N": 6084.551016836316,
+      "lower_drum_contact_torque_Nm": 2350.9345050779416,
+      "lower_drum_peak_mechanical_W": 9761298.433990635,
+      "lower_drum_instant_payload_power_W": 9735281.626938106,
+      "lower_drum_instant_slip_heat_W": 26016.807052528777,
+      "torque_member_tension_at_rim_N": 6815.455723172707,
+      "torque_member_inward_component_N": 6772.885035028096,
+      "torque_member_tangential_component_N": 760.5688771045395,
+      "shaft_torsional_shear_MPa": 18.672189114601604,
+      "hub_rotational_stress_benchmark_MPa": 250.0000000280867
+    }
+  ],
+  "scope": "Peak loaded contact for the lower drum. Motor mean rating is lower when occupancy is below one; rotor storage supplies the difference. Eight-way peak sharing is assumed rather than solved."
+}

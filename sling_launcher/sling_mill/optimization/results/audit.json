@@ -1,0 +1,51 @@
+{
+  "machine_mass_kg": 23482789.51874777,
+  "delivered_rate_kg_s": 317.09791983764586,
+  "gross_mass_payback_operating_hours": 20.57092361842305,
+  "replacement_adjusted_payback_calendar_hours": 20.570931236126945,
+  "complete_site_mass_kg": null,
+  "complete_site_payback_calendar_hours": null,
+  "mass_per_width_kg_m": 391379825.3124628,
+  "delivery_per_width_kg_s_m": 5284.965330627431,
+  "contact": {
+    "coating_mass_kg": 23.064316625594824,
+    "coating_bending_strain": 0.0025,
+    "wear_mass_rate_kg_s": 0.0001174258001902037,
+    "minimum_wear_life_hours": 2.216431591290341,
+    "minimum_required_gap_m": 0.039769962123576086,
+    "maximum_required_gap_m": 0.039810105407524124,
+    "maximum_peel_Pa": 17920000.0,
+    "maximum_pressure_Pa": 76679292.14130442,
+    "maximum_flash_rise_K": 9617.357791121614,
+    "thermal_halfspace_applicable": true
+  },
+  "constraint_residuals": {
+    "entrance_occupancy": -0.44948277805964265,
+    "launch_frequency": -0.559586222447714,
+    "drum_clearance": -0.2666666666666666,
+    "station_count": -0.9563,
+    "corridor_length": -0.9868966182845315,
+    "rpm": -0.23605627315890232,
+    "thin_belt_model": 85.34014160530756,
+    "belt_strength": 2.220446049250313e-16,
+    "contact_compression": -0.23320707858695577,
+    "adhesive_load_envelope": 3.064465174171449,
+    "coating_bending": -0.5,
+    "total_interference": -0.8849810617880434,
+    "gap_tolerance": -0.19977826079856564,
+    "thermal_flash_screen": 21.149683980270254,
+    "wear_service_interval": 450.17566629603465,
+    "payload_axial": -0.7058005,
+    "payload_buckling": -0.971255952774694,
+    "contact_patch_closure": 10.284620662854055,
+    "inward_only_support": -0.10169049878631643
+  },
+  "all_screen_constraints_pass": false,
+  "solver_ready": false,
+  "closure_tasks": [
+    "Recompute finite contact engagement and slip with the pressure-derived, time-varying patch.",
+    "Resolve contact-loaded belt and curved torque-member shapes.",
+    "Qualify coating/bond/thermal/wear properties and hardware allowances.",
+    "Choose site power, injector and processing mass boundary."
+  ]
+}

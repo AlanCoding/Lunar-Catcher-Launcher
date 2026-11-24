@@ -1,6 +1,17 @@
 # Sling mill: model, variables and engineering boundaries
 
+The [connected blended model](blended/README.md) is the current development
+path: tightness is independent and acceleration is derived. This document
+retains the original constant-acceleration/discrete-contact baseline.
+
 [Topic and results](README.md) · [Original handoff](BRIEF.md) · [Parameter file](config.json)
+
+The [optimizer development](optimization/README.md) extends this baseline with
+an optional bonded contact layer and a derived gap/pressure model. Coating mass
+enters the belt/cable force balance and rotor inertia when enabled; the original
+configuration retains zero coating. The new contact-law patch still requires
+feedback into the baseline engagement calculation, tracked as an explicit
+closure constraint.
 
 ## Design contract
 

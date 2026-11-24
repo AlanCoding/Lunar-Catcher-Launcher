@@ -377,6 +377,9 @@ requires a power supply beyond this daylight-only reference.
 
 ## Comparison with the published go-kart reference
 
+**Tapered-material clarification:** The 2.438 GPa value below is back-solved from the chosen 3:1 cable/payload mass ratio. It is a sizing assumption for this budget. The straw supports lower working stress through heavier, more strongly tapered cables; the complete drum/hardware budget would then need recalculation.
+
+
 Both references use a one-tonne payload, equal discarded countermass, approximately
 1.685 km/s release speed, 50 g acceleration and a 76.79 m outer drive radius.
 The [published go-kart checkpoint](../publication/README.md) remains frozen.

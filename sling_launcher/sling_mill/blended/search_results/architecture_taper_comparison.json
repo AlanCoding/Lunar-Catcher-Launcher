@@ -1,0 +1,28 @@
+{
+  "definition": "Root/loaded-tip material cross-sectional area ratio; constant-section loop=1. Mill reports largest stage cable ratio; its outer belt is constant-section.",
+  "sling_mill": {
+    "stress_GPa": 1.0,
+    "density_kg_m3": 1560.0,
+    "specific_stress_MJ_kg": 0.641025641025641,
+    "taper_area_ratio": 7.260777059665848,
+    "outer_belt_area_ratio": 1.0
+  },
+  "go_kart": {
+    "stress_GPa": 1.0,
+    "density_kg_m3": 1450.0,
+    "specific_stress_MJ_kg": 0.6896551724137931,
+    "taper_area_ratio": 7.821653548846962
+  },
+  "slider_straw": {
+    "stress_GPa": 2.4378684242210418,
+    "density_kg_m3": 1450.0,
+    "specific_stress_MJ_kg": 1.6812885684283045,
+    "taper_area_ratio": 2.325016729189419
+  },
+  "conveyor": {
+    "stress_GPa": 2.9,
+    "density_kg_m3": 1560.0,
+    "specific_stress_MJ_kg": 1.858974358974359,
+    "taper_area_ratio": 1.0
+  }
+}

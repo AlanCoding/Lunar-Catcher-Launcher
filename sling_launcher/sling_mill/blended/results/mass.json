@@ -1,0 +1,14 @@
+{
+  "structural_belts": 10616.86273020001,
+  "contact_layers": 2381.988433057694,
+  "radial_members": 4084.135877398978,
+  "torque_members": 446.6929911450028,
+  "hubs": 10510.694102898022,
+  "motors": 20701911.828654766,
+  "bearings": 10263.552016724034,
+  "frames": 11685.7728,
+  "foundations": 1805263.0167088094,
+  "startup_supports": 36105.260334176186,
+  "guides": 270789.45250632137,
+  "motor_radiators": 145436.9959605695
+}

@@ -1,0 +1,598 @@
+[
+  {
+    "name": "annual_mass_kg",
+    "source": "baseline",
+    "classification": "mission_fixed",
+    "reference": 10000000000
+  },
+  {
+    "name": "operating_days",
+    "source": "baseline",
+    "classification": "mission_fixed",
+    "reference": 365
+  },
+  {
+    "name": "v_entry",
+    "source": "baseline",
+    "classification": "independent_design",
+    "reference": 100.0,
+    "unit": "m/s",
+    "exploration_bounds": [
+      50.0,
+      500.0
+    ]
+  },
+  {
+    "name": "v_exit",
+    "source": "baseline",
+    "classification": "mission_fixed",
+    "reference": 1600.0
+  },
+  {
+    "name": "acceleration",
+    "source": "baseline",
+    "classification": "independent_design",
+    "reference": 9806.65,
+    "unit": "m/s\u00b2",
+    "exploration_bounds": [
+      980.665,
+      29419.95
+    ]
+  },
+  {
+    "name": "radius",
+    "source": "baseline",
+    "classification": "independent_design",
+    "reference": 0.1,
+    "unit": "m",
+    "exploration_bounds": [
+      0.1,
+      10.0
+    ]
+  },
+  {
+    "name": "hub_ratio",
+    "source": "baseline",
+    "classification": "independent_design",
+    "reference": 0.25,
+    "unit": "1",
+    "exploration_bounds": [
+      0.05,
+      0.6
+    ]
+  },
+  {
+    "name": "pitch",
+    "source": "baseline",
+    "classification": "derived_or_superseded",
+    "reference": 0.2,
+    "relationship": "radius \u00d7 pitch_over_radius"
+  },
+  {
+    "name": "payload_length",
+    "source": "baseline",
+    "classification": "independent_design",
+    "reference": 1.0,
+    "unit": "m",
+    "exploration_bounds": [
+      0.2,
+      10.0
+    ]
+  },
+  {
+    "name": "payload_width",
+    "source": "baseline",
+    "classification": "independent_design",
+    "reference": 0.06,
+    "unit": "m",
+    "exploration_bounds": [
+      0.02,
+      1.0
+    ]
+  },
+  {
+    "name": "payload_depth",
+    "source": "baseline",
+    "classification": "independent_design",
+    "reference": 0.04,
+    "unit": "m",
+    "exploration_bounds": [
+      0.01,
+      0.2
+    ]
+  },
+  {
+    "name": "payload_density",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 3000.0
+  },
+  {
+    "name": "payload_modulus",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 70000000000
+  },
+  {
+    "name": "payload_allowable",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 100000000
+  },
+  {
+    "name": "payload_heat_capacity",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 800
+  },
+  {
+    "name": "mu",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 0.5
+  },
+  {
+    "name": "contact_patch",
+    "source": "baseline",
+    "classification": "derived_or_superseded",
+    "reference": 0.02,
+    "relationship": "contact-pressure/gap solution; legacy prescribed value retained only for closure audit"
+  },
+  {
+    "name": "belt_width",
+    "source": "baseline",
+    "classification": "derived_or_superseded",
+    "reference": 0.06,
+    "relationship": "payload_width \u00d7 belt_width_over_payload_width"
+  },
+  {
+    "name": "material",
+    "source": "baseline",
+    "classification": "categorical_design",
+    "reference": "Zylon HM",
+    "choices": [
+      "Kevlar 49",
+      "Zylon AS",
+      "Zylon HM"
+    ]
+  },
+  {
+    "name": "strength_safety_factor",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 2.0
+  },
+  {
+    "name": "joint_efficiency",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 0.8
+  },
+  {
+    "name": "environment_factor",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 0.8
+  },
+  {
+    "name": "attachments",
+    "source": "baseline",
+    "classification": "independent_design",
+    "reference": 64,
+    "unit": "integer",
+    "exploration_bounds": [
+      16,
+      256
+    ]
+  },
+  {
+    "name": "torque_members_effective",
+    "source": "baseline",
+    "classification": "independent_design",
+    "reference": 8,
+    "unit": "integer",
+    "exploration_bounds": [
+      2,
+      256
+    ]
+  },
+  {
+    "name": "belt_deflection_fraction",
+    "source": "baseline",
+    "classification": "independent_design",
+    "reference": 0.005,
+    "unit": "1",
+    "exploration_bounds": [
+      0.002,
+      0.02
+    ]
+  },
+  {
+    "name": "minimum_belt_thickness",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 0.0002
+  },
+  {
+    "name": "dynamic_factor",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 1.25
+  },
+  {
+    "name": "slip_margin",
+    "source": "baseline",
+    "classification": "independent_design",
+    "reference": 0.0,
+    "unit": "m/s",
+    "exploration_bounds": [
+      0.0,
+      50.0
+    ]
+  },
+  {
+    "name": "speed_droop",
+    "source": "baseline",
+    "classification": "independent_design",
+    "reference": 0.0,
+    "unit": "1",
+    "exploration_bounds": [
+      0.0,
+      0.1
+    ]
+  },
+  {
+    "name": "storage_design_droop",
+    "source": "baseline",
+    "classification": "independent_design",
+    "reference": 0.01,
+    "unit": "1",
+    "exploration_bounds": [
+      0.005,
+      0.1
+    ]
+  },
+  {
+    "name": "motor_efficiency",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 0.95
+  },
+  {
+    "name": "radiator_temperature",
+    "source": "baseline",
+    "classification": "independent_design",
+    "reference": 400.0,
+    "unit": "K",
+    "exploration_bounds": [
+      300.0,
+      450.0
+    ]
+  },
+  {
+    "name": "radiator_sink_temperature",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 250.0
+  },
+  {
+    "name": "emissivity",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 0.85
+  },
+  {
+    "name": "radiator_kg_m2",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 5.0
+  },
+  {
+    "name": "heat_to_belt_fraction",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 0.5
+  },
+  {
+    "name": "hub_density",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 7800
+  },
+  {
+    "name": "hub_shear_allowable",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 100000000
+  },
+  {
+    "name": "hub_wall_min",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 0.002
+  },
+  {
+    "name": "motor_kg_per_kw",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 2.0
+  },
+  {
+    "name": "bearing_kg_per_kn",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 0.5
+  },
+  {
+    "name": "frame_allowable",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 100000000
+  },
+  {
+    "name": "frame_density",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 7800
+  },
+  {
+    "name": "frame_buckling_allowance",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 4.0
+  },
+  {
+    "name": "startup_support_kg_per_drum",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 2.0
+  },
+  {
+    "name": "foundation_kg_per_pair",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 200.0
+  },
+  {
+    "name": "guide_kg_per_m",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 20.0
+  },
+  {
+    "name": "contact_modulus",
+    "source": "baseline",
+    "classification": "derived_or_superseded",
+    "reference": 1000000000,
+    "relationship": "legacy unused value; replaced by coating modulus plus backing compliance"
+  },
+  {
+    "name": "normal_mismatch_fraction",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 0.01
+  },
+  {
+    "name": "traction_mismatch_fraction",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 0.01
+  },
+  {
+    "name": "misalignment_radians",
+    "source": "baseline",
+    "classification": "assumption_or_requirement",
+    "reference": 0.001
+  },
+  {
+    "name": "integration_steps_per_pitch",
+    "source": "baseline",
+    "classification": "numerical",
+    "reference": 30
+  },
+  {
+    "name": "motor_supply_mode",
+    "source": "baseline",
+    "classification": "categorical_design",
+    "reference": "contact_following",
+    "choices": [
+      "contact_following",
+      "constant_mean"
+    ]
+  },
+  {
+    "name": "coating_thickness_m",
+    "source": "contact_assumptions",
+    "classification": "independent_design",
+    "reference": 0.0005,
+    "unit": "m",
+    "exploration_bounds": [
+      5e-05,
+      0.002
+    ]
+  },
+  {
+    "name": "coating_density_kg_m3",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 1400
+  },
+  {
+    "name": "coating_modulus_Pa",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 1000000000
+  },
+  {
+    "name": "backing_compliance_m_Pa",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 1e-12
+  },
+  {
+    "name": "bond_tensile_allowable_Pa",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 5000000
+  },
+  {
+    "name": "bond_shear_allowable_Pa",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 20000000
+  },
+  {
+    "name": "coating_cyclic_strain_allowable",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 0.005
+  },
+  {
+    "name": "coating_compressive_allowable_Pa",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 100000000
+  },
+  {
+    "name": "coating_conductivity_W_m_K",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 1.0
+  },
+  {
+    "name": "coating_heat_capacity_J_kg_K",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 1000
+  },
+  {
+    "name": "coating_temperature_limit_K",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 450
+  },
+  {
+    "name": "belt_bulk_temperature_K",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 350
+  },
+  {
+    "name": "wear_coefficient",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 1e-06
+  },
+  {
+    "name": "wear_hardness_Pa",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 100000000
+  },
+  {
+    "name": "replacement_interval_hours",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 1000
+  },
+  {
+    "name": "gap_setting_tolerance_m",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 1e-05
+  },
+  {
+    "name": "allowable_traction_error_fraction",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 0.1
+  },
+  {
+    "name": "maximum_total_interference_fraction",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 0.05
+  },
+  {
+    "name": "minimum_drum_clearance_m",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 0.02
+  },
+  {
+    "name": "maximum_belt_thickness_radius_ratio",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 0.05
+  },
+  {
+    "name": "maximum_rpm",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 200000
+  },
+  {
+    "name": "maximum_launch_frequency_Hz",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 100
+  },
+  {
+    "name": "maximum_corridor_length_m",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 10000
+  },
+  {
+    "name": "maximum_station_count",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 10000
+  },
+  {
+    "name": "successful_delivery_fraction",
+    "source": "contact_assumptions",
+    "classification": "mission_fixed",
+    "reference": 1.0
+  },
+  {
+    "name": "power_system_specific_mass_kg_W",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": null
+  },
+  {
+    "name": "injector_and_processing_mass_kg",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": null
+  },
+  {
+    "name": "wear_stock_hours",
+    "source": "contact_assumptions",
+    "classification": "assumption_or_requirement",
+    "reference": 24
+  },
+  {
+    "name": "pitch_over_radius",
+    "source": "solver_parameterization",
+    "classification": "independent_design",
+    "reference": 3.0,
+    "unit": "1",
+    "exploration_bounds": [
+      2.2,
+      10.0
+    ]
+  },
+  {
+    "name": "belt_width_over_payload_width",
+    "source": "solver_parameterization",
+    "classification": "independent_design",
+    "reference": 1.0,
+    "unit": "1",
+    "exploration_bounds": [
+      1.0,
+      1.25
+    ]
+  }
+]

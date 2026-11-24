@@ -1,0 +1,17 @@
+{
+  "rim_speed_m_s": 1604.2758795152738,
+  "roller_radius_m": 0.38637764702321753,
+  "hub_radius_m": 0.043117705560845876,
+  "hoop_support_fraction": 0.18318683258150975,
+  "belt_stress_GPa": 0.9095169071147254,
+  "unsupported_ring_Zylon_only_GPa": 4.0149737122474285,
+  "unsupported_ring_with_coating_GPa": 4.964968793322151,
+  "uniform_radial_self_stress_GPa": 1.9824868561209055,
+  "implicit_taper_area_ratio": 7.260777059665848,
+  "radial_tip_load_N": 100997.32802215556,
+  "torque_tip_load_N": 6815.455723172707,
+  "tapered_radial_tip_area_mm2": 100.99732802215556,
+  "tapered_radial_root_area_mm2": 733.3190823908138,
+  "uniform_radial_area_at_2p9GPa_mm2": 110.07725469212951,
+  "uniform_last_radial_1GPa_feasible": false
+}

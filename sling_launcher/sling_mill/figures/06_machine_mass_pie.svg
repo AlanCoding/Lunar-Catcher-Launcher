@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="792pt" height="446.4pt" viewBox="0 0 792 446.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-24T12:18:41.643785</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 446.4
+L 792 446.4
+L 792 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 217.470315 374.926986
+C 237.330583 377.248411 257.459841 375.265939 276.485665 369.114738
+C 295.511489 362.963536 312.991427 352.786653 327.733689 339.277952
+C 342.47595 325.769252 354.137698 309.242884 361.92383 290.825625
+C 369.709961 272.408366 373.439405 252.528516 372.857888 232.541493
+C 372.276371 212.55447 367.397416 192.925079 358.553671 174.991662
+C 349.709927 157.058244 337.107059 141.237849 321.604336 128.609119
+C 306.101613 115.980388 288.059556 106.837007 268.708284 101.802377
+C 249.357011 96.767747 229.146542 95.958949 209.454837 99.431128
+L 233.64 236.592
+z
+" style="fill: #b59b59; stroke: #ffffff; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 171.365455 361.170923
+C 178.578778 364.776721 186.091663 367.74922 193.819382 370.054899
+C 201.547101 372.360578 209.460494 373.990735 217.470315 374.926986
+L 233.64 236.592
+z
+" style="fill: #49677e; stroke: #ffffff; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 141.195713 132.418679
+C 124.164573 147.532257 111.096807 166.594338 103.141034 187.929417
+C 95.185262 209.264497 92.581616 232.22861 95.558949 254.803274
+C 98.536283 277.377937 107.004731 298.881771 120.219938 317.424646
+C 133.435146 335.967521 150.998234 350.989751 171.365455 361.170923
+L 233.64 236.592
+z
+" style="fill: #426e60; stroke: #ffffff; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 168.35654 113.563154
+C 163.475772 116.153062 158.753446 119.03112 154.214606 122.182063
+C 149.675765 125.333006 145.328449 128.751254 141.195713 132.418679
+L 233.64 236.592
+z
+" style="fill: #c9bb98; stroke: #ffffff; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 190.326874 104.221308
+C 186.539956 105.460428 182.807956 106.861485 179.141173 108.420611
+C 175.47439 109.979737 171.876202 111.695497 168.35654 113.563154
+L 233.64 236.592
+z
+" style="fill: #a25c43; stroke: #ffffff; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 192.831531 103.427831
+C 192.412853 103.556136 191.994781 103.686415 191.577332 103.818663
+C 191.159882 103.950912 190.743058 104.085128 190.326874 104.221308
+L 233.64 236.592
+z
+" style="fill: #839f99; stroke: #ffffff; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 206.015886 100.082164
+C 203.792892 100.532009 201.581217 101.036087 199.382841 101.593948
+C 197.184465 102.151809 195.000043 102.763285 192.831531 103.427831
+L 233.64 236.592
+z
+" style="fill: #9ba8b4; stroke: #ffffff; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 207.749705 99.742741
+C 207.46038 99.797478 207.17123 99.853132 206.882258 99.909703
+C 206.593286 99.966274 206.304494 100.023761 206.015886 100.082164
+L 233.64 236.592
+z
+" style="fill: #b5ad99; stroke: #ffffff; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 209.454837 99.431128
+C 209.170329 99.481294 208.885977 99.532346 208.601787 99.584282
+C 208.317596 99.636218 208.033567 99.689038 207.749705 99.742741
+L 233.64 236.592
+z
+" style="fill: #d4d8d0; stroke: #ffffff; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="331.092522" y="237.653129" transform="rotate(-0 331.092522 237.653129)">54.6%</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="136.983265" y="253.236376" transform="rotate(-0 136.983265 253.236376)">31.1%</text>
+   </g>
+  </g>
+  <g id="patch_11">
+   <path d="M 463.32 78.5664
+L 480.744 78.5664
+L 480.744 73.2096
+L 463.32 73.2096
+z
+" style="fill: #b59b59; stroke: #ffffff; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_12">
+   <path d="M 463.32 114.7248
+L 480.744 114.7248
+L 480.744 109.368
+L 463.32 109.368
+z
+" style="fill: #49677e; stroke: #ffffff; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_13">
+   <path d="M 463.32 150.8832
+L 480.744 150.8832
+L 480.744 145.5264
+L 463.32 145.5264
+z
+" style="fill: #426e60; stroke: #ffffff; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_14">
+   <path d="M 463.32 187.0416
+L 480.744 187.0416
+L 480.744 181.6848
+L 463.32 181.6848
+z
+" style="fill: #c9bb98; stroke: #ffffff; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_15">
+   <path d="M 463.32 223.2
+L 480.744 223.2
+L 480.744 217.8432
+L 463.32 217.8432
+z
+" style="fill: #a25c43; stroke: #ffffff; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_16">
+   <path d="M 463.32 259.3584
+L 480.744 259.3584
+L 480.744 254.0016
+L 463.32 254.0016
+z
+" style="fill: #839f99; stroke: #ffffff; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_17">
+   <path d="M 463.32 295.5168
+L 480.744 295.5168
+L 480.744 290.16
+L 463.32 290.16
+z
+" style="fill: #9ba8b4; stroke: #ffffff; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_18">
+   <path d="M 463.32 331.6752
+L 480.744 331.6752
+L 480.744 326.3184
+L 463.32 326.3184
+z
+" style="fill: #b5ad99; stroke: #ffffff; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_19">
+   <path d="M 463.32 367.8336
+L 480.744 367.8336
+L 480.744 362.4768
+L 463.32 362.4768
+z
+" style="fill: #d4d8d0; stroke: #ffffff; stroke-linejoin: miter"/>
+  </g>
+  <g id="text_3">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="491.04" y="78.486047" transform="rotate(-0 491.04 78.486047)">Solar array</text>
+  </g>
+  <g id="text_4">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="491.04" y="91.431256" transform="rotate(-0 491.04 91.431256)">5,120.8 t  ·  54.63%</text>
+  </g>
+  <g id="text_5">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="491.04" y="114.644447" transform="rotate(-0 491.04 114.644447)">Support frames</text>
+  </g>
+  <g id="text_6">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="491.04" y="127.589656" transform="rotate(-0 491.04 127.589656)">518.0 t  ·  5.53%</text>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="491.04" y="150.802847" transform="rotate(-0 491.04 150.802847)">Motors and installation</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="491.04" y="163.748056" transform="rotate(-0 491.04 163.748056)">2,912.4 t  ·  31.07%</text>
+  </g>
+  <g id="text_9">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="491.04" y="186.961247" transform="rotate(-0 491.04 186.961247)">Foundations</text>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="491.04" y="199.906456" transform="rotate(-0 491.04 199.906456)">355.0 t  ·  3.79%</text>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="491.04" y="223.119647" transform="rotate(-0 491.04 223.119647)">Power electronics / cabling</text>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="491.04" y="236.064856" transform="rotate(-0 491.04 236.064856)">256.0 t  ·  2.73%</text>
+  </g>
+  <g id="text_13">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="491.04" y="259.278047" transform="rotate(-0 491.04 259.278047)">Guides</text>
+  </g>
+  <g id="text_14">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="491.04" y="272.223256" transform="rotate(-0 491.04 272.223256)">28.1 t  ·  0.30%</text>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="491.04" y="295.436447" transform="rotate(-0 491.04 295.436447)">Motor radiators</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="491.04" y="308.381656" transform="rotate(-0 491.04 308.381656)">145.8 t  ·  1.55%</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="491.04" y="331.594847" transform="rotate(-0 491.04 331.594847)">Belts, cables and contact layers</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="491.04" y="344.540056" transform="rotate(-0 491.04 344.540056)">18.9 t  ·  0.20%</text>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="491.04" y="367.753247" transform="rotate(-0 491.04 367.753247)">Hubs, bearings and startup supports</text>
+  </g>
+  <g id="text_20">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="491.04" y="380.698456" transform="rotate(-0 491.04 380.698456)">18.6 t  ·  0.20%</text>
+  </g>
+  <g id="text_21">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #426e60" x="43.56" y="26.784" transform="rotate(-0 43.56 26.784)">Sling mill: where the mass goes</text>
+  </g>
+ </g>
+</svg>
