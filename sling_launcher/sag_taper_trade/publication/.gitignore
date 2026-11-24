@@ -1,0 +1,2 @@
+# Downloaded terrain cache; retrieve with the fetch_patch module.
+/p1_dem_patch.npy

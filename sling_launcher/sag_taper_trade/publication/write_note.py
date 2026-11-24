@@ -139,13 +139,15 @@ checks and the residuals are recorded in [results.json](results.json).
 - **[Six-panel sequence, SVG](p1_tether_series.svg)** / **[PNG](p1_tether_series.png)**.
 - Individual panels: '''+', '.join(f'[case {i}](case_{i}.svg)' for i in range(1,7))+'''. Each has a PNG companion and saved shape arrays.
 - [Scenario table](scenarios.csv), [full results](results.json), [terrain envelope](terrain_envelope.csv), [source provenance](terrain_provenance.json).
-- `p1_dem_patch.npy` preserves the local DEM needed for reproduction.
+- `p1_dem_patch.npy` is a local, Git-ignored DEM cache (39 MiB). Its download recipe is `fetch_patch.py`; source URLs, byte ranges and SHA-256 checksums remain in `terrain_provenance.json`.
 
 From the repository root:
 
 ```sh
-# Only needed to re-download the saved source patch:
+# Run once after cloning, or whenever the local terrain cache is absent:
 .env/hub/bin/python -m sling_launcher.sag_taper_trade.publication.fetch_patch
+# Verify the downloaded patch against the recorded provenance:
+.env/hub/bin/python -c "import hashlib,json; from pathlib import Path; p=Path('sling_launcher/sag_taper_trade/publication'); assert hashlib.sha256((p/'p1_dem_patch.npy').read_bytes()).hexdigest()==json.loads((p/'terrain_provenance.json').read_text())['patch_sha256']"
 MPLCONFIGDIR=/tmp/lunar-sling-mpl-cache OPENBLAS_NUM_THREADS=1 .env/hub/bin/python -m sling_launcher.sag_taper_trade.publication.calculate
 .env/hub/bin/python -m sling_launcher.sag_taper_trade.publication.write_note
 ```

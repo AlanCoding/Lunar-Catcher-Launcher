@@ -6,3 +6,6 @@ __pycache__/
 
 # Local Python virtual environment
 .env/
+
+# Local recovery snapshots; never publish these archives.
+/.local-backups/
