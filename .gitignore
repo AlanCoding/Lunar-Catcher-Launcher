@@ -9,3 +9,6 @@ __pycache__/
 
 # Local recovery snapshots; never publish these archives.
 /.local-backups/
+
+# Generated simulation histories; keep local or regenerate from study scripts.
+*.npz

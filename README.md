@@ -28,3 +28,7 @@ catchers. Published posts are collected in
 Each topic keeps its publication links, result summaries and reproduction
 instructions in its own guide. Published snapshots remain distinct from later
 exploratory models.
+
+## Reproducing numerical histories
+
+Dense simulation arrays and terrain caches are kept locally. Published figures, summary tables and calculation scripts remain tracked. See [local data and reproduction](LOCAL_DATA.md) for recovery routes and the cache manifest.

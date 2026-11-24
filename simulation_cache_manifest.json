@@ -1,0 +1,342 @@
+[
+  {
+    "path": "sling_launcher/architecture_comparison/publication/shape_10m_s.npz",
+    "size_bytes": 1188701,
+    "sha256": "c4d496f3d676c65d263e147e29c2afcb4e97a7594473858ece6be7ebbb05578d"
+  },
+  {
+    "path": "sling_launcher/architecture_comparison/publication/shape_2m_s.npz",
+    "size_bytes": 1188535,
+    "sha256": "d6f39034b585712a2ff95118a8e84e07467453ee10bb8721df56b5174ed3cbbc"
+  },
+  {
+    "path": "sling_launcher/architecture_comparison/publication/shape_5m_s.npz",
+    "size_bytes": 1189322,
+    "sha256": "c7772176d1fc603ded111c4be70f8a1dbfa8347d8f2123fc42670519b78acc1b"
+  },
+  {
+    "path": "sling_launcher/architecture_comparison/results/zylon_1.npz",
+    "size_bytes": 595607,
+    "sha256": "658c1181f0bb41bd535efa8e6b2ea0163a3718c08fa8889df6bc8654734dcd6e"
+  },
+  {
+    "path": "sling_launcher/architecture_comparison/results/zylon_10.npz",
+    "size_bytes": 594135,
+    "sha256": "b9e3273937d064fa251b32d6a0ce959482939a5c0c05272fc0e7829a04b191ec"
+  },
+  {
+    "path": "sling_launcher/architecture_comparison/results/zylon_2.npz",
+    "size_bytes": 595285,
+    "sha256": "a823ee6e49678feb7a1d23e398bb9c704a6d2608f31bb3c3830aca2154fe48a8"
+  },
+  {
+    "path": "sling_launcher/architecture_comparison/results/zylon_20.npz",
+    "size_bytes": 594304,
+    "sha256": "7df85ebea0594cc91891b1d6439a9f5c6cf633085ed0568ade4bf2f6951668b4"
+  },
+  {
+    "path": "sling_launcher/architecture_comparison/results/zylon_5.npz",
+    "size_bytes": 594516,
+    "sha256": "26d085f8b0bb4199d2cccbb4da88674b846df0a0da5a5d9621a4dd9629daa209"
+  },
+  {
+    "path": "sling_launcher/architecture_comparison/results/zylon_high_allowance_5.npz",
+    "size_bytes": 593670,
+    "sha256": "3d4427ab8dbae348b9b70a27a404e10f0429cbf9be48bb5df8fe0e39f06e9199"
+  },
+  {
+    "path": "sling_launcher/architecture_comparison/results/zylon_low_allowance_5.npz",
+    "size_bytes": 596316,
+    "sha256": "b9c88559a577727c5a365e69b258cfd48ac499399a4439b5e767cef5bab3b89a"
+  },
+  {
+    "path": "sling_launcher/conveyor_loop/steady/results/kevlar_load_0.00.npz",
+    "size_bytes": 556066,
+    "sha256": "5d0013d001196a74844be674295fbef0c437fc4eacc1ddb635cdc5a99cbdd860"
+  },
+  {
+    "path": "sling_launcher/conveyor_loop/steady/results/kevlar_load_0.20.npz",
+    "size_bytes": 595608,
+    "sha256": "5a7a738b1ae5f0e3810b87cd3bf5b4672b25ca93f5dcd201c935b89d2d6f2325"
+  },
+  {
+    "path": "sling_launcher/conveyor_loop/steady/results/outbound_density_1_to_3.npz",
+    "size_bytes": 594697,
+    "sha256": "a3a7cf8c2efc9f3ad994c47093ae12eb0adfb699cda69e436baf445e7501b628"
+  },
+  {
+    "path": "sling_launcher/conveyor_loop/steady/results/whole_loop_mass_1_to_3.npz",
+    "size_bytes": 594427,
+    "sha256": "021a3a5fffa5b85b03776af494c4de932e77345f04ad520f2584cb37d3940c2f"
+  },
+  {
+    "path": "sling_launcher/conveyor_loop/steady/results/zylon_feed_1.npz",
+    "size_bytes": 595171,
+    "sha256": "782fb8903ceff6f1b0812bf783cffddd798347a833e0db2610195d4006fe3097"
+  },
+  {
+    "path": "sling_launcher/conveyor_loop/steady/results/zylon_feed_10.npz",
+    "size_bytes": 594774,
+    "sha256": "a9bb5ca1956fd7307c4c2febc185edf188bd6729cffbf6e6d890d0900b6638c7"
+  },
+  {
+    "path": "sling_launcher/conveyor_loop/steady/results/zylon_feed_20.npz",
+    "size_bytes": 594601,
+    "sha256": "596d43580bc8609ffa2376e2903f76a78fdc8456640379e91724d2a526832304"
+  },
+  {
+    "path": "sling_launcher/conveyor_loop/steady/results/zylon_load_0.00.npz",
+    "size_bytes": 555154,
+    "sha256": "d0a9c74a85e69bb67f38972897eab29ce89f3eb8588601bb50f9adf12fe2c1a6"
+  },
+  {
+    "path": "sling_launcher/conveyor_loop/steady/results/zylon_load_0.10.npz",
+    "size_bytes": 596121,
+    "sha256": "b2cc77a67e52b81573bc15a1c86a8864bb725e92b98fa92882fc82caffc16ad2"
+  },
+  {
+    "path": "sling_launcher/conveyor_loop/steady/results/zylon_load_0.20.npz",
+    "size_bytes": 594996,
+    "sha256": "c01090098abf2a7c3cf40380a8007077d000a67d9c9e71d5ea0d2905ba4be62a"
+  },
+  {
+    "path": "sling_launcher/conveyor_loop/steady/results/zylon_load_0.30.npz",
+    "size_bytes": 593261,
+    "sha256": "7aa5554c9096aa975cb374ae25511073cf3cf1c9c2f8abdbfb56d27277b89a2b"
+  },
+  {
+    "path": "sling_launcher/conveyor_loop/steady/results/zylon_load_0.40.npz",
+    "size_bytes": 594019,
+    "sha256": "d90ea75793f6ec9189dc6208b9258769f06ca1d893c513de4460666b20c85f03"
+  },
+  {
+    "path": "sling_launcher/conveyor_loop/steady/results/zylon_load_0.60.npz",
+    "size_bytes": 594263,
+    "sha256": "ac9363c2da66d8eb8f13fdab256a3f6eea1b9cb0013e4ffb2f079deaff876cd1"
+  },
+  {
+    "path": "sling_launcher/conveyor_loop/steady/results/zylon_load_1.00.npz",
+    "size_bytes": 589288,
+    "sha256": "7c9b9c36c4a1355bdf4f30d7703fd5a88a2f792892e35da966c9338c0a821f8d"
+  },
+  {
+    "path": "sling_launcher/lunar_slider_straw/guide_comparison/constant_speed/constant_speed_n32.npz",
+    "size_bytes": 9148293,
+    "sha256": "4462482a146ef622638fa8c62bed352a5c5fd424c36bd5ef7041b39929b846f8"
+  },
+  {
+    "path": "sling_launcher/lunar_slider_straw/guide_comparison/constant_speed/constant_speed_n64.npz",
+    "size_bytes": 18024347,
+    "sha256": "c99216a39461721452a45ca2865417199fb31cba1531540459525b91b733c5dc"
+  },
+  {
+    "path": "sling_launcher/lunar_slider_straw/results/reference/cycle.npz",
+    "size_bytes": 911389,
+    "sha256": "0179418acb2028a4837d99ffdeabd4895e5dcc24ff5c448794fa9efe5d83a338"
+  },
+  {
+    "path": "sling_launcher/lunar_slider_straw/screening/results/b12_k2.npz",
+    "size_bytes": 873812,
+    "sha256": "e43a2ba934c80063d7b7f89de6c48f331cf262212773bf74dff1be7c7497a8a1"
+  },
+  {
+    "path": "sling_launcher/lunar_slider_straw/screening/results/b14_k1.npz",
+    "size_bytes": 1393688,
+    "sha256": "8730ad1d2f4f724dafffc1c21930207683b679ee65751317f80b39d389ee86de"
+  },
+  {
+    "path": "sling_launcher/lunar_slider_straw/screening/results/b8_k1.npz",
+    "size_bytes": 915466,
+    "sha256": "a6f16f94e09e60dc6f55079f830bbeb963a7aece766da0fa501c9a6bd5690fa8"
+  },
+  {
+    "path": "sling_launcher/lunar_slider_straw/screening/results/b8_k2.npz",
+    "size_bytes": 948322,
+    "sha256": "ef380889bfa8e966d790e80065e05640a931a1f8ca50604d2cebb46754b721fc"
+  },
+  {
+    "path": "sling_launcher/lunar_slider_straw/screening/results/b8_k3.npz",
+    "size_bytes": 947677,
+    "sha256": "1633c7f87ded69ad65fa9a6abc78f1db755e1a33ec86aa70e55c3ec8257ac4b4"
+  },
+  {
+    "path": "sling_launcher/lunar_slider_straw/screening/results/b8_k4.npz",
+    "size_bytes": 939663,
+    "sha256": "56e2911b447db7532292478a44e2e318d7c7e31441317f725ba917d4ad14219d"
+  },
+  {
+    "path": "sling_launcher/lunar_slider_straw/screening/results/b8_k4_1p5GPa.npz",
+    "size_bytes": 952995,
+    "sha256": "5e31bb827d644f7f0b49e47fe8ff05d085d8998bd9c1d0ab7a9a8eafcbed784f"
+  },
+  {
+    "path": "sling_launcher/lunar_slider_straw/screening/results/shapes/fast_near_tip.npz",
+    "size_bytes": 232608,
+    "sha256": "2c65e02fe9c7cb8c15454f4a16ac1561289e204f0daec631c8b31055212c7b7c"
+  },
+  {
+    "path": "sling_launcher/lunar_slider_straw/screening/results/shapes/fast_near_tip_idle_disengaged.npz",
+    "size_bytes": 219682,
+    "sha256": "8187ada4d8e2ec42e6d35797eb555bdd48dfa65a55cfd088b18a46120cfe0e38"
+  },
+  {
+    "path": "sling_launcher/lunar_slider_straw/screening/results/shapes/fast_two_in_transit.npz",
+    "size_bytes": 230129,
+    "sha256": "fef5671616f8adc7ecb833169bdd06b214d87d5c67e2b9b392c0b97090c54cf4"
+  },
+  {
+    "path": "sling_launcher/lunar_slider_straw/screening/results/shapes/idle_cables_disengaged.npz",
+    "size_bytes": 234675,
+    "sha256": "12a9acd31c60cd5bd865da85bd85c48030eeba4b4b20c4867038ad388a1a3ebc"
+  },
+  {
+    "path": "sling_launcher/lunar_slider_straw/screening/results/shapes/larger_batch_fast.npz",
+    "size_bytes": 228959,
+    "sha256": "97737b13f2e96759a712908816a4d29d87f0ee0aad57b151782305151fc203fb"
+  },
+  {
+    "path": "sling_launcher/lunar_slider_straw/screening/results/shapes/reference_after_release.npz",
+    "size_bytes": 235353,
+    "sha256": "6d9ea3b0876aae745d9e5400086f2f0aa4428871932ac76bb766bf5e3933e7cf"
+  },
+  {
+    "path": "sling_launcher/lunar_slider_straw/screening/results/shapes/reference_before_release.npz",
+    "size_bytes": 234329,
+    "sha256": "3316e6e5f321538796336e65d757a95907d2674851cccf088fc2371429148ce3"
+  },
+  {
+    "path": "sling_launcher/lunar_slider_straw/screening/results/shapes/reference_midwindow.npz",
+    "size_bytes": 234507,
+    "sha256": "710ff0e5870f6c411702b8a50fcd80a2c3ce4ff9dce617c592a9ffb4a916fd78"
+  },
+  {
+    "path": "sling_launcher/payout_control/results/constant.npz",
+    "size_bytes": 390267,
+    "sha256": "2113b34a3fb825dafd6b8d674a2a6b5788d91a78636dc11e8e0541dca8f4b38f"
+  },
+  {
+    "path": "sling_launcher/payout_control/results/fast_then_slow.npz",
+    "size_bytes": 414649,
+    "sha256": "d199fa791edf00b31c31797f78238ccb32aa0640ad54ef9c3d7355516147b6b9"
+  },
+  {
+    "path": "sling_launcher/payout_control/results/slow_then_fast.npz",
+    "size_bytes": 414970,
+    "sha256": "612244bbd2bcdf4e8cca70c489d33b2551afd09dee51b50cd0ab8f53222de7a5"
+  },
+  {
+    "path": "sling_launcher/payout_control/results/too_fast.npz",
+    "size_bytes": 37839,
+    "sha256": "cc3c00b25acec281f7ccf7dd34b5214aa61586b00dd080c0c3084b45b75c5cd8"
+  },
+  {
+    "path": "sling_launcher/sag_taper_trade/publication/case_1.npz",
+    "size_bytes": 62750,
+    "sha256": "d1b921ff0a354c96e6e5e92c8de7b6c01d630edc71bff0285e86a0d57dbe9386"
+  },
+  {
+    "path": "sling_launcher/sag_taper_trade/publication/case_2.npz",
+    "size_bytes": 62691,
+    "sha256": "1d4b8482ed7a72ba28d16b85b5018d4cd9a550d8c7a4fe1b15a4656f58ef67a4"
+  },
+  {
+    "path": "sling_launcher/sag_taper_trade/publication/case_3.npz",
+    "size_bytes": 62517,
+    "sha256": "37e93bbac7d17368475a408e0e1aa3650ae939e0fab9fe6db5f3eaa4f3618e68"
+  },
+  {
+    "path": "sling_launcher/sag_taper_trade/publication/case_4.npz",
+    "size_bytes": 62408,
+    "sha256": "21c4186efdf590d1514ddcd6bdcdc03aaa3b9d87423f379dc2498f3ec3181a00"
+  },
+  {
+    "path": "sling_launcher/sag_taper_trade/publication/case_5.npz",
+    "size_bytes": 62579,
+    "sha256": "75ce6bce01d2caad47998858dbaefa21bbcdd185fd9546cd0e642a757770ddf3"
+  },
+  {
+    "path": "sling_launcher/sag_taper_trade/publication/case_6.npz",
+    "size_bytes": 62592,
+    "sha256": "6cb5fa3cef0725a91f43d83dfc689746ea929e35069e273ac814bbf0f36ba2cd"
+  },
+  {
+    "path": "sling_launcher/spooled_tether_2d/results/kevlar_1p5GPa_n32.npz",
+    "size_bytes": 6423877,
+    "sha256": "d04f29743d91a5376e2a4d4103a0d24958ace10c37dcd39c44fedad184e17741"
+  },
+  {
+    "path": "sling_launcher/spooled_tether_2d/results/kevlar_1p5GPa_n64.npz",
+    "size_bytes": 12627299,
+    "sha256": "1e8b51edf39c52d425f3ae7ed3c4c92f4605610bb9539bc1de34e214accaf40f"
+  },
+  {
+    "path": "sling_launcher/spooled_tether_2d/results/kevlar_early_cruise_n32.npz",
+    "size_bytes": 1181105,
+    "sha256": "5e357f008a82dc991bec607d754537207ef994b6bb63dabfa73c8963ecfffaaa"
+  },
+  {
+    "path": "sling_launcher/spooled_tether_2d/results/kevlar_front_loaded_n32.npz",
+    "size_bytes": 1172345,
+    "sha256": "d7481cfe5faf8b768089426f0714adaa75a5092119aa02413e1de67046f6f166"
+  },
+  {
+    "path": "sling_launcher/spooled_tether_2d/results/kevlar_ratio3_n32.npz",
+    "size_bytes": 6568379,
+    "sha256": "863acb0f086c76333c6aae661d68010e5e59fb5d910eea256aa6adbc35b6b727"
+  },
+  {
+    "path": "sling_launcher/staged_spool_bank/results/bank_16_reference.npz",
+    "size_bytes": 2980383,
+    "sha256": "ab555d9a69d685d79ff2f67cdedf64acf0b8cd458499f5fa386856d81bdb0746"
+  },
+  {
+    "path": "sling_launcher/staged_spool_bank/results/bank_32_reference.npz",
+    "size_bytes": 5901623,
+    "sha256": "e4aa07a2b118892b23f3015e9e0d449aef58f3b991af490202df5da201eaef74"
+  },
+  {
+    "path": "sling_launcher/staged_spool_bank/results/bank_32_release_28.npz",
+    "size_bytes": 1025886,
+    "sha256": "3f7886fdee7f14f2e9f788bc21ba69dae96342a153cb8e37c11a3508cf57210f"
+  },
+  {
+    "path": "sling_launcher/staged_spool_bank/results/bank_32_transit_1.npz",
+    "size_bytes": 922249,
+    "sha256": "feff7315833bc725df0e488519241de9be0ec0b477a04f5ba480c03a300cec8e"
+  },
+  {
+    "path": "sling_launcher/staged_spool_bank/results/bank_32_transit_4.npz",
+    "size_bytes": 3086667,
+    "sha256": "6882f3a24584f0abd89118d1ea79537fc7a7e2091d86088ef7039d872b57e9a5"
+  },
+  {
+    "path": "sling_launcher/staged_spool_bank/results/bank_32_transit_7.npz",
+    "size_bytes": 5195704,
+    "sha256": "285f17aed61d74806b3be85b74441e292aa79b8660a92a037b7d7ecd7bb0ffbc"
+  },
+  {
+    "path": "sling_launcher/staged_spool_bank/results/bank_32_transit_8.npz",
+    "size_bytes": 5901623,
+    "sha256": "e4aa07a2b118892b23f3015e9e0d449aef58f3b991af490202df5da201eaef74"
+  },
+  {
+    "path": "sling_launcher/staged_spool_bank/results/bank_4_reference.npz",
+    "size_bytes": 876611,
+    "sha256": "311e6582ade214d394a1b38946e0882ea46a2a5c59649f5d93f1deed1ca6125b"
+  },
+  {
+    "path": "sling_launcher/staged_spool_bank/results/bank_8_reference.npz",
+    "size_bytes": 1531871,
+    "sha256": "0ad8b6955b17c32d7b518b7f560333b1ea51a38b31e91a15746cb454532532d9"
+  },
+  {
+    "path": "sling_launcher/staged_spool_bank/results/cycle_template.npz",
+    "size_bytes": 1058418,
+    "sha256": "92476016a61ed3ab847c9caf00f081c7ee5e58cc1fcd724fb9b139f4a7c46ef3"
+  },
+  {
+    "path": "sling_launcher/staged_spool_bank/results/taper_profile.npz",
+    "size_bytes": 547459,
+    "sha256": "cc3776c3c802ffac8b15e99947595648bf45b546ae72ed928cada584612552a9"
+  }
+]
